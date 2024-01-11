@@ -1,0 +1,127 @@
+1
+00:00:03,210 --> 00:00:07,580
+Ok espero que hayan logrado hacer el ejercicio práctico número 4 a ver que tal les fue.
+
+2
+00:00:07,590 --> 00:00:08,780
+Todos relacionados.
+
+3
+00:00:08,790 --> 00:00:16,830
+Por cierto viramos dice no es apta solo hallase si tenemos que convertir este Chew del 5 al 16 con todo
+
+4
+00:00:16,830 --> 00:00:18,940
+lo que hemos visto a lo largo de esta sección.
+
+5
+00:00:18,990 --> 00:00:20,710
+Así que empecemos.
+
+6
+00:00:20,760 --> 00:00:21,990
+Aquí les puse la ayuda.
+
+7
+00:00:22,020 --> 00:00:23,160
+Esto es una constante.
+
+8
+00:00:23,520 --> 00:00:31,740
+Entonces para eso es Congost que la declaración de variables sólo basta con componerle y voy a renombrar
+
+9
+00:00:31,740 --> 00:00:42,570
+todo este montón de barras de una vez por letra todos los demás por Lez que sigamos viendo las vamos
+
+10
+00:00:42,570 --> 00:00:44,580
+a ver de estructuración de reinos.
+
+11
+00:00:44,700 --> 00:00:49,950
+Este es el arreglo y si ustedes se fijan aquí estoy haciendo versiones cero versiones 1 o versiones
+
+12
+00:00:50,040 --> 00:00:52,590
+2 para obtener cada una de las posiciones.
+
+13
+00:00:52,650 --> 00:00:58,500
+En teoría sería más fácil hacerse un solo una sola de estructuración del arreglo agarrando cada uno
+
+14
+00:00:58,500 --> 00:01:04,630
+de estos de estos personajes separados por una coma.
+
+15
+00:01:04,920 --> 00:01:12,720
+De esta forma igual a las versiones claro aquí van a dar un error si yo dejo esta instrucción Badr un
+
+16
+00:01:12,720 --> 00:01:17,670
+error porque el LED sólo permite la declaración de una variable en el mismo saco o sea con el mismo
+
+17
+00:01:17,670 --> 00:01:19,240
+nombre en un solo disco.
+
+18
+00:01:19,590 --> 00:01:20,940
+Voy a ponerlo de esa manera.
+
+19
+00:01:20,980 --> 00:01:23,880
+Esto habría que comentarlo pero eso sería lo mismo.
+
+20
+00:01:24,060 --> 00:01:31,550
+Ahora vamos con la estructuración de objetos que creemos bueno en cada una se sarma de estos villanos.
+
+21
+00:01:31,950 --> 00:01:33,860
+Vamos a hacer lo mismo.
+
+22
+00:01:34,520 --> 00:01:44,700
+Left llaves Chávez es una declaración de estructuración de objetos menú Koma carnes Koma Zalman y esto
+
+23
+00:01:44,700 --> 00:01:46,520
+sale de millones.
+
+24
+00:01:46,650 --> 00:01:49,820
+Lo demás ya no lo vamos a ocupar un tricomas.
+
+25
+00:01:50,190 --> 00:01:56,070
+Luego viene el ciclo foros qué es lo que tenemos que hacer es barrer e imprimiera en consola cada uno
+
+26
+00:01:56,070 --> 00:02:04,020
+de los villanos en cada una de las versiones que tenemos de Spiderman acá vamos a comentar esto y empecemos
+
+27
+00:02:04,210 --> 00:02:08,640
+con villano off.
+
+28
+00:02:08,820 --> 00:02:13,500
+Perdón perdón Vamos a poner la diversión yo estoy con el ejemplo de los villanos todavia les version
+
+29
+00:02:13,560 --> 00:02:18,640
+o versiones quiere el consolón de version.
+
+30
+00:02:19,260 --> 00:02:27,060
+Eso es esto es esto lo que hay que hacer si se fijan el ECMAScript 6 lo que viene a hacer es actualizar
+
+31
+00:02:27,060 --> 00:02:33,930
+su código y hacer cosas en forma más sencilla sin mencionar el montón de bondades que ya trae con su
+
+32
+00:02:33,930 --> 00:02:34,430
+nuevo código.

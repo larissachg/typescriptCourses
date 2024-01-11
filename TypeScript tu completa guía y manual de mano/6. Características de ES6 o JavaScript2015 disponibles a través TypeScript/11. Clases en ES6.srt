@@ -1,0 +1,227 @@
+1
+00:00:02,970 --> 00:00:08,110
+En el ECMAScript 6 ya oficialmente tenemos incluido lo que es la programación orientada a objetos.
+
+2
+00:00:08,340 --> 00:00:10,240
+Es decir ya tenemos las clases.
+
+3
+00:00:10,440 --> 00:00:11,970
+Vamos a hacer un par de ejemplos.
+
+4
+00:00:11,970 --> 00:00:17,850
+No voy a ser muy específico en la parte de las clases de lengua escribe 6 porque se sale un poco de
+
+5
+00:00:17,850 --> 00:00:18,780
+contexto.
+
+6
+00:00:18,990 --> 00:00:24,120
+La siguiente sección ustedes van a ver que ya no son tocamos directamente en las clases como son en
+
+7
+00:00:24,210 --> 00:00:30,570
+el tipo pero esto es una breve introducción a lo que se puede hacer ya que con las clases.
+
+8
+00:00:30,570 --> 00:00:37,060
+Por ejemplo voy a creerme la clase A ver yo de nuevo de la siguiente forma.
+
+9
+00:00:38,580 --> 00:00:43,190
+Esto por sí solo ya es un objeto cómo le pongo propiedades y métodos.
+
+10
+00:00:43,210 --> 00:00:50,540
+Bueno en este caso solo propiedades con una instrucción llamada constructor constructor perdón constructor.
+
+11
+00:00:50,540 --> 00:00:53,650
+De esa forma abren y cierran paredes.
+
+12
+00:00:53,970 --> 00:01:01,080
+Esa función se va a ejecutar cada vez que nosotros hagamos el New nuestra función o sea nuestra clase.
+
+13
+00:01:01,200 --> 00:01:08,540
+Este momento sólo quiero en nombre Quiero un nombre y quiero el poder únicamente cómo establezco esos
+
+14
+00:01:08,540 --> 00:01:13,290
+dos esos dos parámetros que estoy recibiendo como si fueran propiedades de año de la siguiente manera
+
+15
+00:01:13,590 --> 00:01:23,360
+disputo nombre es igual a nombre multicámara y el disputo poder es igual a poder cómo utilizamos esa
+
+16
+00:01:23,360 --> 00:01:24,520
+clase.
+
+17
+00:01:24,680 --> 00:01:32,520
+Creamos una instancia de un avenir diciendo Let Jock Jock es igual a New Haven.
+
+18
+00:01:32,570 --> 00:01:39,070
+Ya hiciera Parets puntico en JavaScript no les van a tirar ninguna advertencia en ningún warning pero
+
+19
+00:01:39,130 --> 00:01:44,500
+ustedes saben que aquí necesitan poner dos parámetros el nombre y poder en este caso vamos a poner a
+
+20
+00:01:44,510 --> 00:01:54,680
+Jock y su poder es una superfuerza a los cambios y aquí la impresión de consola de OK.
+
+21
+00:01:55,360 --> 00:01:56,090
+Vamos a verlo.
+
+22
+00:01:56,100 --> 00:02:03,090
+Recargó y aquí tengo que es un Avengers y él no dice Objet dice veñen nombre Jordi superfuerza.
+
+23
+00:02:03,520 --> 00:02:10,690
+Es posible en las clases heredar por decirlo así las características como sus propiedades y métodos
+
+24
+00:02:10,750 --> 00:02:14,640
+a otra clase hija cómo hacemos eso.
+
+25
+00:02:14,650 --> 00:02:21,850
+En el script Zeus creamos una nueva instancia de los Avengers que pueden volar a un Avenger volador
+
+26
+00:02:23,290 --> 00:02:25,180
+Avenger volador.
+
+27
+00:02:25,450 --> 00:02:32,290
+Esta clase va a extender extremes de la clase.
+
+28
+00:02:32,770 --> 00:02:39,370
+Al hacerlo de esta manera lo que le estoy diciendo a un motor de JavaScript es tomar todos los métodos
+
+29
+00:02:39,430 --> 00:02:47,140
+y propiedades que tenga la clase Avenger y heredas o dárselas al Avenger volador.
+
+30
+00:02:47,260 --> 00:02:55,690
+Vamos a hacer una prueba acá tenemos otro año Falcón que es el que usan los anteojos y no nos las metálicas
+
+31
+00:02:55,690 --> 00:03:02,740
+que no hacen absolutamente nada igual a new Avenger volador parentesis porcícola.
+
+32
+00:03:02,950 --> 00:03:07,090
+Luego voy a hacer una impresión de Falcon aquí para que miremos qué es lo que pasa lo que pasa en la
+
+33
+00:03:07,090 --> 00:03:13,300
+consola recargó y aquí tengo que ver lo que tengo mejor que bueno eso ya lo vimos y tengo el Avenger
+
+34
+00:03:13,300 --> 00:03:16,400
+volador que tiene su nombre lo defined y poder on the.
+
+35
+00:03:16,700 --> 00:03:22,080
+Pero estas dos propiedades que aparecieron ahí son las que fueron heredadas.
+
+36
+00:03:22,120 --> 00:03:27,240
+Si yo le quito el extenso de Laviña y recargó ya van a ver que no hay ninguna propiedad porque no he
+
+37
+00:03:27,240 --> 00:03:31,060
+definido nada en el interior de la clase.
+
+38
+00:03:31,990 --> 00:03:39,520
+Cómo hago para crear un constructor que inicializar las propiedades del método padre voy a decir constructor
+
+39
+00:03:40,210 --> 00:03:46,440
+de la misma manera y debería de poder recibir tanto el nombre y el poder.
+
+40
+00:03:46,510 --> 00:03:53,330
+Estos son los que deberíamos de poner aquí también para accesar al constructor a la función constructor
+
+41
+00:03:53,360 --> 00:03:59,900
+usamos aquí la palabra reservada Supper que es nueva del ECMAScript y podemos mandarle las dos los dos
+
+42
+00:03:59,900 --> 00:04:05,090
+propiedades que son estas de acá le mandamos el nombre y le mandamos el poder político.
+
+43
+00:04:05,120 --> 00:04:10,790
+Adicionalmente voy a ponerle una característica particular a este Avenger volador y voy a decir disputo
+
+44
+00:04:11,180 --> 00:04:17,870
+vuela igual Trump por ejemplo o que ya tenemos declarado todo eso.
+
+45
+00:04:17,940 --> 00:04:18,840
+Los cambios.
+
+46
+00:04:18,970 --> 00:04:25,790
+Vamos a ver los cambios que sucedieron aquí Enguix los cambios que sucedieron bueno no le puse no especifican
+
+47
+00:04:25,870 --> 00:04:32,410
+ningún nombre ni el poder pero tiene la propiedad vuela como Trump estas son de las cosas que deberían
+
+48
+00:04:32,410 --> 00:04:35,740
+de marcar errores en el script pero no sucede.
+
+49
+00:04:35,740 --> 00:04:41,140
+Yo debería de haber sido obligado a decir OK para crear un avenir volador necesito un nombre en el poder
+
+50
+00:04:41,170 --> 00:04:43,830
+pero el JavaScript lo acepta por defecto.
+
+51
+00:04:44,680 --> 00:04:52,890
+Ok vamos a ponerle el nombre Falco y su poder volar es gran cosa.
+
+52
+00:04:52,890 --> 00:04:59,350
+No grabamos los cambios de cargo y ahora sí van a ver que ejecutó el constructor de él a pesar de que
+
+53
+00:04:59,350 --> 00:05:02,720
+fue llamado desde el avenir volador.
+
+54
+00:05:02,930 --> 00:05:07,850
+Básicamente esto es la idea de los de las clases en el esquema 6.
+
+55
+00:05:07,850 --> 00:05:13,970
+La idea es una pequeña introducción porque el siguiente capítulo está enfocado en ver las clases como
+
+56
+00:05:13,970 --> 00:05:20,150
+son del tipo de JavaScript como tal son muy parecidas son casi iguales pero hay unas diferencias bien
+
+57
+00:05:20,150 --> 00:05:22,780
+marcadas que eso es lo importante que miremos.

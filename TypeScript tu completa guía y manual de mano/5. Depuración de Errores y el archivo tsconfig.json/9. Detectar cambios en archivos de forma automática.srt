@@ -1,0 +1,79 @@
+1
+00:00:03,480 --> 00:00:06,760
+Cómo hacemos para estar pendiente de todos los cambios en un archivo de taichí.
+
+2
+00:00:07,590 --> 00:00:13,560
+Yo sé que en otras clases ya se explicó pero este es su capítulo especial con el archivo TDS config
+
+3
+00:00:13,980 --> 00:00:21,390
+creado Podemos certeza es menos doloroso y eso va a estar pendiente de cualquier cambio que suceda en
+
+4
+00:00:21,390 --> 00:00:22,700
+un archivo de texto.
+
+5
+00:00:22,830 --> 00:00:28,710
+Voy a minimizarlo no lo voy a cerrar lo voy a presionar este otro botón y aquí lo puedo hacer ahora
+
+6
+00:00:28,710 --> 00:00:36,450
+como héroes Octopus voy a agregar Europa o no ser del nuevo universo.
+
+7
+00:00:36,450 --> 00:00:46,240
+Voy a mostrar la consola solo para queda poca pantalla Jova y cada vez que yo toco el botón de salvar
+
+8
+00:00:46,240 --> 00:00:52,800
+me va a hacer todo el proceso que esté en este ciclo incluyendo la salida a otro archivo a crear un
+
+9
+00:00:52,800 --> 00:00:59,370
+nuevo archivo llamado p.p. 2.13 biopoder aquí un consuelo de Hola mundo.
+
+10
+00:00:59,490 --> 00:01:05,700
+Algunos cambios se hizo la compilación y ahí está el archivo de configuración.
+
+11
+00:01:05,700 --> 00:01:09,510
+Puedo hacerlo sin outfield.
+
+12
+00:01:10,080 --> 00:01:21,510
+Quiero que luego mande Anvil Leca salida o punto J.V grabo y que haga cualquier cosa porque grabe ya
+
+13
+00:01:21,510 --> 00:01:24,760
+me generó el archivo con los nuevos Karnes.
+
+14
+00:01:24,840 --> 00:01:30,600
+Voy a ponerlo acá para que vean este punto y se lo voy a cerrar voy a dejarlo ahí.
+
+15
+00:01:30,660 --> 00:01:41,070
+Esto es otro chivó Hola Mundo otro con solo Hola mundo de nuevo de nuevo salvo iban a ver que a pesar
+
+16
+00:01:41,070 --> 00:01:47,700
+de que estoy usando otro archivo tengo la instrucción puesta para que me genere los demás para que me
+
+17
+00:01:47,700 --> 00:01:51,220
+genere mi archivo de salida basado en esta regla.
+
+18
+00:01:51,220 --> 00:01:57,690
+Eso es bastante útil si ustedes quieren hacer pequeños pruebas y verlo en su archivo final pero faltan
+
+19
+00:01:57,690 --> 00:02:04,110
+cosas por ver que puede hacer que ustedes no necesiten la instrucción del outfield lo en el siguiente
+
+20
+00:02:04,120 --> 00:02:04,350
+video.

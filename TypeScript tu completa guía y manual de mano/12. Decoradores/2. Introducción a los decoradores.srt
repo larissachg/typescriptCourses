@@ -1,0 +1,55 @@
+1
+00:00:03,300 --> 00:00:04,350
+Los decoradores.
+
+2
+00:00:04,440 --> 00:00:09,720
+Es una característica nueva del tacto y cada vez es más utilizada hoy en día especialmente con Frankfort
+
+3
+00:00:09,720 --> 00:00:13,740
+como angulosos que los utilizan en casi todos sus componentes.
+
+4
+00:00:13,740 --> 00:00:17,780
+Pero bueno qué es un decorador o para qué nos puede servir un decorador.
+
+5
+00:00:17,850 --> 00:00:20,320
+Qué serán esas cosas suenan extrañas.
+
+6
+00:00:20,370 --> 00:00:23,410
+Básicamente un decorador es una función.
+
+7
+00:00:23,400 --> 00:00:23,880
+Punto.
+
+8
+00:00:23,880 --> 00:00:26,010
+Se acabó eso es todo.
+
+9
+00:00:26,220 --> 00:00:29,310
+Bueno yo pensé que era lo más complicado no un decorador.
+
+10
+00:00:29,310 --> 00:00:35,960
+Es una cosita que se pone antes de la función por decir algo decorador algo así.
+
+11
+00:00:35,970 --> 00:00:40,770
+En este momento vuelve a marcar error porque no está definido pero un decorado es una cosita que se
+
+12
+00:00:40,770 --> 00:00:48,480
+pone antes de una función de un metro o una propiedad o una clase y nos va a permitir expandir su funcionalidad
+
+13
+00:00:48,840 --> 00:00:53,820
+agregándole cosas nuevas pueden hacer inclusive hasta mutar completamente la función.
+
+14
+00:00:53,820 --> 00:00:58,560
+Pero bueno el uso de los decoradores y sus diferentes formas lo vamos a ver a continuación.

@@ -1,0 +1,363 @@
+1
+00:00:04,170 --> 00:00:10,560
+Nos habíamos quedado acá con una alerta y todo fea y se me ocurrió agregar algo adicional.
+
+2
+00:00:10,560 --> 00:00:13,750
+Qué pasaría si ustedes quieren usar otra librería en este caso.
+
+3
+00:00:13,860 --> 00:00:20,780
+Yo uso mucho en mis proyectos el Sweet Alert que convierte esas alertas horribles en estas cosas todas
+
+4
+00:00:20,790 --> 00:00:26,640
+bonitas y si ustedes las ejecutan en su computadora sería mejor en video pues corren menos cuadros pero
+
+5
+00:00:26,960 --> 00:00:33,870
+convierte esa notificación y si les permite hacer estas cosas sería increíble poder tener esto también
+
+6
+00:00:33,870 --> 00:00:36,870
+ahí en nuestra aplicación.
+
+7
+00:00:37,140 --> 00:00:38,500
+Por qué no lo hacemos.
+
+8
+00:00:38,550 --> 00:00:42,600
+Cómo podemos saber el arroba tips se acuerdan arroba explica.
+
+9
+00:00:42,630 --> 00:00:49,200
+Cómo sabemos cómo se escribe Sweetwater o que si bajamos un poco bajamos aquí hasta para instalarlo
+
+10
+00:00:49,230 --> 00:00:55,910
+por en pie o sea por MPM y la verdad es que no hay nada más información.
+
+11
+00:00:55,970 --> 00:00:58,310
+Un par de configuraciones ahí pero no está eso.
+
+12
+00:00:58,700 --> 00:01:04,760
+Entonces lo primero que ustedes pueden hacer es buscar en TGN cómo está el switch Alert al buscarlo
+
+13
+00:01:04,790 --> 00:01:09,220
+pues va a aparecer Laka y esta es la palabra que ustedes necesitan.
+
+14
+00:01:09,470 --> 00:01:15,550
+Primero que nada ocupamos instalar su taller y será requerido para nuestra aplicación.
+
+15
+00:01:15,560 --> 00:01:17,720
+Entonces voy a copiarme esta parte de acá.
+
+16
+00:01:17,720 --> 00:01:24,650
+Claro ustedes pueden descargar archivos S.C. y JRC y hacer referencia etc etc etc. Pero vamos a hacerlo
+
+17
+00:01:24,650 --> 00:01:26,670
+nosotros desde acá.
+
+18
+00:01:26,810 --> 00:01:28,380
+Empecemos primero que nada.
+
+19
+00:01:28,380 --> 00:01:36,200
+Ahora acá yo voy a escribir el código que estaba en la página menos menos seis porque lo quiero que
+
+20
+00:01:36,200 --> 00:01:44,400
+aparezca aquí entre esperamos un segurito y a descargar los archivos y demos y lo que sea que tenga
+
+21
+00:01:44,870 --> 00:01:54,340
+y verán una vez que aquí aparece Swett a leer la versión 1.1 3 aquí ya va a estar bajamos vamos vamos
+
+22
+00:01:56,840 --> 00:02:03,170
+a ver aquí está ahí está el archivo de distribución tanto el CSS y otras cosas.
+
+23
+00:02:03,170 --> 00:02:10,210
+Ok empecemos acá cómo utilizamos el switch Aulet bueno para no andar en muchos detalles quiero importar
+
+24
+00:02:10,970 --> 00:02:16,670
+el archivo CSS pues lo podemos hacer normalmente aquí dentro del GET.
+
+25
+00:02:16,920 --> 00:02:19,140
+Eso es un link Spazio.
+
+26
+00:02:19,240 --> 00:02:33,160
+Eso es un extra el SIDS eso está en los módulos de plica suit Alert Leca y eso está en Disk leca.
+
+27
+00:02:33,460 --> 00:02:44,300
+Luego swept Alert .1.000 otras no copamos ver porque eso de desarrollo y viene no viene optimizado.
+
+28
+00:02:44,340 --> 00:02:45,390
+Ok eso es todo.
+
+29
+00:02:45,500 --> 00:02:47,500
+Aquí lo que ocupamos el CSS.
+
+30
+00:02:47,770 --> 00:02:49,650
+Si me equivoco el C6.
+
+31
+00:02:49,690 --> 00:02:50,980
+Eso es todo.
+
+32
+00:02:51,070 --> 00:02:59,860
+Ahora cómo ocupamos qué ocupamos nosotros hacer para que nuestro sistema cargue la librería cuando es
+
+33
+00:02:59,860 --> 00:03:02,540
+necesaria.
+
+34
+00:03:02,740 --> 00:03:03,840
+A ver si se acuerdan.
+
+35
+00:03:04,420 --> 00:03:07,130
+Yo sé que más de uno le va a poner pausa y va a ver el video anterior.
+
+36
+00:03:07,150 --> 00:03:08,720
+O sea esperar que yo lo haga.
+
+37
+00:03:08,740 --> 00:03:18,420
+Pues bueno no voy a hacer entonces aquí en el Mapp Koma escribiré ese doble o Swett como ustedes desean
+
+38
+00:03:18,420 --> 00:03:19,400
+ponerlo después.
+
+39
+00:03:19,430 --> 00:03:27,070
+Así que ahora ocupamos a especificar el PAF donde se encuentra el Sweetwater copió esto lo voy a pegar
+
+40
+00:03:27,130 --> 00:03:35,130
+aquí y eso es el Sweet Alert punto mi punto J3.
+
+41
+00:03:35,460 --> 00:03:36,820
+Grabamos los cambios.
+
+42
+00:03:36,820 --> 00:03:42,060
+Vamos a ver nuestro nuestra consola de el programa y no debería salir ningún error.
+
+43
+00:03:42,160 --> 00:03:47,710
+Si les sale algún error quiere decir que está mal cargado de archivos está mal referenciado o cómo utilizamos
+
+44
+00:03:47,710 --> 00:03:57,240
+el switch Alert vamos a ver un vamos a poner el switch Alert pubs mostrar con este básico ok lo vamos
+
+45
+00:03:57,240 --> 00:04:04,090
+a hacer cuando la gente presione clic en este botón que ya tenemos acá me voy aquí a mi archivo a Pepe
+
+46
+00:04:04,470 --> 00:04:10,840
+ese voy a quitar todo todo esto para que no me interesa.
+
+47
+00:04:11,260 --> 00:04:17,400
+Voy a minimizar esto para que el archivo sea lo más pequeño posible para no confundirlos.
+
+48
+00:04:17,560 --> 00:04:18,340
+Voy a dejar.
+
+49
+00:04:18,550 --> 00:04:23,460
+También voy a quitar el cargando página todo esto lo voy a quitar y aquí está el botón OK.
+
+50
+00:04:23,530 --> 00:04:32,430
+Hola Mundo desde qué pasa si yo pongo ese código hoy sucede lo mismo de el recovery se acuerdan.
+
+51
+00:04:32,440 --> 00:04:37,760
+Tengo que hacer el archivo o tengo que darme el archivo de los tiques.
+
+52
+00:04:37,860 --> 00:04:39,630
+Se cuenta cómo se hacía.
+
+53
+00:04:39,630 --> 00:04:48,070
+Vamos a venir acá a hacer un clic de la consola y escribo lo siguiente MPM espacio gustó espacio menos
+
+54
+00:04:48,080 --> 00:04:48,570
+menos.
+
+55
+00:04:48,610 --> 00:04:53,640
+Soy menos de yo sé que alguno estaba como adherente.
+
+56
+00:04:53,830 --> 00:04:58,420
+Menos de espacio arroba ticks placa.
+
+57
+00:04:58,630 --> 00:05:00,830
+Cómo sé cómo se escribe switch Alert.
+
+58
+00:05:01,300 --> 00:05:04,300
+Acuérdense de lo que se busca en definitiva.
+
+59
+00:05:04,420 --> 00:05:14,320
+Si Thaler y como aparezca aquí ese es el mejor tip que les puedo dar pues parece que no lo copié de
+
+60
+00:05:14,320 --> 00:05:14,660
+nuevo.
+
+61
+00:05:15,050 --> 00:05:18,650
+Luego entro ahí se lo vamos a buscar.
+
+62
+00:05:18,700 --> 00:05:20,250
+Lo está descargando y listo.
+
+63
+00:05:20,260 --> 00:05:21,460
+Vamos a ver si lo hizo.
+
+64
+00:05:21,460 --> 00:05:22,460
+Subamos.
+
+65
+00:05:22,750 --> 00:05:26,900
+Subamos en STyPS en los tickets.
+
+66
+00:05:26,920 --> 00:05:30,680
+Aquí debería parecerme QWERTY y el de suit Alert.
+
+67
+00:05:30,700 --> 00:05:31,980
+Qué quiere decir ahora.
+
+68
+00:05:33,100 --> 00:05:38,430
+Esperemos un segundito a que a que refresque mi condenado Atom.
+
+69
+00:05:38,730 --> 00:05:45,770
+Esperemos veremos vamos a hacer la compilación de Sesé entre hoy si lo hizo bien.
+
+70
+00:05:47,840 --> 00:05:51,590
+Porque tuve que revolver abrirlo para que se quitara el problema.
+
+71
+00:05:51,890 --> 00:05:55,280
+Pero puede ser que ustedes todavía no se les quite.
+
+72
+00:05:55,280 --> 00:06:03,740
+Entonces qué es lo que falta acá falta hacer el import de el switch Alert acuérdense que el nombre que
+
+73
+00:06:03,740 --> 00:06:06,770
+ustedes pusieron de acá es el que tiene que estar aquí.
+
+74
+00:06:07,220 --> 00:06:10,780
+Grabamos los cambios y el Sweetwater ya está listo y funcionando.
+
+75
+00:06:10,790 --> 00:06:12,910
+Vamos a ver vamos a probarlo acá.
+
+76
+00:06:13,230 --> 00:06:19,340
+Esto ya se recargó automáticamente por el reloj que tiene Trintxerpe toco el botón y ahí ya tengo mi
+
+77
+00:06:19,340 --> 00:06:20,030
+notificación.
+
+78
+00:06:20,030 --> 00:06:24,500
+Se ve grande porque estoy con un enorme sombrão normalmente se ve así.
+
+79
+00:06:26,600 --> 00:06:33,600
+Lo increíble de esto es que a pesar de que no exista un plugin por ejemplo te snippets de switch Alert.
+
+80
+00:06:33,590 --> 00:06:37,520
+Puede ser que los haya pero con Taipe scrip ya los tenemos a mano.
+
+81
+00:06:37,520 --> 00:06:38,980
+Puedo escribir es Wall.
+
+82
+00:06:39,500 --> 00:06:45,800
+Si bien es una abreviatura del taller parentesis me va a dar un error porque no está cumpliendo el Mach
+
+83
+00:06:46,330 --> 00:06:55,400
+y puedo decirle Voy a ponerle un título título Koma yo lo dejo así y salvo los cambios que me lo acepta
+
+84
+00:06:55,720 --> 00:07:06,520
+quiere decir que es válido ese código Qué pasa si yo pongo después Coma lo dejo así saber qué cargo
+
+85
+00:07:06,560 --> 00:07:14,770
+le vamos a leer lo mismo como mensaje grave los cambios Toko ahí está el mensaje y para cambiar las
+
+86
+00:07:14,770 --> 00:07:18,510
+cosas pues bueno ya esto hay que ver la documentación hay varios tipos.
+
+87
+00:07:18,510 --> 00:07:27,480
+Vamos a bajar un poco tenemos warning error Success e info oponerle aquí Success gravó los cambios de
+
+88
+00:07:27,490 --> 00:07:30,200
+cargo Toko y ahí tenemos el suceso.
+
+89
+00:07:30,370 --> 00:07:32,650
+Básicamente eso es lo que ustedes tendrían que hacer.
+
+90
+00:07:32,650 --> 00:07:37,290
+La ventaja de esto es que solo vamos a importar lo que necesitamos en el momento.
+
+91
+00:07:37,490 --> 00:07:40,240
+Ok eso ha sido todo por ahora y los veo en el siguiente video.

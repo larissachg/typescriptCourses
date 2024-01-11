@@ -1,0 +1,171 @@
+1
+00:00:03,310 --> 00:00:08,290
+Cuando hablemos de strings pensemos en cadenas de caracteres un conjunto de letras o palabras que están
+
+2
+00:00:08,350 --> 00:00:16,940
+entre comillas apóstrofe o ActiveX pero trabajemos en el país que es igual que todas las variables les
+
+3
+00:00:17,300 --> 00:00:24,270
+vamos a crear a Batman siempre después de la palabra o el nombre de la variable ponga acostumbramos
+
+4
+00:00:24,310 --> 00:00:26,560
+a definir el tipo de dato.
+
+5
+00:00:26,650 --> 00:00:30,970
+Para eso estamos usando Thaís para no cometer estos errores para saber qué tipo de dato es.
+
+6
+00:00:31,090 --> 00:00:38,560
+En este caso Batman es de tipo Street y lo voy a guardar de una vez como Batman Batman otro LED Linterna
+
+7
+00:00:39,070 --> 00:00:47,370
+Verde igual de tipo string es igual a Linterna Verde Tacoma light.
+
+8
+00:00:47,640 --> 00:00:56,740
+Vamos a poner a un volcán negro también de tipo string igual a Bucanero Volcán Negro
+
+9
+00:00:59,560 --> 00:01:05,890
+varias cosas las comillas dobles se puede usar para definir strings al igual que el apóstrofe o como
+
+10
+00:01:05,900 --> 00:01:12,430
+ella sencilla como se le diga ahora hay otra manera que se incluyó en el ECMAScript 6 que es el Baltic.
+
+11
+00:01:12,550 --> 00:01:20,260
+Eso lo vamos a ver ya a profundidad más adelante bien ustedes pueden obviar aquí la palabra string y
+
+12
+00:01:20,580 --> 00:01:26,250
+el tal chupados era okey pero Linterna Verde es nuestro imperfecto el problema pero no se lo recomiendo.
+
+13
+00:01:26,320 --> 00:01:32,180
+No es recomendable estamos usando Thaís scrip para definir los tipos y al hacer eso ustedes van a ver
+
+14
+00:01:32,250 --> 00:01:37,780
+cuando yo escribo Batman y escribo y toco el punto me salen todos los métodos que tiene un estreno todos
+
+15
+00:01:37,780 --> 00:01:43,130
+los métodos eso nos ayuda muchísimo a la hora de programar.
+
+16
+00:01:43,360 --> 00:01:47,920
+Cuántas veces nos hemos equivocado al escribir ya más que puro porque no sabemos cómo es cómo es la
+
+17
+00:01:47,920 --> 00:01:49,820
+función y cómo es que dicen.
+
+18
+00:01:49,930 --> 00:01:56,390
+A veces escribimos por ejemplo el string y era tu minúscula y S mayúscula un solo contais.
+
+19
+00:01:56,420 --> 00:02:04,840
+Se olvidan de todos esos problemas vamos a hacer el consolón de cada uno de los superhéroes Batman Linterna
+
+20
+00:02:04,840 --> 00:02:09,750
+Verde Volcán Negro perfecto.
+
+21
+00:02:10,510 --> 00:02:16,720
+Supongamos ahora para ser el plus de la clase que queremos concatenar todos en una oración.
+
+22
+00:02:16,720 --> 00:02:22,780
+Vamos a ponerlo así bar concatenar y quiero concatenar todos los superhéroes también de tipo Street.
+
+23
+00:02:22,790 --> 00:02:32,830
+No quiero decir los héroes que tenemos son Ok qué cómo haríamos si quisiéramos concatenar todos son
+
+24
+00:02:32,990 --> 00:02:40,810
+pereza porque hay que ser más Batman más Linterna Verde más Vulkan negro.
+
+25
+00:02:40,900 --> 00:02:47,520
+El problema de esto es que aparte de ponerlos de esta manera tengo que agregarles un cómo y un espacio
+
+26
+00:02:47,530 --> 00:02:49,390
+yo no quiero que me aparezcan pegados.
+
+27
+00:02:49,490 --> 00:02:54,120
+Voy a agravarlo quiero que vean que la compilación funciona bien.
+
+28
+00:02:54,160 --> 00:03:00,760
+Regreso a casa y recargó y tenemos eso no estamos imprimiendo la concatenación por cierto la concatenación
+
+29
+00:03:00,850 --> 00:03:10,330
+concatenar gravó y hoy tenemos pero vemos que Volkan y verde están pegadas las dos palabras y eso no
+
+30
+00:03:10,330 --> 00:03:11,830
+es lo que queremos.
+
+31
+00:03:11,830 --> 00:03:19,840
+La mejor manera para hacer este tipo de uniones de strings y con un formato es usar los temple literales
+
+32
+00:03:19,840 --> 00:03:22,610
+del ECMAScript 6 pero hay una sección dedicada a eso.
+
+33
+00:03:22,750 --> 00:03:29,750
+Por el momento voy a poner a crear una variable llamada con CAT el tipo string que usará el batik.
+
+34
+00:03:29,810 --> 00:03:37,060
+Esto en mi teclado está al lado del 1 por ciento y voy a decir los héroes.
+
+35
+00:03:37,060 --> 00:03:45,050
+Los héroes son dos puntos y para usar el Baketik dentro del Baketik solo y solo dentro de estos de este
+
+36
+00:03:45,130 --> 00:03:51,580
+string con estos caracteres puedo hacer esto signo de dólar y abro llaves de las llaves quebradas.
+
+37
+00:03:52,070 --> 00:04:02,560
+Y voy a poner a Batman como espacio voy a poner otro aquí Linterna Verde como espacio si me da las llaves
+
+38
+00:04:03,830 --> 00:04:04,900
+Boccanera.
+
+39
+00:04:06,410 --> 00:04:14,680
+Ahora puedo poner aquí con cautela los cambios y luego la consola el JavaScript y funcionó perfecto.
+
+40
+00:04:14,680 --> 00:04:24,250
+Y si miramos también el código que creó en Javascript por nosotros ya que Stoichkov se dedicó a convertir
+
+41
+00:04:24,280 --> 00:04:31,090
+no solo los las tildes sino que también me puso todo el trabajo que yo tendría que hacer si estuviera
+
+42
+00:04:31,090 --> 00:04:36,580
+trabajando directamente en JavaScript especialmente esta parte de cada uno le agregó el espacio y como
+
+43
+00:04:37,660 --> 00:04:38,560
+los veo en el siguiente video.

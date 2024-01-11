@@ -1,0 +1,151 @@
+1
+00:00:03,320 --> 00:00:06,220
+Cómo haríamos nosotros para resolver el siguiente problema.
+
+2
+00:00:06,410 --> 00:00:13,790
+Tenemos una función que debe ser capaz de recibir x cantidad de parámetros 1 2 3 5 los que sean necesarios
+
+3
+00:00:14,630 --> 00:00:16,150
+y concatenar todos.
+
+4
+00:00:16,160 --> 00:00:18,050
+Cómo podríamos hacer eso.
+
+5
+00:00:18,180 --> 00:00:22,680
+Bueno en el ECMAScript 6 se incorporó lo que se llama los parámetros Rest.
+
+6
+00:00:22,670 --> 00:00:29,450
+Sonará complicado pero no es más que decir todo lo que viene por parametro junta menos en un arreglo.
+
+7
+00:00:29,450 --> 00:00:30,940
+Eso es todo.
+
+8
+00:00:31,310 --> 00:00:34,930
+Yo puedo definir parámetros obligatorios para esta función.
+
+9
+00:00:34,940 --> 00:00:40,490
+Por ejemplo yo necesito que el nombre por lo menos un nombre tiene que venir de manera obligatoria.
+
+10
+00:00:40,520 --> 00:00:42,200
+Por eso lo hago así.
+
+11
+00:00:42,290 --> 00:00:46,250
+Cómo definimos ese tal parámetro Rez con la siguiente función.
+
+12
+00:00:46,300 --> 00:00:47,980
+Punto punto punto.
+
+13
+00:00:48,150 --> 00:00:54,830
+Luego el nombre al que yo quiero asignarle todo lo demás por ejemplo en este caso todo esto o todo esto
+
+14
+00:00:55,460 --> 00:01:01,970
+porque el primer el primer el primer parámetro es el nombre de forma obligatoria y pongámosle los demás
+
+15
+00:01:02,120 --> 00:01:10,910
+parámetros Sólo para ejemplificar qué tipo es será eso de qué tipo quieren ustedes es un string pero
+
+16
+00:01:11,000 --> 00:01:12,430
+es un arreglo de strings.
+
+17
+00:01:12,470 --> 00:01:17,260
+De esa forma ok aquí todavía tengo varios errores que me está marcando por ejemplo estic y sé que no
+
+18
+00:01:17,260 --> 00:01:24,470
+necesito hacer la función del retornemos a esto tiene que regresar algo voy hacer el ratón del nombre
+
+19
+00:01:24,930 --> 00:01:31,400
+lo voy a tener un espacio y ahora le voy a concatenar o unir todos los elementos que ubican en los demás
+
+20
+00:01:31,400 --> 00:01:39,170
+parámetros utilizando una función de los arreglos en JavaScript llamada join parentesis y los quiero
+
+21
+00:01:39,170 --> 00:01:47,050
+unir con un espacio grabo los cambios y sobre hacer todo vamos a sacar el código recargó y ahí está
+
+22
+00:01:47,050 --> 00:01:51,950
+bien claro Joseph Queen y Anthony Eduar Tony Stark perfecto.
+
+23
+00:01:52,210 --> 00:01:57,590
+Si miramos el código de JavaScript ya esto es un poco más complicado.
+
+24
+00:01:57,940 --> 00:02:02,460
+Si se fijan qué es lo que hizo qué es lo que hizo el compilador de Tactic.
+
+25
+00:02:02,710 --> 00:02:09,160
+El primer parámetro es el nombre de forma obligatoria que deduce que el primer parámetro no los necesito
+
+26
+00:02:09,160 --> 00:02:15,770
+por eso y le pone un guion bajo para que no choque con otras variables y le pulso el valor de uno.
+
+27
+00:02:16,180 --> 00:02:23,020
+Ahora en JavaScript aunque no se especifiquen valores acá si vienen con algo llamado arguments por ejemplo
+
+28
+00:02:24,140 --> 00:02:29,440
+viene algo llamado arguments que son todos los argumentos que son pasados a la función y se cuentan
+
+29
+00:02:29,440 --> 00:02:33,570
+cuántos parámetros fueron enviados y se hace un ciclo normal.
+
+30
+00:02:33,700 --> 00:02:38,310
+Luego se se van asociando o se van agregando a la red.
+
+31
+00:02:38,710 --> 00:02:42,080
+Luego se hace el resumen de la función de la misma manera.
+
+32
+00:02:42,220 --> 00:02:47,620
+Además el siguiente código es exactamente el mismo por qué no estamos haciendo nada nada diferente que
+
+33
+00:02:47,620 --> 00:02:54,070
+no soporte el texto y le repito para la gente que está diciendo lo amainó no pero Cheeky no lo puso
+
+34
+00:02:54,150 --> 00:02:55,960
+string string.
+
+35
+00:02:56,170 --> 00:03:03,100
+Es buena práctica siempre que ustedes siempre que ustedes usen variables póngalas el tipo aunque aquí
+
+36
+00:03:03,100 --> 00:03:08,830
+está por decirlo así además porque como esta función revives son string sabemos que Superman es de tipo
+
+37
+00:03:08,840 --> 00:03:16,270
+Strong pero nunca se les olvide que para eso estamos usando tags para ponerle los tipos de las variables
+
+38
+00:03:16,660 --> 00:03:18,540
+y evitar problemas a futuro.

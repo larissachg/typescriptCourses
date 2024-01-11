@@ -1,0 +1,99 @@
+1
+00:00:03,320 --> 00:00:07,010
+El tipo Void es muy utilizado en acechar y jaba.
+
+2
+00:00:07,160 --> 00:00:14,010
+Básicamente es como el opuesto a Eleni o sea Eleni es cualquier tipo y el buey es ningún tipo sonará
+
+3
+00:00:14,090 --> 00:00:21,500
+extraño pero vamos a verlo aquí como ejemplo el buey está más relacionado a lo que es el retorno de
+
+4
+00:00:21,500 --> 00:00:28,100
+una función masacrarlos una función básica así todavía no vamos a ver funciones de una función general
+
+5
+00:00:28,130 --> 00:00:36,660
+en digamos función Llamar Batman esta función llamada Batman lo único que hace es
+
+6
+00:00:39,300 --> 00:00:49,110
+mostrar la Bati señal por ejemplo mostrar la Bati señal ok y no regresa absolutamente nada.
+
+7
+00:00:49,110 --> 00:00:55,980
+Sabemos que en JavaScript una función que no regresa nada pues Sonará redundante pero si regresamos
+
+8
+00:00:55,990 --> 00:00:57,080
+a un default.
+
+9
+00:00:57,750 --> 00:01:06,510
+Por consecuencia si yo podría asignar eso ese dato algunas variables por ejemplo leer mensaje mensaje
+
+10
+00:01:06,690 --> 00:01:12,100
+es igual a llamar a Batman a pesar de que aquí me diga que es boiled.
+
+11
+00:01:12,240 --> 00:01:18,990
+Es posible que yo lo que quiera es asignarle donde Fomin es posible pero nosotros sabemos que yo no
+
+12
+00:01:18,990 --> 00:01:24,510
+quiero o en este caso yo no quiero que esa función sea utilizada como un retorno de algo simplemente
+
+13
+00:01:24,810 --> 00:01:27,110
+ejecuta algo y se acabó.
+
+14
+00:01:27,300 --> 00:01:34,010
+Para hacer eso después de los paréntesis yo puedo definir qué cosa es la que regresa esta función.
+
+15
+00:01:34,230 --> 00:01:40,680
+Si yo digo voy esta función va a regresar un vacío.
+
+16
+00:01:40,700 --> 00:01:42,310
+Por qué aquí me lo permite.
+
+17
+00:01:42,610 --> 00:01:49,870
+Porque tengo deshabilitadas o por defecto el script tiene deshabilitadas lo que es este tipo de restricciones.
+
+18
+00:01:49,880 --> 00:01:55,610
+Más adelante cuando miramos la configuración del TS confi podemos hacer que TACC Skip sea más estricto
+
+19
+00:01:56,340 --> 00:02:02,260
+pero en pocas palabras lo que estoy diciendo acá es que esta función no regresa nada y aquí escribo
+
+20
+00:02:02,270 --> 00:02:08,060
+por ejemplo de un restorán uno aquí me va a marcar un error inmediatamente porque yo definí que es un
+
+21
+00:02:08,060 --> 00:02:09,590
+baile no puedo regresar.
+
+22
+00:02:09,620 --> 00:02:12,440
+Un número no puedo regresar un 30 por regresar.
+
+23
+00:02:12,470 --> 00:02:14,300
+Hola hola.
+
+24
+00:02:14,390 --> 00:02:18,530
+Me va a marcar un error no puedo regresar un Truc no puedo regresar absolutamente nada.
+
+25
+00:02:18,530 --> 00:02:23,200
+Por eso hice el baile pero bueno los veo en el siguiente video.

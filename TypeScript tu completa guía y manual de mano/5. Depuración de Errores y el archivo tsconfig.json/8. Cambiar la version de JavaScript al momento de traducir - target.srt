@@ -1,0 +1,83 @@
+1
+00:00:03,110 --> 00:00:07,850
+Yo sé que ustedes ya son expertos con el archivo BTS config y la clase no tiene mucho sentido porque
+
+2
+00:00:07,850 --> 00:00:11,550
+es cambiar la versión de salida del Skype.
+
+3
+00:00:11,810 --> 00:00:14,160
+Yo sé que ustedes saben cómo hacerlo pero por si acaso se les olvida.
+
+4
+00:00:14,300 --> 00:00:20,060
+Este capítulo está dedicado a eso vamos a escribir un código de lenguas que U-6 bueno no seis.
+
+5
+00:00:20,360 --> 00:00:23,900
+Pondré un arreglo de héroes que será un arreglo de strings
+
+6
+00:00:26,880 --> 00:00:34,620
+strings y esto lo voy a igualar a Batman Superman y a Robin.
+
+7
+00:00:35,000 --> 00:00:41,870
+No sé qué está haciendo ahí pero bueno ahí está Robin luego de varios ciclos for Heroes of Heroes.
+
+8
+00:00:42,010 --> 00:00:49,610
+Si esto es un ciclo nuevo en el Legna escribí 6 el ciclo Hopf y voy a hacer un consolon el héroe.
+
+9
+00:00:49,610 --> 00:00:53,720
+No se preocupen que la siguiente sección vamos a ver características de lenguas que IPv6 que están soportadas
+
+10
+00:00:53,720 --> 00:00:56,600
+ya por los gravosos.
+
+11
+00:00:56,780 --> 00:00:57,950
+Pondré el archivo al lado
+
+12
+00:01:00,720 --> 00:01:06,670
+para que ustedes puedan observar todo el código que tienen que hacer para representar este en teoría
+
+13
+00:01:06,670 --> 00:01:15,790
+sencillo ciclo hace un ciclo normal donde barre todos los héroes y asigna una variable temporal llamada
+
+14
+00:01:15,820 --> 00:01:18,900
+héroe y ahí se maneja se.
+
+15
+00:01:19,720 --> 00:01:27,100
+Pero bueno si quisiéramos sacar esto hay un script 6 me voy a esquilas chuters y confi que lo pongo
+
+16
+00:01:27,100 --> 00:01:36,180
+aquí al 6 grabo y a la brasa tengo exactamente el mismo código.
+
+17
+00:01:36,270 --> 00:01:45,860
+Si yo quisiera salvarlo ECMAScript 3 por ejemplo grabo y ahí tenemos y sería lo mismo que hacer esto.
+
+18
+00:01:45,900 --> 00:01:51,000
+La ventaja es que los comandos que están en el archivo de configuración ustedes los pueden poner acá
+
+19
+00:01:51,480 --> 00:02:03,910
+puede hacer TCS a Pepe punto 13 s y lo quiero al target ECMAScript 6 entre y listo o bien lo pueden
+
+20
+00:02:03,910 --> 00:02:07,720
+hacer a 5 sin tocar el archivo de configuración.
+
+21
+00:02:07,720 --> 00:02:10,680
+Esto es como para sobreescribir temporalmente a la hora de compilar.

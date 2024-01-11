@@ -1,0 +1,67 @@
+1
+00:00:03,200 --> 00:00:06,220
+Para crear un arreglo genérico basta con ser científico.
+
+2
+00:00:06,860 --> 00:00:10,090
+Vamos a poner héroes tus puntos.
+
+3
+00:00:10,370 --> 00:00:16,410
+Podemos definirlo como un array de strings o del tipo de dato que ustedes quieran.
+
+4
+00:00:16,670 --> 00:00:24,990
+Seguido de los héroes de Flash podremos Batman y Superman.
+
+5
+00:00:25,490 --> 00:00:34,670
+Ahora si bien tiende a ser un plus de los héroes puede ser un puzzle y meterle unos tres ya me estaba
+
+6
+00:00:34,670 --> 00:00:41,450
+dando errores el taichí diciéndome que 1 2 3 no es asignarle a un parámetro de tipo String.
+
+7
+00:00:41,540 --> 00:00:47,690
+Ahora si 1 mando de esa forma hoy si me lo va a permitir porque si es un extremo y por último antes
+
+8
+00:00:47,690 --> 00:00:54,050
+de que me vayan a hacer la pregunta porque es casi seguro que lo hacen escribió lo siguiente villanos
+
+9
+00:00:54,330 --> 00:01:00,490
+2 puntos string como arreglo es igual y vamos a poner aquí un par de villanos.
+
+10
+00:01:00,530 --> 00:01:11,900
+Sólo voy a poner a Lex Luthor y vamos a poner al Flash Reverso como vamos a decir cuál es la diferencia
+
+11
+00:01:11,960 --> 00:01:18,950
+entre héroes y villanos si ambos son instruían sólo que este rey y este es un Herraiz explícito y esto
+
+12
+00:01:18,970 --> 00:01:20,740
+es un array genérico.
+
+13
+00:01:21,020 --> 00:01:22,330
+Cuál es la diferencia.
+
+14
+00:01:22,660 --> 00:01:29,440
+Bueno pues básicamente es lo mismo lo que está haciendo aquí es convirtiendo nuestro arreglo a un arreglo
+
+15
+00:01:29,440 --> 00:01:31,700
+de strings pero básicamente es lo mismo.
+
+16
+00:01:31,700 --> 00:01:35,960
+Sólo quería aclarar que se puede hacer de una manera genérica o de la forma explícita que hemos visto
+
+17
+00:01:35,960 --> 00:01:36,620
+anteriormente.

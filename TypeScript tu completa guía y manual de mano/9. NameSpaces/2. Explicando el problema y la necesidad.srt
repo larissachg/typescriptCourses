@@ -1,0 +1,55 @@
+1
+00:00:00,690 --> 00:00:04,200
+Introducción a los Neng Space y los módulos.
+
+2
+00:00:04,200 --> 00:00:09,840
+Hasta el momento hemos estado trabajando con un solo archivo llamado a Pepe .3 en ese archivo tenemos
+
+3
+00:00:09,840 --> 00:00:15,270
+las interfaces las clases la lógica funciones todo nuestro programa está ahí ahora imagínense que fuera
+
+4
+00:00:15,270 --> 00:00:20,430
+un proyecto muy grande donde hay mucha gente trabajando ahí hay otros compañeros que están metiendo
+
+5
+00:00:20,430 --> 00:00:25,410
+interfaces nuevas clases nuevas lógica nueva no podríamos trabajar con un solo archivo y aquí es donde
+
+6
+00:00:25,410 --> 00:00:29,280
+ya se incorpora el concepto de Space y módulos.
+
+7
+00:00:29,340 --> 00:00:35,850
+Básicamente es agarrar toda nuestra lógica y segmentar en pequeños archivos que tengan una forma más
+
+8
+00:00:35,850 --> 00:00:43,020
+estructurada para trabajar es decir un folder con las interfaces y dentro de ese folder hay varios archivos
+
+9
+00:00:43,020 --> 00:00:44,900
+con diferentes interfaces.
+
+10
+00:00:45,070 --> 00:00:48,820
+Otro folder llamado clases donde tengamos todas las clases listadas.
+
+11
+00:00:48,990 --> 00:00:53,680
+Nadie les quita que ustedes puedan crear folders dentro de formas ahora la lógica del programa debía
+
+12
+00:00:53,690 --> 00:00:59,340
+estar en otra parte y las funciones aparte para que nosotros podamos tener un trabajo de una forma más
+
+13
+00:00:59,340 --> 00:01:04,600
+organizada más fácil de mantener y por consecuencia es un código mucho más limpio.
+
+14
+00:01:04,620 --> 00:01:09,900
+Esa es la idea de los Spaces y los módulos permitirnos crear este tipo de lógica de programación.

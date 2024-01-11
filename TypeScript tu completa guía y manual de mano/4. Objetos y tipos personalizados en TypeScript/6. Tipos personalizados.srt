@@ -1,0 +1,127 @@
+1
+00:00:03,280 --> 00:00:07,560
+Cómo creamos un tipo personalizado de objetos.
+
+2
+00:00:07,940 --> 00:00:15,490
+Hay una palabra reservada llamada Taipe la cual nos va a permitir a nosotros crear lo que estamos buscando
+
+3
+00:00:15,490 --> 00:00:21,160
+en este preciso momento creerlos un tipo que pueda soportar todo esto para que ya no tengamos que hacer
+
+4
+00:00:21,160 --> 00:00:25,980
+múltiples definiciones como estas que tenemos en pantalla y simplemente hacer nombre a una palabra o
+
+5
+00:00:26,340 --> 00:00:27,160
+algún molde.
+
+6
+00:00:27,180 --> 00:00:36,450
+En este caso nuestro tipo para poder reutilizarlo o bien la palabra reservada Taipe creamos o no con
+
+7
+00:00:36,460 --> 00:00:38,350
+el nombre héroe.
+
+8
+00:00:38,500 --> 00:00:45,220
+Una convención es ponerlo con la letra mayúscula la primera para saber que es una clase y no es una
+
+9
+00:00:45,220 --> 00:00:46,200
+variable.
+
+10
+00:00:46,600 --> 00:00:50,200
+Ojo presté mucha atención que estoy poniendo un igual.
+
+11
+00:00:50,200 --> 00:00:54,200
+No es un 2.Los no es otra cosa es un igual.
+
+12
+00:00:54,700 --> 00:00:58,560
+No estoy creando un objeto tampoco estoy creando una definición de un tipo.
+
+13
+00:00:58,570 --> 00:01:04,570
+La única diferencia si fuera Aulet es una variable pero aquí es un tipo de dato.
+
+14
+00:01:05,410 --> 00:01:07,680
+Qué es lo que quiero que esté dentro.
+
+15
+00:01:07,690 --> 00:01:14,770
+Puedo copiarme todo esto si yo no quiero escribir o copiarlo todo y darle un par de entes para que se
+
+16
+00:01:14,900 --> 00:01:19,240
+un poco más ordenado de esa forma.
+
+17
+00:01:19,240 --> 00:01:20,200
+Y eso es todo.
+
+18
+00:01:20,230 --> 00:01:26,230
+Eso es todo lo que necesito hacer los tipos puedo yo puedo definir lo que sea que adentro y puedo definir
+
+19
+00:01:26,230 --> 00:01:34,000
+que dentro de él tengamos un héroe y ese dentro de CBRE bueno va a ser el tipo de héroe me entiende
+
+20
+00:01:34,510 --> 00:01:36,600
+tendría otro adentro y así sucesivamente.
+
+21
+00:01:36,600 --> 00:01:43,360
+Pero ustedes me capta la idea en este caso acabo de definir un nombre edad Proder poderes y el nombre
+
+22
+00:01:43,870 --> 00:01:48,800
+ya no necesito todo esto y puedo definirlo que es de tipo.
+
+23
+00:01:49,050 --> 00:01:53,600
+Ustedes ven hasta el scrip me reconoce el nuevo tipo.
+
+24
+00:01:53,930 --> 00:01:58,000
+Nada de esto lo ocupó y es de tipo que ya está en la primera.
+
+25
+00:01:59,230 --> 00:02:07,110
+Ahora si yo necesitara realizar algún cambio por ejemplo ahora es regresamos a poderes a que sea un
+
+26
+00:02:07,240 --> 00:02:12,430
+tipo estoy gravó van a ver que Superman y Flash me están tirando horrores porque no están cumpliendo
+
+27
+00:02:12,430 --> 00:02:14,570
+la condición específica.
+
+28
+00:02:14,590 --> 00:02:18,790
+Sería bueno que me dijera Mira aquí está el problema pero ustedes deberían porque ya tienen una pista
+
+29
+00:02:18,790 --> 00:02:24,540
+de dónde está el problema en este caso yo ya sé que son esos números los que están fallando.
+
+30
+00:02:24,550 --> 00:02:31,660
+Otra cosa interesante de los dos tipos es que ustedes podrían crearse un HV definición de tipos o se
+
+31
+00:02:31,660 --> 00:02:36,310
+creen una carpeta en su proyecto y ahí ponen todos los tipos y podrían ser algo más ordenados pero eso
+
+32
+00:02:36,910 --> 00:02:41,100
+poco a poco lo vamos a ir viendo especialmente cuando ya entremos a otros temas más avanzados.

@@ -1,0 +1,99 @@
+1
+00:00:03,190 --> 00:00:08,590
+Normalmente en nuestros proyectos no sólo escribimos nuestro código de JavaScript ya o sólo escribimos
+
+2
+00:00:09,020 --> 00:00:09,950
+y ya se acabó.
+
+3
+00:00:10,000 --> 00:00:11,470
+Por lo general ocupamos librerías.
+
+4
+00:00:11,470 --> 00:00:17,520
+De otro lado por ejemplo Swery a pesar de que QWERTY pudo haber estado escrito originalmente en script
+
+5
+00:00:18,340 --> 00:00:25,090
+el producto final es un archivo de JavaScript que no podemos podemos utilizarlo directamente pero perdemos
+
+6
+00:00:25,210 --> 00:00:26,490
+ciertas funcionalidades.
+
+7
+00:00:26,500 --> 00:00:35,350
+Por ejemplo piensan que en el archivo índex HTML ya tenemos el código importado de Japón.
+
+8
+00:00:35,510 --> 00:00:37,270
+Ya tenemos el script import.
+
+9
+00:00:38,010 --> 00:00:46,990
+Entonces en teoría podríamos hacer esto document punto Ready function para decir que la página está
+
+10
+00:00:46,990 --> 00:00:49,710
+cargada o cuando la página ya está totalmente cargada.
+
+11
+00:00:50,200 --> 00:00:55,960
+Pero miremos acá nos sale un error diciendo que no se puede encontrar el símbolo de dólar y pensamos
+
+12
+00:00:56,280 --> 00:01:03,190
+Ay qué barbaridad nos falta algo tenemos que hacer algo para importar Cuadri al Tachi pero para nuestra
+
+13
+00:01:03,190 --> 00:01:08,530
+suerte o para la ventaja de todo el mundo toda la comunidad que trabaja en taches tenemos lo que se
+
+14
+00:01:08,530 --> 00:01:14,110
+llama Los archivos de definición los archivos de definición son unos archivos que tienen una extensión
+
+15
+00:01:14,260 --> 00:01:16,640
+Punto de Punto 13.
+
+16
+00:01:16,840 --> 00:01:24,070
+Eso ya lo habíamos visto antes de hecho en los módulos de Cunto puedes buscar de punto T.C. Y van a
+
+17
+00:01:24,070 --> 00:01:25,210
+ver que hay varios archivos.
+
+18
+00:01:25,210 --> 00:01:27,900
+Por ejemplo el RX de olvidense.
+
+19
+00:01:27,960 --> 00:01:30,860
+Yo sé que ustedes no tienen esto no se preocupen sólo estoy explicando.
+
+20
+00:01:31,090 --> 00:01:36,570
+Hay otros archivos de Moment otro archivo de x y y así sucesivamente.
+
+21
+00:01:36,580 --> 00:01:39,440
+Hay muchos archivos que tienen una de TS.
+
+22
+00:01:39,460 --> 00:01:41,230
+Habíamos dicho que era esto no verdad.
+
+23
+00:01:41,590 --> 00:01:49,210
+Entonces esos son archivos de definiciones de script es decir les va a permitir a ustedes usar librerías
+
+24
+00:01:49,350 --> 00:01:52,160
+de JavaScript como si estuvieran hechas en Tachi.
+
+25
+00:01:52,450 --> 00:01:53,500
+Vamos a ver eso a continuación.

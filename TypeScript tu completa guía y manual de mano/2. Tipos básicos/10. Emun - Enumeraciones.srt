@@ -1,0 +1,207 @@
+1
+00:00:03,360 --> 00:00:07,680
+Las enumeraciones es un tipo de dato que ya existe en otros lenguajes de programación pero en JavaScript
+
+2
+00:00:08,060 --> 00:00:10,740
+no es cierto no existía.
+
+3
+00:00:10,820 --> 00:00:15,980
+Vimos cómo trabajamos con esto de las enumeraciones o qué son las enumeraciones en sí.
+
+4
+00:00:16,050 --> 00:00:22,080
+Pensemos en este tipo de dato como para darle un sentido lógico a unos números lo vamos a ver con un
+
+5
+00:00:22,080 --> 00:00:22,610
+ejemplo.
+
+6
+00:00:22,740 --> 00:00:29,130
+Pensemos que estamos trabajando en una aplicación como Spotify o YouTube algo que reproduzca audio.
+
+7
+00:00:29,410 --> 00:00:36,720
+Voy a una enumeración de la siguiente manera en un espacio volumen por ejemplo yo les voy a explicar
+
+8
+00:00:36,720 --> 00:00:39,220
+por qué la web está en mayúscula.
+
+9
+00:00:39,810 --> 00:00:41,610
+Abro y cierro llaves de esta manera.
+
+10
+00:00:41,610 --> 00:00:48,960
+Es parecido a una clase una función algo así es raro es raro pero nada más es eso definir tres estados
+
+11
+00:00:48,960 --> 00:00:49,410
+de audio.
+
+12
+00:00:49,440 --> 00:00:57,440
+Por ejemplo el mínimo el medio y el máximo grado los cambios y miren todo lo que hace JavaScript para
+
+13
+00:00:57,440 --> 00:01:00,980
+manejar esto ahorita lo voy a ocultar porque no quiero que se distraigan de eso.
+
+14
+00:01:02,130 --> 00:01:07,410
+OK supongamos que ahora creó una nueva variable llamada volumen audio.
+
+15
+00:01:07,430 --> 00:01:15,200
+Por ejemplo audio en este momento de tipo number y la voy a igualar al volumen punto al que ya me parecen
+
+16
+00:01:15,200 --> 00:01:20,620
+las tres opciones de la enumeración al volumen mínimo solo del audio.
+
+17
+00:01:20,660 --> 00:01:21,760
+Qué creen que va a pasar.
+
+18
+00:01:21,830 --> 00:01:23,920
+Qué creen que es esto que estoy haciendo.
+
+19
+00:01:24,250 --> 00:01:30,980
+Recargar a cambio aparece cero por qué cero cuando definimos una numeración de esta manera el primer
+
+20
+00:01:30,980 --> 00:01:32,880
+valor tiene tienen valor cero.
+
+21
+00:01:32,900 --> 00:01:40,150
+Luego al siguiente valor le va a sumar uno o sea el valor medio es 1 y el valor máximo es 2 poner aquí
+
+22
+00:01:40,160 --> 00:01:48,130
+medio cargo medio es 1 y el valor máximo seriados.
+
+23
+00:01:48,400 --> 00:01:50,950
+Pero esto no tiene mucho sentido para nuestra aplicación.
+
+24
+00:01:50,950 --> 00:01:55,660
+A mí me gustaría decir que el valor mínimo se debería de ser 1.
+
+25
+00:01:55,750 --> 00:01:56,490
+Eso lo puedo hacer.
+
+26
+00:01:56,530 --> 00:02:01,620
+Puedo hacer esto valor mínimo es 1 y el valor máximo de 10.
+
+27
+00:02:01,780 --> 00:02:07,340
+Si yo lo dejo así que creen que aparecer 10 porque estoy guardándolo valor máximo.
+
+28
+00:02:07,480 --> 00:02:11,620
+Pero si ahora digo el valor medio vamos a ver piensen que números sale.
+
+29
+00:02:11,820 --> 00:02:16,340
+Ojalá que alguien lo diga en voz alta tendría un valor de 2.
+
+30
+00:02:16,440 --> 00:02:16,990
+Por qué.
+
+31
+00:02:17,000 --> 00:02:23,560
+2 porque le está sumando uno al valor que está antes de antes de ser llamado Vesti.
+
+32
+00:02:23,860 --> 00:02:31,680
+Yo puedo definir qué medios tiene un valor de 5 y ahora el audio tiene un valor de 5 las características
+
+33
+00:02:31,680 --> 00:02:36,010
+fuertes de los enumeraciones es que son a prueba de errores en la parte de.
+
+34
+00:02:36,150 --> 00:02:43,170
+Yo puedo equivocarme decir mínimo y aquí el tal escribió Me va a decir el mínimo no existe en la enumeración
+
+35
+00:02:43,170 --> 00:02:45,860
+de tipo volumen ya ya ya.
+
+36
+00:02:46,500 --> 00:02:49,380
+Y ahí ya sé que es lo que está pasando.
+
+37
+00:02:49,380 --> 00:02:58,530
+Vamos a hacer una impresión de todo lo que es la numeración volumen loscambios mirémoslo aquí en la
+
+38
+00:02:58,530 --> 00:03:08,160
+consola y básicamente la numeración son pares de valores ordenados por ejemplo el 1 tiene como valor
+
+39
+00:03:08,190 --> 00:03:11,820
+mín y a la vez Max tiene un valor de 10.
+
+40
+00:03:11,870 --> 00:03:13,740
+Quiero que razonemos esto.
+
+41
+00:03:13,740 --> 00:03:18,900
+Básicamente lo que hace es permitirnos a nosotros cuando éramos objeto .1.000 nos regresa al valor de
+
+42
+00:03:18,900 --> 00:03:19,640
+1.
+
+43
+00:03:19,710 --> 00:03:27,000
+Lo mismo sucedería si yo digo objeto punto 1 o punto 5.10 claro los números directamente no se pueden
+
+44
+00:03:27,270 --> 00:03:29,960
+usar en cada vez que connotación de punto.
+
+45
+00:03:30,210 --> 00:03:37,250
+Puedo decir lo siguiente volumen llaves y quiero del valor 5.
+
+46
+00:03:37,260 --> 00:03:43,290
+Por ejemplo si lo hago así aquí tengo la palabra medio aunque creo que también funciona si lo dejo así
+
+47
+00:03:43,290 --> 00:03:45,240
+nomás.
+
+48
+00:03:45,930 --> 00:03:51,000
+Pero esto no se usa realmente las enumeraciones tienen como objetivo más bien darle un sentido lógico
+
+49
+00:03:51,420 --> 00:03:55,770
+a un conjunto de números y no al revés.
+
+50
+00:03:55,770 --> 00:04:02,670
+Si vemos el código que genera JavaScript pues es una cosa medio extraña o algo enredada darle una superaciones
+
+51
+00:04:02,670 --> 00:04:10,050
+ahí es esta parte de acá que lo que hace es básicamente crear ese objeto y asignarle a volumen los veo
+
+52
+00:04:10,050 --> 00:04:10,770
+en el siguiente video.

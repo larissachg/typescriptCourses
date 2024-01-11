@@ -1,0 +1,79 @@
+1
+00:00:03,530 --> 00:00:09,470
+Es posible utilizar las interfaces para definir los métodos propiedades que va a tener una clase es
+
+2
+00:00:09,470 --> 00:00:18,350
+decir obligar a las clases a que tengan una cierta forma por decirlo así creamos una clase mutante que
+
+3
+00:00:18,350 --> 00:00:22,570
+se va a llamar así como los Hombres X para que tenga sentido lo del sexo.
+
+4
+00:00:23,000 --> 00:00:24,430
+La clase mutante sí.
+
+5
+00:00:24,470 --> 00:00:32,060
+Normalmente se definen de esa manera pero esta clase en particular va a implementar por decirlo así.
+
+6
+00:00:32,120 --> 00:00:38,060
+Implement la interfaz X-Men de esa forma.
+
+7
+00:00:38,060 --> 00:00:43,670
+En este momento me está dando un error porque la clase mutante no implementa correctamente la interfaz
+
+8
+00:00:43,700 --> 00:00:44,740
+X-Men.
+
+9
+00:00:44,810 --> 00:00:53,660
+Puedo decirle OK tienes que tener el nombre y será el tipo string y tendrá el método regenerarlo parentesis
+
+10
+00:00:53,750 --> 00:00:55,450
+que recibió un parámetro.
+
+11
+00:00:55,460 --> 00:01:02,450
+Voy a poner aquí un nombre un nombre X nombre cualquier puede ser el mismo si usted desea y esta función
+
+12
+00:01:02,720 --> 00:01:06,230
+va a regresar a un solo Hola espacio no.
+
+13
+00:01:07,520 --> 00:01:13,370
+Si ustedes se fijan ya no tengo el error y la clase porque la clase está correctamente implementando
+
+14
+00:01:13,610 --> 00:01:26,720
+la interfaz en este punto yo podía crear a Hualpén Wolverine igual a new mutante parentesis y por consecuencia
+
+15
+00:01:26,720 --> 00:01:33,200
+Wolverine debería tener todos los métodos y propiedades por lo menos que son obligatorios de X-Men pero
+
+16
+00:01:33,200 --> 00:01:39,170
+realmente lo es viendo a través de la clase mutante porque yo puedo definir aquí otros métodos y propiedades
+
+17
+00:01:39,200 --> 00:01:48,740
+o por ejemplo poder que también será del tipo string o un esbueno por ejemplo es bueno que será el tipo
+
+18
+00:01:48,740 --> 00:01:56,950
+booleano ustedes se fijan no da error de la interfaz porque satisface esto pero le podemos agregar otras
+
+19
+00:01:56,950 --> 00:01:57,670
+cosas.
+
+20
+00:01:57,880 --> 00:02:01,540
+Básicamente eso es todo con la parte de las interfaces en las clases.

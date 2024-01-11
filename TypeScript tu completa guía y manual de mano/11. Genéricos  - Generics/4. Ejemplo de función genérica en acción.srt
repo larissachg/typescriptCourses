@@ -1,0 +1,111 @@
+1
+00:00:03,750 --> 00:00:07,120
+Vamos a ser otro ejemplo de la función genérica.
+
+2
+00:00:07,730 --> 00:00:11,490
+Creemos primeramente función genérica.
+
+3
+00:00:11,500 --> 00:00:20,820
+Así se va a llamar été para hacerla genérica parentesis va a recibir algún argumento de tipo y lo que
+
+4
+00:00:20,820 --> 00:00:26,580
+va a ser es el retorno de El argumento que ya sabemos que es de tipo T O sea puede ser cualquier tipo
+
+5
+00:00:27,060 --> 00:00:28,710
+de argumento.
+
+6
+00:00:28,710 --> 00:00:37,080
+Creamos dos tipos personalizados de datos para que minen que se pueden usar Taipe héroe que este tipo
+
+7
+00:00:37,080 --> 00:00:44,430
+va a tener el nombre de tipo string y tendrá el nombre real que es de tipo Schreck también.
+
+8
+00:00:44,980 --> 00:00:52,950
+Ahora creamos otro tipo villano que será o mejor dicho que tendrá el nombre puntos de tipo string y
+
+9
+00:00:52,950 --> 00:01:02,210
+tendrá el poder el poder que dos tipos también luego creé unos a Deadpool.
+
+10
+00:01:02,480 --> 00:01:11,550
+Left Behind pull que será este objeto y vamos a aclarar un par de propiedades tendrá el nombre que será
+
+11
+00:01:12,460 --> 00:01:26,790
+Deadpool coma tendrá el nombre real dos puntos será como se llama We will Winston Winston Wilson y el
+
+12
+00:01:26,790 --> 00:01:34,950
+poder es la regeneración una regeneración exagerada pero es la regeneración puntico.
+
+13
+00:01:35,130 --> 00:01:40,470
+Si ustedes se fijan ya van viendo por dónde va el asunto handed Pul puede ser villano o puede ser un
+
+14
+00:01:40,470 --> 00:01:43,410
+héroe cualquiera las dos.
+
+15
+00:01:43,890 --> 00:01:52,430
+Ahora vamos a seguir con su blog y vamos a mostrarles aquí usar la función genérica y le voy a mandar
+
+16
+00:01:52,490 --> 00:02:00,740
+a Deadpool aquí por defecto me lo acepta porque es una función genérica y al poner un punto me aparecen
+
+17
+00:02:00,740 --> 00:02:05,140
+las propiedades de nombre nombre real y poder porque eso es lo que tiene Deadpool.
+
+18
+00:02:05,180 --> 00:02:09,350
+No le estoy diciendo que es un héroe no le estoy diciendo que es un villano tampoco está regresando
+
+19
+00:02:09,350 --> 00:02:17,930
+a Deadpool como objeto o como tipo en sí pero yo puedo especificar al Tawfiq que lo maneje como un héroe
+
+20
+00:02:18,020 --> 00:02:18,870
+o como un villano.
+
+21
+00:02:18,950 --> 00:02:23,840
+Yo estoy mandando un héroe manejado como un héroe como villano manejado como un villano es decir sólo
+
+22
+00:02:23,840 --> 00:02:27,980
+quiero las propiedades del héroe o sólo quiero las propiedades del villano acordémonos que puede tener
+
+23
+00:02:27,980 --> 00:02:35,130
+métodos y otras cosas cómo hacemos para decirle ataques Ok ese es un héroe o es un villano mandando
+
+24
+00:02:35,240 --> 00:02:45,520
+el tipo antes de los paréntesis aquí voy a decirle que es un héroe héroe al hacer eso y poner punto.
+
+25
+00:02:45,530 --> 00:02:50,450
+Sólo me salen las propiedades de nombre y nombre real porque eso es lo que tienen los héroes si yo lo
+
+26
+00:02:50,450 --> 00:02:56,660
+pongo aquí que es un villano y pongo punto me aparecerán sólo las propiedades y métodos del villano
+
+27
+00:02:57,020 --> 00:03:04,440
+en ese caso sería nombre y poder esto es para que ustedes sepan cómo podemos manejar o tener una flexibilidad
+
+28
+00:03:04,890 --> 00:03:08,390
+y todavía tener el control de Tawfiq a la mano lo que veo en el siguiente video.

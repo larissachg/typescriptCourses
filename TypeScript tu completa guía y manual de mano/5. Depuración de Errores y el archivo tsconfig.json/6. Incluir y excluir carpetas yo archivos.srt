@@ -1,0 +1,135 @@
+1
+00:00:03,230 --> 00:00:08,400
+Ya en proyectos más grandes usualmente se le dice a Thaís qué es lo que usted quiere compilar.
+
+2
+00:00:08,430 --> 00:00:11,790
+Qué es lo que queremos convertir a JavaScript y excluir unos archivos.
+
+3
+00:00:11,800 --> 00:00:14,500
+Pero incluir otros otros archivos.
+
+4
+00:00:14,500 --> 00:00:19,180
+Eso sucede particularmente cuando se crea un proyecto usando Nott
+
+5
+00:00:21,940 --> 00:00:25,160
+por ejemplo cuando tenemos la carpeta normal.
+
+6
+00:00:25,390 --> 00:00:31,690
+Eso no debe de ser compilado se supone que el código ya incluido y está correcto y procesado y depurado
+
+7
+00:00:31,690 --> 00:00:33,940
+y podemos confiar en que todo eso está bien.
+
+8
+00:00:33,940 --> 00:00:36,090
+Nosotros ocupamos excluir esa carpeta.
+
+9
+00:00:36,190 --> 00:00:44,170
+Puede ser que ocupemos también excluir la de la raíz y trabajar únicamente con un archivo o una carpeta
+
+10
+00:00:44,230 --> 00:00:49,300
+llamada Apep punto J.V y que aquí adentro pueda haber otro archivo o en otro folder.
+
+11
+00:00:49,300 --> 00:00:54,910
+Digamos que es egresé sources lo que sea cómo le decimos ataques ok.
+
+12
+00:00:54,960 --> 00:01:02,690
+Compila sólo lo que está en APP punto bueno todo lo que esté en la carpeta Peppe pero excluye los módulos.
+
+13
+00:01:02,690 --> 00:01:08,610
+Voy a copiar un archivo lo voy a pegar aquí le voy a pegar aquí o esperar aquí para que ustedes ven
+
+14
+00:01:10,060 --> 00:01:10,930
+lo que hizo fue clonar.
+
+15
+00:01:10,960 --> 00:01:19,220
+Dentro de esas carpetas cómo le digo Okita ignorarme es vamos archivo configuración del TS confi.
+
+16
+00:01:19,450 --> 00:01:24,100
+No es una regla de compilador pero sí es una regla que vamos a agregar aquí.
+
+17
+00:01:24,210 --> 00:01:32,890
+Koma digamos que sólo queremos incluir una una carpeta en este caso queremos incluir solo el PP punto
+
+18
+00:01:33,360 --> 00:01:37,310
+donde solo la PPerro y la costumbre que tengo de siempre usar ese archivo.
+
+19
+00:01:37,600 --> 00:01:46,090
+Quiero que me cumplirles en la carpeta a Pepe plica todas las carpetas y todas todos los archivos que
+
+20
+00:01:46,090 --> 00:01:55,300
+recopila es todo lo que hay ahí pero solo dentro de APP y a la vez quiero que me excluyan ex club a
+
+21
+00:01:55,300 --> 00:01:57,830
+la vez quiero que me excluyan.
+
+22
+00:01:58,310 --> 00:02:05,980
+Lo que se encuentra en estos pactos y no quiero que me copiarles los módulos ni quiero que me Compile.
+
+23
+00:02:06,020 --> 00:02:07,610
+Vamos a pensar en otra.
+
+24
+00:02:07,640 --> 00:02:13,800
+Supongamos que tenemos otra carpeta llamada SSO directamente en la raíz.
+
+25
+00:02:13,820 --> 00:02:16,730
+No está acaso no una que tuviéramos aquí en la raíz.
+
+26
+00:02:16,730 --> 00:02:21,710
+Como es un arreglo ustedes pueden definir todo lo que quieren compilar o no. Aquí podrían agregar otros
+
+27
+00:02:21,710 --> 00:02:22,250
+Pats.
+
+28
+00:02:22,250 --> 00:02:26,150
+Esto es bien común verlo o yo sãmbolos cambios.
+
+29
+00:02:26,150 --> 00:02:32,690
+Me voy aquí a la consola o la terminal y voy a escribir simplemente te.
+
+30
+00:02:32,870 --> 00:02:39,730
+Al hacer eso sí va a buscar el archivo these config y va a usar las reglas que están especificadas ahí.
+
+31
+00:02:40,750 --> 00:02:48,950
+Si vemos quiero que observen que el archivo a Pepe Quiroga chopped sources en la raíz de la PP pero
+
+32
+00:02:48,950 --> 00:02:56,900
+me dejó el de los módulos de vacío y el que está en la misma así que repito esto es bien común verlo
+
+33
+00:02:56,900 --> 00:02:59,510
+especialmente bueno ya están trabajando en proyectos de gran escala.
+
+34
+00:02:59,570 --> 00:03:03,740
+No nos interesa copiar ciertas cosas o donde solo queremos compilar algo en particular.

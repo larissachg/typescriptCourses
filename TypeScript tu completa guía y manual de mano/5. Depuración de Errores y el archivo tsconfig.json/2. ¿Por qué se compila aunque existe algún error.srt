@@ -1,0 +1,91 @@
+1
+00:00:03,110 --> 00:00:08,350
+Yo sé que más de uno ya vio que aunque suceda un error en el lado del target group siempre genera archivos
+
+2
+00:00:08,460 --> 00:00:10,050
+de JavaScript.
+
+3
+00:00:10,190 --> 00:00:11,320
+Vamos a ser un ejemplo.
+
+4
+00:00:11,440 --> 00:00:13,160
+Voy a decir que el héroe es igual.
+
+5
+00:00:13,310 --> 00:00:16,560
+Sabemos que es todo un error porque es de tipo string el tipo número.
+
+6
+00:00:16,990 --> 00:00:18,230
+Y ahí tenemos marcado el error.
+
+7
+00:00:18,470 --> 00:00:22,690
+Pero posteriormente voy a hacer una impresión en consola de héroe.
+
+8
+00:00:22,820 --> 00:00:29,120
+Aquí tenemos el error marcado aquí también tenemos el error marcado y si lo combinamos como normalmente
+
+9
+00:00:29,120 --> 00:00:38,490
+daríais con piratas haciendo un TSC menos Pepe punto 13 va a salir el error de que el número no es asignarle
+
+10
+00:00:38,540 --> 00:00:47,370
+a un tipo string ok pero el archivo de AP p.ej. que tenemos todo funcionando y este código es JavaScript
+
+11
+00:00:47,410 --> 00:00:51,820
+válido si lo vemos en la consola cargábamos tenemos 30.
+
+12
+00:00:53,230 --> 00:00:55,390
+Pero por qué pasa eso.
+
+13
+00:00:55,390 --> 00:01:00,550
+Asumamos que tenemos creo que la explicación más fácil que se puede dar es que tiene scripts.
+
+14
+00:01:00,670 --> 00:01:06,250
+Si estuvieses estuvieran usando una librería de terceros por ejemplo cuerito ustedes hicieron un código
+
+15
+00:01:06,250 --> 00:01:12,490
+que no está en tal fin pero hay funciones que están definidas ahí pero en su archivo índex HTML en algún
+
+16
+00:01:12,490 --> 00:01:18,430
+lado tiene la importación podría ser que funcione Fripp siempre le va a dar la opción para que ustedes
+
+17
+00:01:18,430 --> 00:01:24,250
+puedan probar su código sin si esto les diera un error y no lo compilaba pues ahí tendríamos otro tipo
+
+18
+00:01:24,250 --> 00:01:25,090
+de dolores de cabeza.
+
+19
+00:01:25,660 --> 00:01:31,220
+Pero esto nada más es una nota alternativa para que ustedes sepan que se puede hacer otra cosa.
+
+20
+00:01:31,220 --> 00:01:33,960
+Mencio como yo menciono cuatro librerías de terceros.
+
+21
+00:01:34,060 --> 00:01:39,790
+Más adelante vamos a ver cómo utilizar estas herramientas u otras frameworks o librerías en un proyecto
+
+22
+00:01:39,790 --> 00:01:40,300
+con.
+
+23
+00:01:40,570 --> 00:01:42,370
+Pero eso lo veremos más adelante.

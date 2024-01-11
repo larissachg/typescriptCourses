@@ -1,0 +1,143 @@
+1
+00:00:03,300 --> 00:00:08,000
+En Javascript por defecto todos los parámetros son opcionales.
+
+2
+00:00:08,100 --> 00:00:14,010
+Ustedes no pueden obligar a nadie a usar una función que tenga esos parámetros.
+
+3
+00:00:14,010 --> 00:00:19,930
+Es decir si yo defino una función que por consecuencia necesite cinco parámetros pero sólo envían.
+
+4
+00:00:19,950 --> 00:00:24,110
+Es totalmente válido y JavaScript lo va a intentar ejecutar dentro de la función.
+
+5
+00:00:24,110 --> 00:00:26,180
+Hay que ser validaciones para controlar eso.
+
+6
+00:00:26,280 --> 00:00:34,470
+Sólo para ejemplificar eso voy a quedarme aquí rápidamente una función llamada Ola que recibe como parámetro
+
+7
+00:00:34,500 --> 00:00:44,220
+el nombre de quien yo quiero saludar y lo único que hace es retornar el mensaje diciendo Hola.
+
+8
+00:00:44,840 --> 00:00:54,840
+El nombre es y ahora yo puedo decir hola hola fernando por ejemplo yo lo tenía aquí obviamente porque
+
+9
+00:00:54,840 --> 00:00:59,940
+hago las prácticas no pero esto lo estoy definiendo en este momento dijo Hola Fernando y salió la Fernando
+
+10
+00:00:59,940 --> 00:01:04,230
+perfectamente pero yo puedo obviar mandar ese mensaje iba a seguir.
+
+11
+00:01:04,290 --> 00:01:08,220
+Hola ondee fin vamos a ver eso en taxi.
+
+12
+00:01:10,230 --> 00:01:18,090
+Yo puedo crear una función llamada nombre completo que recibe o debería de recibir el nombre como un
+
+13
+00:01:18,090 --> 00:01:26,690
+tipo string y el apellido como tipo esto va a regresarnos el nombre concatenado por ejemplo.
+
+14
+00:01:27,090 --> 00:01:35,130
+Por eso le voy a poner de ti pues iba a ser Returned de El nombre más un espacio más el apellido.
+
+15
+00:01:35,270 --> 00:01:42,300
+Cómo vamos a declararnos una variable tipo nombre que será el retorno de la función nombre completo
+
+16
+00:01:44,160 --> 00:01:48,600
+y creemos a Barry Allen.
+
+17
+00:01:48,610 --> 00:01:51,780
+Cómo iba a ser con solo de nombre.
+
+18
+00:01:51,780 --> 00:01:56,950
+Nada del otro mundo lo único que hace es concatenar ambas palabras y mostrarlas aquí en consola.
+
+19
+00:01:57,030 --> 00:01:58,430
+Nada del otro mundo.
+
+20
+00:01:58,680 --> 00:02:06,630
+Pero qué pasa si mi función efectivamente pudiera trabajar solo con el nombre de Barry y el apellido
+
+21
+00:02:06,690 --> 00:02:13,080
+es opcional si lo envían bien y si no lo envían pues es también pero por defecto si lo hago así estoy
+
+22
+00:02:13,080 --> 00:02:15,610
+definiendo que estos parámetros sean obligatorios.
+
+23
+00:02:15,630 --> 00:02:17,660
+Ambos el nombre y el apellido.
+
+24
+00:02:17,700 --> 00:02:20,820
+Cómo puedo hacer para decirle No yo sé lo que estoy haciendo.
+
+25
+00:02:20,820 --> 00:02:23,990
+El apellido es opcional puedes trabajar con eso.
+
+26
+00:02:24,300 --> 00:02:24,960
+Ok.
+
+27
+00:02:24,960 --> 00:02:32,400
+Después de El nombre de la variable que viene por parametro o del argumento puedo poner un signo de
+
+28
+00:02:32,400 --> 00:02:33,240
+interrogación.
+
+29
+00:02:33,360 --> 00:02:38,380
+Si ustedes ven inmediatamente el código de esa preciosa el mensaje de error tras los cambios.
+
+30
+00:02:38,400 --> 00:02:40,630
+Pero ahora me va a decir Barry on the.
+
+31
+00:02:41,340 --> 00:02:44,050
+Pero eso en teoría es lo que estoy buscando hacer.
+
+32
+00:02:44,130 --> 00:02:48,630
+Puedo agregar una condición aquí sencilla y decir si el apellido existe.
+
+33
+00:02:48,630 --> 00:02:55,700
+O sea si el apellido existe entonces haga el ratón de eso si no del solo el nombre.
+
+34
+00:02:55,780 --> 00:02:58,320
+Por qué el nombre sí es obligatorio.
+
+35
+00:02:58,330 --> 00:03:06,210
+Si lo dejaba sin recargo pues sólo tengo Barry pero sí mando Barry Allen sumando barrial en recargó.
+
+36
+00:03:06,330 --> 00:03:09,480
+Pues ahí sí está trabajando en esa manera.

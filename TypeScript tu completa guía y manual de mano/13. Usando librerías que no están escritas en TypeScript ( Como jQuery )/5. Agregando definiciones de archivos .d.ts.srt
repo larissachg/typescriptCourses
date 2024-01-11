@@ -1,0 +1,179 @@
+1
+00:00:03,980 --> 00:00:07,740
+Cómo resolvemos el problema de El símbolo del dólar ahí.
+
+2
+00:00:07,760 --> 00:00:10,540
+Porque no sabe qué hacer con eso.
+
+3
+00:00:10,560 --> 00:00:18,080
+Bueno si ustedes buscan en Google defending lítico es un repositorio de Guijo que tiene una cantidad
+
+4
+00:00:18,080 --> 00:00:21,890
+descomunal de archivos de definición.
+
+5
+00:00:21,890 --> 00:00:28,070
+Los archivos de definición simplemente le enseñan a Taipe scrip cómo funcionan esas librerías.
+
+6
+00:00:28,080 --> 00:00:34,080
+Hay un montón hay miles y miles son un montón es el repositorio más grande que hay de definiciones de
+
+7
+00:00:34,080 --> 00:00:34,800
+archivos.
+
+8
+00:00:34,800 --> 00:00:40,110
+Piensen en esto como en la película de Matrix que llegaba y se sentaba en una máquina y si quería aprender
+
+9
+00:00:40,110 --> 00:00:44,280
+karate le metían una cosa en la nuca y le descargaban el archivo.
+
+10
+00:00:44,310 --> 00:00:51,240
+Es exactamente lo mismo pero para Tachi ahora aquí encontrar Recovery pues nos vamos a hacer piedras
+
+11
+00:00:51,240 --> 00:00:57,210
+entonces les recomiendo que ustedes busquen defendía Itaipu y Cleri se van al primer link por lo general
+
+12
+00:00:57,210 --> 00:00:59,100
+es ese y aquí está el archivo.
+
+13
+00:00:59,100 --> 00:01:07,350
+Ustedes necesitan el índex punto de .3 pero no lo vayan a descargar no lo descarguen no lo descarguen
+
+14
+00:01:08,240 --> 00:01:09,890
+yo se lo voy a mostrar nada más.
+
+15
+00:01:10,050 --> 00:01:11,980
+No lo descarguen estando la forma de hacerlo.
+
+16
+00:01:11,980 --> 00:01:14,960
+Esta es una forma pero no se lo recomiendo todavía.
+
+17
+00:01:14,990 --> 00:01:22,080
+Espérense esto es un archivo de definiciones que tiene todas las funciones que tiene ya hasta el momento
+
+18
+00:01:23,060 --> 00:01:30,240
+van a darle click aquí o al menos yo lo voy a hacer copiar todo este archivo todo el texto que está
+
+19
+00:01:30,240 --> 00:01:40,140
+ahí me voy a mi proyecto derecho nuevo archivo y lo pondré Kairi Punto de Punto de ese ente pego todo
+
+20
+00:01:40,500 --> 00:01:45,710
+salvo y van a ver que el error mágicamente va a desaparecer.
+
+21
+00:01:45,760 --> 00:01:48,390
+Queremos saber qué pasó.
+
+22
+00:01:48,420 --> 00:01:56,220
+Veremos veremos y ahí está mágicamente desapareció en este preciso momento qué es lo que hizo tal script
+
+23
+00:01:56,520 --> 00:02:05,070
+leyó ese archivo y ya sabe cómo funciona ya que es decir voy a comentar esto y lo voy a volver a escribir
+
+24
+00:02:05,070 --> 00:02:12,940
+para que vean el símbolo de dólar parentesis documento punto y qué es esto que me está pareciendo acá.
+
+25
+00:02:13,260 --> 00:02:19,470
+Ven Hublot primum Clas Baul un montón de cosas que vienen de fuera eso es todo lo que yo puedo hacer
+
+26
+00:02:19,500 --> 00:02:20,790
+en este momento.
+
+27
+00:02:20,790 --> 00:02:24,700
+Tengo todas las definiciones en mi editor Atom.
+
+28
+00:02:25,200 --> 00:02:28,080
+Entonces lo que necesito es el rugby.
+
+29
+00:02:28,420 --> 00:02:35,070
+Hay start up parentesis me está dando un error de compilación porque no he mandado los parámetros perfecto
+
+30
+00:02:35,370 --> 00:02:45,600
+function parentesis ahora hicieron llaves enter y ahora voy a hacer un solo de página cargada.
+
+31
+00:02:45,790 --> 00:02:49,850
+Tras los cambios vamos a recargar el navegador web.
+
+32
+00:02:50,090 --> 00:02:50,950
+Por qué.
+
+33
+00:02:51,070 --> 00:02:55,540
+Así es que yo seré el Atom relató.
+
+34
+00:02:55,560 --> 00:03:02,220
+Entonces tengo que ser NPA me Blondet para volver a echar andar el servidor bueno aquí estamos en Google
+
+35
+00:03:02,230 --> 00:03:04,600
+con recargo y ahí esta página cargada.
+
+36
+00:03:04,830 --> 00:03:05,980
+Perfecto.
+
+37
+00:03:06,030 --> 00:03:08,760
+De hecho a mí me encanta hacer esto.
+
+38
+00:03:08,910 --> 00:03:15,840
+Ahora vamos a ver otra cosa por qué les dije que no se lo descargarán de esa manera porque en este caso
+
+39
+00:03:15,870 --> 00:03:19,860
+como es un archivo externo tendríamos que volverlo pasar.
+
+40
+00:03:19,860 --> 00:03:24,870
+Y lo más probable es que este mismo archivo se vaya actualizando la gente que hace estos Taiping.
+
+41
+00:03:25,150 --> 00:03:28,530
+Otros archivos de definición perdón van actualizando su código.
+
+42
+00:03:28,560 --> 00:03:31,380
+Entonces no es bueno pasarse los Enduro.
+
+43
+00:03:31,590 --> 00:03:39,510
+Qué les parece si mejor no hacemos que cuando las personas instala el proyecto con el MPM USOC también
+
+44
+00:03:39,730 --> 00:03:40,920
+esa dependencia.
+
+45
+00:03:40,920 --> 00:03:42,080
+Eso lo vamos a ver en el siguiente video.

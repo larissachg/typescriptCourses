@@ -1,0 +1,271 @@
+1
+00:00:03,530 --> 00:00:06,470
+Es posible depurar un código de Fripp.
+
+2
+00:00:06,620 --> 00:00:08,090
+Esa es una buena pregunta.
+
+3
+00:00:09,250 --> 00:00:18,140
+Bueno vamos a pensar en lo siguiente queremos un programa algo rápido función imprimir y recibe un héroe
+
+4
+00:00:18,840 --> 00:00:25,210
+un héroe de la edad de tipo nombre y va a regresar un Stroheim.
+
+5
+00:00:25,990 --> 00:00:29,640
+Lo que vamos a hacer acá es simplemente eso vamos a hacer un par de procesos.
+
+6
+00:00:29,670 --> 00:00:31,820
+Héroe sí vuela héroe apuntó.
+
+7
+00:00:31,850 --> 00:00:34,060
+Tú lo Walkers parentesis.
+
+8
+00:00:34,220 --> 00:00:42,740
+Vamos a hacer que la edad es igual a la edad más 10 y vamos a hacer un retorno de eso vamos a hacer
+
+9
+00:00:42,740 --> 00:00:45,270
+algo así rápido.
+
+10
+00:00:45,500 --> 00:00:46,740
+Héroe.
+
+11
+00:00:46,740 --> 00:00:51,360
+Más espacio más edad.
+
+12
+00:00:51,420 --> 00:00:52,950
+Aquí si lo hacemos.
+
+13
+00:00:52,950 --> 00:00:57,770
+Lo ha dicho y lo va a convertir a pesar de que sabe que es un número pero sabe que la concatenación
+
+14
+00:00:58,520 --> 00:01:01,690
+es un castigo o lo traspasa a ser un estreno.
+
+15
+00:01:02,330 --> 00:01:06,020
+Pero bueno no me crean ya lo vamos a ver más adelante.
+
+16
+00:01:06,280 --> 00:01:14,090
+Aquí vamos a declarar una nueva variable llamada mensaje que va a ser igual a imprimir paréntesis que
+
+17
+00:01:14,240 --> 00:01:19,940
+el héroe como él edad dijo Obama con de mensaje.
+
+18
+00:01:19,970 --> 00:01:25,090
+Nada del otro mundo simplemente es un procedimiento que va a venir por acá va a llegar este punto va
+
+19
+00:01:25,100 --> 00:01:30,380
+a saltar y va empezar a hacer este lo va a procesar luego va a regresar a esta parte y ese sería el
+
+20
+00:01:30,380 --> 00:01:31,640
+flujo de la compilación.
+
+21
+00:01:31,650 --> 00:01:38,120
+No si yo grabo los cambios y me voy a mi aplicación en JavaScript simplemente aparece la respuesta.
+
+22
+00:01:38,120 --> 00:01:45,390
+Ricardo Tapia de minuscula de 40 años ingresó como 10 era sources.
+
+23
+00:01:45,410 --> 00:01:52,590
+No hay nada no hay nada interesante acá Network pues lo único que cargó fue el archivo.
+
+24
+00:01:52,590 --> 00:01:58,430
+Aquí lo único que cárabo fue el archivo Apep p.ej. es no hay referencia alguna del archivo de Tapscott.
+
+25
+00:01:58,550 --> 00:02:04,280
+Si nosotros vemos este código de acá en teoría no tiene mucho sentido poderlo revisar porque no lo hicimos
+
+26
+00:02:04,280 --> 00:02:04,820
+nosotros.
+
+27
+00:02:04,820 --> 00:02:11,600
+Lo hizo el compilador de texto ahora pero si tuviéramos un problema porque una variable está mal asignada
+
+28
+00:02:11,600 --> 00:02:14,820
+o en algún punto está sucediendo algo raro.
+
+29
+00:02:14,870 --> 00:02:19,940
+Cómo podemos hacer para encontrar el error en el archivo estadístico.
+
+30
+00:02:19,950 --> 00:02:20,880
+Buena pregunta.
+
+31
+00:02:21,560 --> 00:02:22,290
+Primero que nada.
+
+32
+00:02:22,300 --> 00:02:27,620
+Eso se logra con los archivos Mapp con extensión punto Mapp.
+
+33
+00:02:28,160 --> 00:02:36,230
+Aquí en el TS confit lo más fácil es poner la Kishore SMAP Truc graban los cambios y ahora cuando yo
+
+34
+00:02:36,230 --> 00:02:45,520
+grabe o modifique un archivo o haga o realice la compilación del script me va a generar el archivo con
+
+35
+00:02:45,520 --> 00:02:48,030
+el Sorzabal ustedes hacen nada más.
+
+36
+00:02:49,190 --> 00:02:55,800
+Si ustedes se fijan ya me creo la Chew del Sol SMAP y es como un Jayson ahí con unas cosas raras.
+
+37
+00:02:55,930 --> 00:03:01,030
+Las raíces no se preocupen mucho por eso ya tengo mi archivo del Sorzabal.
+
+38
+00:03:01,210 --> 00:03:05,920
+Voy a regresar de Google Crom recargo y aquí todo se mira casi igual.
+
+39
+00:03:05,960 --> 00:03:12,040
+Pero miramos en los sources en las onces ones o en las fuentes de prensa en español y en inglés.
+
+40
+00:03:12,430 --> 00:03:19,180
+Aquí le agregó al archivo que hay un short Map o R.L de lápiz p.ej. ese punto Mapp que es este de acá
+
+41
+00:03:20,050 --> 00:03:22,530
+a ese archivo le pone LPP .3.
+
+42
+00:03:22,630 --> 00:03:24,330
+Nuestro archivo de tips.
+
+43
+00:03:24,700 --> 00:03:31,270
+Si ustedes ven esta sintácticamente igual con las mismas líneas la última línea la 20 la última línea
+
+44
+00:03:31,270 --> 00:03:37,480
+en la 20 todo en este preciso momento ustedes pueden llegar y decir quiero hacer un break point o punto
+
+45
+00:03:37,480 --> 00:03:38,560
+de quiebre.
+
+46
+00:03:38,570 --> 00:03:41,490
+Aquí tocan el número y pone en pausa.
+
+47
+00:03:41,530 --> 00:03:48,880
+Si recargó el navegador web para ver que aquí se puso en pausa por decirlo así el intérprete y estoy
+
+48
+00:03:48,880 --> 00:03:53,450
+en este punto puedo ver el valor que tiene héroe dejando el mouse encima.
+
+49
+00:03:53,510 --> 00:03:59,600
+Y si Ricardo Tapia en este momento estás inscrito luego la edad es de 30 mensajes.
+
+50
+00:03:59,620 --> 00:04:04,300
+Todavía no está definido por qué está entrando la función ahora miremos.
+
+51
+00:04:04,330 --> 00:04:07,600
+Voy a cerrar esto a cada momento y hacer esto un poco más grande.
+
+52
+00:04:07,600 --> 00:04:15,970
+Tengo un muy alto pero lo que me interesa ahorita es esta parte de acá o que esté over next expansión
+
+53
+00:04:16,460 --> 00:04:21,850
+no porque saltaría el siguiente lo que me interesa es STEPV expansión porque aquí esto es una función.
+
+54
+00:04:21,850 --> 00:04:26,040
+Necesito que entre a esta parte supuesto para este botón.
+
+55
+00:04:26,110 --> 00:04:29,000
+Si ustedes se fijan saltó y entro aquí la parte del M.
+
+56
+00:04:29,260 --> 00:04:33,720
+Puedo ver los parámetros Ricardo Tapia esto es lo que estoy enviando 30 aquí nada más.
+
+57
+00:04:33,730 --> 00:04:41,110
+La función imprimir tocó el siguiente éster Over the Top 5 7.
+
+58
+00:04:41,110 --> 00:04:48,000
+Ahora vemos que Ricardo tableto está en minúscula aquí en estos momentos es XXX voy a dar el siguiente.
+
+59
+00:04:48,130 --> 00:04:51,020
+Ahora le da 40 aquí lo va.
+
+60
+00:04:51,060 --> 00:04:56,020
+Si ustedes se fijan también le va poniendo aquí al lado para que ustedes no se les olvide que fue lo
+
+61
+00:04:56,020 --> 00:05:04,570
+que pasó en ese momento hace el retorno de El héroe y más la edad sigo llega hasta ese punto siguen
+
+62
+00:05:05,470 --> 00:05:10,150
+regresó al consorcio sigue y ahí ya no hay nada más.
+
+63
+00:05:10,270 --> 00:05:15,040
+En este punto ya tenemos el mensaje en consola de Ricardo Tapia con 40 todo el minuscula.
+
+64
+00:05:15,040 --> 00:05:21,980
+Esa es la ventaja de la parte de los archivos Ozma por defecto ustedes lo pueden manejar en fotos o
+
+65
+00:05:22,000 --> 00:05:30,580
+falso por defecto pero cuando necesiten poder hacer una depuración del código en tiempo de ejecución
+
+66
+00:05:30,580 --> 00:05:33,040
+pueden hacerlo directamente de su Archuleta.
+
+67
+00:05:33,070 --> 00:05:35,990
+Ustedes se olvidan del archivo con excepción putos Atarés.
+
+68
+00:05:36,040 --> 00:05:38,410
+Bueno espero que esto les haya gustado lo que veo en el siguiente video.

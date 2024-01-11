@@ -1,0 +1,123 @@
+1
+00:00:03,290 --> 00:00:08,690
+Por último tenemos los decoradores de parámetros esto nos pueden servir para tener información sobre
+
+2
+00:00:08,780 --> 00:00:12,950
+el parámetro que estamos recibiendo en nuestros en nuestros métodos.
+
+3
+00:00:12,950 --> 00:00:14,480
+No vamos a ver cómo funciona.
+
+4
+00:00:14,490 --> 00:00:21,020
+Creamos un método llamado a imprimir el cual tendrá dos parámetros si yo quiero imprimir el plan que
+
+5
+00:00:21,020 --> 00:00:28,470
+será estipulen y el mensaje será de tipo Street.
+
+6
+00:00:28,760 --> 00:00:35,420
+Esto no va a regresar nada y lo vamos a dejar así que voy a preguntar si quiero imprimir el plan.
+
+7
+00:00:36,500 --> 00:00:44,310
+Entonces haré un consuelo de que el plan es lospuntos espacio Kells.
+
+8
+00:00:44,750 --> 00:00:55,610
+Quiero hacer un solo solo del mensaje aquí el plan es más mensaje ok si viene el parámetro plan a imprimir
+
+9
+00:00:55,610 --> 00:00:58,800
+esto si no imprimir solo el mensaje ok.
+
+10
+00:00:58,940 --> 00:01:02,440
+Qué es eso de los decoradores de propiedades.
+
+11
+00:01:02,510 --> 00:01:06,290
+Los decoradores de parámetros pues acordamos que es una simple función.
+
+12
+00:01:06,290 --> 00:01:12,380
+Todos los decoradores son simples funciones y les voy a poner aquí parámetros como para decir que son
+
+13
+00:01:12,380 --> 00:01:18,500
+decorador de parametro paréntesis como los decoradores de las clases.
+
+14
+00:01:18,500 --> 00:01:26,360
+Esto ya tiene tres por decirlo así parãmetros valga la redundancia parãmetros ya precargados o predefinidos
+
+15
+00:01:26,420 --> 00:01:27,840
+los cuales son los siguientes.
+
+16
+00:01:27,860 --> 00:01:35,430
+Aquí están en la documentación de que uno es lo mismo el target en este caso sería la función clause
+
+17
+00:01:35,450 --> 00:01:43,010
+un miembro estático del otro es el nombre y el último el Index del parámetro la posición quiere decir
+
+18
+00:01:43,230 --> 00:01:51,110
+el índice es la posición del parámetro en la lista de parámetros que son enviados en la lista de argumentos
+
+19
+00:01:51,110 --> 00:01:53,980
+que son enviados a la función.
+
+20
+00:01:54,050 --> 00:02:01,130
+Vamos a ver el primero es el target que será de tipo n porque no sabemos exactamente qué método o qué
+
+21
+00:02:01,130 --> 00:02:01,830
+target serán.
+
+22
+00:02:02,300 --> 00:02:08,780
+El otro es el método o el nombre del método que será de tipo string y el otro es el índex que será tipo
+
+23
+00:02:08,780 --> 00:02:09,780
+number.
+
+24
+00:02:10,180 --> 00:02:15,120
+No va a ser un consolon rápidamente del target método y el Index.
+
+25
+00:02:15,320 --> 00:02:19,400
+Eso es básicamente todo cómo usamos este decorador.
+
+26
+00:02:19,400 --> 00:02:28,550
+Lo vamos a colocar aquí arroba parámetro ojo que no va parentesis no estamos llamando un factor y tampoco
+
+27
+00:02:28,550 --> 00:02:32,480
+es una función que se llama de esa manera simplemente ponemos arroba parametro.
+
+28
+00:02:32,510 --> 00:02:39,330
+En este caso porque parãmetros el nombre de mi función decoradora y llamamos eso si grabamos los cambios.
+
+29
+00:02:39,350 --> 00:02:46,730
+Esto va a funcionar exactamente en el tiempo en que el compilador o intérprete ve esa función y con
+
+30
+00:02:46,730 --> 00:02:51,530
+esto hemos visto rápidamente todos los tipos de decoradores que hay en este momento.
+
+31
+00:02:51,540 --> 00:02:52,450
+Luego en el siguiente video.

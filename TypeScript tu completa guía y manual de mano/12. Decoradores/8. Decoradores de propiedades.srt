@@ -1,0 +1,239 @@
+1
+00:00:03,980 --> 00:00:08,530
+Siguiendo con los decoradores ahora es el turno de los decoradores de las propiedades.
+
+2
+00:00:08,540 --> 00:00:16,040
+He acomodado poquito el código para este caso la función editable está igual como en el ejercicio anterior
+
+3
+00:00:16,070 --> 00:00:18,630
+solo que estaba un poco compacta y le quité el Warmi.
+
+4
+00:00:18,650 --> 00:00:23,380
+La clase sigue siendo la misma sólo que si ustedes se fijan ahora agregué la propiedad aquí para poderla
+
+5
+00:00:23,390 --> 00:00:26,150
+agregar un decorador explícito aquí arriba.
+
+6
+00:00:26,150 --> 00:00:31,310
+El constructor es el mismo solo que aquí establece la propiedad manualmente no con el públic directamente
+
+7
+00:00:32,000 --> 00:00:33,710
+el plan pues sigue siendo editable.
+
+8
+00:00:33,800 --> 00:00:38,540
+Ese es el objetivo que se queda ahí y al final estoy haciendo la declaración de la instancia de Lex
+
+9
+00:00:39,200 --> 00:00:42,080
+y luego imprimo la instancia del ex Luthor.
+
+10
+00:00:42,650 --> 00:00:51,410
+Sería súper útil sería fantástico o mejor dicho si yo pudiera llegar y decir editable y ponerla aquí
+
+11
+00:00:52,830 --> 00:00:57,940
+Fouz así sería perfecto si eso funcionara.
+
+12
+00:00:58,490 --> 00:01:01,590
+Pero no hay que hacer ciertas adecuaciones.
+
+13
+00:01:01,640 --> 00:01:10,100
+Los decoradores de las propiedades son casi iguales a los decoradores de métodos casi casi iguales exceptuando
+
+14
+00:01:10,220 --> 00:01:13,620
+que tienen un retorno un poquito diferente.
+
+15
+00:01:13,640 --> 00:01:18,290
+Bueno viramos acá no podemos poner editable.
+
+16
+00:01:18,290 --> 00:01:20,680
+Definitivamente no es así no funciona.
+
+17
+00:01:21,230 --> 00:01:25,820
+Pero para que vean la similitud voy a copiarme todo esto.
+
+18
+00:01:25,940 --> 00:01:30,200
+Toda esta función editable se la voy a pegar aquí abajo.
+
+19
+00:01:30,200 --> 00:01:33,910
+No pueden llamarse igual pero voy a ponerle editable propiedad
+
+20
+00:01:36,600 --> 00:01:43,460
+proc editable propiedad iguano mismo es editable booleano regresa pues casi todo lo mismo.
+
+21
+00:01:43,500 --> 00:01:49,020
+La única diferencia es que no pasan el descriptor por qué lo hace.
+
+22
+00:01:49,050 --> 00:01:55,010
+Pues según la documentación de Swift pues hay unos problemillas por ahí que no hay manera de hacerlo
+
+23
+00:01:55,590 --> 00:01:57,320
+técnicamente dice esto.
+
+24
+00:01:57,330 --> 00:02:05,340
+En este bloque de aquí se nota un Property descriptor no se proporciona como argumento a un decorador
+
+25
+00:02:05,340 --> 00:02:09,500
+de propiedades debido a cómo se inicializar los decoradores de las propiedades en Tixkokob.
+
+26
+00:02:10,020 --> 00:02:15,300
+Esto se debe a que actualmente no hay ningún mecanismo para describir una propiedad de instancia cuando
+
+27
+00:02:15,300 --> 00:02:21,060
+se definen miembros de un prototipo y no hay forma de observar o modificar el inicializar de una propiedad
+
+28
+00:02:21,360 --> 00:02:22,220
+como tal.
+
+29
+00:02:22,380 --> 00:02:27,360
+Un decorador de propiedades se puede utilizar solamente para observar que una propiedad de un nombre
+
+30
+00:02:27,360 --> 00:02:33,510
+específico se ha declarado en una clase en pocas palabras dice que no no funcionará lo que queremos
+
+31
+00:02:33,510 --> 00:02:34,320
+hacer.
+
+32
+00:02:34,320 --> 00:02:39,780
+Si miramos esta otra línea de aquí abajo dice si un Property de corito o sea un decorador de propiedad
+
+33
+00:02:39,810 --> 00:02:43,560
+regresa un valor será usado como un Property descriptor.
+
+34
+00:02:44,130 --> 00:02:45,200
+Eso es todo.
+
+35
+00:02:45,360 --> 00:02:48,800
+Vamos a ver esto ya en suponer que esto funcionaría.
+
+36
+00:02:48,820 --> 00:02:59,730
+No vamos a ver y decimos queremos un retorno que será de tipo Property descriptor LEP descriptor lospuntos
+
+37
+00:02:59,940 --> 00:03:08,220
+será de Property descripto me sale esto porque tal scrip tiene unas un par de tipos predefinidos que
+
+38
+00:03:08,280 --> 00:03:18,310
+decíamos tiene que escribirle o editable y le pondré es evitable a su vez.
+
+39
+00:03:18,310 --> 00:03:25,280
+Decía que si nosotros regresamos algo así nosotros regresamos algo será usado como Property description
+
+40
+00:03:26,050 --> 00:03:28,860
+pobretón descriptor Tocoma.
+
+41
+00:03:29,280 --> 00:03:36,430
+Entonces lo ideal es que sea de ese tipo ok entonces utilicemos el decorador que acabamos de crear.
+
+42
+00:03:40,010 --> 00:03:48,740
+Equitable propiedad aquí a un error porque tienes que regresar Obey o ya sea voy o es lo que tiene que
+
+43
+00:03:48,740 --> 00:03:50,100
+regresar a casa.
+
+44
+00:03:50,240 --> 00:03:56,740
+Entonces vamos a poner porque podemos regresar el descriptor de propiedad gravó los cambios.
+
+45
+00:03:56,810 --> 00:04:02,600
+Acordémonos de que tenemos que no se puede editar y vamos a ver qué pasa con nuestro código.
+
+46
+00:04:02,750 --> 00:04:07,580
+Aquí le estamos asignando Lex Luthor lo mismo y lo mismo y al final nos estamos imprimiendo.
+
+47
+00:04:07,580 --> 00:04:14,340
+Vamos a ver qué pasa en la consola de cargo y no apareció el nombre del ex.
+
+48
+00:04:14,370 --> 00:04:16,540
+Por qué.
+
+49
+00:04:16,840 --> 00:04:21,560
+Por qué voy a poder aquí Truc grabó los cambios de cargo y ahí se aparece Lex Luthor.
+
+50
+00:04:22,070 --> 00:04:24,290
+Pero qué pasa con falso.
+
+51
+00:04:24,290 --> 00:04:27,820
+Realmente el escrito de la propiedad sí está funcionando.
+
+52
+00:04:28,070 --> 00:04:34,060
+Lo que pasa es que no puedo controlar la escritura porque va a impedir que esta instrucción funcione.
+
+53
+00:04:34,160 --> 00:04:37,370
+Inclusive aunque ustedes lleguen y digan que
+
+54
+00:04:40,100 --> 00:04:46,550
+directamente que este tipo se va a llamar Lex Luthor aunque ustedes lo hagan ahí la propiedad es de
+
+55
+00:04:46,550 --> 00:04:47,750
+solo lectura.
+
+56
+00:04:47,750 --> 00:04:51,870
+Ahora ni siquiera se puede grabar de esa manera.
+
+57
+00:04:51,870 --> 00:04:53,070
+Ok.
+
+58
+00:04:53,240 --> 00:04:59,960
+En la página de scrip hay una instrucción de una propiedad a un decorador de propiedad.
+
+59
+00:04:59,960 --> 00:05:03,180
+Hay un ejercicio bien interesante para cambiar de formato y un saludo.
+
+60
+00:05:03,260 --> 00:05:08,120
+Lo pueden hacer si ustedes gustan para tener un conocimiento más sobre los decoradores de propiedades.

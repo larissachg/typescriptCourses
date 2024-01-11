@@ -1,0 +1,271 @@
+1
+00:00:03,130 --> 00:00:08,580
+Voy a crearme mi primera función genérica function regresar parentesis.
+
+2
+00:00:08,680 --> 00:00:16,120
+Esto va a recibir un argumento o un parámetro como ustedes quieren ponerle que será de tipo n y lo que
+
+3
+00:00:16,120 --> 00:00:20,140
+hace es hacer un retorno de El argumento puntico.
+
+4
+00:00:20,860 --> 00:00:26,000
+Lo que sea que le mandemos como argumento es lo que va a retornar la función.
+
+5
+00:00:26,140 --> 00:00:31,420
+Claro aquí ustedes podrían hacer más cosas como variedad variar el tipo o verificar si son una cosa
+
+6
+00:00:31,810 --> 00:00:37,360
+o realizar diferentes procesos pero en este caso lo único que vamos a hacer es recibir un dato y regresar
+
+7
+00:00:37,360 --> 00:00:41,200
+el dato bien vamos a hacer un par de ejemplos.
+
+8
+00:00:41,520 --> 00:00:48,430
+Con solo regresar parentesis voy a hacer bastante espacio para que podamos verlo bien regresar y voy
+
+9
+00:00:48,430 --> 00:00:54,710
+a mandarle el siguiente número mandarle 15.45 67 89.
+
+10
+00:00:55,060 --> 00:01:04,900
+Luego voy a llamar la función regresar pero voy a mandar un cardo Tapia que suponerlo de esa forma y
+
+11
+00:01:04,900 --> 00:01:10,920
+luego al regresar le voy a mandar un new de una fecha extraña.
+
+12
+00:01:11,620 --> 00:01:17,860
+Grabemos los datos miremos la consola recargamos y tenemos el número tenemos Ricardo Tapia y tenemos
+
+13
+00:01:17,860 --> 00:01:21,390
+un objeto en este caso es la fecha perfecto.
+
+14
+00:01:21,410 --> 00:01:22,400
+Nada del otro mundo.
+
+15
+00:01:22,460 --> 00:01:29,930
+Esto pues no es impresionante en lo absoluto pero vamos a ver ahora sabemos que regresar retorna lo
+
+16
+00:01:29,930 --> 00:01:35,180
+que sea que le mandemos como argumento es decir aquí le estamos mandando un número debería de regresarnos
+
+17
+00:01:35,180 --> 00:01:39,470
+un número correcto pero tal scrip no tiene la menor idea.
+
+18
+00:01:39,470 --> 00:01:44,530
+Si yo escribo un punto no tiene la menor idea de qué es eso que está regresando.
+
+19
+00:01:44,540 --> 00:01:47,520
+Puede ser un número puede ser un string puede ser lo que sea.
+
+20
+00:01:47,930 --> 00:01:56,090
+Puede ser y entonces si nosotros sabemos obviamente sabemos que es un número puedo hacer la función
+
+21
+00:01:56,110 --> 00:02:04,070
+tú FICX y quiero sólo dos decimales si yo grabo los cambios y me voy a al navegador web.
+
+22
+00:02:04,280 --> 00:02:10,260
+Pues ahí tengo ahora el número ya redondeado y sólo dos números decimales.
+
+23
+00:02:11,300 --> 00:02:18,650
+Pero qué pasa ahora si yo le hago el fixed al siguiente dato punto.
+
+24
+00:02:18,690 --> 00:02:19,300
+Fixed.
+
+25
+00:02:19,330 --> 00:02:20,140
+2.
+
+26
+00:02:20,390 --> 00:02:27,070
+Grabo scrip no me está alertando de ningún problema pero igual me estaba permitiendo hacerlo regresó
+
+27
+00:02:27,080 --> 00:02:33,040
+acá recargó y tengo un error aquí pues es bastante feo y ya me detiene el código el programa dice que
+
+28
+00:02:33,070 --> 00:02:33,790
+regresar.
+
+29
+00:02:33,800 --> 00:02:36,450
+Punto tu Fix no es una función.
+
+30
+00:02:36,490 --> 00:02:37,830
+Esto no es válido.
+
+31
+00:02:37,830 --> 00:02:38,110
+Por qué.
+
+32
+00:02:38,240 --> 00:02:40,990
+Porque esto es un instruyan y los Historic no tienen esta función.
+
+33
+00:02:41,130 --> 00:02:44,420
+FICX no digamos la fecha también va a dar error.
+
+34
+00:02:44,420 --> 00:02:46,190
+Bueno ni siquiera está llegando ahí.
+
+35
+00:02:46,910 --> 00:02:50,650
+Sería muy bueno aprovechar la ayuda que nos puede dar Taxqueña.
+
+36
+00:02:50,660 --> 00:02:57,880
+Aquí voy a quitar y dejar esto como está sería muy útil que taichí nos dijera Mira esto se puede hacer
+
+37
+00:02:57,910 --> 00:03:04,870
+o estas son las funciones que vamos a ver qué se puede hacer para esto ya entra en el tema lo que son
+
+38
+00:03:04,870 --> 00:03:06,340
+los genéricos.
+
+39
+00:03:06,340 --> 00:03:09,320
+Así que convirtamos nuestra función en una función genérica.
+
+40
+00:03:09,340 --> 00:03:17,260
+Cómo lo hacemos sino de mayor sino menor y es un estándar poner que nuestro nuestro generica tenga esa
+
+41
+00:03:17,260 --> 00:03:17,710
+T.
+
+42
+00:03:17,740 --> 00:03:25,020
+Eso te puede hacer cualquier cosa puede ser o nada se ve pero es una convención usarla.
+
+43
+00:03:25,030 --> 00:03:32,060
+De hecho ustedes se fijan en la documentación de scrip Quintáns Friedland Punto G.
+
+44
+00:03:32,200 --> 00:03:36,740
+Ellos se acostumbran o recomendados que siempre usemos para los genéricos un té.
+
+45
+00:03:37,300 --> 00:03:45,910
+Entonces bueno voy a poner el té ahí y ya no será de tipo ni será de tipo té que el té va a ser el argumento
+
+46
+00:03:45,910 --> 00:03:47,250
+que recibió.
+
+47
+00:03:47,740 --> 00:03:49,270
+Y eso es lo que va a regresar.
+
+48
+00:03:49,330 --> 00:03:57,470
+Bueno argumento será de tipo té al hacer sólo ese cambio tan scrip ya sabe que esto es un número.
+
+49
+00:03:57,470 --> 00:04:04,370
+Mire como punto y ahí tengo tu string tu FICX tu exponencial tu precisión valio off y aquí si tengo
+
+50
+00:04:04,380 --> 00:04:06,300
+tu FICX y dos.
+
+51
+00:04:06,550 --> 00:04:10,240
+Qué pasa ahora si yo copio esta función Topix y la pongo acá.
+
+52
+00:04:10,750 --> 00:04:12,300
+Ok ya me marcó un error.
+
+53
+00:04:12,580 --> 00:04:13,780
+Y qué dice.
+
+54
+00:04:13,790 --> 00:04:14,650
+Dice propiedad.
+
+55
+00:04:14,650 --> 00:04:17,830
+Tú FICX no existe entre Cartabia.
+
+56
+00:04:17,820 --> 00:04:21,630
+Bueno ya sabemos que esto es un error porque no existe en el hecho allá.
+
+57
+00:04:21,850 --> 00:04:24,480
+Y qué podría hacer yo con el Extrem punto.
+
+58
+00:04:24,490 --> 00:04:30,010
+Cáracter a concatenar índex o la Mac Pleiss etcetc.
+
+59
+00:04:30,130 --> 00:04:36,230
+En este caso solo quiero la primera letra carácter cero y ahora vamos a ver con la fecha.
+
+60
+00:04:36,370 --> 00:04:39,740
+Punto tengo tu string tu y tu string.
+
+61
+00:04:39,940 --> 00:04:44,510
+Os Quetta en este caso solo quiero él.
+
+62
+00:04:44,590 --> 00:04:48,630
+Vamos a ver qué tal Barents loscambios.
+
+63
+00:04:48,700 --> 00:04:54,400
+Vamos a la consola de cargo y todo funciona de manera correcta.
+
+64
+00:04:54,430 --> 00:04:54,940
+Por qué.
+
+65
+00:04:55,240 --> 00:05:01,690
+Porque sabíamos a pesar de que pudimos haber escrito tu FICX carácter hachero y que pudimos haberlo
+
+66
+00:05:01,690 --> 00:05:08,530
+hecho si nosotros sabemos que lo que estamos enviando pero es bueno que lo maneje para evitar errores.
+
+67
+00:05:08,530 --> 00:05:14,680
+Puede ser que un futuro se nos olvide de que esto es una función genérica y cometamos errores sin querer
+
+68
+00:05:14,950 --> 00:05:17,470
+por no acordarnos de cómo funcionaba nuestro código.

@@ -1,0 +1,311 @@
+1
+00:00:03,320 --> 00:00:10,010
+Los Jets y los sets si ustedes vienen de yapa o se Charb este tema ya lo saben porque es exactamente
+
+2
+00:00:10,010 --> 00:00:13,770
+igual pero para la gente que no vamos a tener en la clase.
+
+3
+00:00:14,470 --> 00:00:16,130
+Qué es eso de los latinos ETTs.
+
+4
+00:00:16,370 --> 00:00:21,860
+Es una manera de accesar propiedades pero de una forma controlada.
+
+5
+00:00:22,870 --> 00:00:25,180
+Vamos a ver vamos a verlo a continuación.
+
+6
+00:00:25,180 --> 00:00:32,690
+Voy a crearme un nuevo jet privado Ribet nombre con un bajo intencionalmente no voy a poner este tipo
+
+7
+00:00:32,700 --> 00:00:35,380
+de OK.
+
+8
+00:00:36,360 --> 00:00:37,810
+Sólo eso lo voy a hacer.
+
+9
+00:00:37,930 --> 00:00:39,530
+Voy a quitar aquí nombre real también.
+
+10
+00:00:39,650 --> 00:00:44,880
+No me interesa el nombre real y no me interesa mandar a Scott solo Ciclope.
+
+11
+00:00:45,480 --> 00:00:54,400
+Yo voy a decir ahora disputo nombre es igual a nombre puntico qué es eso de los Jets y los Jets.
+
+12
+00:00:54,400 --> 00:01:01,020
+Ahora sí son unas funciones especiales para el control del acceso a la información todos los Jets y
+
+13
+00:01:01,020 --> 00:01:06,660
+los sets deberían de ser públicos pero lo voy a omitir por ahora jet.
+
+14
+00:01:07,000 --> 00:01:15,190
+Voy a ponerle el nombre y nombre parentesis y ahora y si arrolladores el jet por defecto tiene que regresar
+
+15
+00:01:15,190 --> 00:01:21,310
+algo aunque yo esté diciendo lo contrario aunque pongas Bay el Bay no es permitido.
+
+16
+00:01:21,310 --> 00:01:31,660
+Tienes que regresar algo tiene que regresar en este caso un estreno que iba a ser un Rezza del disputo
+
+17
+00:01:31,980 --> 00:01:33,290
+nombre.
+
+18
+00:01:34,600 --> 00:01:40,030
+Quiero que miren una cosa estos controles de acceso son funciones realmente cómo hago el llamado de
+
+19
+00:01:40,030 --> 00:01:41,640
+esta función.
+
+20
+00:01:41,650 --> 00:01:47,900
+Bueno no esperen hacer ciclo Ciclope Punto G nombre o algo así como un método.
+
+21
+00:01:49,330 --> 00:01:53,980
+Si ustedes se fijan cuando yo pongo el punto no me dice que es una propiedad no me dice que es un método
+
+22
+00:01:54,040 --> 00:02:03,890
+dice que es un jet con un auge de Jet qué se refiere a eso voy a poner aquí a poner nombre Ciclope punto
+
+23
+00:02:03,910 --> 00:02:11,460
+nombre te voy a meter esto en un consuelo y miramos que lo que pasa un navegador web recargó y tengo.
+
+24
+00:02:12,160 --> 00:02:13,620
+Pero qué pasó realmente.
+
+25
+00:02:13,810 --> 00:02:21,100
+Lo que hizo fue entrar a este procedimiento o este método pasó por el nombre.
+
+26
+00:02:21,220 --> 00:02:31,160
+En realidad sólo es Jet espacio nombre Parets vamos a verlo de nuevo recargo y pasó por el jet del nombre.
+
+27
+00:02:31,510 --> 00:02:36,610
+En este momento yo puedo ejecutar algún procedimiento que se yo verificar si tiene el acceso verificar
+
+28
+00:02:36,610 --> 00:02:38,950
+si la propiedad tiene un valor.
+
+29
+00:02:38,950 --> 00:02:43,010
+Vamos a hacer algo por ejemplo eso verificar si tiene un valor.
+
+30
+00:02:43,330 --> 00:02:49,390
+Voy a poner que Ciclope pueden quitarlo de acá por este momento me va a marcar un error pero yo puedo
+
+31
+00:02:49,390 --> 00:02:51,490
+decir que el constructor es opcional.
+
+32
+00:02:51,490 --> 00:02:57,760
+Usando el signo de interrogación sea el nombre es opcional y yo puedo decir aquí disputo nombre nombres
+
+33
+00:02:57,760 --> 00:03:06,590
+igual al nombre en este caso tendría un fin correcto y aquí puedo decir y voy a decir disputo nombre.
+
+34
+00:03:06,890 --> 00:03:16,000
+Si hay algo entonces voy a hacer un returned del puntos nombre con el guión bajo ellos hacen un reto
+
+35
+00:03:16,090 --> 00:03:25,460
+de no tiene un nombre apellido puntocom y aquí ya está además porque nunca se va a llegar algunos cambios
+
+36
+00:03:25,520 --> 00:03:28,180
+y estoy expresando al ciclope punto de nombre.
+
+37
+00:03:28,190 --> 00:03:33,950
+A pesar de que no están el constructor pero con este jet tengo un control de accesos a tengo una forma
+
+38
+00:03:33,950 --> 00:03:39,440
+de controlar qué es lo que está pasando cuando alguien ejecute mi punto nombre vamos a verlo recargo
+
+39
+00:03:39,760 --> 00:03:49,780
+y no tiene ningún nombre en la villa ahora voy a mandar aquí Oberyn grabo los cambios de cargos y aquí
+
+40
+00:03:49,780 --> 00:03:54,000
+aparece well-being aunque bueno tendremos que comprarlo aquí porque es Ciclope nunca va a ser BORME
+
+41
+00:03:54,190 --> 00:03:56,000
+bueno ustedes me entienden.
+
+42
+00:03:56,750 --> 00:04:07,090
+Ahora con la parte de los sets es muy parecido de hecho es igual pero los sets por defecto no regresa
+
+43
+00:04:07,090 --> 00:04:08,810
+nada simplemente pone la variable.
+
+44
+00:04:08,980 --> 00:04:14,320
+Ustedes pueden regresar si lo hizo o no lo hizo pero por lo general los sets simplemente agarran un
+
+45
+00:04:14,320 --> 00:04:21,250
+parámetro y se lo establecen a una propiedad voy a decir Seth nombre parentesis abren y cierran llaves
+
+46
+00:04:21,340 --> 00:04:26,720
+entren y miremos el error que está marcando en este momento dice a Seth Axesor.
+
+47
+00:04:26,740 --> 00:04:34,370
+Tienes que tener por lo menos un parámetro o qué nombre y vamos a ponerle nombre.
+
+48
+00:04:34,590 --> 00:04:43,980
+Dos puntos que es un extra lo que va a decir ahora podemos decir que el disputo nombre nombre es igual
+
+49
+00:04:44,370 --> 00:04:47,580
+al nombre que está mandando como parámetro.
+
+50
+00:04:47,580 --> 00:04:51,300
+Vamos a verlo nuevamente y qué voy a decir.
+
+51
+00:04:51,300 --> 00:04:58,590
+Ciclope punto nombre va a ser vas a regresar a ser Ciclope acordémonos que lo estamos definiendo como
+
+52
+00:04:58,600 --> 00:05:07,570
+WordNet con algunos cambios de cargo y tenemos a Ciclope acá para estar seguros de lo que pasó puedo
+
+53
+00:05:07,570 --> 00:05:18,670
+poner aquí un mensaje o controlar el acceso poniendo un consorcio y se llamó el set de los cambios otra
+
+54
+00:05:18,670 --> 00:05:22,600
+vez y se llamó el set de nombre y luego pasó a ser Ciclope.
+
+55
+00:05:22,630 --> 00:05:27,670
+Esto es particularmente útil cuando queremos validar el dato antes de colocar sólo la variable si no
+
+56
+00:05:27,670 --> 00:05:34,720
+lo vamos a dejar igual vamos a hacer una demostración voy a decir y si el nombre si el link del nombre
+
+57
+00:05:35,110 --> 00:05:42,670
+es menor a tres entonces voy a ser un ratón me salgo.
+
+58
+00:05:42,670 --> 00:05:51,760
+Eso es todo esto lo que quiero hacer de algunos cambios voy a poner que Ciclope fue aguantarles me puse
+
+59
+00:05:51,850 --> 00:05:54,490
+aquí menor o igual a tres.
+
+60
+00:05:54,680 --> 00:06:00,200
+Ok tienes que tener más de tres caracteres Blick tiene tres caracteres exactamente entonces voy a entrar
+
+61
+00:06:00,200 --> 00:06:01,620
+acá y no va a ser.
+
+62
+00:06:01,670 --> 00:06:07,000
+Qué creen que va para ser el nombre recargó y aparece Wolverine también.
+
+63
+00:06:08,280 --> 00:06:14,400
+Sucedió porque esta variación cuando alguien hizo el set en este caso es un set cuando uno intentó hacer
+
+64
+00:06:14,940 --> 00:06:17,520
+pasó por esta validación y no cumple la condición.
+
+65
+00:06:17,520 --> 00:06:19,440
+No voy a cambiar el nombre de la propiedad.
+
+66
+00:06:19,440 --> 00:06:26,430
+Ustedes podrían hacer otra cosa más controlada como por ejemplo un Consol un Consol error por ejemplo
+
+67
+00:06:27,110 --> 00:06:39,410
+error y decir algo como por ejemplo el nombre debe de tener al menos tres caracteres caracteres Tutt
+
+68
+00:06:40,660 --> 00:06:44,600
+una consola está el nombre de tener al menos tres caracteres.
+
+69
+00:06:44,610 --> 00:06:50,680
+Ahora si ustedes quieren destruir código bueno throw un error
+
+70
+00:06:53,500 --> 00:06:57,340
+y asílo.
+
+71
+00:06:58,030 --> 00:07:06,800
+Esto no debe de pasar y aquí en que me está marcando un error porque este código nunca va a ser alcanzable
+
+72
+00:07:06,810 --> 00:07:08,030
+dice un riachuelo.
+
+73
+00:07:08,090 --> 00:07:11,050
+Nunca va a llegar acá porque el tronío verde tiene todo el código.
+
+74
+00:07:11,330 --> 00:07:19,540
+Llevó algunos cambios de cargo y hasta llegar en auxilio esto no debe pasar en el punto set de nombre
+
+75
+00:07:19,620 --> 00:07:24,570
+está en todo el código básicamente esto es lo que tenemos que hacer.
+
+76
+00:07:24,610 --> 00:07:30,640
+Eso es lo sets y los Jets son formas para controlar cómo se establecen los datos y cómo se obtienen
+
+77
+00:07:30,640 --> 00:07:31,530
+los datos.
+
+78
+00:07:31,630 --> 00:07:33,610
+Es decisión de ustedes cómo las quieren usar.

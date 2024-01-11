@@ -1,0 +1,127 @@
+1
+00:00:03,450 --> 00:00:08,730
+Una característica muy importante del tap es que podemos definir parámetros obligatorios a nuestras
+
+2
+00:00:08,730 --> 00:00:09,400
+funciones.
+
+3
+00:00:09,990 --> 00:00:14,550
+Vamos a ver cómo hacemos eso queremos una función que lo único que va a hacer es imprimir el nombre
+
+4
+00:00:14,730 --> 00:00:19,590
+completo de alguien va a recibir como parámetro el nombre.
+
+5
+00:00:19,590 --> 00:00:22,920
+Por eso le estoy poniendo dentro de los paréntesis a la vez.
+
+6
+00:00:22,920 --> 00:00:27,690
+Yo puedo definirle el tipo de ese dato que estoy recibiendo.
+
+7
+00:00:27,700 --> 00:00:30,180
+En mi función sería de tipo String.
+
+8
+00:00:30,270 --> 00:00:36,630
+También voy a recibir el apellido que debería ser el tipo string el retorno o la salida de nuestra función
+
+9
+00:00:36,630 --> 00:00:41,000
+va a ser el nombre completo concatenados entonces sería también una estrella.
+
+10
+00:00:41,210 --> 00:00:47,310
+Aquí el tal o mejor dicho ya la Thome esta se está quejando por qué no estoy cumpliendo la condición
+
+11
+00:00:47,310 --> 00:00:48,250
+de regresarles.
+
+12
+00:00:48,390 --> 00:00:52,430
+Entonces vamos a hacerlo bien no es retorné a vos el nombre más.
+
+13
+00:00:52,430 --> 00:00:54,460
+Algo sí sencillo.
+
+14
+00:00:54,520 --> 00:00:58,180
+Más apellidos tricomas y listo.
+
+15
+00:00:58,200 --> 00:01:07,030
+Utilizamos la crema nos nos a un superhéroe o un nombre de una persona que sea un superhéroe igual al
+
+16
+00:01:07,040 --> 00:01:08,330
+nombre completo.
+
+17
+00:01:08,440 --> 00:01:15,030
+Paréntesis si lo dejo así ya me está dando errores en la compilación por decirlo así.
+
+18
+00:01:15,030 --> 00:01:18,310
+Qué me dice que no estoy cumpliendo la condición de los parámetros.
+
+19
+00:01:18,330 --> 00:01:23,430
+Si yo lo hago de esta manera los parámetros son obligatorios y tienen que satisfacer el tipo de dato
+
+20
+00:01:23,430 --> 00:01:24,530
+que está definido.
+
+21
+00:01:24,690 --> 00:01:30,210
+Claro yo también puedo poner la Kieny o ponerle bullían puedo ponerle lo que sea pero en este caso quiero
+
+22
+00:01:30,210 --> 00:01:37,620
+recibir 12 strengths entonces pongamos aquí a intencionalmente lo voy a poner en minúscula Clark y luego
+
+23
+00:01:37,620 --> 00:01:40,590
+Kent Coma.
+
+24
+00:01:40,810 --> 00:01:47,060
+Damos la impresión de El nombre hay los cambios Mirémoslo en navegador web.
+
+25
+00:01:47,100 --> 00:01:51,270
+Aquí tenemos a Clark Kent.
+
+26
+00:01:51,270 --> 00:01:52,560
+Nada del otro mundo.
+
+27
+00:01:52,710 --> 00:01:59,370
+La ventaja de esto es que está cumpliendo de manera obligatoria para poder utilizar esas funciones.
+
+28
+00:01:59,370 --> 00:02:04,650
+Esto nos ayuda mucho a la hora de depurar nuestro código o de cometer menos errores porque pudimos haber
+
+29
+00:02:04,650 --> 00:02:10,260
+puesto aquí que el apellido era un nombre por ejemplo y ahí ya nos va a obligar a que tendremos que
+
+30
+00:02:10,260 --> 00:02:14,130
+cambiar este parámetro que este parámetro no es válido.
+
+31
+00:02:14,160 --> 00:02:18,010
+Por ejemplo pagamos todos y ahí sí lo va a aceptar pero bueno dejémoslo como está.
+
+32
+00:02:18,320 --> 00:02:20,910
+Y esto es básicamente lo de los parámetros obligatorios.

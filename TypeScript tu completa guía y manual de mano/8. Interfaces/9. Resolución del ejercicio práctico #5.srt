@@ -1,0 +1,363 @@
+1
+00:00:03,330 --> 00:00:04,620
+Cómo les fue con el ejercicio.
+
+2
+00:00:04,650 --> 00:00:08,040
+Lograron hacer bueno aquí vamos a ver una posible solución.
+
+3
+00:00:08,040 --> 00:00:13,680
+Recuerden que pueden haber múltiples soluciones a este ejercicio especialmente cuando vemos los nombres
+
+4
+00:00:13,680 --> 00:00:15,430
+de los de las interfaces que vamos a crear.
+
+5
+00:00:15,430 --> 00:00:21,690
+Pueden depender mucho de la forma en que ustedes piensan Ok empecemos dice cree una interfaz para validar
+
+6
+00:00:22,020 --> 00:00:25,920
+el auto es que es el valor enviado por parametro.
+
+7
+00:00:25,920 --> 00:00:26,500
+Empecemos.
+
+8
+00:00:26,600 --> 00:00:28,120
+Interfaz espacio.
+
+9
+00:00:28,130 --> 00:00:34,920
+Yo le pondré auto pero si usted le pusieron patito o carrito lo que sea está bien mi auto tiene dos
+
+10
+00:00:34,920 --> 00:00:37,660
+propiedades lo que es encender y velocidad máxima.
+
+11
+00:00:37,680 --> 00:00:45,950
+Entonces empecemos a encender que es de tipo Juliano y velocidad máxima que es un nombre común.
+
+12
+00:00:46,050 --> 00:00:48,930
+Luego viene un método llamado a acelerar.
+
+13
+00:00:48,960 --> 00:00:54,360
+El método se llama acelerar parentesis no recibe ningún argumento y tampoco regresa nada.
+
+14
+00:00:54,370 --> 00:01:02,250
+Entonces esa es la manera luego establezcamos acá que el auto es de tipo auto grandes cambios y esto
+
+15
+00:01:02,250 --> 00:01:05,140
+debería funcionar perfectamente.
+
+16
+00:01:05,220 --> 00:01:09,340
+Esto de aquí tampoco debería darle ningún problema.
+
+17
+00:01:09,990 --> 00:01:15,000
+Simplemente es como la descripción gráfica de lo que es nuestro Batimóvil.
+
+18
+00:01:15,480 --> 00:01:17,410
+Bajemos ahí no había que hacer nada.
+
+19
+00:01:17,880 --> 00:01:22,680
+Bueno claro si ustedes le pusieron aquí auto bueno eso sí le pusieron un auto también.
+
+20
+00:01:22,890 --> 00:01:23,810
+Está correcto.
+
+21
+00:01:24,000 --> 00:01:26,190
+No se preocupen vamos consiguiente.
+
+22
+00:01:26,240 --> 00:01:32,130
+La siguiente parte creó una interfaz con la que permita utilizar el siguiente objeto utilizando propiedades
+
+23
+00:01:32,130 --> 00:01:32,750
+opcionales.
+
+24
+00:01:33,420 --> 00:01:37,300
+Ok analicemos qué propiedades y métodos.
+
+25
+00:01:37,300 --> 00:01:44,640
+Bueno en este caso sólo propiedades son las que trabaja con la función reír que espera una buena un
+
+26
+00:01:44,640 --> 00:01:46,660
+parámetro que es el Guasón.
+
+27
+00:01:46,710 --> 00:01:55,950
+Queremos la interfaz aquí arriba digamos interfaz ponerle Wasson abre y cierra llaves y la única propiedad
+
+28
+00:01:55,950 --> 00:01:58,490
+obligatoria es reír.
+
+29
+00:01:58,500 --> 00:02:00,850
+Las demás son opcionales entonces digamos.
+
+30
+00:02:00,860 --> 00:02:08,840
+Reír de tipo Juliano también llorar y comer comer llorar.
+
+31
+00:02:09,810 --> 00:02:15,600
+Pero las únicas obligatorias o mejor dicho la única obligatoria R Ahora que le podemos poner de que
+
+32
+00:02:15,600 --> 00:02:20,280
+esto era del tipo guasón y que espera un guasón.
+
+33
+00:02:21,100 --> 00:02:22,590
+Y se acabó el asunto.
+
+34
+00:02:22,600 --> 00:02:24,520
+Eso es todo lo que había que hacer.
+
+35
+00:02:24,520 --> 00:02:26,200
+Bajemos.
+
+36
+00:02:26,320 --> 00:02:28,550
+Se creó una interfaz para la siguiente función.
+
+37
+00:02:28,570 --> 00:02:33,970
+Tal vez este era el más complicado porque lo explicamos sobre los arreglos pero es lo mismo sólo que
+
+38
+00:02:33,970 --> 00:02:37,060
+con esas llaves cuadradas.
+
+39
+00:02:37,060 --> 00:02:41,420
+Ok interfaces le pudieron poner el nombre que ustedes deseen.
+
+40
+00:02:41,450 --> 00:02:49,990
+Voy a ponerle Ciudad Gótica funk de esa manera o el nombre que ustedes desearon ponerle.
+
+41
+00:02:50,100 --> 00:02:50,840
+Ok.
+
+42
+00:02:51,120 --> 00:02:54,940
+Aparte de los parámetros siempre aquí en los paréntesis.
+
+43
+00:02:54,940 --> 00:03:00,520
+Va a recibir una variable en este caso son ciudadanos pero lo pudiera haber puesto cualquier nombre.
+
+44
+00:03:00,520 --> 00:03:06,690
+Esto es un tipo de string pero arreglo destruí que regresa regresa un nombre.
+
+45
+00:03:06,700 --> 00:03:09,380
+De esa manera y eso es todo.
+
+46
+00:03:10,120 --> 00:03:12,180
+Ahora declaremos esta función.
+
+47
+00:03:12,190 --> 00:03:20,110
+Hay varias maneras de hacer de este Código la que se vio en la clase fue definir una variable de tipo
+
+48
+00:03:20,400 --> 00:03:27,320
+bueno en este caso Ciudad Gótica pero esa variable es de tipo Ciudad Gótica.
+
+49
+00:03:28,210 --> 00:03:33,460
+Aquí está marcando un error porque ya existe esa función como ustedes pueden observar.
+
+50
+00:03:33,460 --> 00:03:42,700
+Ahora podríamos decir que Ciudad Gótica es igual a una función que recibe ciudadanos o sea lo mismo
+
+51
+00:03:42,700 --> 00:03:44,360
+que allá abajo ciudadanos que es un string
+
+52
+00:03:47,020 --> 00:03:56,220
+que retorna un nombre a copiar esto acá que regresa a los ciudadanos en la misma función solo que acomodada
+
+53
+00:03:56,530 --> 00:04:00,300
+a usar nuestra interfase.
+
+54
+00:04:00,310 --> 00:04:07,300
+Por último dice crea una interfaz que obligue que obligue y crear una clase con las siguientes propiedades
+
+55
+00:04:07,360 --> 00:04:11,230
+y métodos y quizá la lista de las propiedades.
+
+56
+00:04:11,670 --> 00:04:12,710
+Empecemos.
+
+57
+00:04:12,790 --> 00:04:15,730
+Interfaz espacio.
+
+58
+00:04:15,730 --> 00:04:20,660
+Vamos a ver parece como algo de una persona no le pudieron haber puesto cualquier nombre.
+
+59
+00:04:20,680 --> 00:04:22,000
+En este caso voy a ponerle persona
+
+60
+00:04:25,150 --> 00:04:26,270
+y empezamos a trabajar.
+
+61
+00:04:26,310 --> 00:04:27,410
+Pide el nombre.
+
+62
+00:04:27,440 --> 00:04:30,990
+Pues aquí ustedes son libres de ponerle lo que ustedes hicieron.
+
+63
+00:04:31,020 --> 00:04:31,990
+Si le pusieron nombre.
+
+64
+00:04:32,010 --> 00:04:36,290
+Pues está bien pero digamos que el nombre es lógico que sea un string le da.
+
+65
+00:04:36,300 --> 00:04:42,040
+Puede ser un nombre el sexo pues esto queda muy discreción.
+
+66
+00:04:42,250 --> 00:04:47,520
+Y si quieren manejar el sexo como unos y ceros o quieren manejarlo como la letra en este caso para variar
+
+67
+00:04:47,520 --> 00:04:48,930
+puede ponerlos como números.
+
+68
+00:04:48,930 --> 00:04:56,140
+Veamos el uno es igual a hombre y dos es igual a mujer pero pudieron haber hecho lo que ustedes quieran.
+
+69
+00:04:56,220 --> 00:04:58,500
+Lo mismo con el estado civil.
+
+70
+00:04:58,830 --> 00:05:01,510
+Lo voy a poner como un.
+
+71
+00:05:03,030 --> 00:05:09,550
+Y ahora viene l imprimir Bío entonces imprimir Bío dice que tiene que ser un Boy y mostrar en consola
+
+72
+00:05:09,600 --> 00:05:13,360
+algo de la descripción Okkhoy en la interfaz lo declaramos igual.
+
+73
+00:05:13,380 --> 00:05:15,880
+No recibe ningún parámetro y regresa.
+
+74
+00:05:15,980 --> 00:05:17,530
+Entonces por eso es gay.
+
+75
+00:05:17,850 --> 00:05:25,610
+Ya tenemos definido nuestro mapa o nuestro proyecto o plano de cómo crear una persona creamos la clase
+
+76
+00:05:26,770 --> 00:05:37,500
+A PONER LA ciclas persona clase quieren ponerle y éste implementa implementos espacio persona no le
+
+77
+00:05:37,500 --> 00:05:42,640
+pueden poner la misma lo mismo porque también chocaría aunque sea una clase y una persona.
+
+78
+00:05:42,660 --> 00:05:46,920
+Esto podría confundir muy fácilmente a cualquier otra persona que mire su código.
+
+79
+00:05:47,550 --> 00:05:48,590
+Entonces empecemos.
+
+80
+00:05:48,780 --> 00:05:51,750
+Persona persona clase ok.
+
+81
+00:05:51,840 --> 00:05:58,160
+Necesitamos poner el nombre de reconstruyan viene la edad de tipo habíamos puesto nombre.
+
+82
+00:05:58,740 --> 00:06:09,390
+Luego el sexo también su nombre el estado civil es un esoy y viene la función imprimir Bío que no recibe
+
+83
+00:06:09,390 --> 00:06:15,330
+nada pero regresa cuando tampoco regresa nada pero nos pide una breve descripción hagamos un solo
+
+84
+00:06:18,180 --> 00:06:23,740
+vamos a poner en la descripción una breve descripción y eso es todo claro ahí si ustedes le pusieron
+
+85
+00:06:23,740 --> 00:06:26,620
+un concatenado los nombres y todo eso está bien.
+
+86
+00:06:26,640 --> 00:06:33,870
+Ojo que eso es todo lo que tienen que hacer pero me acuerdo mucho de un profesor que me decía mire Fernando
+
+87
+00:06:33,870 --> 00:06:36,840
+si yo no lo pido en el examen usted no lo haga.
+
+88
+00:06:36,870 --> 00:06:43,200
+Los que decidieron usar la clase y probarlo pues perfectos ustedes están pero en ningún momento les
+
+89
+00:06:43,200 --> 00:06:44,920
+pedí que hicieran eso.
+
+90
+00:06:45,060 --> 00:06:50,570
+En todo caso esto es un ejercicio de práctica para que ustedes agarren confianza en lo que son las interfaces.
+
+91
+00:06:50,610 --> 00:06:52,970
+Espero que les haya gustado esto y lo veo en el siguiente video.

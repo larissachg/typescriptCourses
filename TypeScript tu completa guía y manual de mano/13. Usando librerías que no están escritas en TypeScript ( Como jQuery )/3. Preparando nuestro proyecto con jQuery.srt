@@ -1,0 +1,151 @@
+1
+00:00:03,740 --> 00:00:10,430
+Vamos a preparar este programa en el material adjunto hay un pequeño proyecto que es el que les estaba
+
+2
+00:00:10,430 --> 00:00:17,030
+mostrando anteriormente ustedes lo van a abrir en Atum preferiblemente para que podamos verlo todo lo
+
+3
+00:00:17,030 --> 00:00:23,640
+que contiene el TS pues ya saben qué es lo único que tiene raro es que excluye los módulos de.
+
+4
+00:00:24,080 --> 00:00:29,600
+Luego todo lo demás ya está como ustedes lo han visto bueno y tienen decoradores experimentales pero
+
+5
+00:00:30,010 --> 00:00:31,230
+no lo vamos a usar.
+
+6
+00:00:31,460 --> 00:00:34,980
+Otro chivó raro entre comillas es el paquete Jayson.
+
+7
+00:00:35,210 --> 00:00:39,820
+Tiene un nombre de librerías que yo decidí poner ese nombre al proyecto la versión 1 descripción no
+
+8
+00:00:39,830 --> 00:00:43,290
+tiene el Moine se la p.ej. ese es creeps.
+
+9
+00:00:43,310 --> 00:00:48,680
+Si ustedes se fijan ya trae el Lykke Server precargado el autor pues fui yo se le pueden poner el nombre
+
+10
+00:00:48,680 --> 00:00:51,400
+que ustedes quieran ustedes pueden usar esto si quieren para lo que sea.
+
+11
+00:00:51,400 --> 00:00:57,740
+Por eso es ese tipo de licencia tiene dependencias de desarrollador que en este caso es el like server.
+
+12
+00:00:57,740 --> 00:01:02,780
+Esto no se va a ir a producción pero si tiene dependencias reales que existen leyes si ustedes se fijan
+
+13
+00:01:02,810 --> 00:01:10,620
+no hay módulos de ahí este proyecto así como esta no tiene absolutamente manera alguna de funcionar.
+
+14
+00:01:10,670 --> 00:01:14,350
+Si abrimos el indexando HTML quiero que observen un par de cosas.
+
+15
+00:01:14,450 --> 00:01:21,890
+Tiene todo lo que no hemos visto anteriormente pero hay un par de cosas interesantes tiene un Hola mundo
+
+16
+00:01:21,920 --> 00:01:28,910
+saludos un pequeño jede un párrafo y un botón que dice click tiene un Heydi para la gente que ya sabe
+
+17
+00:01:28,910 --> 00:01:32,600
+un poco de ya va a poder trabajar con esto.
+
+18
+00:01:33,050 --> 00:01:38,660
+No se preocupen que no solo es una forma de explicar vamos a hacer más adelante un par de cambios usando
+
+19
+00:01:39,080 --> 00:01:45,220
+desde scrip cambiando esto cambiando esto también y haciendo un par de funciones al presionar clic en
+
+20
+00:01:45,230 --> 00:01:53,260
+ese botón pero todo es detalle más abajo tiene una importación a system Gillies que no existe hay tantos
+
+21
+00:01:53,270 --> 00:01:59,390
+modos no se preocupen bajamos y está la configuración de existen que es como no habíamos visto nada
+
+22
+00:01:59,390 --> 00:02:05,960
+del otro mundo ahora cómo hacemos para inicializar nuestro proyecto habrãn una terminal o una consola
+
+23
+00:02:06,370 --> 00:02:11,820
+y ejecuten las siguientes líneas de código MPM o en pie instó.
+
+24
+00:02:12,650 --> 00:02:18,140
+No hace falta que lo ejecuten como administrador ni como sudo no debería de ser no debería de pasar
+
+25
+00:02:18,140 --> 00:02:21,740
+nada a menos de que ustedes estuviera en esa carpeta protegida o escritura.
+
+26
+00:02:21,740 --> 00:02:26,260
+Hoy si despediría el superusuario los Warden no se preocupen.
+
+27
+00:02:26,270 --> 00:02:33,170
+Aquí lo que está haciendo es cargando todas las dependencias que están especificadas en el paquete puntillazo.
+
+28
+00:02:33,380 --> 00:02:37,250
+Así que esperemos esto no debería tardar mucho porque no es tanta cosa pero bueno esto depende de la
+
+29
+00:02:37,250 --> 00:02:43,580
+velocidad de internet de ustedes en este preciso momento acaba de terminar y cargó todo esto ya me creó
+
+30
+00:02:43,580 --> 00:02:52,070
+los módulos de Nock ahí está todo y ahora lo podemos probar haciendo el siguiente comando MPM ROM de
+
+31
+00:02:52,370 --> 00:02:58,930
+que es para correr el server entre esto les va a abrir el navegador por defecto.
+
+32
+00:02:59,460 --> 00:03:07,110
+Mi caso lo tengo Safari pero voy a copiarme esto y lo Ribé en el Crom aquí entre y deberían de ver esta
+
+33
+00:03:07,110 --> 00:03:13,650
+parte de acá todo este código no se preocupe por estas pestañas ya llegaremos a eso pero bueno así tiene
+
+34
+00:03:13,650 --> 00:03:14,570
+que aparecer.
+
+35
+00:03:14,610 --> 00:03:18,410
+No sigan el código si algo les dio algún error sin instalación.
+
+36
+00:03:18,410 --> 00:03:23,320
+Cualquier cosa dudas pueden dejar comentarios y con todo gusto les voy a ayudar pero no deberían de
+
+37
+00:03:23,340 --> 00:03:24,590
+tener ningún problema.
+
+38
+00:03:24,620 --> 00:03:25,510
+Lo veo el siguiente video.

@@ -1,0 +1,171 @@
+1
+00:00:03,570 --> 00:00:04,830
+Nos habíamos quedado acá.
+
+2
+00:00:04,830 --> 00:00:12,410
+Hagamos un pequeño código de chicuelina miremos el navegador web esto es lo que tenemos.
+
+3
+00:00:12,570 --> 00:00:17,310
+Cambiamos el mundo cambiamos todo el H1B que tenemos acá.
+
+4
+00:00:18,090 --> 00:00:20,580
+Ok vamos a ponerle otra cosa.
+
+5
+00:00:20,580 --> 00:00:26,820
+No importa si ustedes no saben Quay en este caso solo quiero hacer agarrar el H1 y lo que quiero es
+
+6
+00:00:26,820 --> 00:00:29,730
+cambiarle el texto parentesis.
+
+7
+00:00:30,390 --> 00:00:35,640
+Hola desde Mitsui.
+
+8
+00:00:36,130 --> 00:00:42,220
+Algunos cambios me voy a navegador web y aparece Hola desde talkshow por qué se recargó automático porque
+
+9
+00:00:42,220 --> 00:00:43,900
+tengo el link Server corriendo.
+
+10
+00:00:44,950 --> 00:00:52,010
+Ok ahora cambiemos el párrafo que dice este es un texto agarremos eso ok.
+
+11
+00:00:52,080 --> 00:00:56,510
+Quería agarrarme el párrafo punto Tex también quiero.
+
+12
+00:00:56,680 --> 00:01:06,040
+Hola desde este párrafo punto por punto donde los cambios veremos recargó y ya cambio aquí.
+
+13
+00:01:06,040 --> 00:01:14,270
+Hola desde este párrafo qué les parece si programemos el evento click de ese botón que vemos aquí abajo.
+
+14
+00:01:14,270 --> 00:01:23,650
+Te voy a decir Ok QR buscate un botón por el Heydi en este caso numeral punto on y ahí sale que es un
+
+15
+00:01:23,650 --> 00:01:28,120
+evento y un montón de cosas te va a marcar errores porque necesito probar varias cosas.
+
+16
+00:01:28,120 --> 00:01:34,450
+Voy a decirle click Koma function parentesis ahora hicieron llaves y esto es lo que quiero ejecutar
+
+17
+00:01:34,960 --> 00:01:39,250
+lo que quiero que pase es que me muestre una alerta Alert.
+
+18
+00:01:40,030 --> 00:01:46,390
+Hola Mundo desde Zeitschrift disculpen que escriba a cada rato eso pero bueno ustedes me entenderán.
+
+19
+00:01:46,670 --> 00:01:47,760
+Sálvanos cambios.
+
+20
+00:01:47,760 --> 00:01:51,850
+Vamos de nuevo acá toco el botón Hola Mundo desde estaís.
+
+21
+00:01:52,920 --> 00:01:58,150
+Miren este programa que estamos corriendo ahorita estamos por decirlo así bien optimizado.
+
+22
+00:01:58,310 --> 00:02:02,640
+Por qué estamos cargando sólo lo que necesitamos usando System llegais.
+
+23
+00:02:02,740 --> 00:02:06,700
+Estamos trabajando sólo con una librería que es la que se encarga de importar las cosas.
+
+24
+00:02:06,700 --> 00:02:13,210
+Tenemos un proyecto configurado de no que nos va a cargar tanto el server que es lo que necesitamos
+
+25
+00:02:13,210 --> 00:02:18,970
+para correrlo y dependencias como el de tipis un perdón como los tipos o los archivos de definiciones
+
+26
+00:02:19,450 --> 00:02:21,540
+y la tenencia de la SP.
+
+27
+00:02:21,560 --> 00:02:24,270
+También estamos usando qn y System.
+
+28
+00:02:24,490 --> 00:02:29,270
+En teoría si yo necesitara trabajar con ustedes o tienen otro colono colaborador.
+
+29
+00:02:29,320 --> 00:02:32,060
+Digo que tienen que hacer es mandarle estos archivos a PP.
+
+30
+00:02:32,070 --> 00:02:33,800
+Punto 13.
+
+31
+00:02:34,570 --> 00:02:39,050
+El índex HTML y Paquet Jayson aún no hay archivo de configuración también de tachi.
+
+32
+00:02:39,190 --> 00:02:41,910
+Lo demás ustedes no lo van a cambiar.
+
+33
+00:02:41,990 --> 00:02:48,260
+Bueno básicamente eso es todo solo para hacer algo diferente.
+
+34
+00:02:48,520 --> 00:02:55,840
+Quiero que miren que podemos hacer algo en lo que también podemos decirle OK en el H1 quiero que me
+
+35
+00:02:55,840 --> 00:03:06,760
+cambies es si escribo C es ese bien que me sale la ayuda de configuración y me está marcando el error
+
+36
+00:03:06,790 --> 00:03:08,620
+porque necesito mandar unos argumentos.
+
+37
+00:03:08,620 --> 00:03:19,000
+En este caso quiero cambiarle el background color y se lo quiero poner rojo punto y coma quien me está
+
+38
+00:03:19,000 --> 00:03:25,630
+marcando que esto es un error porque no son dos puntos es una coma perfecto los cambios miremos acá
+
+39
+00:03:25,900 --> 00:03:28,420
+y ahí tenemos el fondo de color rojo.
+
+40
+00:03:28,450 --> 00:03:33,590
+Recuerden que este no es un curso de Cuadri es un curso de taches si ustedes quieren saber más de query
+
+41
+00:03:33,940 --> 00:03:37,260
+pues en YouTube tengo un par de videos pero si quieren saber más.
+
+42
+00:03:37,270 --> 00:03:41,740
+Aquí mismo también tengo un curso completo de cuero que les enseñará todo lo que ustedes ocupan saber
+
+43
+00:03:42,360 --> 00:03:43,350
+lo veo en el siguiente video.

@@ -1,0 +1,167 @@
+1
+00:00:03,300 --> 00:00:09,510
+Para la gente que no sabe de programación orientada a objetos un constructor es una simple función que
+
+2
+00:00:09,510 --> 00:00:15,060
+es ejecutada cuando se crea una nueva instancia de ese objeto.
+
+3
+00:00:15,060 --> 00:00:20,160
+En este momento cuando se crea una nueva instancia de nuestra clase podemos ejecutar una función en
+
+4
+00:00:20,160 --> 00:00:21,420
+ese preciso momento.
+
+5
+00:00:21,420 --> 00:00:25,610
+De hecho estos paréntesis es un indicativo de una función.
+
+6
+00:00:25,770 --> 00:00:32,840
+Cómo definimos el constructor en Táchira con la palabra constructor paréntesis.
+
+7
+00:00:33,030 --> 00:00:34,440
+Abren y cierran llaves.
+
+8
+00:00:34,440 --> 00:00:44,040
+Ese es un constructor básico que puede hacer aquí un solo y se ejecutó el constructor cambios.
+
+9
+00:00:44,050 --> 00:00:48,460
+Voy a irme al navegador web recargó van a ver que se ejecutó el constructor perfecto.
+
+10
+00:00:48,540 --> 00:00:49,930
+Nada del otro mundo.
+
+11
+00:00:50,220 --> 00:00:56,310
+En este preciso momento el constructor de El Tanque es mucho más poderoso que el constructor por defecto
+
+12
+00:00:56,310 --> 00:00:57,630
+del ECMAScript 6.
+
+13
+00:00:58,020 --> 00:01:04,550
+Por qué vamos a ver dos cosas 1 Si yo quisiera inicializar todas estas clases o sea todas estas propiedades
+
+14
+00:01:04,560 --> 00:01:09,720
+perdón si yo necesito inicializar todas estas propiedades con valor por defecto por ejemplo equipo de
+
+15
+00:01:09,750 --> 00:01:20,280
+fin y luego el nombre real de fin lo puedo hacer aquí perfectamente puede pelear y golfos y peleas ganadas
+
+16
+00:01:20,280 --> 00:01:27,480
+y balsero lo puede inicializar ahí sin ningún problema de cargo aun a ver que tiene todas las propiedades
+
+17
+00:01:27,480 --> 00:01:28,520
+que acabo de poner.
+
+18
+00:01:28,530 --> 00:01:29,010
+Falso.
+
+19
+00:01:29,010 --> 00:01:38,460
+Peleas ganadas nombre real equipo nombre perfecto pero si yo quiero que cuando me pasen a quien el constructor
+
+20
+00:01:39,080 --> 00:01:44,970
+necesito yo poner parámetros o sea decir mandar parámetros al constructor para que esos parámetros reemplacen
+
+21
+00:01:44,970 --> 00:01:53,700
+valores de las propiedades que están acá puedo hacer lo siguiente Puedo decir el nombre es un estro
+
+22
+00:01:53,700 --> 00:01:55,670
+en coma.
+
+23
+00:01:55,710 --> 00:02:07,430
+El equipo va a ser un estudio también y sólo voy a dejar el nombre real y el nombre real 2.60.
+
+24
+00:02:07,440 --> 00:02:11,660
+Las otras las voy a dejar con su valor por defecto.
+
+25
+00:02:12,030 --> 00:02:18,360
+Cómo hago para asignar estos valores a estas propiedades con las siguientes palabras dis punto el dis
+
+26
+00:02:18,390 --> 00:02:28,680
+va a ser referencia siempre a la clase que está aquí siempre ok dis punto nombre es igual a nombre.
+
+27
+00:02:28,710 --> 00:02:35,100
+Este nombre hace referencia a éste y este nombre normal hace referencia a este juego.
+
+28
+00:02:35,250 --> 00:02:35,980
+Punto.
+
+29
+00:02:36,000 --> 00:02:48,390
+Equipo es igual a equipo y el nombre real es igual a nombre real como si ustedes se fijan ahora en el
+
+30
+00:02:48,390 --> 00:02:55,830
+auto me está marcando un error en esta línea y dice que los parámetros enviados no hacen Maxus no coinciden
+
+31
+00:02:55,830 --> 00:03:02,700
+con ninguna firma del target es decir este constructor no es válido porque necesita el nombre equipo
+
+32
+00:03:02,700 --> 00:03:09,990
+no realizó eso entonces vamos a poner los parámetros que nos están pidiendo en esta parte acá en el
+
+33
+00:03:09,990 --> 00:03:21,230
+mismo orden primero el nombre equipo y nombre o el nombre vamos a ver el nombre es atman el equipo será
+
+34
+00:03:21,250 --> 00:03:30,290
+equipo estaba en el lado del capitán no equipo voy a ponerlos en minúscula y el nombre real es Scott.
+
+35
+00:03:30,410 --> 00:03:41,440
+Scott grabó los cambios vamos a verlo en la consola y aquí pasó algo que no quería todavía.
+
+36
+00:03:41,640 --> 00:03:46,770
+Por defecto estamos viendo Ant-Man pero no estamos seguros si ese Steadman no lo voy a ponerle aquí
+
+37
+00:03:47,340 --> 00:03:48,880
+sin nombre.
+
+38
+00:03:51,100 --> 00:03:55,840
+Para recargó iban a ver qué sigue siendo apareciendo a pesar de que aquí dice su nombre por qué.
+
+39
+00:03:55,840 --> 00:04:02,020
+Porque a la hora de ejecutar esta función estos valores van a sobrescribir los que estén por defecto
+
+40
+00:04:02,020 --> 00:04:03,430
+acá.
+
+41
+00:04:03,430 --> 00:04:09,790
+Básicamente eso es un constructor nos permite a nosotros ya sea inicializar variables o bien ejecutar
+
+42
+00:04:09,790 --> 00:04:14,670
+algún tipo de código antes de que nuestra clase pueda ser utilizada en otro lado.

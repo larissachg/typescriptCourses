@@ -1,0 +1,67 @@
+1
+00:00:03,140 --> 00:00:07,790
+Antes de comenzar con las instalaciones yo sé que lo que le voy a decir sonará muy obvio pero no tengan
+
+2
+00:00:07,790 --> 00:00:13,250
+pena de preguntar nadie los va a juzgar cuando tengan alguna pregunta no me lo envíen como mensaje privado.
+
+3
+00:00:13,250 --> 00:00:19,070
+Por favor póngala en la sección de la clase preferiblemente en la clase donde ustedes tuvieron el problema.
+
+4
+00:00:19,220 --> 00:00:25,460
+Si pueden ser lo más específicos posible mucho mejor pueden decirme en que en qué video fue en qué segundo
+
+5
+00:00:25,460 --> 00:00:31,910
+fue mátenme inscripciones o fotografías de los errores que tengan para tratar de darles una respuesta
+
+6
+00:00:31,910 --> 00:00:38,000
+en concreto para que no tengamos una discusiones eternas ahí en el chat porque eso se demora mucho.
+
+7
+00:00:38,150 --> 00:00:38,730
+Otra cosa.
+
+8
+00:00:38,750 --> 00:00:46,120
+El curso está pensado para que sea como un libro de mano suyo van a haber secciones que son muy cortas
+
+9
+00:00:46,150 --> 00:00:48,350
+o sea videos muy cortos o cosas muy obvias.
+
+10
+00:00:48,360 --> 00:00:52,500
+Ustedes van a decir bueno cómo se manejan julianos cómo se manejan números cómo se manejan strings y
+
+11
+00:00:52,510 --> 00:00:57,270
+el video puede ser de 1 a 5 minutos de algo un video realmente corto.
+
+12
+00:00:57,340 --> 00:01:02,020
+La idea es que cuando ustedes tengan algún problema o se les olvidó cómo manejar que el sitio las tuplas
+
+13
+00:01:02,020 --> 00:01:07,240
+o las enumeraciones o cualquier cosa ustedes vayan directamente al video y ahí tenga la información
+
+14
+00:01:07,240 --> 00:01:13,630
+de mano claro va a haber clases donde ya hay más información o más que trabajar.
+
+15
+00:01:13,630 --> 00:01:19,750
+Pero originalmente el curso está basado en eso en pequeños videos que los enseñaran a ustedes a hacer
+
+16
+00:01:19,750 --> 00:01:25,760
+las cosas y cuando posteriormente regresen al curso ustedes sepan puntualmente qué video ver.
+
+17
+00:01:25,780 --> 00:01:29,560
+Para aclarar sus dudas bueno si vamos a proceder con las instalaciones.

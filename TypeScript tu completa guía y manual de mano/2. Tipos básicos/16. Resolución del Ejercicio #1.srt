@@ -1,0 +1,203 @@
+1
+00:00:03,440 --> 00:00:05,360
+Cómo les fue con el ejercicio número 1.
+
+2
+00:00:05,360 --> 00:00:06,900
+Espero que lo hayan logrado hacer.
+
+3
+00:00:06,920 --> 00:00:08,740
+Esta es una posible solución.
+
+4
+00:00:08,810 --> 00:00:10,530
+Hay varias maneras de hacerlo.
+
+5
+00:00:10,550 --> 00:00:17,360
+Primero que nada vamos a convertir todos los Baur por leds siguiendo vamos a decir ahora que Batman
+
+6
+00:00:17,360 --> 00:00:18,370
+es un tipo estrella.
+
+7
+00:00:18,520 --> 00:00:27,650
+Clark también es de tipo string el existe de tipo zuliano ahora aquí pudo haber sido un arreglo pero
+
+8
+00:00:27,650 --> 00:00:29,670
+aquí pusimos que fuera tuplas.
+
+9
+00:00:30,310 --> 00:00:36,740
+Entonces para que sea una tupla dos strings tenemos que hacer string Koma string luego esta es una tupla
+
+10
+00:00:36,740 --> 00:00:42,860
+que tiene string un número y un zuliano vamos así string.
+
+11
+00:00:42,980 --> 00:00:49,910
+Después viene un nombre luego un nombre y luego el booleano siguiendo viene en la parte de los arreglos
+
+12
+00:00:49,990 --> 00:00:54,820
+que los arreglos no tienen mayor ciencia que decir que son string y las llaves cuadradas.
+
+13
+00:00:54,830 --> 00:00:59,780
+Para decir que es un arreglo ahora con las enumeraciones aquí había varias maneras de hacerlo.
+
+14
+00:00:59,990 --> 00:01:07,070
+Como ustedes lo hayan hecho quiero regresar a 5 100 1 y 0 está perfecto pero podríamos ponerlo algo
+
+15
+00:01:07,070 --> 00:01:17,510
+como una enumeración en su fuerza por ejemplo y decir bueno la fuerza de Aquaman podemos poner aquí
+
+16
+00:01:17,550 --> 00:01:21,590
+a Aquaman Aquaman la fuerza que tiene este tipo es de cero
+
+17
+00:01:24,900 --> 00:01:30,810
+pero la que tiene Aquaman es de cero la fuerza de Flash que sería el siguiente en grado podemos poner
+
+18
+00:01:30,900 --> 00:01:35,970
+que flases otro de cero cinco coma.
+
+19
+00:01:35,980 --> 00:01:41,840
+Luego viene Batman Rakı aquí la costumbre es ponerlas en ordenadas.
+
+20
+00:01:41,890 --> 00:01:49,320
+Aquí Flash no voy a poner aquí arriba y Superman que es el más fuerte lo voy a poner de 100.
+
+21
+00:01:49,720 --> 00:01:52,050
+Esto debería ser suficiente.
+
+22
+00:01:52,060 --> 00:01:56,590
+Luego inicializar esto a la fuerza punto de Flash.
+
+23
+00:01:56,590 --> 00:02:07,750
+Luego la fuerza junto a Superman y luego la fuerza Batman y luego la fuerza junto a Aquaman tenemos
+
+24
+00:02:07,750 --> 00:02:13,540
+la parte de las tuplas tenemos la parte de las numeraciones el retorno de las funciones más es el retorno
+
+25
+00:02:14,410 --> 00:02:15,220
+dos puntos.
+
+26
+00:02:15,220 --> 00:02:18,570
+Aquí vemos que ya regreso string.
+
+27
+00:02:18,800 --> 00:02:22,510
+Si ponemos aquí un string pedir ayuda no regresa nada.
+
+28
+00:02:22,580 --> 00:02:28,100
+Entonces podría ser un voy luego con la parte de las acepciones de tifo.
+
+29
+00:02:28,100 --> 00:02:30,680
+Esto era bastante como engañosa.
+
+30
+00:02:30,680 --> 00:02:31,060
+Por qué.
+
+31
+00:02:31,060 --> 00:02:33,700
+Porque si ustedes ven el poder ya es un extremo.
+
+32
+00:02:34,000 --> 00:02:36,580
+Podríamos dejar solo string que este sea un Number
+
+33
+00:02:39,610 --> 00:02:42,550
+Number y ya estaría resuelto el problema.
+
+34
+00:02:42,700 --> 00:02:48,200
+Ahora si ustedes lo que hicieron fue algo parecido a esto también pudo haber sido válido y dijeron que
+
+35
+00:02:48,910 --> 00:02:50,430
+el poder tiene que ser un nombre.
+
+36
+00:02:50,970 --> 00:02:56,140
+Y pasaron el 100 string 100 a un 100 de número.
+
+37
+00:02:56,140 --> 00:03:00,400
+Claro aquí también hay que cambiar los Bahar por.
+
+38
+00:03:00,700 --> 00:03:05,660
+Aquí no voy a poder poner dos y largo 2 2 2.
+
+39
+00:03:05,800 --> 00:03:06,340
+Por qué.
+
+40
+00:03:06,340 --> 00:03:10,660
+Porque el LEP impide que se hagan declaraciones de variables.
+
+41
+00:03:10,870 --> 00:03:11,720
+Por eso lo cambié.
+
+42
+00:03:12,190 --> 00:03:19,840
+Ok si tenemos el número 2 y necesitamos convertir este 100 a su string porque lo que quiero es el largo
+
+43
+00:03:19,840 --> 00:03:24,940
+del poder dos caracteres que hay en el poder 2 debería de ser 3.
+
+44
+00:03:24,940 --> 00:03:26,640
+Hay varias maneras de hacer esa conversión.
+
+45
+00:03:26,640 --> 00:03:32,530
+1 una forma que yo sé que nos enseñó pero es usar el método string que tienen todos los tipos.
+
+46
+00:03:32,650 --> 00:03:38,110
+No nos olvidemos que es una función grabamos cambios eso sería todo está resuelto el ejercicio número
+
+47
+00:03:38,110 --> 00:03:38,360
+1.
+
+48
+00:03:38,470 --> 00:03:41,230
+Espero que lo hayan logrado hacer hasta ese punto.
+
+49
+00:03:41,230 --> 00:03:46,060
+Si ustedes lo hiciéramos de otra manera pues no se preocupen la verdad es que esto sólo es un reforzamiento
+
+50
+00:03:46,330 --> 00:03:51,280
+de todo lo que hemos visto pero espero que lo haya por lo menos intentado y avanzado lo suficiente como
+
+51
+00:03:51,360 --> 00:03:52,080
+el siguiente vídeo.

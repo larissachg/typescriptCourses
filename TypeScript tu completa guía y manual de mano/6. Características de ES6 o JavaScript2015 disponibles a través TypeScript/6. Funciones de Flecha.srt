@@ -1,0 +1,375 @@
+1
+00:00:03,370 --> 00:00:09,140
+Las soluciones de flecha también son una cosa nueva del IPv6 también son conocidas como Lanka functions
+
+2
+00:00:09,560 --> 00:00:16,160
+o funciones de flecha gorda tiene varios nombres pero las funciones de flecha tienen varias características
+
+3
+00:00:16,400 --> 00:00:22,300
+que debemos mencionar que serán muy utilizadas de aquí en adelante.
+
+4
+00:00:22,580 --> 00:00:26,660
+Pensamos en una función de jabas que pensamos que esto no es una Chaotix si es una chullas normal voy
+
+5
+00:00:26,660 --> 00:00:31,360
+a escribir código JavaScript normal en este caso voy hacer algo sencillo como sumar dos números.
+
+6
+00:00:31,360 --> 00:00:39,290
+Como veis son los argumentos que voy a hacer el retrón a más del otro mundo en la consola voy a imprimir
+
+7
+00:00:39,560 --> 00:00:46,250
+sumar dos más dos no sumar dos más.
+
+8
+00:00:46,600 --> 00:00:51,400
+Si yo grabo los cambios pues no van a haber nada mágico a parecer cuatro nada nada del otro mundo.
+
+9
+00:00:51,550 --> 00:00:58,170
+Ahora las funciones de flecha pueden reemplazar las funciones normales pero depende del contexto no
+
+10
+00:00:58,600 --> 00:01:01,750
+depende de lo que nosotros ocupemos en este caso.
+
+11
+00:01:01,960 --> 00:01:10,890
+Esta función la puedo hacer puedo ser su sinónimo de la siguiente manera Puedo decir sumar es igual
+
+12
+00:01:12,040 --> 00:01:20,790
+a sumar es igual recibe dos parámetros recibe dos parámetros que es A y B.
+
+13
+00:01:20,940 --> 00:01:27,700
+En este caso a como de la misma manera y el resultado como una sola línea yo puedo hacer lo siguiente
+
+14
+00:01:28,840 --> 00:01:32,050
+a más de puntico es lo mismo.
+
+15
+00:01:32,110 --> 00:01:36,970
+Es exactamente lo mismo eso que está ahí es exactamente esto que está acá.
+
+16
+00:01:37,070 --> 00:01:43,300
+Algunos cambios de cargo y voy a ver cuatro también en teoría es un poco más sencillo si tuvieran varias
+
+17
+00:01:43,300 --> 00:01:53,740
+líneas por ejemplo que además tiene otras cosas puedes abrir una llave y cerrar llaves y hacer el cuerpo
+
+18
+00:01:53,740 --> 00:01:55,080
+de la función.
+
+19
+00:01:55,690 --> 00:02:05,350
+Es igual a por ejemplo si Balagué no va a hacer nada y hacemos el resto más grave los cambios se iban
+
+20
+00:02:05,350 --> 00:02:10,600
+a ver que tenemos el mismo resultado sólo que ahora nuestra función de flecha tiene varias líneas pero
+
+21
+00:02:10,600 --> 00:02:17,360
+cuando sólo ocupamos realizar un solo valor o cuando es sólo una instrucción basta con hacerlo así y
+
+22
+00:02:17,380 --> 00:02:23,340
+el tanque y el JavaScript ya saben cómo funciona esa cuestión será un cambio si me voy a la PP apuntó
+
+23
+00:02:23,410 --> 00:02:29,560
+que se van a ver que es la misma cuestión que hemos hecho que sigamos adelante.
+
+24
+00:02:29,570 --> 00:02:32,300
+Este ejemplo no tiene mucho sentido muy fácil.
+
+25
+00:02:32,300 --> 00:02:37,400
+Voy a comenzar a cananas para que no tengas ahí de referencia conforme a lo que voy a hacer lo voy a
+
+26
+00:02:37,400 --> 00:02:47,010
+seguir escribiendo aunque vamos a hacer una sola función function function dar orden a OK vamos a hacerlo
+
+27
+00:02:47,010 --> 00:02:49,970
+así le vamos a pasar como argumento la orden.
+
+28
+00:02:51,020 --> 00:02:56,100
+Abro y cierro llaves y quiero que haga esa orden.
+
+29
+00:02:56,450 --> 00:03:03,080
+Entonces voy a hacerlo como un templo literal y OK y voy a mandar la orden.
+
+30
+00:03:03,640 --> 00:03:10,760
+Posteriormente me voy a llevar la función dar orden a Olic de más por esto es más vamos a hacerlo así
+
+31
+00:03:11,800 --> 00:03:17,560
+que estamos todo esto solo para ver la salida.
+
+32
+00:03:18,740 --> 00:03:26,840
+Claro los cambios no voy al navegador web de cargo y tengo que Smarts perfecto nada del otro mundo.
+
+33
+00:03:27,020 --> 00:03:29,940
+Esta función o función de flecha.
+
+34
+00:03:29,950 --> 00:03:39,740
+Vamos de nuevo Leith es igual recibo una orden por eso el paréntesis aquí y si se fijan es sólo una
+
+35
+00:03:39,740 --> 00:03:40,350
+línea.
+
+36
+00:03:40,370 --> 00:03:46,580
+Voy a poner la flecha por quitar este acá estoy acá y todo el rato.
+
+37
+00:03:46,580 --> 00:03:52,530
+Ya no necesito poner ahí lo dejo así grabo los cambios recargó y tenemos el mismo efecto.
+
+38
+00:03:52,530 --> 00:03:59,660
+Me van a decir hoy cuál es la ventaja de usar fechas las flechas o las opciones de flecha ok.
+
+39
+00:03:59,960 --> 00:04:06,710
+Ahorita solo estamos enseñándoles cómo hacer algo en particular cómo se puede representar una función
+
+40
+00:04:06,710 --> 00:04:15,180
+normal a una función de flecha porque vamos a ver un ejemplo donde las funciones de flecha sí son útiles.
+
+41
+00:04:15,380 --> 00:04:20,650
+Empecemos con declararnos un objeto llamado Capitán América.
+
+42
+00:04:21,500 --> 00:04:27,890
+Capitán América dentro de sí tiene el nombre del Avenger que va a dar órdenes al que le va a dar órdenes
+
+43
+00:04:27,890 --> 00:04:36,630
+en este caso va a ser ok con y vamos a hacer que el Capitán América pueda darle órdenes a el héroe que
+
+44
+00:04:36,630 --> 00:04:45,450
+tiene el lacayo que tiene agregado dentro este caso lo pondremos igualdad orden a Jock dos puntos es
+
+45
+00:04:45,450 --> 00:04:47,570
+una función parentesis.
+
+46
+00:04:47,610 --> 00:04:59,670
+No voy a mandar nada y lo único que va a ser es un consuelo de disputo out pero un nombre más S-Max
+
+47
+00:05:00,980 --> 00:05:08,760
+es la única orden que puede dar el que pueda ser Capitán América fotico va voy a hacer un consumo de
+
+48
+00:05:10,050 --> 00:05:18,210
+Capitán América no sólo hace falta el Capitán América perdón capitán Capitán América punto dar orden
+
+49
+00:05:18,300 --> 00:05:24,360
+ok eso es todo porque ya lo estamos imprimiendo en consola y no retornará tras los cambios de cargo
+
+50
+00:05:25,200 --> 00:05:28,090
+pues nada sorprendente pasa por qué es lo mismo.
+
+51
+00:05:28,220 --> 00:05:28,640
+Es más.
+
+52
+00:05:29,970 --> 00:05:30,650
+Ok.
+
+53
+00:05:31,050 --> 00:05:32,230
+Cómo está el problema acá.
+
+54
+00:05:32,280 --> 00:05:36,670
+Supóngase que vamos a cambiar un poquito el contexto de dar órdenes.
+
+55
+00:05:36,770 --> 00:05:40,730
+Supongo que es un poco lento de la cabeza y su función.
+
+56
+00:05:40,740 --> 00:05:44,750
+La orden que recibe la ejecuta un segundo después de este caso.
+
+57
+00:05:44,820 --> 00:05:49,720
+Séptimo paréntesis sí una función paréntesis llaves.
+
+58
+00:05:50,400 --> 00:06:02,430
+Y al segundo al segundo Jalkh va a ser la orden que Capitán América le está dando los cambios de cargo.
+
+59
+00:06:02,430 --> 00:06:07,980
+Y al segundo aparece nuestro mensaje pero se fijan aparece o define más por qué.
+
+60
+00:06:07,980 --> 00:06:17,490
+En fin porque el contexto cambia cuando esto es ejecutado cuando usemos funciones asíncronas o trabajemos
+
+61
+00:06:17,490 --> 00:06:19,650
+con cosas que como.
+
+62
+00:06:19,740 --> 00:06:24,200
+Como éste que crea un nuevo contexto de una función dentro de una función.
+
+63
+00:06:24,210 --> 00:06:30,990
+Esto este puntero del Diez se pierde o apunta a otra cosa en este caso está apuntando al objeto global.
+
+64
+00:06:30,990 --> 00:06:33,090
+Este código ya no funciona.
+
+65
+00:06:33,090 --> 00:06:35,250
+Qué tendríamos que hacer en el ECMAscript 5.
+
+66
+00:06:35,250 --> 00:06:40,320
+Bueno tendríamos que hacer una referencia podemos ponerlo con Let Let self.
+
+67
+00:06:40,410 --> 00:06:44,420
+Es igual a DIS y aquí podríamos cambiar el celu.
+
+68
+00:06:44,510 --> 00:06:46,770
+Perdón un Zell punto.
+
+69
+00:06:46,830 --> 00:06:55,210
+Si lo hago así van a ver que sí funciona pero es un trabajo un poco extraño hacer toda esa modificación.
+
+70
+00:06:56,470 --> 00:07:01,510
+Qué les parece si cambiamos la función de alguna función de fecha para no tener que agregar líneas de
+
+71
+00:07:01,510 --> 00:07:04,550
+código adicionales que están un poco extrañas.
+
+72
+00:07:05,300 --> 00:07:07,180
+Hay que dar orden a OK.
+
+73
+00:07:07,390 --> 00:07:08,620
+Podría ser.
+
+74
+00:07:08,620 --> 00:07:12,830
+Podrían dejarlo como una función si ustedes quieren pero el.
+
+75
+00:07:12,880 --> 00:07:20,970
+Aquí es donde podemos reemplazarla por una función de flecha para evitar que el objeto Dish mute.
+
+76
+00:07:21,130 --> 00:07:27,290
+Las funciones de flecha no cambian el objeto es el mismo objeto que está afuera.
+
+77
+00:07:27,370 --> 00:07:34,450
+Es decir éste dice dentro de la función de flecha va a ser el mismo Dish del contexto anterior o vamos
+
+78
+00:07:34,450 --> 00:07:36,340
+a ver si cierto.
+
+79
+00:07:37,160 --> 00:07:45,970
+Piensen ustedes cómo reemplazamos esto por una función de flecha o que primero parentesis.
+
+80
+00:07:46,270 --> 00:07:48,370
+Eso es todo no lleva a ningún parámetro.
+
+81
+00:07:48,400 --> 00:07:52,470
+Por consecuencia vamos paréntesis luego la flecha gorda.
+
+82
+00:07:52,480 --> 00:07:58,550
+Acordémonos de que realmente la función lo único que está haciendo es este Con del disputo nombre más
+
+83
+00:07:58,560 --> 00:08:04,360
+es más esa es la única instrucción que hace si sólo realiza una instrucción.
+
+84
+00:08:05,080 --> 00:08:11,760
+No hace falta éste estallar y puedo hacer ponerlo acá con solo disputo Nobre Jol.
+
+85
+00:08:11,810 --> 00:08:16,870
+Es más esto es IVA porque este es el fin del consumo.
+
+86
+00:08:16,900 --> 00:08:26,320
+Este paréntesis luego en el séptimo out después de esa función la coma y luego la cantidad de milisegundos
+
+87
+00:08:26,320 --> 00:08:34,170
+que yo necesito para ejecutar la instrucción grabo los cambios recargó el navegador web y aparece ExoMars
+
+88
+00:08:34,330 --> 00:08:36,510
+con una función de flecha.
+
+89
+00:08:36,850 --> 00:08:41,980
+Podemos darle estabulación es perfectamente para que sea más fácil de verlo tal vez así se pueda apreciar
+
+90
+00:08:41,980 --> 00:08:49,230
+mejor la instrucción recargo iban a ver que es lo mismo OK al segundo pues la instrucción básicamente.
+
+91
+00:08:49,270 --> 00:08:50,830
+Entre otras bondades.
+
+92
+00:08:51,100 --> 00:08:57,190
+Pero esto es en síntesis lo principal de las funciones de flecha no cambia en el objeto Tiz y nos permite
+
+93
+00:08:57,190 --> 00:09:04,480
+usar dentro de nuestro código con total seguridad estas instrucciones de este tipo sin preocuparnos
+
+94
+00:09:04,480 --> 00:09:05,700
+de que ese valor va a cambiar.

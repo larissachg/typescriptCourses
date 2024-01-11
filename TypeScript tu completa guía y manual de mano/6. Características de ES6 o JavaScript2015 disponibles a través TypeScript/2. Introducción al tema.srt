@@ -1,0 +1,75 @@
+1
+00:00:03,340 --> 00:00:08,710
+Hemos estado hablando bastante de funciones de la ECMAScript 6 que están incorporadas en el tachi pero
+
+2
+00:00:08,710 --> 00:00:13,840
+vamos a dedicarle una sección completa de este curso aprender un par de cosas nuevas que son necesarias
+
+3
+00:00:13,870 --> 00:00:15,790
+para el buen uso de transcribí.
+
+4
+00:00:15,940 --> 00:00:20,470
+Primeramente qué es el ECMAScript 6 o el ECMAScript 2015.
+
+5
+00:00:20,710 --> 00:00:24,050
+Pero bueno es un nuevo paso en la evolución de JavaScript.
+
+6
+00:00:24,180 --> 00:00:30,010
+En este caso estamos utilizando la versión 5 que es la versión que es más soportada por los navegadores
+
+7
+00:00:30,010 --> 00:00:36,580
+web actuales pero deberíamos de estar usando la versión 6 ya porque el estándar sigue avanzando y ya
+
+8
+00:00:36,580 --> 00:00:43,210
+está trabajando en la versión del 2016 de la versión del 2017 y la del 2018 y así va a seguir sucesivamente.
+
+9
+00:00:43,690 --> 00:00:49,380
+Pero tenemos que estar bien actualizados otras características que trae ya puntualmente el ECMAScript
+
+10
+00:00:49,380 --> 00:00:55,500
+6 o ECMAScript de 2015 son mejoras en el ámbito de las variables adición de constantes temples literales
+
+11
+00:00:55,500 --> 00:01:00,450
+funciones de fecha también conocidas como Holanda. Functions de estructuración de objetos y arreglos
+
+12
+00:01:00,510 --> 00:01:07,410
+nuevos tipos de ciclos clases y entre otras cosas claro esta es una introducción por decirlo así muy
+
+13
+00:01:07,410 --> 00:01:13,200
+suave pero les recomendaría que buscaran algún curso completo del ECMAScript 6.
+
+14
+00:01:13,230 --> 00:01:18,030
+Casualmente yo tengo uno también pero ustedes son libres de investigar todo lo que quieran.
+
+15
+00:01:18,030 --> 00:01:24,210
+Por otro lado a continuación veremos una serie de funciones nuevas del ECMAScript 2015 que ya están
+
+16
+00:01:24,210 --> 00:01:28,890
+soportadas por Thaís haciendo un pequeño paréntesis acuérdese que hay ciertas cosas que no lo soportan
+
+17
+00:01:29,220 --> 00:01:33,810
+en este momento sólo se me viene a la cabeza lo que son los sets y los maps pero el equipo de tales
+
+18
+00:01:34,010 --> 00:01:39,270
+ya está trabajando en incorporar todo lo nuevo sumado a nuevas funciones pero bueno suficiente por ahora
+
+19
+00:01:39,330 --> 00:01:40,080
+vamos a empezar a.

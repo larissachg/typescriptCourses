@@ -1,0 +1,167 @@
+1
+00:00:03,370 --> 00:00:07,600
+Antes de comenzar con nuestro primer programa ustedes hicieron las instalaciones y no han reiniciado
+
+2
+00:00:07,600 --> 00:00:08,040
+el auto.
+
+3
+00:00:08,050 --> 00:00:10,660
+Mejor cierro y vuelvo al abrir por cualquier cosa.
+
+4
+00:00:11,100 --> 00:00:15,070
+Ok empecemos queremos una carpeta en el escritorio o donde ustedes quieran.
+
+5
+00:00:15,070 --> 00:00:22,000
+Llamada Tax click aquí pondremos el ejemplo para trabajar.
+
+6
+00:00:22,000 --> 00:00:28,710
+Abrimos la carpeta y arrastramos esto directamente dentro de auto para empezar a crear archivos.
+
+7
+00:00:28,770 --> 00:00:33,610
+El primero el primero que ocupamos es un índex HTML para ver las cosas que vayamos haciendo.
+
+8
+00:00:34,630 --> 00:00:36,140
+Es un poco más grande.
+
+9
+00:00:36,200 --> 00:00:41,700
+Uno ya está creado un archivo pueden escribir HTML Tapp y les debería parecer extorsionó pues es una
+
+10
+00:00:41,700 --> 00:00:46,340
+página web común y corriente con el vemos y el body.
+
+11
+00:00:46,350 --> 00:00:51,050
+Vamos a agregar una referencia a nuestro archivo un archivo JavaScript que vamos a crear llamado Apep
+
+12
+00:00:51,120 --> 00:00:52,410
+p.ej..
+
+13
+00:00:52,710 --> 00:00:56,100
+Aquí es donde pondremos todo el código de JavaScript.
+
+14
+00:00:56,460 --> 00:01:00,620
+O mejor dicho ese es el código JavaScript que el navegador va a entender.
+
+15
+00:01:00,810 --> 00:01:08,470
+Ahora el archivo no lo tengo creado acá en la carpeta tal script click derecho nuevo archivo y pongámosle
+
+16
+00:01:08,470 --> 00:01:11,250
+nombre App punto 6.
+
+17
+00:01:11,440 --> 00:01:20,080
+La extensión de los archivos de entre aquí lo único que vamos a hacer es un Consol log de Hola Mundo
+
+18
+00:01:21,540 --> 00:01:25,720
+sábalos Camps al salvarlo ustedes van a observar que nada pasa.
+
+19
+00:01:25,720 --> 00:01:27,340
+O sea no pasa nada.
+
+20
+00:01:27,340 --> 00:01:35,130
+Si yo abro el archivo Linex HTML en el navegador web no va a hacer nada de hecho le partieron un error
+
+21
+00:01:35,130 --> 00:01:41,590
+de referencia porque los chinos se encuentra en la p.ej. eso no existe lo que ocupamos nosotros ahora
+
+22
+00:01:41,620 --> 00:01:49,120
+es agarrar el archivo que acabo de crear de Target Group y con por decirlo así para que genere el archivo
+
+23
+00:01:49,120 --> 00:01:50,290
+de JavaScript.
+
+24
+00:01:50,410 --> 00:01:55,390
+Para eso hay varias formas ustedes pueden abrir la ventana de comando llegar a navegar hasta donde está
+
+25
+00:01:55,390 --> 00:02:02,890
+la carpeta pero si instalamos el y todos los plugins que se vieron en la fase pasada tenemos esta opción
+
+26
+00:02:02,890 --> 00:02:06,160
+más aquí abajo para abrir una terminal.
+
+27
+00:02:06,270 --> 00:02:06,890
+Click ahí.
+
+28
+00:02:07,470 --> 00:02:14,660
+Y si bien ya me redirecciona a la carpeta que sería lo mismo que llegar y decir bueno estoy aquí abro
+
+29
+00:02:14,660 --> 00:02:23,360
+la terminal voy a hacer a la carpeta cebé a esta carpeta sería exactamente lo mismo pero al tocarlo
+
+30
+00:02:23,360 --> 00:02:25,310
+con él más ya me redirecciona de esa carpeta.
+
+31
+00:02:25,670 --> 00:02:33,890
+Hay varias maneras de hacer eso o cómo compilar el archivo hasta si hacemos qué es ese espacio luego
+
+32
+00:02:33,920 --> 00:02:41,840
+el nombre del archivo app .3 pueden obviar el TS porque obviamente es algo como si quiero convertir
+
+33
+00:02:41,840 --> 00:02:44,010
+un archivo script Agent.
+
+34
+00:02:44,240 --> 00:02:51,080
+Eso va a buscar el archivo app punto 13 y lo va a convertir en el archivo JavaScript si bien es lo mismo
+
+35
+00:02:51,410 --> 00:02:56,930
+son exactamente iguales sólo que aquí ya se va a comer toda la línea y podemos configurar otras cosas
+
+36
+00:02:56,930 --> 00:02:59,540
+que veremos más adelante.
+
+37
+00:02:59,540 --> 00:03:03,430
+Si vengo al navegador web y lo recargo ya me aparece Hola Mundo.
+
+38
+00:03:03,530 --> 00:03:04,940
+Así de sencillo.
+
+39
+00:03:04,940 --> 00:03:10,550
+En resumen los navegadores web no pueden correr el código Time script directamente necesita ser traducido
+
+40
+00:03:10,550 --> 00:03:14,790
+a su versión de JavaScript para que el navegador web lo pueda interpretar.
+
+41
+00:03:14,790 --> 00:03:21,860
+Ahora mediante el código TSS que nosotros usamos acá lo convertimos de tal Fripp al JavaScript y eso
+
+42
+00:03:21,860 --> 00:03:22,900
+es todo lo que tenemos que hacer.

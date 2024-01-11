@@ -1,0 +1,155 @@
+1
+00:00:03,340 --> 00:00:08,590
+Algo sumamente útil es que a la hora de escribir nosotros podemos agregar todos los comentarios que
+
+2
+00:00:08,590 --> 00:00:12,270
+queramos y cuando no con pillemos le podemos remover los comentarios.
+
+3
+00:00:12,280 --> 00:00:12,610
+Por qué.
+
+4
+00:00:12,620 --> 00:00:16,260
+Porque no nos interesa que la gente sepa qué hace la función.
+
+5
+00:00:16,380 --> 00:00:22,310
+Bueno o al menos que tenga nuestras anotaciones o salamos podemos hacer eso aquí en la cabecera.
+
+6
+00:00:22,310 --> 00:00:28,660
+Vamos a hacer un comentario si rápido multicine siendo esto es vamos a poner algún texto esto es un
+
+7
+00:00:28,660 --> 00:00:37,070
+comentario útil línea multilingüe unos puntos y otro poner un par de letras aquí abajo.
+
+8
+00:00:37,120 --> 00:00:42,530
+Héroe es el personaje principal en edad.
+
+9
+00:00:42,580 --> 00:00:51,930
+Esta variable contiene la edad algo que vamos a poner una función o algo así.
+
+10
+00:00:51,980 --> 00:00:54,370
+Esta es la función que imprime
+
+11
+00:00:57,060 --> 00:00:57,770
+el héroe.
+
+12
+00:00:57,770 --> 00:01:06,330
+Por ejemplo poner un par de rayitas ahí y con esto vamos a terminar.
+
+13
+00:01:06,870 --> 00:01:10,520
+Ustedes pueden poner comentarios donde ustedes les dé la gana a la hora de salvar.
+
+14
+00:01:10,550 --> 00:01:16,160
+Quiero que ustedes vean que todos los comentarios fueron transcritos puede ser que sí puede ser que
+
+15
+00:01:16,160 --> 00:01:22,380
+no. Eso se controla en el TS Bueno hay dos maneras con la instrucción reboot comments.
+
+16
+00:01:22,500 --> 00:01:26,750
+Yo le acabo de poner pero ustedes no pueden alegar la pueden quitar.
+
+17
+00:01:26,760 --> 00:01:31,500
+Yo les pongo Tru a la hora de salvar me va a quitar todos los comentarios.
+
+18
+00:01:31,640 --> 00:01:40,450
+Si yo lo dejo en Fox y lo grabo hay otra manera de ejecutarlo que es abriendo la consola a quien Rute
+
+19
+00:01:40,450 --> 00:01:47,530
+la aplicación y utilizar estas instrucciones del compilador Comets con el menos menos cómo hacemos eso
+
+20
+00:01:48,100 --> 00:01:55,000
+menos menos que adoptes ese espacio podemos especificar el archivo si no estamos usando el TS podemos
+
+21
+00:01:55,000 --> 00:02:05,560
+decirle a Pepe punto TC menos menos coméis lo avienten van a ver que los comentarios aquí van a desaparecer.
+
+22
+00:02:05,560 --> 00:02:08,290
+Otra forma de hacerlo mejor de a generar.
+
+23
+00:02:08,290 --> 00:02:13,420
+Si ustedes tienen el HVS config simplemente tienen que ser TSS y va a usar toda la configuración que
+
+24
+00:02:13,420 --> 00:02:21,640
+esté en ese archivo pero aquí lo teníamos como un falso True y ahora puedo hacerlo otra vez y ahí va
+
+25
+00:02:21,660 --> 00:02:24,820
+agarrar las configuraciones puestas en ese archivo y lo va a hacer.
+
+26
+00:02:24,840 --> 00:02:30,680
+Esto es bastante bastante útil especialmente porque nos junta todo el archivo y lo hace mucho más ligero.
+
+27
+00:02:30,690 --> 00:02:31,050
+Por qué.
+
+28
+00:02:31,050 --> 00:02:37,620
+Porque todos los comentarios que nosotros mandamos digamos estos son líneas de código en teoría ignoradas
+
+29
+00:02:37,650 --> 00:02:41,700
+pero son líneas de código que el cliente descarga de esta forma no los tiene.
+
+30
+00:02:41,700 --> 00:02:46,950
+Hay una manera de especificar un comentario para que no sea no se ha eliminado y es que empiece con
+
+31
+00:02:46,950 --> 00:02:53,720
+esta instrucción el asterisco signo de admiración quiere llegar esto y ese comentario si lo va a dejar.
+
+32
+00:02:53,730 --> 00:03:00,300
+Eso es bastante útil cuando nosotros queremos poner algo como derechos de autor.
+
+33
+00:03:00,310 --> 00:03:03,040
+2.2 Fernando Herrera por ejemplo.
+
+34
+00:03:03,180 --> 00:03:05,820
+Versión 1.0.
+
+35
+00:03:05,910 --> 00:03:08,910
+No sé algo así es útil para dejarlo de esa manera.
+
+36
+00:03:08,970 --> 00:03:14,280
+Un comentario que si queremos es que para que la gente lo vea por lo general es usado en la parte de
+
+37
+00:03:14,280 --> 00:03:19,980
+arriba del archivo pero todos los demás lo que lo tenga lo que no empiezo con esto va a ser ignorado
+
+38
+00:03:20,040 --> 00:03:21,680
+y eliminado.
+
+39
+00:03:21,960 --> 00:03:23,630
+Espero que les haya gustado lo que veo en el siguiente video.

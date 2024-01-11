@@ -1,0 +1,79 @@
+1
+00:00:03,470 --> 00:00:09,780
+Hay unos ciertos problemas que conlleva el uso de los Spaces y es bueno que lo sepa el primero.
+
+2
+00:00:10,040 --> 00:00:17,840
+Si no importamos los pais antes de usar las funciones no podemos usar el usar no funciona da errores
+
+3
+00:00:18,320 --> 00:00:20,430
+como el que vimos de la referencia.
+
+4
+00:00:20,540 --> 00:00:27,140
+Otra cosa nosotros ocuparemos saber la estructura del archivo de validaciones textos y validaciones
+
+5
+00:00:27,140 --> 00:00:32,090
+fechas o que podemos llegar y abrirlo y ver que hasta aquí en el archivo T.C.
+
+6
+00:00:32,420 --> 00:00:34,280
+Y ahí está esa parte.
+
+7
+00:00:34,310 --> 00:00:41,690
+Imagínense que hubieran muchas muchas exportaciones muchos así que el archivo de textos fuera así de
+
+8
+00:00:41,690 --> 00:00:50,700
+grande y con muchas funciones muchos métodos o propiedades al hacer esto importamos todo el contenido
+
+9
+00:00:50,790 --> 00:00:58,860
+de Spritz a pesar de que solo necesitemos una única función o sólo ocupamos un pedacito de PAIS PERO
+
+10
+00:00:58,860 --> 00:01:06,900
+cargamos todo y acordémonos de que esta instrucción del réferis paz va a cargarnos textualmente ese
+
+11
+00:01:06,900 --> 00:01:08,430
+archivo dentro del PP.
+
+12
+00:01:08,440 --> 00:01:08,970
+Punto.
+
+13
+00:01:09,010 --> 00:01:13,240
+Bueno en este caso p.ej. es el que vayamos a crear lo mismo con las fechas.
+
+14
+00:01:13,500 --> 00:01:19,500
+Entonces aquí hay un par de problemas que es bueno que ustedes sepan los demás países son muy útiles
+
+15
+00:01:19,530 --> 00:01:28,500
+para proyectos pequeños o para decirlo así trabajos de mediana a pequeña escala pero cuando ya hablamos
+
+16
+00:01:28,500 --> 00:01:34,070
+de proyectos muy grandes o proyectos que tienen muchos módulos o muchos muchos en teoría teóricamente
+
+17
+00:01:34,100 --> 00:01:36,240
+países no es bueno utilizarlo.
+
+18
+00:01:36,240 --> 00:01:41,280
+Es mejor ver la parte de los módulos o utilizar los módulos del ECMAScript 6 que también son algo muy
+
+19
+00:01:41,280 --> 00:01:45,090
+bueno pero sabemos que no todos los navegadores soportan ese código.
+
+20
+00:01:45,090 --> 00:01:49,280
+Entonces estamos en un pequeño dilema pero eso es porque no hemos visto el siguiente tema.

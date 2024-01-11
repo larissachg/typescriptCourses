@@ -1,0 +1,63 @@
+1
+00:00:03,510 --> 00:00:10,130
+Retomemos el tema del ejercicio anterior ya habíamos visto que esto de nombre estaba dándonos un error
+
+2
+00:00:10,300 --> 00:00:15,430
+por qué no está cumpliendo el tipo de dato que estamos especificando aquí arriba.
+
+3
+00:00:15,450 --> 00:00:18,000
+Cómo hacemos nosotros para especificar un método.
+
+4
+00:00:18,000 --> 00:00:26,700
+Aquí en la parte de Río o saber cómo vamos a analizarlo necesitamos un método llamado nombre.
+
+5
+00:00:27,410 --> 00:00:35,070
+Suponemos que el nombre de lo que va a hacer es regresarnos el disco nombre el nombre del objeto pensemos
+
+6
+00:00:35,070 --> 00:00:37,640
+en algo así.
+
+7
+00:00:38,010 --> 00:00:40,700
+Entonces qué hacemos qué hacemos.
+
+8
+00:00:40,770 --> 00:00:49,000
+Primero que nada ponemos el nombre del método o propiedad en este caso no vamos a poner paréntesis directamente.
+
+9
+00:00:49,230 --> 00:00:55,460
+En cambio vamos a poner dos puntos y vamos a decir que esto es su método.
+
+10
+00:00:55,470 --> 00:01:00,720
+Por eso pongo paréntesis como lo estoy especificando nada dentro de paréntesis.
+
+11
+00:01:00,720 --> 00:01:07,310
+Por consecuencia no recibe ningún parámetro y va a regresarnos un extremo.
+
+12
+00:01:07,980 --> 00:01:12,940
+Si bien ahora ya compila bien no ha dudado ningún error.
+
+13
+00:01:12,940 --> 00:01:21,300
+Ahora lo único feo en esto por decirlo así es que es en lo particular no me gusta mucho porque es mucho
+
+14
+00:01:21,300 --> 00:01:23,720
+código a pesar de que se pueda leer fácil.
+
+15
+00:01:24,050 --> 00:01:30,210
+Es mucho código en una sola línea y digamos que quien nos da nos presentó un par de problemas pero para
+
+16
+00:01:30,210 --> 00:01:31,590
+eso vamos a ver siguiente video.

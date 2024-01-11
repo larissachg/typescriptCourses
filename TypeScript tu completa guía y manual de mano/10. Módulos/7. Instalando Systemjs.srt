@@ -1,0 +1,263 @@
+1
+00:00:03,200 --> 00:00:09,730
+Mingora procedamos con la parte de Sistem jamás voy a quitar esto y voy a regresar el código como estaba.
+
+2
+00:00:09,770 --> 00:00:15,130
+Los cambios van a ver que es un relato automático y a mi página sigue teniendo el mismo error feo y
+
+3
+00:00:15,140 --> 00:00:16,860
+nada del otro mundo.
+
+4
+00:00:16,850 --> 00:00:22,370
+Bien para importar System y este hay que hacer lo siguiente Hay varias maneras descargamos la librería
+
+5
+00:00:22,370 --> 00:00:27,070
+manualmente y la instalamos la copiamos en el proyecto se etc. como cualquier otro.
+
+6
+00:00:27,140 --> 00:00:34,370
+Otra librería JavaScript pero estamos usando aprovechemos el poder que tiene el no paquetes Manager
+
+7
+00:00:34,640 --> 00:00:40,600
+para cargar todas nuestras dependencias puede tocar este botón del más que está aquí abajo para crearme
+
+8
+00:00:40,610 --> 00:00:47,630
+una nueva instancia de esta terminal porque quiero dejar el servidor corriendo para este más y vámonos
+
+9
+00:00:47,630 --> 00:00:50,100
+a la página de System elles.
+
+10
+00:00:50,360 --> 00:00:51,370
+Bajemos un poco.
+
+11
+00:00:51,380 --> 00:00:56,010
+Aquí está el bla bla bla de lo que es como usarlo básicamente esto ya vamos a empezar.
+
+12
+00:00:56,060 --> 00:01:02,950
+Primero tenemos que instalarlo y aquí está para hacer esto necesito ser un pie instó.
+
+13
+00:01:02,990 --> 00:01:08,030
+System Gillies voy a copiar esta línea de código acá y lo pego.
+
+14
+00:01:08,090 --> 00:01:14,660
+Posiblemente ustedes necesiten correrlos como administrador o o SX necesitan corrernos como sus oyentes
+
+15
+00:01:14,660 --> 00:01:18,550
+van a ver que me va a tirar los errores que posiblemente más de uno pueda tener.
+
+16
+00:01:18,710 --> 00:01:19,670
+Error error error.
+
+17
+00:01:19,680 --> 00:01:25,950
+Estos sí son críticos los Warming pues no lo son tanto pero los errores sí.
+
+18
+00:01:25,980 --> 00:01:27,180
+Entonces vamos a hacer lo mismo.
+
+19
+00:01:27,190 --> 00:01:34,070
+Voy a pegar el código pero lo voy a ejecutar como sudo sudo espacio en pie instado a pedir el paso lo
+
+20
+00:01:36,070 --> 00:01:44,160
+cual hace que el sudo es para o X para Windows tiene que abrir la terminal como administrador o que
+
+21
+00:01:44,170 --> 00:01:44,930
+ya lo hizo.
+
+22
+00:01:45,040 --> 00:01:50,190
+Si ustedes se fijan ahora tengo dentro de Nott Modus.
+
+23
+00:01:50,380 --> 00:01:55,510
+O los módulos de Nott tengo que bajar un montón pero por aquí tiene que estar esta orden alfabético
+
+24
+00:01:55,760 --> 00:02:02,870
+y hay que estar Sistem llegues a casa Sistem llegues con su versión de distribución y otras cosas qué
+
+25
+00:02:02,880 --> 00:02:07,360
+archivos punto Mapp quiere decir que esto posiblemente fue hecho en Target Group para evitar errores
+
+26
+00:02:07,780 --> 00:02:13,440
+o que los que ocupamos nosotros existen fallas esa librería ocupaba meterla en nuestro proyecto hispabonos
+
+27
+00:02:13,600 --> 00:02:25,000
+al Index punto HTML e importemos esa librería script script es RSM Serse igual eso lo tenemos dentro
+
+28
+00:02:25,000 --> 00:02:38,470
+de Nott de los módulos de Not Leca System Yes que es el que tenemos acá otra carpeta Diz Disk y ahora
+
+29
+00:02:38,530 --> 00:02:49,450
+System Vieites placa System cheats punto System junto llegas graven los cambios todo esto sus módulos
+
+30
+00:02:49,450 --> 00:02:50,880
+de no lo voy a minimizar.
+
+31
+00:02:50,990 --> 00:02:59,620
+Graban los cambios y me voy a mi consola de el JavaScript para que miremos una cosa que tenemos que
+
+32
+00:02:59,620 --> 00:03:04,610
+ver aquí es comentar la venida del Aterpe porque ya no lo voy a ocupar si yo recargó no les tiene que
+
+33
+00:03:04,640 --> 00:03:05,590
+haber ningún error.
+
+34
+00:03:05,710 --> 00:03:13,310
+Si ustedes le sale algo como esto como esto loka los tres mil modos uno se puede encontrar.
+
+35
+00:03:13,330 --> 00:03:18,960
+Esto quiere decir que ustedes escribieron mal la ubicación del pack de Sistem.
+
+36
+00:03:19,120 --> 00:03:23,160
+Aquí el PP ya no lo voy a ocupar de hecho eso ya queda en el pasado.
+
+37
+00:03:23,770 --> 00:03:29,460
+Sigamos viendo la documentación de Sistem voy a subir y vámonos vámonos al Brousse.
+
+38
+00:03:30,570 --> 00:03:32,900
+Ok qué vamos a hacer primero la importación de Sistem.
+
+39
+00:03:32,980 --> 00:03:34,150
+Eso lo acabamos de hacer.
+
+40
+00:03:34,330 --> 00:03:39,550
+Ahora viene scripts y ocupamos eso.
+
+41
+00:03:39,580 --> 00:03:41,550
+Eso es lo que ocupamos a cargar ahora.
+
+42
+00:03:41,640 --> 00:03:49,210
+Controlé voy acá controlé voy a arreglar un poquito esto lo voy a minimizamos nuestro peso se va yo
+
+43
+00:03:49,210 --> 00:03:54,670
+no los culpo y voy a acomodar un poquito el código para que miren que lo que hizo lo único que pasó
+
+44
+00:03:54,670 --> 00:04:01,090
+fue pegar ese código que yestamos poner la base del R.L.
+
+45
+00:04:01,150 --> 00:04:07,410
+Nuestro código no está nuestro código JavaScript no está en una carpeta J.V está en la raíz del proyecto
+
+46
+00:04:07,420 --> 00:04:14,590
+por eso esta parte de aquí no la ocupo luego para el primer archivo que queremos importar o en este
+
+47
+00:04:14,590 --> 00:04:19,190
+caso el único archivo que queremos importa es el PP punto J3.
+
+48
+00:04:19,510 --> 00:04:24,580
+Eso es todo es mi archivo que tengo acá traemos los cambios y vamos a ver si funciona.
+
+49
+00:04:24,580 --> 00:04:25,960
+Crucemos los dedos.
+
+50
+00:04:26,200 --> 00:04:31,330
+Me voy acá de cargo y lamentablemente pues todavía no funciona.
+
+51
+00:04:31,390 --> 00:04:34,230
+Más de uno va a decir ay no qué montón de cosas está haciendo.
+
+52
+00:04:34,360 --> 00:04:40,810
+Pero no ya les voy a hacer un resumen de todo el error que está pasando acá es que por defecto nuestros
+
+53
+00:04:40,810 --> 00:04:50,110
+módulos vamos a irnos aquí al de textos nuestros módulos tanto números como textos son importados sin
+
+54
+00:04:50,200 --> 00:04:57,970
+una extensión de archivo es decir sin .3 porque no es necesario para Tapscott pero Sistem y no conoce
+
+55
+00:04:57,970 --> 00:05:03,190
+la extensión de los archivos en nuestro caso son archivos con extensiones punto J.V.
+
+56
+00:05:03,430 --> 00:05:06,430
+Cómo hacemos eso aquí en el configuración del sistema.
+
+57
+00:05:06,580 --> 00:05:18,580
+Vamos a agregar lo siguiente default Yai es Ojota ese Extensions 2.0 los cambios y vamos a ver ahora.
+
+58
+00:05:18,720 --> 00:05:25,670
+Y ahí tenemos 3.14 16 correcto cargado a través de un importador de módulos.
+
+59
+00:05:25,680 --> 00:05:31,230
+Bueno tal vez se sintió esto que fue mucho trabajo tal vez demasiado trabajo para hacer algo tan sencillo
+
+60
+00:05:31,770 --> 00:05:33,810
+pero primero eso sólo lo tienen que hacer una vez.
+
+61
+00:05:33,990 --> 00:05:39,330
+Segundo no fueron tantas cosas simplemente montar un servidor si ustedes ya tenían uno y lo quieren
+
+62
+00:05:39,330 --> 00:05:41,820
+cargar en su local lo pueden hacer perfectamente.
+
+63
+00:05:42,210 --> 00:05:48,960
+Pero bueno configuramos el servidor para tener nuestro local corriendo agregamos System hioides cargamos
+
+64
+00:05:49,350 --> 00:05:55,740
+creamos el paquete Jayson para que trabajemos ya con los módulos de nube y eso fue todo.
+
+65
+00:05:55,800 --> 00:06:02,280
+Y agregamos aquí una configuración para que las extensiones de los archivos por defecto sean J3 y ya
+
+66
+00:06:02,280 --> 00:06:05,220
+estamos listos para continuar en nuestro curso explicó.

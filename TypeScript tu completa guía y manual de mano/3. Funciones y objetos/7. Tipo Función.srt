@@ -1,0 +1,199 @@
+1
+00:00:03,200 --> 00:00:06,830
+En tanques tenemos lo que se conoce el tipo función.
+
+2
+00:00:07,070 --> 00:00:11,240
+Vamos a ver un ejemplo claro una variable llamada mi función.
+
+3
+00:00:11,790 --> 00:00:14,570
+No le pondré ningún tipo de dato por el momento.
+
+4
+00:00:14,570 --> 00:00:17,600
+Mi función puede ser un 10.
+
+5
+00:00:17,600 --> 00:00:22,920
+Mi función podría ser igual a la definición de la suma de sumar.
+
+6
+00:00:23,000 --> 00:00:26,490
+Ojo que no estoy poniendo paréntesis no quiero el valor quiero la definición de la suma.
+
+7
+00:00:27,650 --> 00:00:30,500
+Luego puedo decir que mi función es igual a saludar.
+
+8
+00:00:32,120 --> 00:00:36,060
+Y mi función es igual a salvar mundo.
+
+9
+00:00:36,770 --> 00:00:44,000
+Todo este código es totalmente válido pero sería bueno poder o por decirlo así ponerle alguna llave
+
+10
+00:00:44,480 --> 00:00:52,100
+algún Construïm algo que nos evite que la función pueda mutar en algo que yo no espero.
+
+11
+00:00:52,130 --> 00:00:59,060
+Por ejemplo yo puedo llamar las funciones ACaP mi función paréntesis ahorita como scrip sabe que mi
+
+12
+00:00:59,060 --> 00:01:03,360
+función está relacionada a sumar recibe dos argumentos por eso están en un error.
+
+13
+00:01:03,500 --> 00:01:05,840
+Voy a poner aquí 5,5.
+
+14
+00:01:06,170 --> 00:01:12,350
+Luego esto lo voy a meter en una consola para que miremos el resultado.
+
+15
+00:01:13,010 --> 00:01:21,340
+Luego tenemos la la mutación de la función y ahora pasa a ser saludar y hasta recibir un string.
+
+16
+00:01:21,440 --> 00:01:29,360
+Yo digo mi función paréntesis dice que no estoy mandando los parámetros necesarios en este caso voy
+
+17
+00:01:29,360 --> 00:01:35,750
+a poner aquí a Batman para que lo miremos ahora si lo satisface pero pongamos el consuelo para que podamos
+
+18
+00:01:35,750 --> 00:01:42,410
+ver el resultado en el navegador web y luego salvar el mundo no regresa nada pero sí imprime un mensaje
+
+19
+00:01:42,410 --> 00:01:46,340
+en consola entonces puedo poner aquí mi función nada más.
+
+20
+00:01:46,370 --> 00:01:47,660
+Sin parámetros.
+
+21
+00:01:47,840 --> 00:01:53,230
+Si miramos esto en la consola tenemos 10 Batman y el mundo está salvado.
+
+22
+00:01:53,480 --> 00:02:00,410
+No deberíamos de poder hacer esto realmente deberíamos de decirle a ojo mi función esta variable mi
+
+23
+00:02:00,410 --> 00:02:04,120
+función no debe de poder mutar en algo que yo no quiero.
+
+24
+00:02:04,320 --> 00:02:10,270
+Si simplemente mi función debería ser un tipo función sea funciones debían de ser varias y aparte debía
+
+25
+00:02:10,280 --> 00:02:16,300
+ser permitido o bueno sería bueno poderle decir cuántos argumentos tiene y qué tipo de datos regresa.
+
+26
+00:02:16,310 --> 00:02:19,660
+Lo bueno es que sí se puede hacer esto en JavaScript.
+
+27
+00:02:20,750 --> 00:02:24,980
+Cómo hacemos eso asignamos dos puntos.
+
+28
+00:02:24,980 --> 00:02:28,670
+Luego vamos a poner unos paréntesis para indicar los parámetros.
+
+29
+00:02:28,670 --> 00:02:34,220
+Si yo lo dejo así la función no recibe parámetros y esto ya pareciera como este tipo de función que
+
+30
+00:02:34,220 --> 00:02:35,870
+no recibe parámetros.
+
+31
+00:02:35,870 --> 00:02:38,960
+Luego tenemos que definir el tipo de retorno.
+
+32
+00:02:38,960 --> 00:02:44,870
+Para eso vamos a utilizar lo que es una flecha gorda o sea igual y el signo de mayor o menor.
+
+33
+00:02:45,030 --> 00:02:49,260
+De esta forma definimos el valor del retorno y que vamos a regresar.
+
+34
+00:02:49,260 --> 00:02:55,760
+Supongamos que queremos hacer un match a funciones que sea el número número y regrese en un número como
+
+35
+00:02:55,770 --> 00:03:07,360
+haríamos acá voy a poner a los puntos nombre coma dos puntos number y retorna un nombre si vemos que
+
+36
+00:03:07,430 --> 00:03:10,520
+va a marcar error en esta asignación no va a marcar error.
+
+37
+00:03:10,530 --> 00:03:14,210
+En estas otras dos pero ésta sí cumple la condición.
+
+38
+00:03:14,360 --> 00:03:19,280
+Nada más quiero aclarar que los parámetros aquí los nombres de los parámetros pueden ser cualquiera
+
+39
+00:03:19,290 --> 00:03:26,380
+esto no importa no necesariamente tiene que ser Boyko igual a estos no puede ser cualquier porque ya
+
+40
+00:03:26,380 --> 00:03:27,460
+sabemos que está dando error.
+
+41
+00:03:27,850 --> 00:03:33,790
+Supongamos que ahora lo que queremos es que haga match con ésta queremos que sólo acepte funciones que
+
+42
+00:03:33,790 --> 00:03:40,690
+tienen un string y regresa en un extremo como haríamos eso puedo decir aquí que X es un string este
+
+43
+00:03:40,690 --> 00:03:46,690
+parámetro y aquí ya no va y regresa un estreno en grabar los cambios si quieren pero esto les va a dar
+
+44
+00:03:46,690 --> 00:03:46,980
+error.
+
+45
+00:03:46,990 --> 00:03:54,460
+Aquí ya funciona suma da error esta sí la pasa y aquí ya no ahora si queremos ser un match con esta
+
+46
+00:03:54,460 --> 00:03:57,620
+tercera entonces no recibe ningún parámetro.
+
+47
+00:03:57,880 --> 00:04:02,210
+Y qué es lo que regresa un buey o se regresa vacío.
+
+48
+00:04:02,530 --> 00:04:06,940
+Si vemos la última función ya debería de estar trabajando perfectamente.
+
+49
+00:04:07,030 --> 00:04:13,630
+De esta forma estamos definiendo por así decirlo seguir reglas para la variable que es de un tipo función
+
+50
+00:04:13,720 --> 00:04:14,980
+que trabaja de esta forma.

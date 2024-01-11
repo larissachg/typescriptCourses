@@ -1,0 +1,167 @@
+1
+00:00:03,510 --> 00:00:09,290
+Qué es eso de propiedades privadas públicas y protegidas en la programación orientada a objetos.
+
+2
+00:00:09,300 --> 00:00:12,130
+Estos tres atributos son más que necesarios.
+
+3
+00:00:12,150 --> 00:00:18,720
+Básicamente lo que hacen es controlar el lugar donde puede ser acceso a una propiedad o método de nuestras
+
+4
+00:00:18,720 --> 00:00:19,620
+clases.
+
+5
+00:00:20,010 --> 00:00:26,880
+Por ejemplo en JavaScript no existe eso en casi todas las propiedades son públicas y métodos todo es
+
+6
+00:00:26,880 --> 00:00:27,600
+público.
+
+7
+00:00:27,870 --> 00:00:30,940
+Pero a quién podemos dar ese nivel de control.
+
+8
+00:00:31,050 --> 00:00:38,310
+Por ejemplo declararme aquí el nombre es de tipo público por defecto si yo no especifico el tipo es
+
+9
+00:00:38,310 --> 00:00:51,330
+público Ok voy a poner aquí ahora que el equipo es protected desprotegido y el nombre real va a ser
+
+10
+00:00:52,050 --> 00:00:54,470
+privado.
+
+11
+00:00:54,510 --> 00:01:01,470
+De esa manera voy a poner otras dos propiedades aquí puede pelear y peleas ganadas como privadas.
+
+12
+00:01:01,470 --> 00:01:07,260
+Voy a grabar los cambios lo voy a dejar así como está y lo voy a ver aquí en la consola.
+
+13
+00:01:07,260 --> 00:01:09,030
+Quiero que miren qué es lo que está pasando.
+
+14
+00:01:09,030 --> 00:01:14,410
+Tengo el equipo tengo el nombre de un nombre real y tengo las peleas ganadas.
+
+15
+00:01:14,910 --> 00:01:20,790
+En teoría estas tres propiedades que están privadas no deberían de poder ser accesar o verse de este
+
+16
+00:01:20,790 --> 00:01:27,900
+lado lo único que quiero aclarar es que no malinterpreten esto esas cosas o esas características son
+
+17
+00:01:27,900 --> 00:01:30,190
+solo para Tixkokob.
+
+18
+00:01:30,240 --> 00:01:35,380
+Por qué por qué en el JavaScript si miramos el archivo esas propiedades no existen.
+
+19
+00:01:35,380 --> 00:01:40,280
+O sea no existe una manera de hacer privado algo bueno al menos directamente del JavaScript.
+
+20
+00:01:40,860 --> 00:01:50,810
+Por eso bueno aquí está más que IPv6 creo sí pero no podemos volver a ser de esta forma no están.
+
+21
+00:01:50,950 --> 00:01:55,410
+Eso es lo es la misma clase lo que genera ya en el script críptico o algo similar.
+
+22
+00:01:56,230 --> 00:02:01,910
+Pero no hay manera de controlar eso estas propiedades o estas características de Public Protective Privat
+
+23
+00:02:01,930 --> 00:02:04,900
+sólo sirven para el lado de el touchscreen.
+
+24
+00:02:04,900 --> 00:02:06,540
+Vamos a ver cómo funciona eso ya.
+
+25
+00:02:06,550 --> 00:02:14,590
+En realidad tengo aquí a mi miasma la tengo aquí a Scott y voy a decir lo siguiente Yo quiero hacer
+
+26
+00:02:14,620 --> 00:02:23,400
+o cambiar el nombre de mí en este caso de Mieres o de mi AVEN ya puedo decir nombre punto Atman Atman
+
+27
+00:02:23,440 --> 00:02:31,390
+punto nombre es igual a vos a ponerle Nick Fury me acepta perfectamente el cambio.
+
+28
+00:02:31,430 --> 00:02:37,840
+No nada nada extraño ahora si yo intento hacer otra cosa por ejemplo el equipo yo quiero cambiar el
+
+29
+00:02:37,840 --> 00:02:44,320
+equipo del atman Atman elpunto equipo no me sale ni siquiera la opción y lo voy a intentar hacer equipo
+
+30
+00:02:44,380 --> 00:02:52,780
+es igual al equipo de Iron Man esto ya me está marcando un error y por qué por qué lo hice porque el
+
+31
+00:02:52,780 --> 00:03:00,430
+equipo es una propiedad protegida y sólo puede ser acceso accesar dentro de la clase Avenger osos o
+
+32
+00:03:00,430 --> 00:03:01,980
+sus subclases.
+
+33
+00:03:02,020 --> 00:03:07,120
+Vamos a explicar exactamente qué es esto público es que puede ser acusado a lo largo de cualquier lado
+
+34
+00:03:07,120 --> 00:03:14,040
+del programa donde tengan la clase definida puedo accesar y cambiar las propiedades de El nombre protected.
+
+35
+00:03:14,410 --> 00:03:20,050
+Básicamente lo que quiere decir es que yo sólo puedo cambiar los valores de las propiedades protected
+
+36
+00:03:20,200 --> 00:03:27,700
+dentro de la Flash original o sus herencias osea sus clases hijas Privat es una propiedad que dice que
+
+37
+00:03:27,700 --> 00:03:36,630
+solo pueden ser modificadas los valores o las propiedades dentro de la misma clase es decir dentro del
+
+38
+00:03:36,700 --> 00:03:40,130
+constructor o dentro de alguna función que vamos a hacer más adelante.
+
+39
+00:03:40,360 --> 00:03:45,120
+Puedo cambiar el nombre del equipo diciendo disputo equipo y si bien aquí me sale de hecho me salen
+
+40
+00:03:45,130 --> 00:03:51,970
+todas me porque estoy dentro de la clase y las puedo cambiar pero fuera de la clase yo sólo voy a poder
+
+41
+00:03:52,030 --> 00:03:58,780
+observar las propiedades y métodos que yo haya hecho públicos si no los voy a poder accesar y me va
+
+42
+00:03:58,780 --> 00:04:00,050
+a dar errores taichí.

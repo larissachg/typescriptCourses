@@ -1,0 +1,75 @@
+1
+00:00:03,220 --> 00:00:09,760
+Los genéricos de taichí antes de que ustedes se preocupen y se asusten y digan no a este tema suena
+
+2
+00:00:09,760 --> 00:00:15,880
+complicado y tal vez es como el anterior que fue un poco enredado pero quiero que se fijen en la documentación
+
+3
+00:00:15,880 --> 00:00:19,220
+de tal scrip que viene justo después de las funciones.
+
+4
+00:00:19,560 --> 00:00:24,130
+Así que es un tema que no es tan complejo pero necesita subsección para que ustedes sepan cómo manejar
+
+5
+00:00:24,130 --> 00:00:28,680
+los genéricos y sacarle el máximo provecho a el taxi.
+
+6
+00:00:29,100 --> 00:00:35,830
+Cómo sería un genérico en JavaScript pues realmente no existe por decirlo así ese concepto porque ya
+
+7
+00:00:35,910 --> 00:00:42,520
+que en teoría es todo dinámico en teoría una función podría recibir cualquier argumento que desee.
+
+8
+00:00:42,810 --> 00:00:46,960
+Bueno es en teoría así funciona JavaScript que va a ser un pequeño ejemplo.
+
+9
+00:00:46,960 --> 00:00:56,410
+Hagamos una función que se llamará imprime consola recibe un parámetro lo único que hace es un consuelo
+
+10
+00:00:56,720 --> 00:01:07,570
+el parámetro ahora si yo digo o que quiero imprimir consola y le mando un número puedo imprimir la consola
+
+11
+00:01:07,630 --> 00:01:19,900
+y mandarle una fecha puedo imprimir la consola y mandarle un objeto vacío o mandarle un objeto con un
+
+12
+00:01:19,900 --> 00:01:23,380
+nombre Fernando.
+
+13
+00:01:23,380 --> 00:01:32,610
+Eso funciona gravó los cambios vamos a verlo aquí en el demos que tengo corriendo y funciona perfectamente.
+
+14
+00:01:32,620 --> 00:01:38,590
+Ahí está todo en la línea 5 que da la impresión a consola y esa función tanto imprime números fechas
+
+15
+00:01:38,860 --> 00:01:42,480
+objetos y objetos llenos hace lo que sea.
+
+16
+00:01:42,490 --> 00:01:48,940
+Esto es una función genérica los genéricos es algo que me va a permitir a mí trabajar con cualquier
+
+17
+00:01:48,940 --> 00:01:55,000
+tipo de dato y aprovechar las ventajas que tiene Tixkokob para que me ayude con la auto complicación
+
+18
+00:01:55,080 --> 00:01:59,310
+y posibles errores que pueda cometer a la hora de escribir o a la hora de manejar la data.
+
+19
+00:01:59,500 --> 00:02:01,570
+Pero vamos a verlo ya en esta sección.

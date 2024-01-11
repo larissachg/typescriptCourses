@@ -1,0 +1,195 @@
+1
+00:00:03,260 --> 00:00:08,150
+Bien vamos a ser un ejemplo un poco más claro sobre los decoradores.
+
+2
+00:00:08,150 --> 00:00:13,760
+Pensemos que tenemos nuestra clase Villán ahí está con su constructor y todo listo.
+
+3
+00:00:13,890 --> 00:00:21,060
+Bien vamos a crearnos un método que todos los villanos van a tener pero no lo quiero definir aquí sino
+
+4
+00:00:21,070 --> 00:00:27,050
+que se los quiero agregar a ciertos algunos villanos no todos solo algunos villanos.
+
+5
+00:00:27,050 --> 00:00:31,540
+Entonces voy a crear una función que se llamará El clan del villano.
+
+6
+00:00:32,080 --> 00:00:37,470
+Ok lo que va a ser esto como ustedes vieron en los videos anteriores.
+
+7
+00:00:37,490 --> 00:00:45,140
+Los decoradores de clases reciben el constructor de la función pueden escribir constructor sin ningún
+
+8
+00:00:45,140 --> 00:00:53,870
+problema constructor dos puntos esto es de tipo Fusion abren y cierran llaves que tenemos nuestro nuestra
+
+9
+00:00:53,870 --> 00:00:55,680
+función que es común y corriente.
+
+10
+00:00:55,880 --> 00:00:57,290
+Es normal normal.
+
+11
+00:00:57,320 --> 00:00:58,810
+No tiene nada mágico.
+
+12
+00:00:59,160 --> 00:01:02,420
+Ahora qué podemos hacer con el constructor.
+
+13
+00:01:02,420 --> 00:01:08,810
+Asumamos que a los villanos que tengan este decorador que es el plan del villano su objetivo final va
+
+14
+00:01:08,810 --> 00:01:10,480
+a ser dominar el mundo.
+
+15
+00:01:10,520 --> 00:01:18,320
+Ok Agarremos el constructor constructor punto y a ese constructor yo le puedo agregar métodos usando
+
+16
+00:01:18,320 --> 00:01:19,860
+el prototipo.
+
+17
+00:01:19,970 --> 00:01:21,660
+Esto no es nuevo de estos.
+
+18
+00:01:21,770 --> 00:01:32,320
+Esto viene de tiempos inmemoriales prototipos punto la función que quiero llegar va a ser imprimir planos.
+
+19
+00:01:32,360 --> 00:01:38,750
+Esto es una función parentesis con sus parámetros que puede recibir el cuerpo de la función.
+
+20
+00:01:38,900 --> 00:01:46,130
+Lo único que quiero que haga es que hagan una impresión en consola diciendo que plande espacio voy a
+
+21
+00:01:46,130 --> 00:01:52,730
+poner aquí el nombre del villano porque yo sé que se lo voy a poner a un villano que tiene nombre disputo
+
+22
+00:01:53,330 --> 00:02:04,910
+nombre Plan de X persona es dominar el mundo ojo pero no todos los villanos quieren dominar el mundo
+
+23
+00:02:04,910 --> 00:02:08,060
+sólo los que yo le ponga el decorador ok.
+
+24
+00:02:08,210 --> 00:02:10,030
+Espero que vayan captando la idea.
+
+25
+00:02:10,730 --> 00:02:17,410
+Ahora vamos con eso voy a asignarle a este villano o a estos villanos este decorador.
+
+26
+00:02:17,840 --> 00:02:19,460
+Será plan villano.
+
+27
+00:02:19,670 --> 00:02:24,710
+No necesito poner paréntesis no necesito mandar nada acordémonos que es un decorador de clase directo
+
+28
+00:02:25,080 --> 00:02:28,670
+entonces reside el constructor como parámetro.
+
+29
+00:02:28,670 --> 00:02:29,690
+Eso es todo lo que tengo que hacer.
+
+30
+00:02:30,200 --> 00:02:40,010
+Ahora puedo utilizar la clase Leith Lexnet así se llamará Mi villano es igual al nuevo villano se llamará
+
+31
+00:02:41,840 --> 00:02:47,770
+Lex Luthor Punto y Coma ahora perfectamente puedo decir Lex.
+
+32
+00:02:47,890 --> 00:02:49,120
+Punto.
+
+33
+00:02:49,160 --> 00:02:55,990
+El nombre de este método yo sé que no aparece acá pero puedo llamar directamente imprimir plan punto
+
+34
+00:02:55,990 --> 00:02:56,900
+y coma.
+
+35
+00:02:57,240 --> 00:03:02,570
+Grabamos los cambios en zeolita un método el error veremos en la consola recargó y tengo el plan de
+
+36
+00:03:02,570 --> 00:03:04,070
+Lex Luthor es dominar el mundo.
+
+37
+00:03:04,970 --> 00:03:10,920
+Ok está bien perfecto pero qué pasa con ese error de hecho inclusive si yo llegara acá y agotes ese
+
+38
+00:03:11,880 --> 00:03:18,320
+ente me va a marcar ese pequeño problema de prototipo que no está definida como villano.
+
+39
+00:03:18,530 --> 00:03:25,460
+Pero esto es una cosa que posiblemente se arregle en el futuro porque el plan del villano como es un
+
+40
+00:03:25,460 --> 00:03:30,020
+decorador o viene como expandido del decorado está marcando como error.
+
+41
+00:03:30,320 --> 00:03:36,380
+Pero cómo hacemos para eliminar eso de ese código rojo que nos está estorbando y que se ve feo y que
+
+42
+00:03:36,380 --> 00:03:38,280
+nos va a dar errores de compilación.
+
+43
+00:03:38,390 --> 00:03:39,430
+Cómo hacemos para quitarlo.
+
+44
+00:03:39,650 --> 00:03:46,370
+Lamentablemente lo único que podemos hacer ahorita es decir y hacer un castigo de que Lex es de tipo
+
+45
+00:03:46,380 --> 00:03:52,790
+en consecuencia podría tener una función imprimir plan pero eso es como decirle a Thaís ok hazme caso
+
+46
+00:03:52,790 --> 00:03:57,440
+yo sé lo que estoy haciendo pero bueno si ustedes se fijan esto es bien interesante porque les puedo
+
+47
+00:03:57,440 --> 00:04:03,500
+agregar este prototipo o esta función a cualquier clase.
+
+48
+00:04:03,800 --> 00:04:09,560
+No necesariamente sólo a los villanos sino a cualquier clase que necesite esa función de imprimir su
+
+49
+00:04:09,560 --> 00:04:10,960
+plan malévolo de dominar el mundo.

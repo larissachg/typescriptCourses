@@ -1,0 +1,95 @@
+1
+00:00:04,190 --> 00:00:09,350
+Existe lo que se conoce como modo observador quiere decir que tienes va a estar pendiente de cualquier
+
+2
+00:00:09,350 --> 00:00:14,780
+cambio que suceda en los archivos con restricciones punto T.C y automáticamente lo va a compilar a su
+
+3
+00:00:14,780 --> 00:00:16,310
+versión de JavaScript.
+
+4
+00:00:16,470 --> 00:00:19,310
+Ok cómo estamos en ese modo de detalle.
+
+5
+00:00:19,370 --> 00:00:25,850
+Primeramente hacemos el comando ese espacio seguido del nombre del archivo en este caso a PP punto de
+
+6
+00:00:25,850 --> 00:00:35,420
+ese espacio luego de la palabra menos menos Guarch o sobervia Otura menos doble agente y esto va a iniciar
+
+7
+00:00:35,900 --> 00:00:38,040
+un servicio que va a estar escuchando cualquier cambio.
+
+8
+00:00:38,630 --> 00:00:46,390
+Si yo digo hola mundo y le pongo dos signos de admiración a ver que lo compila y lo pone acá puedo hacer
+
+9
+00:00:46,390 --> 00:00:49,080
+los siguientes a puedo regresarlo como estaba.
+
+10
+00:00:49,260 --> 00:00:55,460
+Y intencionalmente voy a cometer un error de sintaxis como olvidar que iba el cierre de.
+
+11
+00:00:56,010 --> 00:01:00,520
+Si bien el compilador aquí me está diciendo el error intentó hacer la compilación pero hubo un error
+
+12
+00:01:00,520 --> 00:01:09,650
+en la línea 3 y es que faltaba un paréntesis aquí nuestro sabemos que es aquí y puntico.
+
+13
+00:01:09,910 --> 00:01:17,500
+Sería bueno tener por decirlo así el error aquí inmediatamente cuando lo escribí y también sería bonito
+
+14
+00:01:17,500 --> 00:01:19,430
+que fuera más rápida la compilación.
+
+15
+00:01:19,900 --> 00:01:26,350
+Y sobre todo quiero que observe lo siguiente Voy a crear un nuevo archivo llamado HP dos puntos que
+
+16
+00:01:26,350 --> 00:01:30,870
+es lo único que va a ser este archivo es decir Hola Mundo.
+
+17
+00:01:31,040 --> 00:01:38,650
+Dos grandes cambios al hacer eso quiero que observen que no se creó el archivo APK 2.13 no lo hizo.
+
+18
+00:01:38,650 --> 00:01:39,070
+Por qué.
+
+19
+00:01:39,090 --> 00:01:43,950
+Porque el TCS el Watch sólo está pendiente del archivo .3.
+
+20
+00:01:44,200 --> 00:01:49,090
+Sería bonito que estuviera pendiente de todos los cambios de nuestro proyecto y a la vez que excluya
+
+21
+00:01:49,090 --> 00:01:54,370
+a otras carpetas como los módulos de nube que pueden venir en Archuleta y no queremos que los compile
+
+22
+00:01:54,400 --> 00:01:56,460
+porque ya están compilados supuestamente.
+
+23
+00:01:56,890 --> 00:02:02,100
+Pero para poder hacer esas cosas nosotros necesitamos inicializar nuestro proyecto de Tapestry.
+
+24
+00:02:02,380 --> 00:02:03,850
+Pero eso lo vamos a ver en el siguiente video.

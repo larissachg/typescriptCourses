@@ -1,0 +1,179 @@
+1
+00:00:03,250 --> 00:00:09,380
+El ECMAScript 6 incorpora lo que son temple literales nos permite nosotros crear strengths de otra forma.
+
+2
+00:00:09,380 --> 00:00:17,420
+Anteriormente sólo teníamos dos maneras de crear strings Arleth nombre uno es del tipo string igual
+
+3
+00:00:17,500 --> 00:00:26,260
+a brutes con la primera forma es así con llaves con comillas dobles pero la otra es nombre 2.
+
+4
+00:00:26,910 --> 00:00:33,440
+También es un extremo y lo voy a poner como Rony Ricardo Ricardo.
+
+5
+00:00:35,040 --> 00:00:41,360
+Tenemos nombre con el nombre dos pero ahora podemos tener otro nuevo tipo de string.
+
+6
+00:00:41,440 --> 00:00:48,160
+Voy a poner mensaje que también es un tipo string pero está definido con este carácter los que se llaman
+
+7
+00:00:48,200 --> 00:00:55,220
+Baketik en inglés es como un apóstrofe o es una es este icono yo lo tengo al lado del uno pero no sé
+
+8
+00:00:55,220 --> 00:01:02,360
+en su teclado puede estar diferente con este carácter nos permite a nosotros hacer muchas cosas La primera
+
+9
+00:01:02,420 --> 00:01:03,810
+es la multi línea.
+
+10
+00:01:03,960 --> 00:01:10,520
+Voy a poner aquí esta es la línea 1 Xinia 2 Línea 3.
+
+11
+00:01:10,830 --> 00:01:13,020
+Eso es el primer mensaje.
+
+12
+00:01:13,060 --> 00:01:19,120
+Otra cosa interesante es que vamos a hacer lo siguiente Esta es una línea.
+
+13
+00:01:19,530 --> 00:01:28,030
+Esta es una línea normal luego voy a decir hola y quiero agregar la palabra buruz.
+
+14
+00:01:28,030 --> 00:01:34,420
+No es necesario que terminemos y hagamos esto o sea es posible poner un nombre uno es posible pero no
+
+15
+00:01:34,570 --> 00:01:42,100
+es el sentido de en este caso los literales podemos insertarlo de esta manera directamente y que ponemos
+
+16
+00:01:42,100 --> 00:01:42,530
+nombre.
+
+17
+00:01:42,550 --> 00:01:43,440
+1.
+
+18
+00:01:43,900 --> 00:01:51,270
+Aquí ponemos proving es dos puntos y puedo meter aquí la otra variable.
+
+19
+00:01:51,280 --> 00:01:51,850
+2.
+
+20
+00:01:52,790 --> 00:02:01,600
+Yo grabo los cambios con solo con el mensaje yo grabo los cambios en el Apple p.ej. ese quiero que observen
+
+21
+00:02:01,800 --> 00:02:09,310
+que como es una característica del script 6 el Time Skip lo convierte a su sinónimo en el ECMAscript
+
+22
+00:02:09,310 --> 00:02:10,040
+5.
+
+23
+00:02:10,180 --> 00:02:15,880
+En este caso es agregar una nueva línea aquí hacer la separación y agregar luego viene una nueva línea
+
+24
+00:02:16,390 --> 00:02:23,720
+y lo vuelve a hacer una concatenación normal como estamos acostumbrados a verla pero con el ECMAScript
+
+25
+00:02:23,800 --> 00:02:27,670
+ya nos permite hacer esto y tal script nos da la ventaja de que ya lo podemos empezar a utilizar en
+
+26
+00:02:27,670 --> 00:02:29,570
+este preciso momento.
+
+27
+00:02:29,590 --> 00:02:34,050
+Laburos cambios como navegador web recargó y ahí está exactamente lo que yo quería mostrar.
+
+28
+00:02:35,640 --> 00:02:38,870
+Otra cosa interesante ustedes pueden tener aquí una función.
+
+29
+00:02:39,040 --> 00:02:47,760
+Vamos a aclarar por acá function que nombre por ejemplo parentesis regreso a mi string y lo único que
+
+30
+00:02:47,760 --> 00:02:49,870
+vamos a hacer es el retorno del nombre.
+
+31
+00:02:49,920 --> 00:02:56,290
+1 podemos regresar a un templo literal o regresarlo así.
+
+32
+00:02:56,400 --> 00:03:05,070
+1 hacemos un espacio y nos falta cerrarlo y pongamos el nombre 2.
+
+33
+00:03:05,280 --> 00:03:07,230
+Eso va a regresarnos brush.
+
+34
+00:03:07,250 --> 00:03:09,900
+Ricardo agregarme una nueva línea.
+
+35
+00:03:09,900 --> 00:03:11,260
+4.
+
+36
+00:03:11,700 --> 00:03:19,200
+Los nombres son dos puntos y puedo poner directamente el resultado de una función.
+
+37
+00:03:19,220 --> 00:03:24,310
+Bueno Malekith nombres para que sea más lógico y puedo poner resultados.
+
+38
+00:03:24,300 --> 00:03:26,240
+La función puede tener resultados de cálculos.
+
+39
+00:03:26,240 --> 00:03:29,140
+También vamos a aprovecharlo de hacerlo todo de una vez.
+
+40
+00:03:29,310 --> 00:03:35,140
+El resultado de cálculo digamos 5 más 5 7 por ejemplo los cambios.
+
+41
+00:03:35,520 --> 00:03:42,720
+Miremos la consola de cargo y los nombres son Bruce Ricardo y aquí no aparece 5,70 simplemente aparece
+
+42
+00:03:43,110 --> 00:03:44,150
+el código de Java.
+
+43
+00:03:44,230 --> 00:03:48,600
+Esto es como si fuera una expresión normal de JavaScript.
+
+44
+00:03:48,630 --> 00:03:53,210
+Esta es una de las ventajas de los templos literales que son muy usados ahora de ahora en adelante se
+
+45
+00:03:53,210 --> 00:03:54,210
+van a utilizar bastante.

@@ -1,0 +1,131 @@
+1
+00:00:03,710 --> 00:00:10,370
+En la clase pasada nos habíamos quedado en este punto para cancelar el observador del fútbol o el UACH
+
+2
+00:00:10,740 --> 00:00:13,790
+presión en controlé ya sea Windows o Mac es lo mismo.
+
+3
+00:00:13,790 --> 00:00:18,950
+Eso cancela los proyectos que estén corriendo en segundo plano en la consola.
+
+4
+00:00:19,010 --> 00:00:21,430
+Cómo hacemos para escuchar todos los cambios.
+
+5
+00:00:21,440 --> 00:00:24,490
+Habíamos mencionado que necesitamos crear nuestro proyecto.
+
+6
+00:00:24,770 --> 00:00:29,390
+Cómo hacemos eso en la raíz del proyecto sea estando en la raíz de nuestra aplicación.
+
+7
+00:00:29,540 --> 00:00:34,500
+Vamos a hacer el siguiente código es ese espacio menos init.
+
+8
+00:00:35,120 --> 00:00:39,680
+Eso le va a crear el archivo de ese config punto Jayson que es el que está acá.
+
+9
+00:00:39,680 --> 00:00:45,020
+No se preocupen hay una sección dedicada sólo para este archivo y que se puede hacer que se puede agregar
+
+10
+00:00:45,260 --> 00:00:49,100
+orita no comandancias simplemente se crea el archivo.
+
+11
+00:00:49,670 --> 00:00:57,170
+Eso le va a permitir a ustedes ahora escribir el siguiente código de ese C pero aquí abajo es ese espacio
+
+12
+00:00:57,260 --> 00:01:01,270
+asterisco punto Teese menos.
+
+13
+00:01:02,760 --> 00:01:08,280
+Es decir Skype escucha todos los archivos con extensión T.C. menos doble.
+
+14
+00:01:09,150 --> 00:01:15,120
+Si ustedes se fijan ya compiló también el archivo PPO 2.3 creemos nosotros queremos ser la PS3 por ejemplo
+
+15
+00:01:15,350 --> 00:01:17,100
+a Pepe 13.13.
+
+16
+00:01:17,580 --> 00:01:24,690
+Pongamos un consolon de Hola Mundo 3 gravó los cambios y automáticamente me creó la Chihuahua. que P3
+
+17
+00:01:25,690 --> 00:01:28,680
+quiero Sillero es otra cosa cancelã en la terminal.
+
+18
+00:01:28,800 --> 00:01:36,240
+O mejor dicho cancelen el proceso del Guasmo y cierren la terminal no está corriendo nada quiero mostrar
+
+19
+00:01:36,240 --> 00:01:42,210
+lo siguiente Voy a abrir el app o punto J.S. Lo voy a poner aquí al lado para que miren si yo hago un
+
+20
+00:01:42,210 --> 00:01:46,350
+cambio en el archivo y grabo automáticamente se me recarga.
+
+21
+00:01:46,350 --> 00:01:51,720
+Prueben ustedes ahorita mismo le pasó el video haga ustedes y se van a dar cuenta que no les funciona
+
+22
+00:01:51,720 --> 00:01:52,380
+igual.
+
+23
+00:01:52,480 --> 00:02:00,500
+O sea yo salvo los cambios automáticamente me hace la compilación alta Taipe el archivo a Pepe 3.3 porque
+
+24
+00:02:00,510 --> 00:02:07,590
+a mí me pasa y a ustedes no cuando ya inicializar el proyecto ese punto confi ustedes tienen que cerrar
+
+25
+00:02:07,590 --> 00:02:13,530
+el auto esto es como un arrocito que tiene ese plugin por ahora pero ustedes tienen que cerrar el auto
+
+26
+00:02:13,890 --> 00:02:14,640
+este caso lo haré.
+
+27
+00:02:15,870 --> 00:02:16,740
+Y lo vuelven a abrir.
+
+28
+00:02:21,720 --> 00:02:30,360
+Cuando hacen eso ya Hatoum mira el archivo se configura como que lo refresca y ya deberían de poder
+
+29
+00:02:30,360 --> 00:02:37,290
+ver automáticamente los cambios en su archivo js de una forma automática cuando ustedes salgan sin necesidad
+
+30
+00:02:37,290 --> 00:02:39,620
+de tener corriendo el UACH mod.
+
+31
+00:02:39,630 --> 00:02:42,820
+Aquí en el taxi bueno eso es todo.
+
+32
+00:02:42,820 --> 00:02:43,880
+Por favor no siga.
+
+33
+00:02:43,900 --> 00:02:47,230
+Si tiene algún problema con esto el siguiente video.

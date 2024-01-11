@@ -1,0 +1,123 @@
+1
+00:00:03,220 --> 00:00:08,100
+Las clases en Tagged son muy parecidas a las que vimos anteriormente en el 6.
+
+2
+00:00:08,110 --> 00:00:14,620
+De hecho son casi casi iguales en su definición pero en el comportamiento y en sus propiedades y métodos
+
+3
+00:00:14,650 --> 00:00:20,380
+y en la forma como se usa es totalmente diferente ya que es más parecido a cómo se programa en Java
+
+4
+00:00:20,380 --> 00:00:23,990
+o Schaerbeek Visual Basic otro lenguaje de ese tipo.
+
+5
+00:00:24,640 --> 00:00:32,020
+Pero vamos a ver vamos a ver cómo declaran una clase básica en una palabra reservada Class seguida del
+
+6
+00:00:32,020 --> 00:00:41,030
+nombre a una clase llamada Avenger abro y cierro llaves así de sencillo se crea una clase.
+
+7
+00:00:41,040 --> 00:00:46,710
+Ahora cómo defino propiedades de una clase.
+
+8
+00:00:46,960 --> 00:00:51,100
+La primera vamos a quedarnos algo llamado nombre que será de tipo String.
+
+9
+00:00:51,280 --> 00:00:58,710
+Luego vamos a ponernos otro equipo sea el equipo tenemos y pensemos en Civil War que es un equipo de
+
+10
+00:00:58,780 --> 00:01:00,190
+Iron Man o Gran Capitán América.
+
+11
+00:01:00,190 --> 00:01:07,460
+Para eso vamos a usar este equipo si vamos a poner el nombre real 2.11 como string.
+
+12
+00:01:07,630 --> 00:01:17,920
+Luego vamos a separar esto con una tabulación o más puede pelear como Julia no puede pelear si es verano
+
+13
+00:01:18,670 --> 00:01:22,930
+y peleas ganadas como un número.
+
+14
+00:01:22,930 --> 00:01:29,020
+Ahí tenemos ya declarado varios tipos aquí podríamos usar tipos personalizados etcetc de las demás cosas
+
+15
+00:01:29,020 --> 00:01:30,760
+que ya hemos visto durante el curso.
+
+16
+00:01:31,090 --> 00:01:37,900
+Para utilizar esta clase vamos a usarlo como si fuera un tipo de dato normal del arma.
+
+17
+00:01:38,050 --> 00:01:47,110
+Así se declara cualquier variable que será de tipo Avenger igual a new Avenger y cierro llave entre
+
+18
+00:01:47,110 --> 00:01:48,100
+paréntesis.
+
+19
+00:01:48,100 --> 00:01:49,090
+Punto y Coma.
+
+20
+00:01:49,090 --> 00:01:56,440
+Hagamos un consuelo de antemano dados los cambios me voy a ir a mi navegador web cargo y no voy a ver
+
+21
+00:01:56,440 --> 00:01:57,600
+absolutamente nada.
+
+22
+00:01:58,090 --> 00:02:02,490
+Qué van a decir ustedes bueno y qué pasó con las propiedades y los métodos y todo eso no está aquí.
+
+23
+00:02:02,500 --> 00:02:08,980
+No hay nada aquí no hay nada dónde está eso lo que pasa es que por defecto lo único que hemos hecho
+
+24
+00:02:08,980 --> 00:02:14,440
+es definir las propiedades no hemos asignado valores por defecto no hemos creado un constructor no hemos
+
+25
+00:02:14,440 --> 00:02:17,020
+hecho nada por ejemplo.
+
+26
+00:02:17,140 --> 00:02:24,470
+Lo que voy a hacer acá es igualarla Hanneman sólo esa propiedad sólo es segura o los cambios y recargó
+
+27
+00:02:24,470 --> 00:02:28,020
+el navegador web van a ver que es la única propiedad que se va a ver ahí.
+
+28
+00:02:28,030 --> 00:02:28,420
+Por qué.
+
+29
+00:02:28,420 --> 00:02:32,150
+Porque es la única que tiene un valor en este preciso momento.
+
+30
+00:02:32,300 --> 00:02:37,930
+Van a decir bueno pero yo quiero que esas tengan un valor por defecto calmados calmados ya vamos a ver
+
+31
+00:02:37,930 --> 00:02:39,310
+eso en la parte de los constructores.

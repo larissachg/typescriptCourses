@@ -1,0 +1,47 @@
+1
+00:00:03,050 --> 00:00:09,260
+Siguiendo con el ejemplo que teníamos de los Hombres X pensemos que puede ser que Wolverine ya no tenga
+
+2
+00:00:09,260 --> 00:00:10,620
+el poder.
+
+3
+00:00:11,480 --> 00:00:17,810
+Si vemos enviar a misión y enviar al cuartel ya empiezan a fallar ya nos dicen No no cumple la condición
+
+4
+00:00:18,050 --> 00:00:24,680
+no se puede usar pero si vemos estrictamente las funciones los métodos que acabamos de crear no necesito
+
+5
+00:00:24,680 --> 00:00:26,090
+el poder en ningún lado.
+
+6
+00:00:26,090 --> 00:00:27,700
+O sea el poder es opcional.
+
+7
+00:00:27,740 --> 00:00:29,290
+El nombre sí es obligatorio.
+
+8
+00:00:29,300 --> 00:00:31,620
+Cómo puedo decirle hasta no mirar.
+
+9
+00:00:31,640 --> 00:00:36,020
+El poder es opcional con un signo de interrogación.
+
+10
+00:00:36,240 --> 00:00:41,780
+Es todo lo que necesito agregar para decirlo taichí OK puede ser que venga poder puede ser que no. Si
+
+11
+00:00:41,780 --> 00:00:46,190
+viene bien si no viene no te preocupes básicamente eso es todo.
+
+12
+00:00:46,190 --> 00:00:47,720
+Con las propiedades opcionales.

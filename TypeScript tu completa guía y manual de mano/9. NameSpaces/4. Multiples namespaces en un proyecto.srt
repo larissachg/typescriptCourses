@@ -1,0 +1,315 @@
+1
+00:00:03,160 --> 00:00:10,520
+Bien vamos a separar esto un poco en nuestro proyecto derecho nuevo fólder creamos una carpeta llamada
+
+2
+00:00:10,880 --> 00:00:21,000
+validaciones aquí pondremos las reglas de negocio de nuestro programa títere de archivo creemos el archivo
+
+3
+00:00:21,000 --> 00:00:23,680
+de validaciones.
+
+4
+00:00:24,310 --> 00:00:31,110
+Pero referentes solo a los textos textos .3.
+
+5
+00:00:31,320 --> 00:00:41,190
+De esa manera Azu es ese otro otro archivo pero este será de quien creen de fechas .3.
+
+6
+00:00:41,520 --> 00:00:45,910
+Aquí no hace falta que sean validaciones de fecha para edición de textos porque la carpeta dice validaciones
+
+7
+00:00:45,930 --> 00:00:52,230
+esto es así lo manejamos sencillo porque tenemos estos dos archivos de script que no tienen nada en
+
+8
+00:00:52,230 --> 00:00:53,130
+este momento.
+
+9
+00:00:53,310 --> 00:00:58,460
+Vamos a separar este código todo este país en dos partes.
+
+10
+00:00:58,620 --> 00:01:03,880
+Las validaciones de texto y la validaciones de fecha ya que pueden haber muchas variaciones de fecha
+
+11
+00:01:03,960 --> 00:01:05,130
+de fecha.
+
+12
+00:01:05,280 --> 00:01:11,040
+No sólo validar cosas también ustedes podrían pensar en alguna forma de convertir datos de agarrar un
+
+13
+00:01:11,040 --> 00:01:17,030
+texto pasarlo a fecha o agarrar funciones de validación de los textos como capitalizar las palabras.
+
+14
+00:01:17,040 --> 00:01:23,760
+Muchas cosas se me pueden ocurrir que pueden llevarme a separar estos dos tipos de datos.
+
+15
+00:01:23,760 --> 00:01:28,650
+No hay ningún problema si usted lo maneja en uno solo es cuestión de gustos pero de la forma didáctica
+
+16
+00:01:29,070 --> 00:01:30,440
+voy a hacerlo en dos.
+
+17
+00:01:30,630 --> 00:01:37,240
+Voy a quitar todo este código de este archivo porque el app .3 se va a ser mi página principal por descargo
+
+18
+00:01:37,260 --> 00:01:40,290
+mi lanzador mi proyecto principal está ahí.
+
+19
+00:01:40,330 --> 00:01:45,690
+Aquí ya me está dando error porque ya no existe obviamente vamos al Halachó de textos .3 voy a pegar
+
+20
+00:01:45,690 --> 00:01:53,400
+todo el contenido incluyendo desde el mensaje despistó eso lo voy a copiar voy a ahorrarme ahora solo
+
+21
+00:01:53,490 --> 00:02:01,250
+la función de validar fecha porque esa nueva grabó los cambios vamos a ver que por defecto me va a querer
+
+22
+00:02:01,250 --> 00:02:09,460
+el otro chivo pero no se preocupe eso es normal no vamos aquí a fechas .12 y aquí pego esto pero aquí
+
+23
+00:02:09,460 --> 00:02:16,150
+ya me está diciendo que ya ya existe esa validar texto en otro lado que sí pero eso lo vamos a quitar
+
+24
+00:02:16,150 --> 00:02:19,000
+ahorita porque ahí estamos.
+
+25
+00:02:19,000 --> 00:02:24,690
+No importa que ustedes tengan dos Nais e Pais con el mismo nombre que es lo que va a hacer JavaScript.
+
+26
+00:02:25,480 --> 00:02:31,040
+Si miramos tenemos como un objeto llamado validaciones.
+
+27
+00:02:31,570 --> 00:02:37,870
+Lo único que va a ser JavaScript es que va a incluirnos esas propiedades por eso tienen que llamarse
+
+28
+00:02:37,930 --> 00:02:40,350
+diferent ok todo bien todo bien.
+
+29
+00:02:41,020 --> 00:02:47,260
+Si regreso a mi archivo a Pepe punto se van a ver que ya desapareció el error acá pero no hemos hecho
+
+30
+00:02:47,260 --> 00:02:47,870
+nada.
+
+31
+00:02:47,890 --> 00:02:51,900
+Si usted me pregunta bueno enséñeme el achiote ese es un archivo de configuración normal.
+
+32
+00:02:51,910 --> 00:02:53,720
+No hay nada más.
+
+33
+00:02:53,790 --> 00:03:02,200
+Cómo Felipe sabe que hay otro archivo que tiene ese espacio porque estamos con un proyecto de país usando
+
+34
+00:03:02,260 --> 00:03:07,650
+el TC confit nada más que ese archivo en el RUT ya sabe o sea en el RUT de nuestra aplicación Taichung
+
+35
+00:03:07,660 --> 00:03:10,720
+ya sabe que esto es un proyecto que él debe manejar.
+
+36
+00:03:10,720 --> 00:03:18,740
+Por eso sabes si yo grabo todos los cambios y me voy a navegador web qué creen que voy a ver cargo y
+
+37
+00:03:18,760 --> 00:03:24,490
+hay un error de referencia y validaciones no está definido a ver qué habrá pasado.
+
+38
+00:03:24,550 --> 00:03:26,950
+Vamos a ver qué creen ustedes.
+
+39
+00:03:27,370 --> 00:03:30,390
+Al archivo de la PP punto J.V y lo único que tienes.
+
+40
+00:03:30,400 --> 00:03:34,350
+Eso sí nosotros analizamos el archivo índex HTML.
+
+41
+00:03:34,390 --> 00:03:42,260
+Lo único que tiene es una referencia a algo llamado Apep p.ej. ese ese archivo lo único que tiene es
+
+42
+00:03:42,260 --> 00:03:45,840
+un consuelo de algo que no está en ningún lado.
+
+43
+00:03:45,840 --> 00:03:53,220
+Ahora que hay dos formas de resolver este problema uno es que en el archivo índex punto HTML antes de
+
+44
+00:03:53,270 --> 00:03:57,170
+LAP tenemos que hacer dos intrusiones adicionales.
+
+45
+00:03:57,170 --> 00:04:07,620
+Tendríamos que incluir validaciones plica fechas y validaciones punto textos laburos cambios de carga
+
+46
+00:04:07,630 --> 00:04:14,530
+navegador web y ahí sí regresa True vamos a hacer algo aquí en el TDS para que se mire un poco más elegante.
+
+47
+00:04:14,570 --> 00:04:25,330
+No me gusta que sólo salgas tú voy a decir y acordamos que esto regresa un bullían te lo puedo poner
+
+48
+00:04:25,330 --> 00:04:26,150
+directamente aquí.
+
+49
+00:04:26,170 --> 00:04:38,950
+Si barrían es un texto vario y hacer solo el texto es válido es poner otro texto acá diciendo el texto
+
+50
+00:04:39,010 --> 00:04:40,220
+no es válido.
+
+51
+00:04:40,240 --> 00:04:47,260
+Las ciudadanas sólo para que se miren un poco más bonito y no tengan ese código rar recargar y ahí tengo
+
+52
+00:04:47,260 --> 00:04:52,030
+el texto salió bien pero es hacer esto no es muy práctico.
+
+53
+00:04:52,390 --> 00:04:54,720
+Imagínense que tuviéramos muchos archivos miles.
+
+54
+00:04:54,730 --> 00:05:01,660
+Esto podía crecer de manera descomunal en proyecto donde van a haber posiblemente cosas como éstas demasiadas
+
+55
+00:05:01,660 --> 00:05:05,450
+importaciones en una página índex HTML.
+
+56
+00:05:05,590 --> 00:05:12,710
+Es más puede ser que ni siquiera ni la mitad de eso se vaya a utilizar tal vez sólo uno o dos.
+
+57
+00:05:12,710 --> 00:05:17,370
+Eso lo vamos a ver un poco más adelante cuando estemos enfocados en los módulos.
+
+58
+00:05:17,660 --> 00:05:20,470
+No quiero hacer esto no quiero hacer eso para nada.
+
+59
+00:05:20,780 --> 00:05:27,170
+No quiero hacer referencia a que junte todo en un solo lado cómo lo puedo hacer.
+
+60
+00:05:27,170 --> 00:05:31,770
+De hecho esto ya lo vieron anteriormente en este curso pero lo vamos a hacer otra vez.
+
+61
+00:05:31,930 --> 00:05:37,950
+Voy a abrir una terminal y voy a hacer el siguiente código.
+
+62
+00:05:38,030 --> 00:05:46,260
+Sé decirle scrip quiero outfield quiero un archivo de salida en la siguiente dirección lo quiero en
+
+63
+00:05:46,270 --> 00:05:54,020
+una carpeta llamada Violet plica el nombre del archivo de salida a Pepe apuntó J.V seguido de los demás
+
+64
+00:05:54,020 --> 00:05:59,180
+archivos que yo quiero incluir en este caso tiene que ser en el orden o en un orden que me funcione
+
+65
+00:05:59,370 --> 00:06:02,470
+en este caso va a ser fechas.
+
+66
+00:06:02,720 --> 00:06:07,670
+No hace falta poner el TC si usted lo quiere poner está bien pero no hace falta porque sólo va a trabajar
+
+67
+00:06:07,670 --> 00:06:18,510
+con archivos .3 o que para ser fechas textos y app entren a compilar los tuits.
+
+68
+00:06:18,530 --> 00:06:25,280
+Aquí se volvió una cosa las fechas están en una subcarpeta se cuenta en validaciones validaciones fleta
+
+69
+00:06:25,610 --> 00:06:32,370
+fechas y validaciones Leca textos entre ahí los compiló y lo hizo.
+
+70
+00:06:32,370 --> 00:06:34,820
+Si ustedes se fijaron también me creó una carpeta acá.
+
+71
+00:06:34,830 --> 00:06:36,920
+Eso fue lo que yo quería.
+
+72
+00:06:36,930 --> 00:06:44,010
+Este archivo contiene por decirlo así ya el producto compilado de los otros dos hermanos los tres archivos
+
+73
+00:06:44,160 --> 00:06:45,450
+y lo pone en uno solo.
+
+74
+00:06:45,630 --> 00:06:54,080
+Por consecuencia ahora puedo hacer acá Bildt punto pero completa hasta p.ej. si me voy a navegar Webby
+
+75
+00:06:54,090 --> 00:06:54,790
+recargó.
+
+76
+00:06:54,900 --> 00:07:02,760
+El código funciona me voy a sources y analizo el archivo y a revisar el archivo de la PP ahí está todo
+
+77
+00:07:02,760 --> 00:07:03,270
+el código.
+
+78
+00:07:03,270 --> 00:07:09,930
+Toda mi lógica ya está en un solo lado pero Thaís me lo juntó todo para que no tenga que estar haciendo
+
+79
+00:07:09,930 --> 00:07:11,910
+múltiples o miles de importaciones.

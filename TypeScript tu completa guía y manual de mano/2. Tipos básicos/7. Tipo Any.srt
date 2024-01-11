@@ -1,0 +1,107 @@
+1
+00:00:03,340 --> 00:00:04,570
+El tipo de dato.
+
+2
+00:00:05,410 --> 00:00:06,970
+Vamos a suponer lo siguiente.
+
+3
+00:00:07,280 --> 00:00:09,380
+Declaremos un par de variables.
+
+4
+00:00:09,630 --> 00:00:16,270
+El Vengador Tocoma existe Koma y las derrotas.
+
+5
+00:00:17,740 --> 00:00:22,270
+Supongamos nosotros que arengado pastelón instruyan existe un boliviano y derrotas un número pero no
+
+6
+00:00:22,270 --> 00:00:26,870
+le estamos diciendo al Tixkokob que esos son empezamos a utilizarlas.
+
+7
+00:00:26,920 --> 00:00:33,880
+Por ejemplo digo vengador es igual a Doctor Strange por ejemplo tras los cambios aquí van a ir viendo
+
+8
+00:00:33,880 --> 00:00:40,390
+lo que hay en la compilación Yader el producto de attached perfectamente puedo hacer un consolón y decir
+
+9
+00:00:40,390 --> 00:00:45,110
+que el vengador punto y ToysRUs me hace las recomendaciones de todos los Ising.
+
+10
+00:00:45,190 --> 00:00:54,670
+Por ejemplo vamos a luchar ADT a la opinión cero luego digo vengador va a ser igual a un número pongamos
+
+11
+00:00:54,680 --> 00:00:59,290
+150 puntos 55 55 un montón de un montón de 5.
+
+12
+00:01:00,130 --> 00:01:06,940
+Luego hago un solo y el vengador punto y ya me parecen las funciones de los que son números en este
+
+13
+00:01:06,940 --> 00:01:10,270
+caso tú fixes pongamos dos.
+
+14
+00:01:10,390 --> 00:01:15,570
+Luego voy a decir que el vengador va a ser igual a tu.
+
+15
+00:01:16,520 --> 00:01:21,930
+Llegó el consuelo de vengador y aquí me salen pues lo único propia que tiene Muriano que es herbarios
+
+16
+00:01:21,970 --> 00:01:28,010
+pero voy a dejarlo así y grabo loscambios me aparece el código aquí ya que lo voy a correr aquí en él
+
+17
+00:01:28,790 --> 00:01:36,740
+en el código y ahí lo tenemos la de porque él es el primer la primera posición el carácter de string
+
+18
+00:01:37,570 --> 00:01:47,760
+050 como formato numérico porque eso es lo que hace el fixed y el chup si vemos vengador mutó de variables.
+
+19
+00:01:48,120 --> 00:01:51,220
+Es lo mismo que yo hubiera hecho acá tipo ENI.
+
+20
+00:01:51,600 --> 00:01:57,190
+Es exactamente lo mismo un valor de tipo que ni puede ser cualquier cosa puede ser lo que sea.
+
+21
+00:01:57,190 --> 00:02:04,090
+Inclusive puede inicializar digamos acá pongámosle Superman.
+
+22
+00:02:04,500 --> 00:02:10,680
+Si bien no sucede ningún error a pesar de que aquí explícitamente lo igualamos un string pero pudo haber
+
+23
+00:02:10,680 --> 00:02:14,580
+sido que aquí lo igualamos a un número y tampoco va a dar ningún error.
+
+24
+00:02:14,820 --> 00:02:20,550
+Lo que pasa en estos casos es que todas estas variables que no están igualadas a nada a la hora de ser
+
+25
+00:02:20,550 --> 00:02:22,920
+declaradas ni tampoco tienen un tipo.
+
+26
+00:02:22,950 --> 00:02:35,620
+Todo va a ser por defecto tipo n si hacemos la pregunta solo existe existe y también de las derrotas.
+
+27
+00:02:36,750 --> 00:02:41,010
+Eso por defecto va a tener valores defrauden pero es de tipo N.

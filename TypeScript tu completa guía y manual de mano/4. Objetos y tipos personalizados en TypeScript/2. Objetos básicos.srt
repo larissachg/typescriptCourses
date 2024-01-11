@@ -1,0 +1,127 @@
+1
+00:00:03,440 --> 00:00:07,780
+Los objetos en tanto son sumamente importantes como lo son en JavaScript.
+
+2
+00:00:07,850 --> 00:00:10,450
+Vamos a verlos ya un poquito más a detalle.
+
+3
+00:00:10,850 --> 00:00:17,300
+Pensemos que tenemos este superhéroe llamado Flash y lo igualamos a un objeto.
+
+4
+00:00:17,300 --> 00:00:22,540
+Vamos a ponerle un par de propiedades nombre Barry Allen.
+
+5
+00:00:22,550 --> 00:00:34,130
+La edad es de unos 24 años y su poder o Bueno pongámosle poderes porque tiene varios poderes se la puede
+
+6
+00:00:34,130 --> 00:00:35,000
+correr muy rápido
+
+7
+00:00:37,720 --> 00:00:41,720
+muy rápido y también puede viajar por el tiempo
+
+8
+00:00:44,970 --> 00:00:47,150
+sólo es único.
+
+9
+00:00:47,410 --> 00:00:54,360
+Ahora es objeto básico pero si yo ya lo tengo un archivo de Tixkokob tal por mi ya infiere los tipos
+
+10
+00:00:54,360 --> 00:01:00,520
+así como hace con las variables y las propiedades en este caso va a decir ok.
+
+11
+00:01:00,530 --> 00:01:04,880
+Flash es un objeto que tiene que tener edad nombre y poderes.
+
+12
+00:01:04,880 --> 00:01:11,110
+No importa el orden pero sí tiene que tener esas propiedades es decir si yo intento ser ahora Flash
+
+13
+00:01:11,170 --> 00:01:16,570
+punto hablemos como pensemos que queremos agregar una nueva propiedad como los padres.
+
+14
+00:01:16,580 --> 00:01:23,560
+Padres es igual a un arreglo que ya me está marcando un error este error hace referencia a que los padres
+
+15
+00:01:23,560 --> 00:01:31,330
+no existen dentro de la definición de Flash lo que está haciendo realmente tal es que creó un tipo de
+
+16
+00:01:31,330 --> 00:01:33,670
+dato para manejar ese objeto.
+
+17
+00:01:33,910 --> 00:01:37,450
+No puedo hacerlo ni siquiera Flash es igual a un gesto vacío.
+
+18
+00:01:37,570 --> 00:01:41,390
+No me va a dejar hacerlo porque ya está definido ese tipo.
+
+19
+00:01:41,830 --> 00:01:49,660
+Ahora la parte interesante de todo esto es que a mi me va a ayudar a poder controlar las propiedades
+
+20
+00:01:49,750 --> 00:01:54,150
+de manera estricta dentro del objeto.
+
+21
+00:01:54,190 --> 00:02:00,490
+De nuevo quiero inicializar el objeto y digo bueno nombre que vamos que habíamos a Superman a Flash
+
+22
+00:02:00,520 --> 00:02:04,150
+por Superman y vamos a regresar a Clark Kent.
+
+23
+00:02:04,150 --> 00:02:10,700
+La edad de unos 500 años era un Superman viejo los poderes dos puntos.
+
+24
+00:02:11,190 --> 00:02:15,030
+Digamos que de lo único que tiene es poder volar.
+
+25
+00:02:15,070 --> 00:02:20,080
+Ya sabemos que tiene más pero no llenar ese Quarry Men que sí me lo aceptó.
+
+26
+00:02:20,080 --> 00:02:20,410
+Por qué.
+
+27
+00:02:20,410 --> 00:02:29,980
+Porque cumple o satisface el tipo flash al tipo que Clark que queramos sacar de nombre edad y poderes.
+
+28
+00:02:30,010 --> 00:02:35,050
+Otra cosa que tenemos que tener en consideración es que las propiedades los nombres de las propiedades
+
+29
+00:02:35,200 --> 00:02:36,190
+importan.
+
+30
+00:02:36,190 --> 00:02:42,040
+A diferencia de las funciones donde no eran importantes pero aquí yo pongo nombre héroe ya va a dar
+
+31
+00:02:42,040 --> 00:02:45,020
+un error porque el nombre Hero no está en esta definición.
+
+32
+00:02:46,450 --> 00:02:46,800
+Ok.

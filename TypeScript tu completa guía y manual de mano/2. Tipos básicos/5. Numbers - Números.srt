@@ -1,0 +1,131 @@
+1
+00:00:03,090 --> 00:00:09,750
+Los tipos numéricos en Taipe scrip soportan enteros y números decimales así que no se preocupen por
+
+2
+00:00:09,750 --> 00:00:11,790
+eso pueden ser unos ejemplos.
+
+3
+00:00:11,790 --> 00:00:16,480
+Todas las variables se declaran igual voy a poner aquí Avengers number.
+
+4
+00:00:16,630 --> 00:00:22,410
+Ya saben que después de dos puntos viene el tipo hasta que encuentra la palabra igual o el carácter
+
+5
+00:00:22,410 --> 00:00:23,280
+igual.
+
+6
+00:00:23,280 --> 00:00:31,270
+5 Por ejemplo tenemos 5 años le voy a poner villanos tenemos otro nombre pero no lo estoy especificando
+
+7
+00:00:31,740 --> 00:00:34,260
+y puedo decir otros es igual a dos.
+
+8
+00:00:34,270 --> 00:00:41,530
+Por ejemplo todas esas son formas de declarar números y hagamos un pequeño ejercicio de decir y los
+
+9
+00:00:41,530 --> 00:00:44,480
+Avengers es mayor a los villanos.
+
+10
+00:00:44,520 --> 00:00:54,820
+Así los niños son mayores a los villanos entonces vamos a decir sólo estamos salvados si no sólo estamos
+
+11
+00:00:54,820 --> 00:01:02,500
+muertos tras los cambios y aquí tenemos ya automáticamente compilado nuestro chivó en ECMAscript y miramos
+
+12
+00:01:02,800 --> 00:01:10,550
+todo el código pueden observar que los tipos desaparecen porque el ya no soporta eso pero el tanque
+
+13
+00:01:10,810 --> 00:01:15,430
+el tanque es solo para el momento de la creación del Código.
+
+14
+00:01:15,610 --> 00:01:16,750
+Miremos lo que pasa.
+
+15
+00:01:16,840 --> 00:01:18,620
+Qué creen que sucede.
+
+16
+00:01:18,790 --> 00:01:20,410
+No estamos armados o estamos muertos.
+
+17
+00:01:20,410 --> 00:01:25,960
+Vamos a ver quien dice o puede decir estamos salvados otro más si estamos muertos de cargo y estamos
+
+18
+00:01:25,960 --> 00:01:27,010
+muertos.
+
+19
+00:01:27,010 --> 00:01:28,000
+Por qué.
+
+20
+00:01:28,000 --> 00:01:29,290
+Porque en este momento.
+
+21
+00:01:29,330 --> 00:01:34,480
+Pues si ustedes saben en JavaScript toda variable que no está asignada o sea que no tienen un valor
+
+22
+00:01:34,480 --> 00:01:37,580
+tiene el valor por defecto que es el fin.
+
+23
+00:01:37,660 --> 00:01:39,100
+Esto se puede controlar.
+
+24
+00:01:39,100 --> 00:01:45,610
+Podemos decirle al TACs script que nos avise cuando las variables no tengan números o no tengan valores
+
+25
+00:01:45,610 --> 00:01:46,240
+dentro.
+
+26
+00:01:46,390 --> 00:01:51,610
+Pero eso lo vamos a ver un poquito más adelante y ya por último lo que quiero que ustedes observen es
+
+27
+00:01:51,610 --> 00:01:57,760
+que en las variables que hemos definido de tipo número en el tanque scrip sólo van a soportar valores
+
+28
+00:01:57,760 --> 00:01:58,330
+numéricos
+
+29
+00:02:00,910 --> 00:02:03,510
+cómo lo estoy poniendo aquí a continuación.
+
+30
+00:02:03,510 --> 00:02:06,780
+Igual el punto y coma aquí siempre lo va a autocompletar.
+
+31
+00:02:07,200 --> 00:02:13,840
+Pero siempre es buena práctica que lo pongamos ya si pongo otro valor en otros por ejemplo unos 3 ahí
+
+32
+00:02:13,950 --> 00:02:21,820
+si nos va a dar errores porque no puedo convertir directamente el tipo 1 3 a número 2 pero en el siguiente
+
+33
+00:02:21,830 --> 00:02:22,090
+video.

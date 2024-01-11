@@ -1,0 +1,267 @@
+1
+00:00:03,730 --> 00:00:08,530
+Continuando con el trabajo nos habíamos quedado por acá cerremos.
+
+2
+00:00:08,530 --> 00:00:12,370
+Ya estamos listos para poder utilizar cualquier cosa de nuestros módulos.
+
+3
+00:00:12,370 --> 00:00:18,580
+Por ejemplo si tengo que en los textos y quiero ser referencia a alguna de estas propiedades por ejemplo
+
+4
+00:00:18,610 --> 00:00:22,720
+mensajes si ustedes se fijan no hay nada de exportaciones.
+
+5
+00:00:22,720 --> 00:00:27,130
+Si yo quiero utilizar esto necesito ser un exporto como saber.
+
+6
+00:00:27,160 --> 00:00:37,840
+Copio acá y necesito utilizar ese input llaves como para hacer una reestructuración from punto Leca
+
+7
+00:00:38,050 --> 00:00:40,550
+y esto está en textos Póntico.
+
+8
+00:00:40,660 --> 00:00:43,100
+Acuérdese que no estoy poniendo la extensión del archivo.
+
+9
+00:00:43,370 --> 00:00:46,850
+Ahora sí regreso a la estructuración y hago TAP.
+
+10
+00:00:46,990 --> 00:00:55,030
+Puedo ver aquí que necesito los mensajes que tengo escribo mensajes y ya me lo voy a encontrar y estamos
+
+11
+00:00:55,030 --> 00:00:56,380
+listos para hacerlo acá.
+
+12
+00:00:56,440 --> 00:00:59,530
+Será un consuelo de mensajes.
+
+13
+00:00:59,650 --> 00:01:04,240
+Los cambios en navegador web y hasta acuerdense que no tengo que hacer refresh porque tengo el servidor
+
+14
+00:01:04,240 --> 00:01:12,300
+corriendo no lo tengo por aquí abajito aquí está corriendo ok pero miren los mensajes.
+
+15
+00:01:12,300 --> 00:01:18,760
+Realmente no necesito mostrarlos porque quiero usarlos a través de esta función.
+
+16
+00:01:18,930 --> 00:01:25,320
+Entonces a esta función le voy a poner Export obtener error ok al salvar los cambios aquí me va a marcar
+
+17
+00:01:25,320 --> 00:01:30,540
+un error porque ya no se encuentra mensajes como cuando tienes un módulo que se está exportando.
+
+18
+00:01:30,660 --> 00:01:37,400
+Entonces vamos a hacer lo siguiente Voy a utilizar el Export acá.
+
+19
+00:01:37,440 --> 00:01:45,390
+Pero el obtener error acá pero si yo quiero importar todos los módulos quiero importar todos los módulos
+
+20
+00:01:45,390 --> 00:01:48,320
+que estén en este archivo que estén con la palabra export.
+
+21
+00:01:48,360 --> 00:01:55,800
+Puedo hacer esto asterisco tiene portar todos los módulos que estén exportables y les voy a poner un
+
+22
+00:01:55,800 --> 00:01:57,340
+alias en este caso.
+
+23
+00:01:57,380 --> 00:02:03,010
+AS Voy a ponerle textos sólo para hacer referencia a este archivo.
+
+24
+00:02:03,030 --> 00:02:09,630
+Ahora bien yo podría llegar y decir quiero el consuelo de textos que no tienen nada que ver con esto
+
+25
+00:02:09,630 --> 00:02:11,850
+estoy haciendo referencia a esta parte.
+
+26
+00:02:11,850 --> 00:02:18,270
+Punto y aquí me van a parecer todos los métodos listados o propiedades listas que tengan la palabra
+
+27
+00:02:18,320 --> 00:02:21,990
+Export vamos de nuevo export.
+
+28
+00:02:22,070 --> 00:02:22,950
+Bravo.
+
+29
+00:02:23,340 --> 00:02:24,130
+Punto.
+
+30
+00:02:24,150 --> 00:02:24,570
+Y ahí está.
+
+31
+00:02:24,570 --> 00:02:25,240
+Mensajes también.
+
+32
+00:02:25,270 --> 00:02:27,810
+Pero acordemos que eso no lo quiero hacer.
+
+33
+00:02:27,820 --> 00:02:28,460
+Ok.
+
+34
+00:02:28,470 --> 00:02:28,910
+Punto.
+
+35
+00:02:28,920 --> 00:02:33,350
+Obtener error y pondré el error cero.
+
+36
+00:02:33,420 --> 00:02:37,160
+Grabamos cambios y aquí tengo el texto es muy corto.
+
+37
+00:02:37,380 --> 00:02:46,980
+Perfecto podríamos poner aquí una validación para preguntar si el número de error es mayor es mayor
+
+38
+00:02:47,040 --> 00:02:54,460
+a los mensajes puntuales y pondremos un consuelo que acaba diciendo.
+
+39
+00:02:54,710 --> 00:03:03,860
+Un retrón luchón diciendo el código en el código de error no existe.
+
+40
+00:03:04,700 --> 00:03:05,820
+Y ahí sería todo.
+
+41
+00:03:05,880 --> 00:03:10,950
+Ahora si intentamos ejecutar mandar un código de rodillas ese código no existe pues el Código error
+
+42
+00:03:10,950 --> 00:03:11,610
+no existe.
+
+43
+00:03:11,610 --> 00:03:18,450
+Ya tenemos por decirlo así todas las importaciones por este módulo ustedes cuando miren esta sintaxis
+
+44
+00:03:18,480 --> 00:03:24,180
+ya saben que espero es básicamente lo mismo del ECMAScript ahora con los números podemos hacer lo siguiente
+
+45
+00:03:24,420 --> 00:03:29,980
+supongamos que nuestra función pillando lo ocupo.
+
+46
+00:03:30,040 --> 00:03:35,990
+Ahí se va a quedar sólo para ser trabajado en este archivo y esta función es la única cosa que va a
+
+47
+00:03:35,990 --> 00:03:42,600
+ser el módulo de números sólo va a hacer restas y sólo este vamos a llamar entonces nosotros podríamos
+
+48
+00:03:42,600 --> 00:03:45,900
+ponerle una palabra por defecto olvidémonos de que existe.
+
+49
+00:03:47,060 --> 00:03:55,020
+La pueden dejar ahí pero no se preocupen si ustedes sólo quieren exportar una cosa o mejor dicho que
+
+50
+00:03:55,100 --> 00:04:02,650
+ésta sea cuando utilicen este chip usted sea el módulo por defecto podemos ponerle la palabra dijo.
+
+51
+00:04:02,940 --> 00:04:08,730
+Antes de la función y después del Export claro esto podría ser algún objeto grande con un montón de
+
+52
+00:04:08,730 --> 00:04:09,840
+propiedades.
+
+53
+00:04:09,840 --> 00:04:17,520
+Por ejemplo un montón de su Hachibei constantes no se vámonos Carlos vámonos al PP apuntó T.C.
+
+54
+00:04:17,620 --> 00:04:23,860
+Aquí ya está dando el rol del PI porque el pillando lo estoy usando ya no está en ese lado ok pero estamos
+
+55
+00:04:24,280 --> 00:04:30,850
+importando exportando este archivo que tiene la función restar que es la función por defecto entonces
+
+56
+00:04:30,850 --> 00:04:39,310
+yo puedo decirle quiero restar o sería números o cualquier otro nombre que ustedes quieran pero no necesitan
+
+57
+00:04:39,310 --> 00:04:47,360
+especificar ni llaves ni tal cosa porque ya es un archivo o una función por defecto cómo lo utilizamos.
+
+58
+00:04:47,360 --> 00:04:49,970
+Bueno vamos a hacer consultas de números.
+
+59
+00:04:50,020 --> 00:04:50,710
+Punto.
+
+60
+00:04:50,800 --> 00:04:57,100
+Van a ver que aquí esto ya es como una función y le da una pista que ya en teoría estoy haciendo llamado
+
+61
+00:04:57,100 --> 00:05:07,290
+directamente a esta función esta puedo hacerlo así voy a ponerle diez coma cinco a los cambios de cargo
+
+62
+00:05:07,900 --> 00:05:12,580
+y si se fijan aparece cinco bueno ya no necesito recargar porque ya lo estoy haciendo automático aparece
+
+63
+00:05:12,580 --> 00:05:20,830
+cinco números que es el llamado o el alias que le pusimos en esta parte de acá usando el import pero
+
+64
+00:05:20,890 --> 00:05:30,080
+números apunta a esta función resta yo le pude haber puesto acá otra cosa como carros por ejemplo carros
+
+65
+00:05:30,910 --> 00:05:37,660
+y carros y siempre está esta parte de acá pa hacer referencia a la función resta.
+
+66
+00:05:37,790 --> 00:05:45,380
+Claro es recomendable ponerlo bien explícito no es decir llamarse restar para que tengamos la idea mental
+
+67
+00:05:45,380 --> 00:05:50,390
+de que lo que está haciendo es para que ustedes vean que se pueden renombrar cuando lo estoy usando.

@@ -1,0 +1,107 @@
+1
+00:00:03,340 --> 00:00:08,710
+Las tuplas es un tipo de dato nuevo que no existe en JavaScript pero tienen una forma muy parecida a
+
+2
+00:00:08,710 --> 00:00:10,210
+lo que es un arreglo.
+
+3
+00:00:10,210 --> 00:00:11,690
+Vamos a verlo a continuación.
+
+4
+00:00:11,810 --> 00:00:13,700
+LEPP Hero y pongámoslo así.
+
+5
+00:00:13,770 --> 00:00:20,740
+Héroe es igual a un arreglo cuya primera posición es el nombre del Doctor Strange seguido de las veces
+
+6
+00:00:20,740 --> 00:00:25,010
+que ha muerto 100 veces ha muerto Punto y Coma grave OPIS.
+
+7
+00:00:25,060 --> 00:00:31,750
+Es lo mismo no es un arreglo normal a qué nos referimos con las tuplas cuando nosotros sabemos de antemano
+
+8
+00:00:31,900 --> 00:00:37,360
+qué tipos de datos va a tener el arreglo o el arreglo de un ancho finito o conocido.
+
+9
+00:00:37,360 --> 00:00:42,490
+Podemos definir los tipos que tienen cada una de las posiciones para evitar que comentamos errores futuros.
+
+10
+00:00:42,490 --> 00:00:48,880
+Cómo definimos eso después de la palabra héroe o la definición del nombre de la variable dos puntos
+
+11
+00:00:48,970 --> 00:00:56,230
+seguidos de llaves cuadradas y aquí adentro vamos a poner el nombre de los nombres de los tipos que
+
+12
+00:00:56,230 --> 00:00:57,540
+tienen nuestro arreglo.
+
+13
+00:00:57,550 --> 00:01:06,250
+En este caso se dio un en coma y luego viene el nombre grabó los cambios y ahora yo puedo utilizar con
+
+14
+00:01:06,250 --> 00:01:07,660
+seguridad el héroe.
+
+15
+00:01:07,660 --> 00:01:13,510
+La primera posición que sería la cero y si yo no intento asignar un número entre unos tres me va a marcar
+
+16
+00:01:13,510 --> 00:01:19,270
+un error diciendome que unos tres no es asignarle a así pues lo mismo va a pasar si yo intento usar
+
+17
+00:01:19,270 --> 00:01:26,350
+la segunda posición y ponerle un tipo número por ejemplo voy a poner normal eso lo va a marcar como
+
+18
+00:01:26,350 --> 00:01:32,020
+error también porque es un tipo string no puede ser asignado a un número.
+
+19
+00:01:32,020 --> 00:01:35,060
+Tenemos que usar las cosas de manera correcta.
+
+20
+00:01:35,150 --> 00:01:42,640
+Ahora si me preguntaran sólo funciona con dos no funciona cuando tenemos el ancho conocido o cuando
+
+21
+00:01:42,640 --> 00:01:44,230
+usaremos dos tipos.
+
+22
+00:01:44,450 --> 00:01:53,380
+Luego pueden ir Muriano bullían si yo grabo aquí me va a marcar un error porque me hace falta un dato
+
+23
+00:01:53,470 --> 00:02:00,780
+adicional a mi arreglo me falta el tipo sea que no se puede asignar un string número string número y
+
+24
+00:02:00,870 --> 00:02:07,420
+booleano nos hace falta un dato grave los cambios iban a ver que aquí es lo mismo es el mismo código
+
+25
+00:02:07,750 --> 00:02:13,570
+lo único que estamos haciendo es definiendo reglas para que nosotros mismos no cometamos errores.
+
+26
+00:02:13,600 --> 00:02:21,850
+Claro hay un problema aquí que era el punto Puss y puedo meterle otra cosa tú lo aceptas.
+
+27
+00:02:21,850 --> 00:02:26,650
+Es un saludo que a mí no me ha parecido pero bueno es la única condición que tenemos.

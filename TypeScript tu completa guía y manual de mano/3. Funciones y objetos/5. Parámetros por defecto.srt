@@ -1,0 +1,215 @@
+1
+00:00:03,310 --> 00:00:08,950
+Los parámetros por defecto es una característica nueva del ECMAScript 6 pero type scrip ya nos permite
+
+2
+00:00:08,950 --> 00:00:14,560
+usarla a pesar de que nuestros navegadores web de los clientes no soporten esa característica que es
+
+3
+00:00:14,560 --> 00:00:21,160
+un parámetro por defecto a diferencia de un parámetro opcional como éste es un parámetro que la función
+
+4
+00:00:21,160 --> 00:00:22,230
+necesita para trabajar.
+
+5
+00:00:22,450 --> 00:00:28,390
+Pero no es un requerimiento obligatorio decirlo a la hora de llamar la función.
+
+6
+00:00:28,510 --> 00:00:34,240
+Vamos a ver esto como un ejemplo tenemos la misma función de antes y aquí voy a agregar una estabulación
+
+7
+00:00:34,240 --> 00:00:36,460
+es sólo para que quepa todo en una sola línea.
+
+8
+00:00:36,690 --> 00:00:42,530
+Coma supongamos que lo que yo quiero es capitalizar el nombre completamente es decir que salga Tony
+
+9
+00:00:42,530 --> 00:00:47,500
+con la T mayúscula y estar con la S mayúscula ok.
+
+10
+00:00:47,530 --> 00:00:53,980
+Cómo agrego un parámetro por defecto voy a decir que lo quiero capitalizar o lo quiero capitalizado
+
+11
+00:00:54,290 --> 00:00:56,860
+capitalizar los puntos.
+
+12
+00:00:56,860 --> 00:01:02,240
+Este tipo de booleano y si lo dejo así es un parámetro obligatorio.
+
+13
+00:01:02,260 --> 00:01:08,010
+La desventaja de esto sería que si yo usé mi función nombre completo en mi línea de código las 1000
+
+14
+00:01:08,020 --> 00:01:14,170
+líneas de código van a dar el problema pero gracias a los parámetros por defecto yo puedo decirle OK
+
+15
+00:01:14,230 --> 00:01:21,440
+capitalizado es un valor por defecto y si no me mandan nada quiero que sea falso.
+
+16
+00:01:21,520 --> 00:01:29,290
+Si bien el error desaparece y dentro de la función cuando sea ejecutada esto va a tener el valor de
+
+17
+00:01:30,470 --> 00:01:33,000
+capitalizado el valor por defecto.
+
+18
+00:01:33,130 --> 00:01:37,140
+Vamos a verlo aquí en la consola que tenemos Fox y Tony Stark.
+
+19
+00:01:37,480 --> 00:01:45,880
+Si aquí pongo tu cargo y ahí tenemos otro si en la función si decido usarla o mandar ese parámetro que
+
+20
+00:01:45,970 --> 00:01:50,570
+es por defecto acá puedo decir digamos falso.
+
+21
+00:01:50,750 --> 00:01:55,510
+Los cambios de cargo y aquí elevar el parámetro si es utilizado.
+
+22
+00:01:55,690 --> 00:02:02,920
+Si miramos la parte de JavaScript como lo hacemos en la compilación del ECMAscript 5 va a ser la evaluación
+
+23
+00:02:02,920 --> 00:02:10,110
+dentro o sea el recibo capitalizado capitalizado es gay o Zero entonces lo pone como capitalizado igual
+
+24
+00:02:10,130 --> 00:02:16,000
+creo que es el valor por defecto que trae nuestra función pero hagamos algo interesante con esto no
+
+25
+00:02:16,000 --> 00:02:22,180
+lo dejemos así porque es un ejemplo muy muy sencillo creemos una función para capitalizar las palabras
+
+26
+00:02:23,100 --> 00:02:28,060
+y vamos a aprovechar el poder que tiene Tapscott con su autocompletado y todas las funciones que ya
+
+27
+00:02:28,060 --> 00:02:33,880
+tienen y la ventaja que nos da para programar más rápidamente y con menos errores a la hora de escribir.
+
+28
+00:02:35,260 --> 00:02:43,090
+Creemos en la función llamada capitalizaron que vitalizar va a recibir como parámetro una palabra que
+
+29
+00:02:43,090 --> 00:02:50,530
+es de tipo string y a su vez esto va a regresar un extremo empezamos a hacerlo ok.
+
+30
+00:02:50,990 --> 00:02:57,870
+Capitalizamos la primera letra de la palabra palabra punto quiero la primera letra entonces puede usar
+
+31
+00:02:57,930 --> 00:03:05,150
+el chat at pero yo no sé si yo no sé si eso recibe argumentos o no.
+
+32
+00:03:05,310 --> 00:03:10,940
+Entonces abro paréntesis y ahí me dicen necesito mandar un argumento o no cumple el argumento.
+
+33
+00:03:11,010 --> 00:03:19,170
+Quiero la primera letra el chat hachero punto TACs Phipps sabe que eso es un tipo Strait.
+
+34
+00:03:19,190 --> 00:03:24,830
+Por eso me aparecen todas las opciones de tipo Schenk la que me interesa aquí es hacerlo mayusculo entonces
+
+35
+00:03:24,830 --> 00:03:32,960
+tú o percas y ya te sale todas las opciones para cómo se escribe esa función que es bastante útil porque
+
+36
+00:03:32,960 --> 00:03:38,240
+muchas veces yo en lo particular me equivoco mucho y no me acuerdo si dices en mayúscula o minúscula
+
+37
+00:03:38,690 --> 00:03:40,970
+pero ya contáis eso ya no es un problema.
+
+38
+00:03:41,240 --> 00:03:47,630
+Ahora quiero todo lo demás pero en minúscula cortando la primera la primera letra.
+
+39
+00:03:47,630 --> 00:03:56,390
+Para eso puedo usar el string y decirle que me corte a partir del primero de la primera posición punto
+
+40
+00:03:57,110 --> 00:04:04,640
+y lo que sigue quiero en lenguajes paréntesis Omnicom algunos cambios y todo está bueno pues todo parece
+
+41
+00:04:04,640 --> 00:04:08,810
+correcto exceptuando que no estamos usando esta función para nada en este preciso momento.
+
+42
+00:04:09,860 --> 00:04:11,320
+Usemos la h arriba.
+
+43
+00:04:11,690 --> 00:04:20,300
+Y digo si capitalizado como es un Pulianas puedo hacerlo así si es verdadero entonces quiero que haga
+
+44
+00:04:20,300 --> 00:04:29,320
+el retorno de capitalizar nombre más el espacio más capitalizar.
+
+45
+00:04:29,530 --> 00:04:33,930
+Apellido puntico.
+
+46
+00:04:34,230 --> 00:04:38,790
+Quiero que regrese lo que sea que me mandaron así en plan como yo lo envié.
+
+47
+00:04:38,820 --> 00:04:42,390
+Así me lo va a regresar por defecto.
+
+48
+00:04:42,390 --> 00:04:44,930
+El parámetro está en Tru.
+
+49
+00:04:45,220 --> 00:04:50,440
+Entonces yo recargó me debería salir Tony con la T mayúscula y estar con S mayúscula.
+
+50
+00:04:50,580 --> 00:04:57,110
+Si yo pongo aquí Photoshop falso debería de parecerme como yo lo escribí en la función.
+
+51
+00:04:57,150 --> 00:04:59,360
+O como yo lo estoy mandando como parámetro.
+
+52
+00:04:59,360 --> 00:05:01,710
+Básicamente eso es los parámetros por defecto.
+
+53
+00:05:01,710 --> 00:05:06,240
+A pesar de que es una característica Herrick más que IPv6 ya la tenemos a disposición en este preciso
+
+54
+00:05:06,240 --> 00:05:10,350
+momento para cualquier navegador web que queramos o dispositivos no sólo navegadores web.

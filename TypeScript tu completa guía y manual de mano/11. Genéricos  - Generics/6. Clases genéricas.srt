@@ -1,0 +1,195 @@
+1
+00:00:03,120 --> 00:00:11,580
+Vamos a ver ahora sobre las clases genéricas queremos algo sencillo como un cuadrado.
+
+2
+00:00:11,680 --> 00:00:18,280
+Esto será una clase normal por los momentos poner un espacio para que ustedes vayan viendo los cuadrados
+
+3
+00:00:18,280 --> 00:00:24,880
+tienen una base intencionalmente no voy a poner el tipo en una base tiene una altura y luego viene el
+
+4
+00:00:24,880 --> 00:00:33,140
+área que esto va a regresar un número que disputó hace por disputo altura.
+
+5
+00:00:33,810 --> 00:00:36,190
+Todo parece funcionar.
+
+6
+00:00:36,190 --> 00:00:44,470
+Ahora vamos a utilizar esa clase de cuadrado es igual a new cuadrado parentesis Tocoma diré que el cuadrado
+
+7
+00:00:45,400 --> 00:00:51,660
+punto base es igual a 10 y el cuadrado punto altura es igual a 10 también.
+
+8
+00:00:53,080 --> 00:00:56,710
+Ahora en primamos en consola el área de Cuadrado
+
+9
+00:00:59,580 --> 00:01:07,450
+que da los cambios nada del otro mundo no tendremos 100 pero aquí sucedió sucederán muchas cosas que
+
+10
+00:01:07,990 --> 00:01:14,340
+infirió por ejemplo el valor o el tipo de Cuadrado base cuadrado altura.
+
+11
+00:01:14,350 --> 00:01:17,940
+Yo puedo decirle aquieta y Okita scrip esto.
+
+12
+00:01:17,980 --> 00:01:23,860
+Esta clase es de tipo genérica usando la misma sintaxis de todo y decirle que la base es de tipo genérico
+
+13
+00:01:24,070 --> 00:01:30,160
+y la altura este tipo genérico aquí me va a marcar un error disputo base por dispón tortura porque eso
+
+14
+00:01:30,160 --> 00:01:30,990
+puede fallar.
+
+15
+00:01:31,000 --> 00:01:35,490
+Imagínese que mandáramos un objeto y lo intentamos multiplicar por otro objeto.
+
+16
+00:01:35,590 --> 00:01:36,460
+No va a funcionar.
+
+17
+00:01:36,460 --> 00:01:44,550
+Entonces yo puedo intentar hacer un castillo de ese dato que lo intente convertir como un número.
+
+18
+00:01:44,570 --> 00:01:49,920
+O eso va a funcionar para números strengths que sean números o valores julianos.
+
+19
+00:01:49,970 --> 00:01:52,840
+Bueno si lo dejo así gravó los cambios.
+
+20
+00:01:52,870 --> 00:01:54,590
+Vamos a ver que todavía sigue funcionando.
+
+21
+00:01:55,090 --> 00:01:58,440
+Pero qué pasa si yo mando un 10 como un maestro.
+
+22
+00:01:58,500 --> 00:02:01,660
+También lo acepta recargó y funciona.
+
+23
+00:02:01,780 --> 00:02:10,530
+Qué pasaría si bramando a veces los cambios de cargo y tengo que no es un número sería útil poderle
+
+24
+00:02:10,530 --> 00:02:12,390
+decir a scrip.
+
+25
+00:02:12,990 --> 00:02:15,640
+Cómo poder controlar este tipo que estoy enviando.
+
+26
+00:02:15,660 --> 00:02:23,490
+Puedo decirle que mi función o mejor dicho mi clase solo puede recibir entre los tipos genéricos sólo
+
+27
+00:02:23,490 --> 00:02:26,520
+puede recibir números o julianos.
+
+28
+00:02:26,520 --> 00:02:36,660
+Para eso puedo decirle aquí al chip que el tipo o el tipo genérico va a extender extent son los números
+
+29
+00:02:38,430 --> 00:02:44,670
+los cambios y aquí tengo que Basse no puede que a veces no pueda ser asignado a tipo número inclusive
+
+30
+00:02:44,670 --> 00:02:50,970
+si yo le pongo un 10 todavía no puede ser castigado porque explícitamente digo que los tipos sólo pueden
+
+31
+00:02:50,970 --> 00:02:52,880
+ser números.
+
+32
+00:02:52,920 --> 00:02:58,390
+Claro nada bueno pero qué chiste tiene poner esto si sería lo mismo que poner aquí no.
+
+33
+00:02:58,490 --> 00:03:05,410
+No sí pero puede ser que ustedes necesiten aceptar números y a su vez necesiten aceptar strings.
+
+34
+00:03:05,430 --> 00:03:11,790
+Pero ustedes están seguros que no van a ser booleanos ni tampoco van a ser objetos ni nada en particular.
+
+35
+00:03:11,880 --> 00:03:23,130
+Yo puedo decir que el tipo sólo puede ser de números números perdón o strengths grabo los cambios en
+
+36
+00:03:23,130 --> 00:03:28,560
+este preciso momento si intento mandar un Tru aquí ya me está dando un error de compilación porque la
+
+37
+00:03:28,560 --> 00:03:34,150
+base no puede ser un valor vulgar solo es válido un número.
+
+38
+00:03:34,260 --> 00:03:44,310
+Aquí voy a volver a poner un 10 y puedo explícitamente decirle a la declaración que necesito solo manejar
+
+39
+00:03:44,310 --> 00:03:49,520
+los strings aquí me dar un error porque sólo le estoy diciendo que va a manejar los strings o sea son
+
+40
+00:03:49,590 --> 00:03:52,970
+los strings son permitidos pero sólo quiero que lo maneje como tipo String.
+
+41
+00:03:52,980 --> 00:03:58,260
+Ahora si yo pongo un nombre aquí me va dar un error la base porque es un string si yo quiero procesar
+
+42
+00:03:58,260 --> 00:04:03,390
+esos dos entonces podría decirle bueno aceptemos ambos tipos.
+
+43
+00:04:03,390 --> 00:04:08,910
+Ahora si yo no intento adivinar el Vulcano ahí sí me dará un error porque eso no es permitido en mis
+
+44
+00:04:08,910 --> 00:04:15,640
+clases generica por decirlo así tal vez en otras palabras es que ustedes pueden saber o anticiparse
+
+45
+00:04:15,660 --> 00:04:20,730
+que pueden ser números o pueden ser strings pero a la hora de utilizarla ustedes están seguro que son
+
+46
+00:04:20,730 --> 00:04:24,030
+números o que son estrellas.
+
+47
+00:04:24,450 --> 00:04:29,730
+Eso básicamente es el uso de los genéricos en el momento en que la estoy usando yo puedo especificar
+
+48
+00:04:29,970 --> 00:04:35,790
+el tipo de dato para que Thaís promedio de la ayuda necesaria para poder cometer menos errores o mejor
+
+49
+00:04:35,790 --> 00:04:38,730
+dicho para no cometer errores al momento de utilizar mi clase.

@@ -1,0 +1,147 @@
+1
+00:00:03,240 --> 00:00:06,990
+Esta clase es bien extraña así que tenemos bastante atención.
+
+2
+00:00:07,020 --> 00:00:15,120
+El tipo Finn y Null son dos tipos de datos específicos que por sí solos no hacen mucho.
+
+3
+00:00:15,120 --> 00:00:22,280
+Vamos a ver por ejemplo puede estar una variable llamada nada o sea no es nada y la defino de tipo define
+
+4
+00:00:23,500 --> 00:00:26,080
+y al fin le voy a asignar un Montefibre.
+
+5
+00:00:26,550 --> 00:00:29,980
+Eso es perfectamente válido pero ahora nada.
+
+6
+00:00:30,110 --> 00:00:33,780
+Yo no le puedo decir hola mundo por ejemplo no puedo.
+
+7
+00:00:33,780 --> 00:00:34,130
+Por qué.
+
+8
+00:00:34,200 --> 00:00:39,320
+Porque el tipo un define no es así sea porque Hola mundo como Extrem no es asignarle a un tipo un delfín
+
+9
+00:00:40,160 --> 00:00:41,460
+y esto para qué va a servir.
+
+10
+00:00:41,640 --> 00:00:47,150
+Si le puedo asignar el tipo Nul son por decirlo así parecidos.
+
+11
+00:00:47,160 --> 00:00:56,930
+Es igual que yo diga aquí el tipo Nohl y yo le intenté asignar otra cosa por ejemplo no es válido.
+
+12
+00:00:56,940 --> 00:01:02,020
+Aquí vamos a hablar de otro tema se van a decir bueno y para qué sirve que sea un tipo de dato.
+
+13
+00:01:02,120 --> 00:01:03,820
+Vamos a ver.
+
+14
+00:01:04,380 --> 00:01:12,700
+Supongamos que tengo una variable llamada voy a ponerle de nuevo a Ironman que es un equipo en coma.
+
+15
+00:01:13,110 --> 00:01:18,100
+Yo puedo decir que Iron Man es igual a Tony por ejemplo.
+
+16
+00:01:18,570 --> 00:01:20,010
+Ahí estamos bien no hay ningún problema.
+
+17
+00:01:20,460 --> 00:01:27,380
+Pero qué pasa si yo digo que Iron Man es igual a on fire.
+
+18
+00:01:27,450 --> 00:01:28,810
+Eso ya está raro no.
+
+19
+00:01:28,860 --> 00:01:31,490
+Por qué acepta el cambio de equipo.
+
+20
+00:01:31,550 --> 00:01:38,490
+Bueno originalmente es que si nosotros hiciéramos esto o pusiéramos la restricción ahorita en este preciso
+
+21
+00:01:38,490 --> 00:01:42,480
+momento en un programa que ya tienen miles de líneas posiblemente no reviente el código por un montón
+
+22
+00:01:42,480 --> 00:01:43,550
+de lados.
+
+23
+00:01:43,700 --> 00:01:49,080
+O es cierto pero si ustedes están trabajando con un programa nuevo sería recomendable que ustedes activen
+
+24
+00:01:49,080 --> 00:01:50,340
+aquí en ese conflicto.
+
+25
+00:01:50,340 --> 00:01:59,580
+Esto lo vamos a ver más adelante orbitando como es la instrucción llamada Street nun checks voy a poner
+
+26
+00:01:59,580 --> 00:02:01,840
+aquí un Chubb.
+
+27
+00:02:02,910 --> 00:02:11,100
+Y al hacer eso me va a impedir mi computador donde el chip que yo pueda igualar variables de tipo XP
+
+28
+00:02:11,130 --> 00:02:18,500
+tipo que no sea por ejemplo por ejemplo de este tipo esto no le voy a poder asignar ni define ni Null
+
+29
+00:02:19,360 --> 00:02:21,400
+jamás va a ser un error.
+
+30
+00:02:21,500 --> 00:02:23,110
+Por qué sin esta restricción.
+
+31
+00:02:23,160 --> 00:02:29,640
+Porque sin esta restricción sí pasa porque el Null y el fallen son como valores permitidos para esas
+
+32
+00:02:29,640 --> 00:02:32,870
+variables tanto para los números como para cualquier otro tipo.
+
+33
+00:02:32,880 --> 00:02:41,850
+Por ejemplo yo puedo tener aquí un número por ejemplo y le puedo asignar un fin como al igual le puedo
+
+34
+00:02:41,850 --> 00:02:44,440
+asignar al número un 10.
+
+35
+00:02:44,440 --> 00:02:48,530
+Nada más es para que tengan en consideración esos dos tipos de datos adicionales.
+
+36
+00:02:48,570 --> 00:02:51,290
+La opción que se puede para hacer restrictivo.
+
+37
+00:02:51,900 --> 00:02:55,080
+Pero ya eso lo veremos más adelante en el siguiente video.

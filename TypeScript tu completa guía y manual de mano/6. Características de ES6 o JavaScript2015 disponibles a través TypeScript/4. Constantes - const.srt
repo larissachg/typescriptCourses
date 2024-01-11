@@ -1,0 +1,163 @@
+1
+00:00:03,130 --> 00:00:09,290
+El ECMAScript 6 incorpora lo que son las constantes que es un dato que no puede mostrar una vez definido.
+
+2
+00:00:09,400 --> 00:00:15,190
+Son muy parecidos a la declaración LEP pero con la palabra reservada const.
+
+3
+00:00:15,230 --> 00:00:20,370
+De esa forma seguido de la palabra es una convención opciones.
+
+4
+00:00:20,400 --> 00:00:25,260
+Voy a llamar si es una convención de que las constantes todas van en mayúscula.
+
+5
+00:00:25,260 --> 00:00:28,780
+En ECMAScript 6 basta con escribir constantes opciones es.
+
+6
+00:00:29,030 --> 00:00:36,680
+Aquí voy a poner activo por ejemplo cualquier cosa pero cuando estamos sentados es bueno ponerle el
+
+7
+00:00:36,680 --> 00:00:43,320
+tipo de dato para que el lector escriba seis o el compilador sepa qué tipo de variables la que contiene.
+
+8
+00:00:43,580 --> 00:00:46,090
+Si nosotros intentáramos renombrar la constante.
+
+9
+00:00:46,100 --> 00:00:50,400
+O mejor dicho renombrar el valor de la constante opciones.
+
+10
+00:00:50,410 --> 00:00:57,500
+Por ejemplo es igual a desactivo desactivado o mejor dicho me que ya me marcó un error si estuviéramos
+
+11
+00:00:57,500 --> 00:01:00,980
+en el JavaScript nos daríamos cuenta del error hasta que estemos en la consola.
+
+12
+00:01:01,280 --> 00:01:06,830
+Pero aquí ya nos dice que errores Qué errores son los que tenemos en este caso no se puede asignar o
+
+13
+00:01:06,830 --> 00:01:13,130
+llamar opciones porque es una constante y o es una propiedad de solo lectura.
+
+14
+00:01:13,340 --> 00:01:24,530
+Vamos a ver otra cosa si yo defino una constante if Truc por ejemplo y digo const opciones de tipo string
+
+15
+00:01:24,980 --> 00:01:29,600
+es igual a activo o desactivado.
+
+16
+00:01:30,860 --> 00:01:32,390
+Aquí si me lo permiten.
+
+17
+00:01:32,630 --> 00:01:33,120
+Por qué.
+
+18
+00:01:33,120 --> 00:01:35,160
+Porque estamos en un diferentes scoop.
+
+19
+00:01:35,340 --> 00:01:39,820
+Aquí es otro ámbito totalmente de la variable ahí sí lo permite.
+
+20
+00:01:40,220 --> 00:01:42,240
+Otra cosa que se puede hacer un ciclo.
+
+21
+00:01:42,260 --> 00:01:52,310
+Por ejemplo voy a poner aquí const i por ejemplo o voy a poner un arreglo de números por ejemplo y aquí
+
+22
+00:01:52,310 --> 00:01:58,910
+puedo hacer la impresión de i mayúscula recuerden que es una convención de que las constantes todas
+
+23
+00:01:58,910 --> 00:01:59,850
+vayan en mayúscula.
+
+24
+00:01:59,850 --> 00:02:04,140
+Pero ustedes pueden hacerlo perfectamente así no hay nada que les impida a ustedes no hacerlo.
+
+25
+00:02:04,670 --> 00:02:08,060
+Pero sería bueno que respetaríamos ese estándar.
+
+26
+00:02:08,420 --> 00:02:13,190
+Si usamos los cambios y me voy al navegador web recargó lo voy a ver perfectamente a pesar de que la
+
+27
+00:02:13,190 --> 00:02:18,350
+constante en teoría se está renombrando o está cambiando de valor realmente siempre queda cuando se
+
+28
+00:02:18,350 --> 00:02:24,150
+hace un ciclo de Ford con el ECMAScript y siempre va creando un nuevo ámbito por cada descoloque.
+
+29
+00:02:24,190 --> 00:02:30,920
+Esto es como que tuviéramos un turismo aunque tuviéramos esto así por iteración es como que estuviéramos
+
+30
+00:02:30,920 --> 00:02:32,770
+una parte separada.
+
+31
+00:02:32,900 --> 00:02:34,090
+Por eso es que lo permite.
+
+32
+00:02:34,670 --> 00:02:40,070
+Básicamente esos son las constantes les permite a ustedes crear datos que no cambian a lo largo del
+
+33
+00:02:40,070 --> 00:02:40,550
+programa.
+
+34
+00:02:40,580 --> 00:02:48,480
+Lo única la única cosa que a mi parecer es un problema es la parte cuando las constantes son objetos.
+
+35
+00:02:48,770 --> 00:03:02,560
+Algo así voy a poner aquí estado estado tú por ejemplo audio pondrá mole pongámosle aquí el 10 y ultima
+
+36
+00:03:03,040 --> 00:03:09,880
+una última pantalla en la que estuvo estuvo en el mail por ejemplo a pesar de que la constante ahora
+
+37
+00:03:09,880 --> 00:03:17,310
+son opciones y yo no puedo hacer opciones o cambiar su estructura completamente porque hicieron un error
+
+38
+00:03:17,830 --> 00:03:28,340
+si me permite hacer lo siguiente opciones puntos estado es igual a falso eso sí lo permite hacer o el
+
+39
+00:03:28,340 --> 00:03:39,500
+audio a uno y hago un consuelo de opciones a pesar de que es una constante si me permite realizar ese
+
+40
+00:03:39,500 --> 00:03:44,230
+tipo de cambios en las propiedades del objeto.
+
+41
+00:03:44,630 --> 00:03:47,900
+Pero bueno esa es la única cosa que tienen que tener en cuenta y los veo en el siguiente video.

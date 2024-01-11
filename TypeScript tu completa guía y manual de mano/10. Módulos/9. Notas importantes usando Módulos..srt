@@ -1,0 +1,131 @@
+1
+00:00:02,910 --> 00:00:09,040
+Bien quiero aclarar dos puntos importantes el primero como estábamos trabajando con módulos de no es
+
+2
+00:00:09,040 --> 00:00:14,040
+posible que cuando nosotros hagamos las instalaciones o las descargas vengan archivos destacó.
+
+3
+00:00:14,080 --> 00:00:15,860
+De hecho eso ya pasó.
+
+4
+00:00:15,940 --> 00:00:20,840
+Voy a buscar aquí un archivo con punto 13 y voy a encontrar más de uno que yo no escribí.
+
+5
+00:00:20,860 --> 00:00:27,310
+Por ejemplo este RX punto de VC estos archivos punto lo vamos a ver después pero no se preocupen que
+
+6
+00:00:27,310 --> 00:00:32,070
+me interesa es uno que está acá este punto .3.
+
+7
+00:00:32,990 --> 00:00:34,240
+Hay una definición de un tipo.
+
+8
+00:00:34,240 --> 00:00:43,960
+Hay una constante C hoy y después dice soy Frank esto yo no lo escribí eso vino en una librería que
+
+9
+00:00:43,960 --> 00:00:49,510
+se encuentra en un módulo de no de ese país y otras cosas no
+
+10
+00:00:52,990 --> 00:00:59,870
+podría utilizar ese tipo de persona es de tipo perso ahí está.
+
+11
+00:00:59,890 --> 00:01:03,840
+Yo no escribí ese tipo de persona pero podría ser persona.
+
+12
+00:01:03,850 --> 00:01:07,000
+Punto sale a la propiedad Namm eso yo no lo hice.
+
+13
+00:01:07,030 --> 00:01:12,190
+Nosotros no nos afecta mucho porque estamos hablando en español y posiblemente nuestra variara es en
+
+14
+00:01:12,190 --> 00:01:18,190
+español pero puede ser que trabajemos con un programa donde tengamos que hacerlo en inglés y ahí sí
+
+15
+00:01:18,340 --> 00:01:20,950
+puede chocar nuestra propiedad con esa.
+
+16
+00:01:20,980 --> 00:01:24,540
+Esto parece un gran problema no pero no es la gran cosa.
+
+17
+00:01:24,850 --> 00:01:30,340
+Necesitamos excluir todo lo que venga en los módulos de cómo hacemos eso no vamos a alteres y confi
+
+18
+00:01:31,210 --> 00:01:39,220
+cómo vamos a poner aquí excluidos los puntos ya ves porque pueden ser varias carpetas.
+
+19
+00:01:39,220 --> 00:01:44,440
+Quiero que excluya los módulos de los módulos módulos.
+
+20
+00:01:45,850 --> 00:01:52,450
+Ahora si yo vengo acá es posible que tal vez tenga que reiniciar el auto pero vamos a ver yo vengo de
+
+21
+00:01:52,450 --> 00:02:01,840
+nuevo y digo la persona de tipo perso ya no sale un peso así voy a tener que reiniciar el auto vamos
+
+22
+00:02:01,840 --> 00:02:02,620
+a hacerlo rápidamente
+
+23
+00:02:05,320 --> 00:02:11,260
+aquí ya acabo de reiniciar el auto dos puntos eso ya no me sale.
+
+24
+00:02:11,560 --> 00:02:16,530
+Ya no sale soy ese es el primer punto que quería hablar con ustedes.
+
+25
+00:02:16,660 --> 00:02:20,850
+Ahora con el segundo punto puede ser que ustedes vengan de angular dos en las dos.
+
+26
+00:02:20,860 --> 00:02:31,900
+Ustedes están acostumbrados o será bien como ver cosas como import component o el componente from arrojã
+
+27
+00:02:32,410 --> 00:02:35,110
+angular Castorf algo así.
+
+28
+00:02:35,110 --> 00:02:42,250
+Ustedes observarán en su proyecto de angular que no existe en su raíz tampoco el ángulo Scorza no hay
+
+29
+00:02:42,370 --> 00:02:47,520
+ninguna importación de ese tipo no hay ni siquiera una carpeta arrobada angular en la raíz de su proyecto.
+
+30
+00:02:47,620 --> 00:02:54,370
+Esto es un absoluto 0 y cuando mire uno de estas importaciones va a buscar por defecto en los módulos
+
+31
+00:02:54,370 --> 00:02:54,990
+de Nott.
+
+32
+00:02:55,000 --> 00:03:00,970
+Pero si ustedes tienen un ambiente donde hay definiciones lo va a tomar de ahí pero eso lo vamos a ver
+
+33
+00:03:00,970 --> 00:03:01,900
+un poco más adelante.

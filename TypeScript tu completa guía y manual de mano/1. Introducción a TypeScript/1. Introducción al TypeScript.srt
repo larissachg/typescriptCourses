@@ -1,0 +1,859 @@
+1
+00:00:03,120 --> 00:00:09,550
+Primero que nada bienvenidos a esta introducción tipo scrip a lo largo de los últimos años JavaScript
+
+2
+00:00:09,610 --> 00:00:11,500
+ha crecido de manera exponencial.
+
+3
+00:00:11,530 --> 00:00:16,870
+Cada vez hay más librerías cada vez hay más Stranger's más herramientas y cosas que nos permiten trabajar
+
+4
+00:00:16,870 --> 00:00:18,460
+de una mejor manera en JavaScript.
+
+5
+00:00:18,820 --> 00:00:24,820
+Pero originalmente JavaScript no fue diseñado para crear aplicaciones de mediana y gran escala y personas
+
+6
+00:00:24,820 --> 00:00:27,370
+con una gran visión a futuro.
+
+7
+00:00:27,640 --> 00:00:34,380
+Personas muy inteligentes decidieron crear un marco de trabajo para poder crear aplicaciones muy grandes.
+
+8
+00:00:34,630 --> 00:00:41,380
+En este caso estamos hablando de angula berriak Enver y otros más pero no cabían en la diapositiva pero
+
+9
+00:00:41,380 --> 00:00:47,290
+estos estándares han permitido que JavaScript pueda crear aplicaciones de un altísimo nivel o sentirse
+
+10
+00:00:47,290 --> 00:00:53,720
+como son aplicaciones de escritorio pero realmente están corriendo sobre un navegador web originalmente
+
+11
+00:00:53,720 --> 00:00:58,640
+como habíamos dicho JavaScript fue diseñado para trabajar con unas cuantas miles de líneas de código.
+
+12
+00:00:58,670 --> 00:01:04,490
+Digamos que Miles está bien pero hoy en día es muy fácil superar millones de líneas de código en un
+
+13
+00:01:04,490 --> 00:01:06,520
+lenguaje de programación dinámico.
+
+14
+00:01:06,680 --> 00:01:10,830
+Esto conlleva una serie de problemas especialmente a la hora de mantener código que es nuestro.
+
+15
+00:01:11,360 --> 00:01:15,820
+Vamos a hacer una suposición pensemos que ustedes son contratados en una empresa.
+
+16
+00:01:16,070 --> 00:01:22,030
+La empresa tiene un programa nativo que ellos han desarrollado a lo largo de toda su existencia y está
+
+17
+00:01:22,040 --> 00:01:24,080
+creado totalmente en JavaScript.
+
+18
+00:01:24,080 --> 00:01:29,380
+Ahora su trabajo consiste en modificar esta función calcular digamos que ustedes mágicamente se encuentran
+
+19
+00:01:29,380 --> 00:01:31,010
+en ese mar de código.
+
+20
+00:01:31,010 --> 00:01:35,690
+La función calculara es parecida a la siguiente una función que no recibe ningún parámetro y hace un
+
+21
+00:01:35,690 --> 00:01:40,320
+montón de cosas dentro de ese montón de cosas ese código rarisimo que tenemos ahí.
+
+22
+00:01:40,580 --> 00:01:45,970
+Hay declaraciones de variables funciones uso de objetos qué sé yo no recibe ningún parámetro.
+
+23
+00:01:45,980 --> 00:01:52,340
+No tengo forma de saber qué y cómo trabaja cada una de las cosas que están dentro de esa función.
+
+24
+00:01:52,340 --> 00:01:56,020
+Aquí es donde ya empieza a dar problemas el JavaScript.
+
+25
+00:01:56,020 --> 00:02:02,340
+Digamos que tienen que modificar algo una variable y ustedes la pasan destruyen al número porque es
+
+26
+00:02:02,560 --> 00:02:04,260
+igual a un dato.
+
+27
+00:02:04,460 --> 00:02:06,880
+Eso puede hacer que el código no funcione.
+
+28
+00:02:06,890 --> 00:02:13,160
+Depende de cómo lo hayan programado obviamente ahora ese es un principal problema de JavaScript ya que
+
+29
+00:02:13,160 --> 00:02:18,050
+carece de muchas características como tipos de variables errores en tiempo de escritura autocompletar
+
+30
+00:02:18,200 --> 00:02:22,420
+dependiendo de la variable métodos estáticos de programación clases y módulos.
+
+31
+00:02:22,550 --> 00:02:28,940
+Aunque ya se incorporó en el ECMAScript 6 o que 2015 pero todavía me faltan un par de cosillas y entre
+
+32
+00:02:28,940 --> 00:02:34,580
+otras cosas más que le faltan al JavaScript sería perfecto tener una idea de desarrollo que nos diga
+
+33
+00:02:34,580 --> 00:02:41,750
+cosas como no puedes usar eso o ese código te va a dar un error o esto no funciona o estoy trabajando
+
+34
+00:02:41,750 --> 00:02:42,470
+con un número.
+
+35
+00:02:42,470 --> 00:02:44,330
+Déjame mostrarte las funciones de números.
+
+36
+00:02:44,330 --> 00:02:45,480
+Estás trabajando como un objeto.
+
+37
+00:02:45,500 --> 00:02:51,110
+Déjame mostrarte todas las métodos y propiedades que tiene un objeto y con Type scrip podemos incluir
+
+38
+00:02:51,230 --> 00:02:54,130
+esa funcionalidad a cualquier editor o a cualquier IDE.
+
+39
+00:02:54,140 --> 00:02:58,540
+Podemos metérselo Azula la como cualquiera de los que están en pantalla.
+
+40
+00:02:58,640 --> 00:03:01,700
+Hay muchos errores de JavaScript que podríamos ahorrarnos.
+
+41
+00:03:01,730 --> 00:03:06,940
+Vamos a mencionar una serie de problemas que tienen JavaScript errores porque una variable no está definida.
+
+42
+00:03:06,950 --> 00:03:09,590
+Errores porque el objeto no tiene la propiedad esperada.
+
+43
+00:03:09,620 --> 00:03:13,790
+Errores porque no se tiene idea de cómo trabajan las funciones de otros compañeros errores porque se
+
+44
+00:03:13,790 --> 00:03:19,820
+suele escribir en variables clases funciones o constantes de otro código errores porque el código colisiona
+
+45
+00:03:19,820 --> 00:03:24,650
+con el de otros errores porque el caché del navegador mantiene los archivos viejos de JavaScript errores
+
+46
+00:03:24,680 --> 00:03:28,560
+porque colocamos una mayúscula o minúscula en el lugar incorrecto.
+
+47
+00:03:28,610 --> 00:03:33,470
+Errores porque simplemente no sabemos cómo funciona el código de otros errores porque Lide no me dijo
+
+48
+00:03:33,470 --> 00:03:38,990
+que eso no se podía hacer y lo peor de todo es que nos damos cuenta del error hasta que el programa
+
+49
+00:03:38,990 --> 00:03:44,480
+está corriendo con tags tú puedes tener la experiencia de programar en un lenguaje al que ya estás acostumbrado
+
+50
+00:03:44,480 --> 00:03:50,740
+como Java Visual Basic o cualquier otro que autocompletar y tipos estáticos de datos.
+
+51
+00:03:50,870 --> 00:03:56,110
+Lo mejor de todo es que si ustedes tienen una base de JavaScript ya conocen el 80 por ciento de Tixkokob
+
+52
+00:03:56,520 --> 00:04:02,420
+ya que tal script no es más que JavaScript pero con tipos de datos con tipos de métodos con clases funciones
+
+53
+00:04:02,780 --> 00:04:04,660
+y un par de cosas adicionales.
+
+54
+00:04:04,700 --> 00:04:11,270
+En pocas palabras todo el código de JavaScript es válido en Tixkokob y Taipe se va a encargar de que
+
+55
+00:04:11,270 --> 00:04:16,670
+nosotros programemos de una mejor manera que tengamos un código más ordenado más estructurado más fácil
+
+56
+00:04:16,670 --> 00:04:17,670
+de leer por otros.
+
+57
+00:04:17,690 --> 00:04:23,510
+En fin una gran cantidad de cosas que al fin de cuentas va a agarrar nuestro código y lo va a traducir
+
+58
+00:04:23,510 --> 00:04:28,670
+a la versión de JavaScript que nosotros necesitemos para nuestra versión de producción y nos preocupamos
+
+59
+00:04:28,670 --> 00:04:31,370
+de la compatibilidad totalmente de los navegadores web.
+
+60
+00:04:31,490 --> 00:04:36,550
+Pero bueno vamos a ver un par de ejemplos para que sepan de lo que estoy hablando.
+
+61
+00:04:36,710 --> 00:04:41,810
+El primer ejemplo lo extraje de aquí de la página de Time Skip Blank con todo virgen en plagó.
+
+62
+00:04:42,020 --> 00:04:46,760
+Este ejemplo que está acá es exactamente el mismo que tenemos casos que lo tradujeron español pero es
+
+63
+00:04:46,760 --> 00:04:47,640
+el mismo ejemplo.
+
+64
+00:04:47,780 --> 00:04:49,150
+Vamos a analizar un poco.
+
+65
+00:04:49,150 --> 00:04:55,040
+Es un archivo llamado tiene un archivo llamado me contó es que tiene una referencia a la página HTML
+
+66
+00:04:55,090 --> 00:04:56,660
+y el punto Rotax.
+
+67
+00:04:56,780 --> 00:05:00,240
+Eso es todo lo que tiene este archivo hace lo siguiente.
+
+68
+00:05:00,260 --> 00:05:02,680
+Crea una función de primera clase.
+
+69
+00:05:02,680 --> 00:05:09,170
+Bueno al menos yo sé que de primera clase porque yo escribí que crea o no va a permitir crear instancias
+
+70
+00:05:09,170 --> 00:05:12,890
+de una clase llamada saludados o de una función saludados.
+
+71
+00:05:12,950 --> 00:05:21,000
+Luego ponemos un prototipo o una función prototipo al Salvador este caso lo único que hace es retornaremos.
+
+72
+00:05:21,050 --> 00:05:21,500
+Hola.
+
+73
+00:05:21,500 --> 00:05:23,450
+Lo que sea que tenga este mensaje.
+
+74
+00:05:23,840 --> 00:05:33,460
+Luego declaramos una instancia en el Salvador y le mandamos un objeto como el saludo que estamos recibiendo.
+
+75
+00:05:34,120 --> 00:05:40,930
+Luego definimos un botón y lo creamos de esta manera a ese botón le ponemos un texto decir hola.
+
+76
+00:05:40,960 --> 00:05:46,720
+Luego cuando ese botón reciba el evento clic va a disparar una alerta y esa alerta tiene el contenido
+
+77
+00:05:46,840 --> 00:05:48,000
+del saludo.
+
+78
+00:05:48,070 --> 00:05:54,720
+Decir hola nueva la última línea simplemente es hacer el APEM del botón a la página web.
+
+79
+00:05:54,970 --> 00:05:58,850
+En pocas palabras lo único que hace esto es crear un botón cuando hacemos clic ahí.
+
+80
+00:05:59,140 --> 00:06:04,840
+Qué creen que habría de salir si hacemos clic dice hola objeto objeto.
+
+81
+00:06:05,440 --> 00:06:12,160
+Pero eso no es lo que queremos ejecutar y de entrada eso es un error que tenemos hasta que estamos corriendo
+
+82
+00:06:12,160 --> 00:06:14,640
+el programa o cómo.
+
+83
+00:06:14,710 --> 00:06:23,830
+Cómo convertimos esto en el archivo click derecho y lo vamos a renombrar en vez de J.S. le vamos a poner
+
+84
+00:06:24,250 --> 00:06:27,550
+ese ente y eso es todo.
+
+85
+00:06:27,560 --> 00:06:33,070
+Estos son archivos de tipo script pero como hemos dicho el script no corre directamente en el navegador
+
+86
+00:06:33,070 --> 00:06:38,230
+web sólo lo que interpretar es Javascript por lo cual tendremos que compilar o transpirar este archivo
+
+87
+00:06:38,980 --> 00:06:40,080
+a JavaScript.
+
+88
+00:06:40,150 --> 00:06:49,850
+Pero vamos a ver si yo lo dejo en este momento y ejecuto un comando acá llamado El té es ese de la chusma
+
+89
+00:06:49,910 --> 00:06:58,440
+5.10 2.13 Loriente esto compilar archivo y lo genera nos genera nuestra copia que voy a poner aquí al
+
+90
+00:06:58,440 --> 00:07:05,400
+lado este es nuestro chivó generado mediante compilación del TACs que es exactamente lo mismo porque
+
+91
+00:07:05,400 --> 00:07:08,990
+ambos códigos son sintácticamente iguales.
+
+92
+00:07:09,450 --> 00:07:12,760
+Pero vamos a ver cómo podríamos detectar este error.
+
+93
+00:07:12,790 --> 00:07:18,780
+O sea nosotros obviamente no queremos ese efecto ocuparemos que nos dijera dónde está el error.
+
+94
+00:07:18,780 --> 00:07:19,660
+Pues muy fácil.
+
+95
+00:07:19,800 --> 00:07:20,960
+Aquí el saludo.
+
+96
+00:07:20,970 --> 00:07:26,110
+Sí nosotros estamos viendo el saludo debería ser un string plano no un objeto.
+
+97
+00:07:26,130 --> 00:07:33,550
+Entonces yo puedo decirle aquí con dos puntos decir que es de tipo string pueden salvar los campos sólo
+
+98
+00:07:33,550 --> 00:07:37,460
+eso y ejecutamos la rutina de nuevo de TSC.
+
+99
+00:07:38,010 --> 00:07:45,100
+Y quiero que miren lo que pasa acá tenemos un primer error de compilación y no dice el argumento del
+
+100
+00:07:45,100 --> 00:07:53,710
+tipo mensaje 2.6 string no es asignarle a el parámetro de tipo Esto nos dice la línea en la línea 9
+
+101
+00:07:53,770 --> 00:08:00,070
+con una 31. que es esta acá ni perfecto ya tenemos el error antes.
+
+102
+00:08:00,450 --> 00:08:06,560
+Antes de llegar a nuestra página web pero si ustedes van a decir no qué pereza tener que estar dándole
+
+103
+00:08:06,600 --> 00:08:12,870
+Tiesi o TSC para estar compilando eso deberían haber formas más rápidas pues las hay ya las vamos a
+
+104
+00:08:12,870 --> 00:08:16,560
+ver en este curso pero no corramos antes de primero a empezar a caminar.
+
+105
+00:08:16,560 --> 00:08:17,770
+Cómo resolveríamos esto.
+
+106
+00:08:17,790 --> 00:08:25,440
+Simplemente en vez de mandar este objeto vamos a mandar una palabra en este caso mundo grabó los cambios
+
+107
+00:08:26,030 --> 00:08:33,820
+vuelvo a ejecutar el TSS de oyentes vemos que aquí ya cambió automáticamente y por consecuencia si recargo
+
+108
+00:08:33,840 --> 00:08:34,670
+navegador web.
+
+109
+00:08:34,860 --> 00:08:41,490
+Ya va a aparecer el mensaje Hola mundo de forma correcta que eso es lo que esperamos ver OK vamos al
+
+110
+00:08:41,490 --> 00:08:48,480
+segundo ejemplo en el démonos tenemos un archivo 2.13 y el producto estaís Fripp que sería el mail 20-J
+
+111
+00:08:48,500 --> 00:08:54,680
+es hechos son exactamente iguales igualito igualito no hay diferencia si yo ejecuto este código directamente
+
+112
+00:08:54,680 --> 00:08:58,600
+en el navegador web recargó tengo desplegando defined.
+
+113
+00:08:58,610 --> 00:09:06,580
+La idea es hacernos un programa que despligue vengadores o despligue Avengers o que vamos a ver código.
+
+114
+00:09:06,650 --> 00:09:12,650
+La primera es una función desplegar que recibe un vengador y simplemente muestra desplegando en nombre
+
+115
+00:09:12,650 --> 00:09:19,050
+del año nuevo tenemos que creamos a Thor un objeto que tiene el nombre del héroe Thor y le da 800 años.
+
+116
+00:09:19,130 --> 00:09:21,440
+Bueno en ese momento Thor estaba jovencito.
+
+117
+00:09:21,440 --> 00:09:25,250
+Luego simplemente hacemos el llamado de la función desplegada y eso es todo.
+
+118
+00:09:25,310 --> 00:09:30,590
+La gente que ya tiene un conocimiento de que ya se dio cuenta de es el problema pero imagínense que
+
+119
+00:09:30,590 --> 00:09:36,420
+este código tuviera miles de líneas miles y miles de líneas y esta función la de imprimir estuviera
+
+120
+00:09:36,420 --> 00:09:40,240
+en algún lado y no sabemos a ciencia cierta por qué está fallando.
+
+121
+00:09:40,310 --> 00:09:45,350
+Tendríamos que analizar a ver si existe la propiedad y hacemos varias vueltas pero en este caso ya sabemos
+
+122
+00:09:45,350 --> 00:09:47,420
+que hay un problema en el nombre.
+
+123
+00:09:47,420 --> 00:09:54,330
+Puede ser que aquí sea nombre o nombre o nombre héroe aquí y aquí también ahí está el problema o nombre
+
+124
+00:09:54,330 --> 00:09:59,300
+y en los dos lados o nombre de uno de los dos lados pero no hay manera de saber cuál es el correcto.
+
+125
+00:09:59,310 --> 00:10:05,090
+Ahora les había dicho la clase pasada qué pereza es tener que estar escribiendo 3s para estar compilando
+
+126
+00:10:05,090 --> 00:10:13,220
+automáticamente otro escribiéndolo o traduciéndolo ataques ya ves que no hay una instrucción acá y puedo
+
+127
+00:10:13,220 --> 00:10:17,760
+decirle TSC init no se preocupen todo esto en la parte de instalación lo vamos a ver.
+
+128
+00:10:17,760 --> 00:10:20,640
+Voy a explicar también que es el archivo de y punto Jayson.
+
+129
+00:10:20,690 --> 00:10:26,090
+No se preocupen ustedes pero al hacer eso y yo grabo los cambios inmediatamente me lo compila de una
+
+130
+00:10:26,090 --> 00:10:30,620
+manera casi instantánea muy rápido pero todavía no tenemos el problema.
+
+131
+00:10:30,650 --> 00:10:33,740
+Simplemente no está poniendo ningún error.
+
+132
+00:10:34,030 --> 00:10:39,350
+Lo que vamos a hacer lo siguiente sería bueno declararnos un contrato y decir los Vengadores deberían
+
+133
+00:10:39,350 --> 00:10:44,380
+de tener estas propiedades o sea un vengador tiene que tener un nombre y tiene que tener una edad a
+
+134
+00:10:44,390 --> 00:10:45,530
+fuerza.
+
+135
+00:10:45,530 --> 00:10:51,050
+Entonces podemos hacer lo siguiente podemos crear una interfase llamada Avengers que debería tener su
+
+136
+00:10:51,050 --> 00:10:58,200
+nombre de tipo string y debías tener una edad de tipo nombre como ahora.
+
+137
+00:10:58,280 --> 00:11:04,940
+Yo puedo decir puedo asignarle tipos a cualquier cosa puedo decir que aquí Thor debería ser de tipo
+
+138
+00:11:05,000 --> 00:11:12,710
+Avengers asignando dos puntos a Villa y grabó los cambios antes de grabar.
+
+139
+00:11:12,710 --> 00:11:15,920
+Ya me había puesto en rojo esto cuál es el problema.
+
+140
+00:11:15,920 --> 00:11:23,180
+Voy a poner el mouse encima y se nombre héroe string number no es asignarle al tipo Avengers.
+
+141
+00:11:23,630 --> 00:11:28,130
+Entonces ya está en la linea quiere decir aquí lo único que teníamos que hacer es ver el Avengers tiene
+
+142
+00:11:28,130 --> 00:11:30,920
+nombre y aquí yo le puse nombre héroe.
+
+143
+00:11:30,950 --> 00:11:36,270
+De hecho si yo estoy escribiendo en el momento en que escribir nombre que ya me sale el autocompletar.
+
+144
+00:11:36,290 --> 00:11:45,470
+Esto lo aceptáis y luego le pongo un cero coma si grabo los cambios automáticamente llámelo con pila
+
+145
+00:11:45,620 --> 00:11:47,960
+pero no vemos la interfaz aquí.
+
+146
+00:11:48,020 --> 00:11:51,380
+Este código no existe en JavaScript.
+
+147
+00:11:51,380 --> 00:11:58,340
+Las interfaces siempre otro código de Tixkokob es ignorado a la hora de ser compilados y tampoco aparece.
+
+148
+00:11:58,490 --> 00:12:02,730
+Acá no está apareciendo acá porque no es código de JavaScript.
+
+149
+00:12:02,920 --> 00:12:07,520
+Si llegaran los cambios sin carga navegador web vemos que ya tenemos a Thor ahí.
+
+150
+00:12:07,520 --> 00:12:12,080
+Ahora nosotros podemos decir a fuerza también de que el vengador tiene como parámetro también es de
+
+151
+00:12:12,080 --> 00:12:19,160
+tipo Abitia así podríamos estar seguros también a la hora de revisar ahí que por ejemplo si lo teníamos
+
+152
+00:12:19,160 --> 00:12:20,320
+como estaba antes.
+
+153
+00:12:20,330 --> 00:12:27,260
+Nombre héroe y gravó los cambios aquí tenemos el error porque dice que no es posible convertir este
+
+154
+00:12:27,260 --> 00:12:35,210
+objeto a un tipo Avenger ya tenemos código o pistas de dónde están los problemas antes de que sucedan
+
+155
+00:12:35,660 --> 00:12:38,690
+en la consola JavaScript o en nuestra aplicación.
+
+156
+00:12:38,720 --> 00:12:41,420
+Esto es bastante útil dejarlo como está.
+
+157
+00:12:41,420 --> 00:12:47,090
+Puedo decir que ya lleva un nombre salvo automáticamente lo compila y ya tenemos nuestro código corriendo
+
+158
+00:12:47,090 --> 00:12:47,970
+perfectamente.
+
+159
+00:12:48,350 --> 00:12:54,590
+Vamos a ver el tercer ejemplo el demo 3 tiene por objetivo enseñarles que ya podemos utilizar características
+
+160
+00:12:54,590 --> 00:13:02,270
+del ECMAScript 6 o JavaScript 2015 EI y preocuparnos sobre la compatibilidad de otros navegadores.
+
+161
+00:13:02,270 --> 00:13:05,160
+Ustedes saben que las clases no son soportadas.
+
+162
+00:13:05,240 --> 00:13:09,400
+Las clases de ECMAScript 6 no son soportadas por todos los navegadores web.
+
+163
+00:13:09,590 --> 00:13:15,380
+De hecho hay unos que están muy atrasados y ni sueñan todavía en tener es cuando uno está desarrollando
+
+164
+00:13:15,380 --> 00:13:18,100
+software y especialmente cuando usa JavaScript dice.
+
+165
+00:13:18,110 --> 00:13:23,480
+Bueno no voy a usar esas características porque todavía no están soportadas y bueno voy a tener problemas
+
+166
+00:13:23,480 --> 00:13:29,180
+de compatibilidad etc y lamentablemente no las puedo usar y nos quedamos estancados con la versión antigua
+
+167
+00:13:29,180 --> 00:13:35,210
+de JavaScript pero con que podemos usar todas las características o la mayoría de las características
+
+168
+00:13:35,330 --> 00:13:41,170
+del ECMAScript 6 o versiones futuras de JavaScript que ya están incluidas en Tarkovsky.
+
+169
+00:13:41,240 --> 00:13:48,050
+Por ejemplo tengo esta clase esta definición de clase que es un Avenger tiene su nombre y su arma un
+
+170
+00:13:48,050 --> 00:13:50,810
+constructor que inicializar las variables.
+
+171
+00:13:50,940 --> 00:13:56,240
+Si yo grabo los cambios inmediatamente tengo su sinónimo al script 5 porque si lo tengo configurado
+
+172
+00:13:57,050 --> 00:14:01,270
+ahora díganme ustedes cuál de los dos es más fácil de entender.
+
+173
+00:14:01,400 --> 00:14:03,780
+He agregado más código a la pantalla.
+
+174
+00:14:03,860 --> 00:14:07,700
+Recordemos que el objetivo no es enseñar ahorita todas las características del transcribí simplemente
+
+175
+00:14:07,700 --> 00:14:09,140
+es una pequeña introducción.
+
+176
+00:14:09,360 --> 00:14:15,140
+Estoy usando características de Legna escribe 2015 o Legna script 6 para este ejemplo tengo la decisión
+
+177
+00:14:15,140 --> 00:14:22,640
+de la clase y estoy usando la clase tengo 3 Avengers con su arma su nombre y su arma al Capitán América
+
+178
+00:14:22,640 --> 00:14:24,290
+con su arma la droga.
+
+179
+00:14:24,320 --> 00:14:27,570
+Tenemos un arreglo de Avengers que sólo permite Avengers.
+
+180
+00:14:27,670 --> 00:14:32,840
+No me va a dejar meter aquí a Nick Fury por ejemplo si no suena bien si lo dejo así Nick ya van a ver
+
+181
+00:14:32,840 --> 00:14:34,310
+que me está marcando el error.
+
+182
+00:14:35,690 --> 00:14:41,990
+Me va a controlar errores al tiempo de la escritura y luego tengo el uso de un ciclo foros que también
+
+183
+00:14:41,990 --> 00:14:42,690
+es nuevo.
+
+184
+00:14:42,800 --> 00:14:48,350
+Si yo salgo tengo el código traducido a la versión de la que más que yo le pedí en este caso la versión
+
+185
+00:14:48,350 --> 00:14:53,810
+de que me escribe 5 funcionando exactamente igual como trabajaría si fuera la versión del ECMAScript
+
+186
+00:14:53,810 --> 00:14:54,430
+6.
+
+187
+00:14:54,470 --> 00:14:55,760
+Este es su sinónimo.
+
+188
+00:14:56,000 --> 00:15:01,370
+Ahora si ustedes desean pueden cambiar el objetivo de la compilación.
+
+189
+00:15:01,370 --> 00:15:06,560
+Aquí en archivo de configuración y si lo quiero en el ECMAScript 6 entonces automáticamente me lo va
+
+190
+00:15:06,560 --> 00:15:12,830
+a traducir a como es su sinónimo o como es ese código que escribí script a la versión del ECMAScript
+
+191
+00:15:12,830 --> 00:15:13,470
+6.
+
+192
+00:15:13,670 --> 00:15:19,100
+Sería bueno que pudieran usar todo este código pues si ustedes se fijan todo lo que hicimos fue escribir
+
+193
+00:15:19,100 --> 00:15:22,570
+un poco de IPv6 y poner un par de tipos de datos.
+
+194
+00:15:22,610 --> 00:15:24,230
+Eso fue todo.
+
+195
+00:15:24,230 --> 00:15:28,130
+Pensemos en JavaScript como este circulito verde así como lo conocemos.
+
+196
+00:15:28,220 --> 00:15:34,490
+Luego vino el ECMAScript 6 y lo expandió dramáticamente adicionó clases módulos mejor uso de variables
+
+197
+00:15:34,610 --> 00:15:40,390
+infinidad de cosas pero no todo lo podemos usar hoy en día con Tixkokob agarra todo el código elec más
+
+198
+00:15:40,400 --> 00:15:41,010
+que IPv6.
+
+199
+00:15:41,010 --> 00:15:46,370
+Todo el código JavaScript no lo da a nuestra disposición para utilizarlo hoy en cualquier proyecto que
+
+200
+00:15:46,370 --> 00:15:52,430
+tengamos pero claro todavía hay un par de características que el tipo no soporta del ECMAScript 15 pero
+
+201
+00:15:52,550 --> 00:15:53,440
+van hacia eso.
+
+202
+00:15:53,740 --> 00:15:58,490
+Miremos la siguiente gráfica que también la saqué de la página de Tachuela punto que habla sobre la
+
+203
+00:15:58,490 --> 00:15:59,760
+evolución de JavaScript.
+
+204
+00:15:59,930 --> 00:16:04,700
+Si miramos el entorno JavaScript en el mundo podríamos pensar que estamos en este lugar donde el código
+
+205
+00:16:04,830 --> 00:16:10,430
+más que 5 es mayormente soportado y el ECMAScript 6 está a la vuelta de la esquina donde ya muchos navegadores
+
+206
+00:16:10,430 --> 00:16:11,510
+lo soportan.
+
+207
+00:16:11,510 --> 00:16:15,890
+Lo ideal sería que estuviéramos en este punto donde el estándar de JavaScript ya está trabajando en
+
+208
+00:16:15,890 --> 00:16:23,260
+lo que es el lenguaje de 2016 2017 y que nuestro navegador web soporte de una forma estable el script
+
+209
+00:16:23,270 --> 00:16:23,970
+5.
+
+210
+00:16:24,290 --> 00:16:30,410
+Pero en la realidad estamos mucho más atrás estamos más o menos por acá donde Legna script €5 es mayormente
+
+211
+00:16:30,410 --> 00:16:36,830
+soportado pero todavía tenemos dispositivos que corren Internet Explorer 8 por decir algo o versiones
+
+212
+00:16:36,830 --> 00:16:42,620
+de Android que jamás se han actualizado y corren unas versiones muy viejas de JavaScript que no soportan
+
+213
+00:16:42,620 --> 00:16:48,830
+características ni siquiera de script 5 pero con tipo script nos permite utilizar características del
+
+214
+00:16:48,830 --> 00:16:54,050
+futuro hoy con la confianza que tenemos la compatibilidad óptima con un código más ordenado y comprensivo
+
+215
+00:16:54,790 --> 00:16:59,980
+y este curso te va a enseñar mediante ejemplos y ejercicios prácticos como el siguiente video.

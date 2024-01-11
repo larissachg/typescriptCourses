@@ -1,0 +1,263 @@
+1
+00:00:03,170 --> 00:00:04,400
+Los módulos en Tapestry.
+
+2
+00:00:05,000 --> 00:00:09,940
+Bueno si ustedes conocen un poco de igno escribe seis saben que existe una importación de módulos y
+
+3
+00:00:10,180 --> 00:00:10,960
+explicativa.
+
+4
+00:00:10,970 --> 00:00:17,120
+Pero olvidémonos de esos dos módulos en tanto es quizás una de las cosas más útiles que hoy les va a
+
+5
+00:00:17,120 --> 00:00:23,610
+permitir a ustedes crear un programa o una aplicación que sólo tiene un import de un archivo JavaScript.
+
+6
+00:00:23,660 --> 00:00:31,340
+Lo demás se va a encargar takfirí JavaScript junto con algún importador o algún módulo importador para
+
+7
+00:00:31,340 --> 00:00:37,400
+que cuando ustedes necesiten usar una instancia de una clase ya que diga okey necesitas esa clase y
+
+8
+00:00:37,400 --> 00:00:41,630
+se va a ir a buscar la clase y traerla y la va a utilizar normalmente.
+
+9
+00:00:41,780 --> 00:00:49,190
+Eso va a ser que solo se carguen los archivos que son necesarios para su usuario muy útil cuando estamos
+
+10
+00:00:49,190 --> 00:00:54,710
+hablando algo de privilegios de usuario que tal vez es el usuario final sólo tiene acceso a una consulta
+
+11
+00:00:54,740 --> 00:01:02,450
+y se acabó todo el rollo pero caso contrario con usarlo ya más que normal va a importarse todos los
+
+12
+00:01:02,450 --> 00:01:08,270
+archivos de la aplicación todos los mil el millón de archivos o va a cargar todo el código a la aplicación.
+
+13
+00:01:08,330 --> 00:01:14,390
+A pesar de que sólo va a ocupar el 1 por ciento de la misma suficiente introducción vamos a verlo en
+
+14
+00:01:14,660 --> 00:01:15,720
+vivo.
+
+15
+00:01:15,980 --> 00:01:18,940
+Sigamos trabajando pensando en las reglas de validación.
+
+16
+00:01:19,280 --> 00:01:25,370
+Voy a crear un nuevo folder llamado validaciones entra dentro de validaciones que me crearía un nuevo
+
+17
+00:01:25,370 --> 00:01:34,840
+archivo llamado textos .3 y me crearé otro archivo dentro llamado números .3.
+
+18
+00:01:35,210 --> 00:01:41,680
+Tendremos dos archivos encargados de los procedimientos de números y procedimientos de textos en la
+
+19
+00:01:41,680 --> 00:01:42,900
+parte de los números.
+
+20
+00:01:42,980 --> 00:01:44,270
+No sólo voy a ser validaciones.
+
+21
+00:01:44,270 --> 00:01:48,760
+Digamos que quiero definirme la variable Pi.
+
+22
+00:01:48,830 --> 00:01:58,160
+Por ejemplo puedo decir Pi o en este caso si bien una constante constante pi ser iguala 3.14 16 voy
+
+23
+00:01:58,160 --> 00:01:59,480
+a dejarlo así indicó.
+
+24
+00:02:00,650 --> 00:02:05,710
+Luego también voy a hacer una función que va a hacer diferencia entre dos números.
+
+25
+00:02:05,810 --> 00:02:18,420
+Voy a ponerle restar recibo número 1 1 como number y también el número dos como un nombre también.
+
+26
+00:02:18,530 --> 00:02:26,230
+Y esto regresa un nombre nuestro número uno menos el número dos.
+
+27
+00:02:26,480 --> 00:02:30,950
+Nada del otro mundo tenemos Pi y tenemos la función restart dentro del texto.
+
+28
+00:02:30,950 --> 00:02:35,130
+Voy a hacerme una un arreglo que será así.
+
+29
+00:02:35,180 --> 00:02:42,470
+Leer mensajes es un arreglo de strengths que tiene.
+
+30
+00:02:42,470 --> 00:02:44,290
+Vamos a crear varios.
+
+31
+00:02:44,300 --> 00:02:49,310
+También serán una constante si quieren constante mensajes.
+
+32
+00:02:49,430 --> 00:02:50,950
+Por ejemplo.
+
+33
+00:02:51,380 --> 00:03:02,910
+El texto es muy corto el texto es muy largo etcétera etcétera lo que ustedes quieran puntico recrearme
+
+34
+00:03:02,920 --> 00:03:14,750
+una función llamada error obtener error obtener error recibirá como parámetro un número o el num error
+
+35
+00:03:14,850 --> 00:03:25,960
+o el número de error será un nombre y regresará un retorno de los mensajes con el número de error un
+
+36
+00:03:26,170 --> 00:03:27,660
+error.
+
+37
+00:03:27,950 --> 00:03:34,220
+Y estamos listos tenemos dos funciones así rápido tenemos la función obtener error y tenemos la restauro
+
+38
+00:03:34,350 --> 00:03:40,570
+a la función de prestar una constante en ambos lados de su mensaje pero eso es algo que yo quiero hacer
+
+39
+00:03:41,180 --> 00:03:48,170
+todo manejando pues validaciones de números y textos no vamos a querer Hachibei a Pepe punto 13.
+
+40
+00:03:48,520 --> 00:03:57,520
+Sería muy útil poder decirte ok sólo quiero importarme el número Pi hoy te voy a trabajar con números
+
+41
+00:03:57,520 --> 00:04:05,320
+quiero quién me chivó a Pepe .3 quiero trabajar con Pi entonces yo puedo hacer un consolón caca de algo.
+
+42
+00:04:05,320 --> 00:04:11,590
+PI En teoría aquí el tema es que me lo está reconociendo pero si yo exporto de eso usted sabe que no
+
+43
+00:04:11,590 --> 00:04:13,230
+funciona así nomás.
+
+44
+00:04:13,330 --> 00:04:21,700
+Aquí viene algo bien interesante voy a decir quiero importar import algo puede estar algo muy parecido
+
+45
+00:04:21,700 --> 00:04:29,640
+a la estructuración de objetos de que IPv6 quiero importar algo from algo también sea de algún lugar.
+
+46
+00:04:30,550 --> 00:04:39,200
+Entonces podemos hacer quiero importar Pi en este caso Pi from y puedo especificar el archivo donde
+
+47
+00:04:39,250 --> 00:04:43,830
+está Pi ese archivo está en la dirección relativa.
+
+48
+00:04:43,840 --> 00:04:49,420
+Si ustedes ven aquí el auto el plugin ya no se establece dónde están esas dos esos dos lugares.
+
+49
+00:04:49,420 --> 00:04:53,670
+En este caso yo sé que pista innúmeros entre punto y coma.
+
+50
+00:04:54,250 --> 00:05:02,270
+Pero me está diciendo hoy el archivo no es un módulo correcto no es un módulo es un archivo normal.
+
+51
+00:05:02,740 --> 00:05:05,410
+Cómo convierto esto a que fueran módulos.
+
+52
+00:05:05,440 --> 00:05:06,400
+Muy fácil.
+
+53
+00:05:06,400 --> 00:05:10,960
+Si ustedes quieren que esto sea ocho módulos las funciones que están dentro de esos archivos tienen
+
+54
+00:05:10,960 --> 00:05:14,680
+que tener la palabra Export export.
+
+55
+00:05:14,740 --> 00:05:21,220
+Solo mostrar lo que usted desea puede tener más funciones pueden tener más métodos pero solo los que
+
+56
+00:05:21,220 --> 00:05:26,790
+tengan Export van a poder ser vistos desde acá van a ver que el error les desaparece.
+
+57
+00:05:27,020 --> 00:05:30,570
+Puede grabar los cambios y eso debería ser todo para que funcione.
+
+58
+00:05:30,610 --> 00:05:34,680
+Vamos a probar si cierto vamos a correr aquí el TSS.
+
+59
+00:05:35,340 --> 00:05:45,530
+El Tiesi para que conspire las cosas y vamos a probarlo en el Crom mi recargo y tengo un error pero
+
+60
+00:05:45,530 --> 00:05:46,540
+esto es normal ya sabía.
+
+61
+00:05:46,540 --> 00:05:49,050
+Hubiera sido bonito que funcionara todo o no.
+
+62
+00:05:49,070 --> 00:05:54,500
+No se preocupe ya van a ver por qué pasa esto dice en referencia a un error de referencia Recabarren
+
+63
+00:05:54,730 --> 00:05:58,420
+is not defined recuadro.
+
+64
+00:05:58,700 --> 00:06:07,430
+Vamos a ver el archivo a Pepe puntos JS Ice y strict números 1 recurriré y sale esta cosa y esto es
+
+65
+00:06:07,970 --> 00:06:12,540
+Rickard es una instrucción que viene de otra librería pero no está acá.
+
+66
+00:06:12,560 --> 00:06:14,870
+Este extraño vamos a ver en el siguiente video.

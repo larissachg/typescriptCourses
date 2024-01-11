@@ -1,0 +1,215 @@
+1
+00:00:03,730 --> 00:00:08,540
+Los decoradores de clase vamos a empezar con este porque es quizá el más fácil de entender.
+
+2
+00:00:08,590 --> 00:00:14,560
+Tenemos una clase sencilla una clase llamada villano que lo único que tiene es su constructor un públic
+
+3
+00:00:14,560 --> 00:00:15,890
+nombre de tipo String.
+
+4
+00:00:16,010 --> 00:00:22,810
+Acuérdense que cuando lo mandamos por acá el parámetro es lo mismo que decir así lo mando así como el
+
+5
+00:00:22,810 --> 00:00:25,880
+público es lo mismo que decir tu nombre es igual al nombre.
+
+6
+00:00:25,980 --> 00:00:27,660
+Claro el nombre no está explícito.
+
+7
+00:00:27,700 --> 00:00:31,050
+Pero públic no es igual.
+
+8
+00:00:31,540 --> 00:00:38,130
+Así sería lo mismo pero obviamente le voy a quitar esto es un simple reforzamiento.
+
+9
+00:00:38,530 --> 00:00:43,980
+Ese código que escribí es lo mismo que es bien qué es un decorador.
+
+10
+00:00:44,040 --> 00:00:49,410
+Habíamos mencionado en el vídeo anterior que un decorador es una simple función cualquiera.
+
+11
+00:00:49,440 --> 00:00:56,800
+Esto es una función cualquiera vamos a verlo en una función que lo que quiero es lo que quiero que haga
+
+12
+00:00:56,800 --> 00:01:00,940
+es mostrar información a la consola para que comprendamos qué es lo que está pasando.
+
+13
+00:01:00,940 --> 00:01:09,130
+Puedes crear la consola así se llama mi función va a recibir como un parámetro en mi caso el constructor
+
+14
+00:01:09,670 --> 00:01:17,680
+de la función que será el tipo function del tipo función eso es todo lo que voy a hacer es mandar a
+
+15
+00:01:17,670 --> 00:01:23,570
+consola el constructor o vamos a repasar qué es lo que está pasando.
+
+16
+00:01:23,590 --> 00:01:29,400
+Yo podría ejecutar la del constructor de esta forma pero no lo que quiero es mostrar qué es lo que se
+
+17
+00:01:29,400 --> 00:01:32,730
+me envía aquí como constructor.
+
+18
+00:01:32,730 --> 00:01:37,310
+Vamos a ver tengo mi clase villano y tengo mi constructor y esto es todo lo que hace la clase.
+
+19
+00:01:37,770 --> 00:01:39,300
+Cómo uso un decorador.
+
+20
+00:01:39,600 --> 00:01:47,070
+Pues sí Botero también habíamos visto cómo ponerlo empiezan con arroba seguido del nombre del del decorado
+
+21
+00:01:47,400 --> 00:01:50,310
+consola y eso es todo lo que yo necesito hacer.
+
+22
+00:01:50,640 --> 00:01:57,750
+Si grabo los cambios ya me hacela la parte de transpirables otras traducir el código JavaScript si bien
+
+23
+00:01:57,750 --> 00:02:03,830
+es mucha cosa la que hace JavaScript pero en taxi sólo es esa línea de código.
+
+24
+00:02:03,960 --> 00:02:05,370
+Cómo funciona esto.
+
+25
+00:02:05,520 --> 00:02:13,080
+Los decoradores para las clases automáticamente con solo hacer esto y está adjunto a una clase lo que
+
+26
+00:02:13,080 --> 00:02:19,170
+hace es enviar como parámetro el constructor a fuerza ya eso es todo.
+
+27
+00:02:19,170 --> 00:02:25,770
+Así que aprovechémoslo grabe los cambios vamos al navegador web descarguemos y quiero que observen esto
+
+28
+00:02:25,890 --> 00:02:30,270
+Fonso villano parentesis nombre disputo nombre es igual nombre.
+
+29
+00:02:30,270 --> 00:02:37,740
+Este es el constructor de mi función en teoría el constructor de script está inspirado por esto a este
+
+30
+00:02:37,750 --> 00:02:41,150
+código de âscar que tiene mucho sentido es muy parecido.
+
+31
+00:02:41,150 --> 00:02:46,920
+Ahora otra cosa que quiero que observen ustedes es este posible error que les va a salir si están trabajando
+
+32
+00:02:46,920 --> 00:02:53,240
+con la versión beta de scrip 2.1 o inferior por lo menos en este momento en este preciso instante.
+
+33
+00:02:53,250 --> 00:02:59,220
+Los decoradores son una característica a experimentar hoy hoy en día es una característica experimental
+
+34
+00:02:59,880 --> 00:03:06,510
+donde donde me baso para decir eso bueno aquí en la parte de los decoradores scrip aquí dice.
+
+35
+00:03:06,530 --> 00:03:13,240
+Nota Los decoradores son una característica experimental que puede ser cambiada en el futuro.
+
+36
+00:03:13,350 --> 00:03:18,920
+Ahora si esto llegara a pasar y los decoradores ya no funcionan como antes cosa que lo dudo no funciona
+
+37
+00:03:18,920 --> 00:03:22,990
+como en este preciso momento cosa que dudo porque cada vez se usan más.
+
+38
+00:03:23,070 --> 00:03:26,250
+Si eso llegara a pasar en este curso se va a actualizar estos vídeos.
+
+39
+00:03:26,250 --> 00:03:29,050
+Y bueno voy a quitar esto porque ya no tienen sentido.
+
+40
+00:03:29,670 --> 00:03:35,160
+Pero bueno la idea es que este curso se va a mantener actualizado para que ustedes no tengan que investigar
+
+41
+00:03:35,160 --> 00:03:40,380
+adicionalmente el trabajo eso se lo dejan a otras personas me lo dejan a mí o que regresamos a nuestro
+
+42
+00:03:40,380 --> 00:03:46,950
+código donde tenemos ese Warden de los decoradores experimentales.
+
+43
+00:03:47,160 --> 00:03:52,290
+Voy a compilar nuevamente mi programa pero en vez de salvar directamente del autor porque el autor tiene
+
+44
+00:03:52,620 --> 00:03:59,080
+cosas el plugin de atendíamos es más flexible pues yo ejecuto el TSC y le doy Enter.
+
+45
+00:03:59,160 --> 00:04:05,990
+Quiero que observe que lo que pasa dice experimenta su cuerpo de crédito featured subject to change.
+
+46
+00:04:05,990 --> 00:04:08,820
+O sea esto es una característica que va a cambiar en un futuro.
+
+47
+00:04:09,090 --> 00:04:14,910
+Necesitamos utilizar experimentos de Collectors para que no nos tire este warning.
+
+48
+00:04:14,980 --> 00:04:22,270
+Voy a copiarme la palabra experimentaste creators y voy a hacerte ese espacio menos menos experimental.
+
+49
+00:04:22,830 --> 00:04:25,050
+Y ahí me va a compilar sin ningún problema.
+
+50
+00:04:25,050 --> 00:04:28,550
+Ahora si no creamos estar haciendo menos menos adivinen qué tenemos que hacer.
+
+51
+00:04:29,180 --> 00:04:37,590
+Vamos a ver si alguien le adivinó y era el TS confit y agregar esa característica Koma experimental
+
+52
+00:04:37,590 --> 00:04:42,690
+de Collectors y lo ponemos como Tru porque si lo vamos a utilizar graban los cambios y ya podríamos
+
+53
+00:04:42,690 --> 00:04:47,240
+hacer TSS sin recibir ese Guarne.
+
+54
+00:04:47,440 --> 00:04:48,780
+Lo que veo en el siguiente video.

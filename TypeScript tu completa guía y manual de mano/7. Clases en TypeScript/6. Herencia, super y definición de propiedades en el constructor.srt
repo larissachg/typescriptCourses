@@ -1,0 +1,383 @@
+1
+00:00:03,170 --> 00:00:08,600
+En esta clase vamos a ver la herencia y cómo crear propiedades directamente en el constructor para ahorrarnos
+
+2
+00:00:08,600 --> 00:00:10,210
+un poco de tiempo.
+
+3
+00:00:10,460 --> 00:00:15,080
+Voy a volver a hacer el ejercicio anterior solo que con mucho menos propiedades y métodos para que sea
+
+4
+00:00:15,080 --> 00:00:21,770
+más limpio y vamos a empezar clase Avenger ahora y arrolladores nada de otro mundo.
+
+5
+00:00:21,840 --> 00:00:31,100
+Si yo quiero declararme estas dos propiedades públicas públic nombre de tipo string y públic nombre
+
+6
+00:00:31,100 --> 00:00:34,290
+real de tipo String.
+
+7
+00:00:34,350 --> 00:00:41,440
+Así dos declararían normalmente y el constructor parentesis orillero ya tendría que hacer el disco de
+
+8
+00:00:41,450 --> 00:00:42,410
+nombre.
+
+9
+00:00:42,710 --> 00:00:50,690
+Vamos a mandar el nombre y el nombre real entonces disputo nombre es igual a nombre y disputo nombre
+
+10
+00:00:50,690 --> 00:00:58,070
+real es igual a nombre real nada del otro mundo pero es un poco de código que puede ser resumido de
+
+11
+00:00:58,070 --> 00:01:06,590
+la siguiente manera voy a quitar estoy acá y voy a quitar esto de acá puedo decir que el nombre es de
+
+12
+00:01:06,590 --> 00:01:07,090
+tipo String.
+
+13
+00:01:07,130 --> 00:01:13,880
+Obviamente tuve que haberlo hecho antes pero puedo decir antes del nombre puedo decir qué tipo de nivel
+
+14
+00:01:13,880 --> 00:01:20,770
+de acceso va a tener esta propiedad en este caso puedo decir que es pública y el nombre real es privada.
+
+15
+00:01:21,830 --> 00:01:30,020
+Así de esa forma eso va automáticamente a ponerle los valores del nombre y nombre real a cualquier clase
+
+16
+00:01:30,170 --> 00:01:32,790
+o a cualquier variable de tipo Angier.
+
+17
+00:01:32,930 --> 00:01:42,370
+Vamos a verlo queremos Let Ciclope de un Avenger es un tipo de Avenger y era un New Haven.
+
+18
+00:01:42,380 --> 00:01:51,650
+Ya no se extrañen de que ustedes a la hora de crear nuevos tipos de datos que vienen de clases como
+
+19
+00:01:51,650 --> 00:01:57,930
+esta de acá no pongan en dos puntos a Ben 10 porque se da a entender de que esto es un Avenger.
+
+20
+00:01:58,210 --> 00:02:05,420
+New Haven regreso graven entonces es como extraño verlo dos veces pero no está de más ponerlo aquí me
+
+21
+00:02:05,420 --> 00:02:09,380
+está dando un error porque necesito mandarle los dos parámetros que me está pidiendo el constructor
+
+22
+00:02:09,380 --> 00:02:18,260
+de la clase en este caso Ciclope Ciclope y el nombre Scott nada más dejémoslo así damos la impresión
+
+23
+00:02:18,260 --> 00:02:23,750
+de consola de Ciclope para que ustedes vean que no les estoy engañando con esto recargó y ven que ahí
+
+24
+00:02:23,750 --> 00:02:26,120
+tenemos las dos propiedades establecidas.
+
+25
+00:02:26,120 --> 00:02:30,480
+Perfecto qué es esto de la herencia.
+
+26
+00:02:30,680 --> 00:02:32,370
+Qué es esto de la herencia.
+
+27
+00:02:32,630 --> 00:02:38,800
+La herencia no es más que darle las propiedades y métodos de clase padre a hijos eso es todo.
+
+28
+00:02:39,800 --> 00:02:45,350
+Es como cuando Jack como su padre que su padre les heredó el apellido y su madre su segundo apellido
+
+29
+00:02:45,350 --> 00:02:51,710
+no es lo mismo es heredarle o transferirle propiedades y métodos a una clase.
+
+30
+00:02:52,010 --> 00:02:59,660
+Ah bueno no sé si si Ciclope fue un año o sea alguien me dirá Pero bueno creamos una nueva clase llamada
+
+31
+00:02:59,720 --> 00:03:05,580
+examen que va a extender va a ser heredada de Avengers.
+
+32
+00:03:07,030 --> 00:03:15,610
+Ahora y si arrolladas entre gente ok en este preciso momento tengo mi Avenger y tengo mi X-Men.
+
+33
+00:03:15,950 --> 00:03:20,210
+X-Men debería de tener las mismas propiedades de nombre y nombre real.
+
+34
+00:03:20,210 --> 00:03:21,070
+Vamos a ver si es cierto.
+
+35
+00:03:21,080 --> 00:03:27,280
+Voy a cambiar a Cíclope qué tipo X-Men y un New X-Men.
+
+36
+00:03:27,370 --> 00:03:34,250
+Los cambios y todo parece funcionar bien pero aquí hay una cosita que tenemos que tener en cuenta.
+
+37
+00:03:34,700 --> 00:03:41,720
+El constructor cuando no lo defino dentro de la clase dijo y éste extiende Diamondbacks extiende subes
+
+38
+00:03:41,760 --> 00:03:42,320
+de Avengers.
+
+39
+00:03:42,890 --> 00:03:49,310
+Cuando hacemos esto quiero que miren que me está dando un error Tixkokob que no he enviado los parámetros
+
+40
+00:03:49,490 --> 00:03:55,120
+al constructor pero X-Men no tiene ningún constructor por qué creen que pasa eso.
+
+41
+00:03:55,130 --> 00:04:04,880
+Eso pasa porque cuando no tenemos definido un constructor explícito en el examen en la clase hija va
+
+42
+00:04:04,880 --> 00:04:08,500
+a tomar por defecto el constructor de la clase en la cual se hereda.
+
+43
+00:04:08,570 --> 00:04:11,680
+Por eso está marcando el error y si yo pongo ahí qué ciclo pellizcó.
+
+44
+00:04:11,690 --> 00:04:16,730
+Por eso lo pasa perfectamente y si yo grabo los cambios y me voy a quien me ha pegado recargó van a
+
+45
+00:04:16,730 --> 00:04:19,640
+ver que es un X-Men con nombre Cíclope y nombres reales Scott.
+
+46
+00:04:20,630 --> 00:04:26,360
+Si ustedes quieren crear así un nuevo constructor perfectamente lo pueden hacer acá constructo paréntesis
+
+47
+00:04:27,200 --> 00:04:35,390
+abro y cierro llaves entre pero aquí no es como en el ECMAScript 6 que así ya pasaba todo hoy y feliz
+
+48
+00:04:35,580 --> 00:04:39,020
+y bien si bien aquí hay una cosa que está pasando.
+
+49
+00:04:39,020 --> 00:04:47,060
+Los constructores de clases heredadas deben de contener un llamado Súper estos a fuerza es una buena
+
+50
+00:04:47,060 --> 00:04:48,730
+práctica de que se llame.
+
+51
+00:04:48,800 --> 00:04:50,500
+Qué es eso del súper el súper.
+
+52
+00:04:50,500 --> 00:04:55,910
+Es lo que usamos o lo que usaremos más adelante vamos a ver más detalles pero es lo que vamos a usar
+
+53
+00:04:55,910 --> 00:05:03,060
+para poder llamar métodos o propiedades de el padre del objeto del cual se heredó.
+
+54
+00:05:03,140 --> 00:05:04,060
+Cómo hacemos eso.
+
+55
+00:05:04,070 --> 00:05:07,790
+Yo necesito a fuerza llamar a este constructor entonces cómo lo voy a hacer.
+
+56
+00:05:07,790 --> 00:05:15,110
+Escribo super parentesis super parentesis y ahora necesito mandar los parámetros de el nombre y el nombre
+
+57
+00:05:15,110 --> 00:05:15,600
+real.
+
+58
+00:05:15,770 --> 00:05:24,200
+En este caso voy a especificar aquí que Super necesita dos argumentos necesito recibirlos en el constructor
+
+59
+00:05:24,200 --> 00:05:33,040
+primeramente aquí voy a decir que es el nombre y el nombre real.
+
+60
+00:05:33,740 --> 00:05:39,800
+No necesariamente se tienen que llamar igual no voy a poner aquí como a mí solo para que ustedes ven
+
+61
+00:05:40,220 --> 00:05:44,580
+el constructor la voy a poner a ver que son de acá.
+
+62
+00:05:45,270 --> 00:05:50,690
+Si yo grabo los cambios me quito todos los errores ya desaparecieron y al ejecutarlo debía tener el
+
+63
+00:05:50,690 --> 00:06:00,800
+mismo resultado pero ejecuté el constructor ve el examen en un solo examen me pondré aquí constructor
+
+64
+00:06:00,990 --> 00:06:11,330
+examen llamado y luego el constructor ha llamado para que vean cuál de los dos ejecuta primero empieza
+
+65
+00:06:11,330 --> 00:06:15,160
+por el examen y luego pasa al Avenger al constructor.
+
+66
+00:06:15,340 --> 00:06:18,740
+Y si la bañera extendiera otra diría Ok.
+
+67
+00:06:18,740 --> 00:06:26,480
+Después llamó el constructor del otro del otro caso la herencia básicamente es eso yo en el Avenger
+
+68
+00:06:26,480 --> 00:06:33,220
+puedo declarar un método llamado guetto nombres por ejemplo paréntesis si esto va a regresarme un regresarme
+
+69
+00:06:33,310 --> 00:06:40,660
+un iba a ser aquí un público frustrarme disputo nombre.
+
+70
+00:06:40,790 --> 00:06:48,400
+Al hacer esto hacer público a pesar de que Ciclope es un examen yo puedo hacer que el ciclo Ciclope
+
+71
+00:06:48,400 --> 00:06:53,520
+punto G nombre a pesar de que el padre porque está grabó los recargo.
+
+72
+00:06:53,620 --> 00:06:54,640
+Hoy tenemos a Ciclope.
+
+73
+00:06:55,340 --> 00:07:00,260
+Ahora qué pasa con las propiedades que son protegidas.
+
+74
+00:07:00,260 --> 00:07:06,880
+Protected eso habíamos quedado pendiente si es protected y yo salvo los cambios van a ver que nombre
+
+75
+00:07:06,890 --> 00:07:08,130
+me está dando un error.
+
+76
+00:07:08,280 --> 00:07:14,390
+Dice que el nombre está protegida y sólo puede ser accionada desde la clase Avenger o sus subclases
+
+77
+00:07:14,520 --> 00:07:18,540
+Xmen X-Men es una subclase de Aviña.
+
+78
+00:07:18,830 --> 00:07:24,260
+Entonces si yo quisiera acceder accesar a eso podría hacerlo dentro del constructor o alguna función
+
+79
+00:07:24,260 --> 00:07:27,200
+que sea pública o que yo pueda accesar desde afuera.
+
+80
+00:07:27,210 --> 00:07:37,870
+En este caso públic y voy a poner el nombre que se llame igual iba a hacer esto agregues son 30 min.
+
+81
+00:07:37,940 --> 00:07:44,960
+Va a ser un router de llamemos ahora la función que nombre cómo hacemos el llamado a esa función que
+
+82
+00:07:44,960 --> 00:07:46,190
+está en el padre.
+
+83
+00:07:46,190 --> 00:07:47,080
+Se acuerdan.
+
+84
+00:07:47,180 --> 00:07:48,940
+Super Punto.
+
+85
+00:07:48,970 --> 00:07:51,370
+El nombre parentesis Póntico.
+
+86
+00:07:51,830 --> 00:08:00,300
+De esa manera sí se puede hacer un llamado y a pesar de que se llaman igual aquí aquí y aquí está el
+
+87
+00:08:00,300 --> 00:08:06,840
+chip y ya no se van a perder y saben exactamente lo que están haciendo los cambios y recarga el navegador
+
+88
+00:08:06,840 --> 00:08:12,990
+web y tengo de nuevo Ciclope pero llamado a través de un método público que hace eso acceso un método
+
+89
+00:08:12,990 --> 00:08:13,530
+protegido.
+
+90
+00:08:13,680 --> 00:08:18,990
+Si lo queremos ver ya detalle puede ser un consuelo que nombre X-Men.
+
+91
+00:08:19,190 --> 00:08:30,630
+Voy a poner aquí unos paréntesis público luego pondré aquí el nombre Avenger protegido en los cambios
+
+92
+00:08:31,460 --> 00:08:37,590
+de cargo y el nombre del X-Men es público y ejecutó la función que el nombre del ángel que está protegido.
+
+93
+00:08:38,310 --> 00:08:44,580
+Básicamente eso es todo y si ustedes quisieran hacer esto en el scrip 5 miren todo lo que tienen que
+
+94
+00:08:44,580 --> 00:08:52,270
+hacer es un código bastante desagradable que tiene que estar verifica de que haya sido creado con Unió
+
+95
+00:08:52,290 --> 00:08:58,820
+y hace un montón de cosas que nosotros la verdad nos ahorramos mucho mucho mucho código pasado en taichí
+
+96
+00:08:59,370 --> 00:09:00,660
+pero bueno lo veo en el siguiente video.

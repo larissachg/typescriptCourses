@@ -1,0 +1,171 @@
+1
+00:00:03,430 --> 00:00:09,230
+El outfit es un archivo que podemos generar que junta todo lo que nosotros le especificamos en un único
+
+2
+00:00:09,230 --> 00:00:10,010
+archivo.
+
+3
+00:00:10,250 --> 00:00:16,590
+Vamos a ser un pequeño ejemplo tengo aquí mi P.B ese que lo único que tiene es un mensaje voy a crear
+
+4
+00:00:16,700 --> 00:00:26,980
+otro archivo aquí ya le pego el feo esto crea un nuevo archivo aquí llamado Pepe 2.13 y un archivo a
+
+5
+00:00:26,980 --> 00:00:28,820
+Pepe 3.3.
+
+6
+00:00:30,000 --> 00:00:34,810
+Ukitake Skip está pendiente de todos los archivos por decirlo así a la vez.
+
+7
+00:00:35,050 --> 00:00:37,620
+Yo puedo hacer un solo mensaje.
+
+8
+00:00:38,200 --> 00:00:43,650
+A pesar de que el mensaje no está definido en este archivo FFIV sabe que está aquí y me va a dejar usarlo.
+
+9
+00:00:43,750 --> 00:00:49,560
+No es una buena práctica pero se puede hacer y ahora en él P3.
+
+10
+00:00:49,570 --> 00:01:02,020
+Lo que quiero hacer es lo mismo un mensaje el mensaje pero como tú quieres agarrar los cambios y ejecutar
+
+11
+00:01:02,020 --> 00:01:10,720
+esto en la consola pues sólo veo no veo nada por qué simplemente en el índex HTML estar estamos haciendo
+
+12
+00:01:10,720 --> 00:01:16,280
+referencia a este único archivo Apep p.ej. eso pero falta de la PS2 a PS3.
+
+13
+00:01:16,510 --> 00:01:23,120
+Normalmente haríamos algo así 2 3 correcto al hacer eso pues ya lo vamos a ver ahí en pantalla Hola
+
+14
+00:01:23,120 --> 00:01:31,330
+Mundo y Hola mundo en mayúscula pero si fueran muchos archivos si fueran muchos archivos hay que crecer
+
+15
+00:01:31,330 --> 00:01:39,280
+y esto se extiende muchísimo muchísimo y no es tan eficiente porque cada una de estas peticiones a cada
+
+16
+00:01:39,280 --> 00:01:44,860
+uno de estos son requerimientos que le va a hacer la página web el servidor y el servidor le va a regresar.
+
+17
+00:01:44,860 --> 00:01:50,740
+No es lo mismo consultar un único archivo que consultar sin archivos por lo que aunque sean más pequeños
+
+18
+00:01:51,630 --> 00:01:54,370
+ok cómo podríamos solventar eso.
+
+19
+00:01:54,440 --> 00:02:02,920
+El club tiene una forma de generar un archivo no compilado sino un archivo de salida que combina todos
+
+20
+00:02:02,920 --> 00:02:04,510
+los archivos.
+
+21
+00:02:04,510 --> 00:02:14,020
+Vamos a ver una cosa aquí en la consola podemos hacerlo sin que se sepa si el ataque scrip menos outfield
+
+22
+00:02:14,770 --> 00:02:18,340
+que por cierto esto lo pueden ver aquí en la documentación del tal scrip.
+
+23
+00:02:18,340 --> 00:02:26,360
+Aquí está el outfit pero yo quiero el outfit el nombre del archivo es el siguiente parãmetros el nombre
+
+24
+00:02:26,360 --> 00:02:29,160
+de acción en este caso puedo llamarlo como yo quiero.
+
+25
+00:02:29,160 --> 00:02:34,930
+Voy a ponerle un punto J.S. seguido de los archivos que yo quiero unir.
+
+26
+00:02:34,930 --> 00:02:44,050
+Por decir algo en este caso sería el PP a PS2 a PS3 puedes ponerle Pepe 3.3 pero ya sabes que son achiote
+
+27
+00:02:44,340 --> 00:02:48,660
+y los que va a compilar Leavitt ya lo hizo.
+
+28
+00:02:48,710 --> 00:02:55,290
+Me gusta creer que contiene los la combinación de los tres archivos y ahora yo podría hacer algo como
+
+29
+00:02:55,300 --> 00:03:00,180
+mi punto J.S. Y deberíamos de tener exactamente el mismo efecto.
+
+30
+00:03:00,540 --> 00:03:04,320
+Ahora si es una pereza estar haciendo esto pues se puede.
+
+31
+00:03:04,320 --> 00:03:12,710
+En mayo no era nada complicado estar haciéndolo hoy voy a ahorrarme el archivo de aquí me voy al TS
+
+32
+00:03:12,790 --> 00:03:19,290
+confit y aquí puedo realizar un par de un par de cambios puedo hacerlo así.
+
+33
+00:03:19,580 --> 00:03:25,580
+Outfield los puntos a cerrar esto y puedo especificar toda una dirección y vamos.
+
+34
+00:03:25,600 --> 00:03:35,870
+Bill Leca y especificar el punto J dentro de una nueva carpeta algunos cambios habría que hacer una
+
+35
+00:03:35,870 --> 00:03:41,660
+exclusión acá también de que incluya la carpeta Bildt ex club.
+
+36
+00:03:42,410 --> 00:03:49,560
+Los puntos por cualquier cosa no bionda excluir esa carpeta.
+
+37
+00:03:50,000 --> 00:03:58,150
+Algunos cambios o a ejecutar el código CSS sólo tendrías que hacer eso porque ya vas a ver que aquí
+
+38
+00:03:58,150 --> 00:04:04,730
+está el archivo de salida y si bien quedó la carpeta y creó el archivo ahora podría yo solo ser referencia
+
+39
+00:04:04,730 --> 00:04:12,680
+al punto JS Lombillo punto J.V y va a funcionar exactamente de la misma manera y cada vez que yo hago
+
+40
+00:04:12,680 --> 00:04:22,730
+un cambio aquí por ejemplo tuvo qué y después quiero lo mismo prólogo Keys Trevor Keys claro al salvarlo
+
+41
+00:04:23,710 --> 00:04:31,300
+con el Kobato no me van a compilar el archivo completo porque no es parte del plugin que se instaló.
+
+42
+00:04:31,360 --> 00:04:37,090
+Si queremos hacer ese efecto tenemos que volver a ser TSC en la consola y ahora sí vamos a ver el cambio
+
+43
+00:04:37,300 --> 00:04:42,220
+de lo que es hoy bueno básicamente eso es todo lo que veo me siento.

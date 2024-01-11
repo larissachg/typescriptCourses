@@ -1,0 +1,127 @@
+1
+00:00:03,360 --> 00:00:07,540
+Es posible implementar un tipo de interfaz para una función.
+
+2
+00:00:07,620 --> 00:00:09,890
+Vamos a ver cómo se hace.
+
+3
+00:00:09,960 --> 00:00:15,620
+El código empezaría con la interfaz no es igual es muy parecido pero no es igual.
+
+4
+00:00:15,630 --> 00:00:19,250
+Se va a llamar dos números ocho.
+
+5
+00:00:19,530 --> 00:00:24,240
+Vamos a pensar más que todo ya en operaciones matemáticas que requieran de número para dejar un poquito
+
+6
+00:00:24,240 --> 00:00:31,130
+en los casos de Marvel y así por un lado la diferencia es que aquí no nos vamos a definir propiedades.
+
+7
+00:00:31,260 --> 00:00:37,740
+Vamos a definir un método únicamente solo un método en este caso empezamos paréntesis para indicar los
+
+8
+00:00:37,740 --> 00:00:44,580
+parámetros de entrada y luego dos puntos para indicar la salida ya sea un tipo personalizado ya sea
+
+9
+00:00:44,580 --> 00:00:46,110
+string lo que ustedes quieran.
+
+10
+00:00:46,180 --> 00:00:53,440
+En este caso quiero que regrese un nombre los parámetros que va a recibir va a ser un número o no uno
+
+11
+00:00:53,950 --> 00:01:00,810
+de tipo Number Number Koma y no dos también de tipo nombres
+
+12
+00:01:03,700 --> 00:01:05,060
+un paréntesis.
+
+13
+00:01:05,150 --> 00:01:10,960
+Las interfaces no tienen nada en su contraparte de JavaScript sea las interfaces no existen en Java
+
+14
+00:01:11,270 --> 00:01:20,030
+esto simplemente es un control para qué vamos a crear una función llamada sumar que será de tipo 2 números
+
+15
+00:01:20,100 --> 00:01:21,380
+function.
+
+16
+00:01:21,650 --> 00:01:32,770
+Ahora yo puedo decir sumar va a ser igual a una función que recibe a que ambos son números ver paréntesis
+
+17
+00:01:33,050 --> 00:01:39,560
+si lo dejo en este momento van a decir que el tipo A a B como es la instrucción que tengo acá y que
+
+18
+00:01:39,560 --> 00:01:43,200
+regresa no es asignarle al tipo dos números Junction.
+
+19
+00:01:43,340 --> 00:01:43,610
+Por qué.
+
+20
+00:01:43,610 --> 00:01:48,590
+Porque falta la operación o el retorno a más.
+
+21
+00:01:49,340 --> 00:01:54,660
+Ahí desaparece el error porque ya está cumpliendo a cabalidad el requerimiento de la interfaz.
+
+22
+00:01:54,710 --> 00:02:01,570
+Lo mismo sucedería si queremos hacer una función restar los puntos de tipo 2 números Foxo puntico.
+
+23
+00:02:01,820 --> 00:02:09,290
+Yo no puedo decir restart para ser igual a una función que recibe GNU o pongámosle el número uno de
+
+24
+00:02:09,290 --> 00:02:22,550
+tipo number y number y número dos de tipo number también que es lo que hace es hacer el retrón de número
+
+25
+00:02:22,750 --> 00:02:28,740
+uno menos número 2 y va perfectamente funcional.
+
+26
+00:02:28,880 --> 00:02:34,280
+Pero qué pasa si ahora número uno ya no es Number es de tipo String.
+
+27
+00:02:35,840 --> 00:02:42,560
+Entonces la interfaz va a fallar para decir aquí que el tipo número string número Number que regresa
+
+28
+00:02:42,560 --> 00:02:45,610
+un número no es asignarle dos números function.
+
+29
+00:02:45,950 --> 00:02:50,480
+Hasta que no se cumplan estas condiciones esto no va a funcionar.
+
+30
+00:02:50,480 --> 00:02:57,800
+Claro pueden aquí dentro de ustedes hacer otro tipo de operaciones y regresarlos como nombres y decir
+
+31
+00:02:57,800 --> 00:03:05,690
+número uno más más y así sucesivamente pueden tener X cantidad de instrucciones ahí adentro pero lo
+
+32
+00:03:05,690 --> 00:03:12,550
+que realmente importa es que reciba los parámetros y retorne el valor que se está esperando en la interfaz.

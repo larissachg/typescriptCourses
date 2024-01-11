@@ -1,0 +1,83 @@
+1
+00:00:03,000 --> 00:00:09,270
+Es posible tener múltiples decoradores anidados vamos a trabajar con ese ejemplo todavía voy a copiarme
+
+2
+00:00:09,300 --> 00:00:18,000
+el decorador este decorador de clase y le voy a agregar una función llamada imprimible le sigue el constructor
+
+3
+00:00:18,080 --> 00:00:18,950
+que la función.
+
+4
+00:00:19,740 --> 00:00:29,560
+Y voy a quitarle este prototipo de imprimir plan a imprimir y lo que hará es el consuelo de Elvis.
+
+5
+00:00:29,670 --> 00:00:31,600
+A imprimir el objeto como tal.
+
+6
+00:00:31,600 --> 00:00:35,210
+A veces a veces es necesario o vamos a usarlo.
+
+7
+00:00:35,330 --> 00:00:40,760
+Voy a copiarme el nombre de la función imprimible y se lo voy a poner como un decorador.
+
+8
+00:00:40,770 --> 00:00:51,270
+Aquí con arrojã imprimible antes de plan villano nuevo yo puedo decir imprimir desde el ex poco imprimir
+
+9
+00:00:51,630 --> 00:00:58,230
+gravó y vamos a verlo recargo y aquí tengo el plan del extractor es dominar el mundo villano y aparece
+
+10
+00:00:58,530 --> 00:01:06,480
+toda la impresión del objeto inclusive yo le agregará más como por ejemplo Public Public públic poder
+
+11
+00:01:09,710 --> 00:01:12,750
+aquí puedo ponerle súper.
+
+12
+00:01:13,320 --> 00:01:14,640
+Voy a ponerle súper dinero.
+
+13
+00:01:14,840 --> 00:01:22,190
+No Supermente los cambios recargó y aquí va a aparecer esa función es particularmente útil y yo lo he
+
+14
+00:01:22,190 --> 00:01:24,770
+usado varias veces especialmente en los proyectos Yangüela.
+
+15
+00:01:24,770 --> 00:01:31,640
+Pero bueno básicamente es posible anidar múltiples decoradores ahora más de uno me dirá y esto importa
+
+16
+00:01:31,640 --> 00:01:32,740
+si lo pongo aquí.
+
+17
+00:01:32,960 --> 00:01:38,970
+O el orden de estos decoradores tendrá que ver algunos cambios recargó y lo veo igual.
+
+18
+00:01:39,290 --> 00:01:45,650
+Si vemos en los decoradores esto es como que usemos una composición aritmética de dos funciones por
+
+19
+00:01:45,650 --> 00:01:50,240
+ejemplo suponiendo que tenemos el doctor F y el decorador que es lo mismo que tuviéramos este tipo de
+
+20
+00:01:50,240 --> 00:01:51,180
+multiplicación.
+
+21
+00:01:51,210 --> 00:01:52,010
+Ahí queda bien claro.

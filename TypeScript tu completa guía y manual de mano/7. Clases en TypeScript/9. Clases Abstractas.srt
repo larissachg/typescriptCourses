@@ -1,0 +1,111 @@
+1
+00:00:03,440 --> 00:00:09,720
+Las clases abstractas es otro tema que suena complicado pero realmente es fácil vamos a verlo tengo
+
+2
+00:00:09,770 --> 00:00:13,030
+esta clase sencilla de clase mutantes.
+
+3
+00:00:13,070 --> 00:00:16,850
+Estamos hablando de los hombres piensan que son como personas.
+
+4
+00:00:16,950 --> 00:00:21,890
+Genérico todos los mutantes tienen un nombre que es como su nombre clave y todos los mutantes tienen
+
+5
+00:00:21,890 --> 00:00:30,140
+un nombre real ya sea su nombre María Conchita Pérez no sé qué es eso de las clases abstractas primeramente
+
+6
+00:00:30,410 --> 00:00:36,200
+tienen antes de la palabra clase algo que se llama una palabra reservada abstracta.
+
+7
+00:00:36,350 --> 00:00:45,190
+De esa forma abstracta las Mutants y eso sólo esa palabra va a impedirme voy a crear un nuevo mutante
+
+8
+00:00:45,280 --> 00:00:54,720
+llamado otra vez volve igual a new mutantes parentesis punticos aquí me está marcando un error.
+
+9
+00:00:54,730 --> 00:01:00,010
+Primeramente quiero que vean no me está diciendo que estoy mandando los parámetros incorrectos aunque
+
+10
+00:01:00,010 --> 00:01:02,530
+yo quisiera mandarle aquí el nombre de Wolverine
+
+11
+00:01:05,430 --> 00:01:11,880
+y el nombre real Logan aunque estoy cumpliendo con la condición de constructor ese no es el error que
+
+12
+00:01:11,890 --> 00:01:13,060
+me está saliendo.
+
+13
+00:01:13,060 --> 00:01:20,450
+No puedo crear una instancia ni una clase abstracta ya le captaron cuál es la cosa cuando yo pongo abstract
+
+14
+00:01:20,570 --> 00:01:26,960
+no puedo crear instancias de mutantes no puedo crear esa clase sólo puedo distanciarnos y van a decir
+
+15
+00:01:26,960 --> 00:01:30,830
+usted va a poner eso para qué diablos sirve si sino si no puedo hacer.
+
+16
+00:01:30,860 --> 00:01:38,870
+No puedo creer nada eso sirve específicamente para crear un molde de las clases y heredarse las heredar
+
+17
+00:01:38,900 --> 00:01:42,540
+esas propiedades y métodos a otras a otras clases.
+
+18
+00:01:42,590 --> 00:01:43,760
+Básicamente eso es.
+
+19
+00:01:43,790 --> 00:01:50,240
+Son como decir un contenedor de propiedades y nombres propiedades y métodos que van a ser heredados
+
+20
+00:01:50,780 --> 00:01:59,780
+a otra clase en este caso voy a quedarme bueno tengo los mutantes iba a crear una clase X-Men que va
+
+21
+00:01:59,780 --> 00:02:12,010
+a extender de los mutantes avizoró ya ves y lo dejo de esa manera voy a copiarme el nombre X-Men y voy
+
+22
+00:02:12,010 --> 00:02:18,460
+a reemplazar a Wolverine ya no va a ser ni un mutantes ahora va a ser un examen si ustedes se fijan
+
+23
+00:02:18,820 --> 00:02:20,670
+como lo habíamos mencionado anteriormente.
+
+24
+00:02:20,770 --> 00:02:25,540
+Como no tengo un constructor acá va a llamar el constructor de la de la clase abstracta por consecuencia
+
+25
+00:02:25,590 --> 00:02:33,160
+a un curso acá y ver Wolverine en la consola debería de aparecerme Will Worden y nombre Logan.
+
+26
+00:02:33,520 --> 00:02:40,900
+Eso es todo con las clases abstractas son moldes que no pueden ser usados a menos de que ya hereden
+
+27
+00:02:41,290 --> 00:02:42,730
+alguna clase dijo.
+
+28
+00:02:42,880 --> 00:02:43,500
+Eso es todo.

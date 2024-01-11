@@ -1,0 +1,99 @@
+1
+00:00:03,560 --> 00:00:08,000
+Quiero que miremos ahora el siguiente problema lo que tenemos aquí.
+
+2
+00:00:08,020 --> 00:00:10,280
+Voy a quitar esa línea de Flash punto que no me interesa.
+
+3
+00:00:10,730 --> 00:00:12,560
+Supongo que ahora viene Superman.
+
+4
+00:00:12,560 --> 00:00:15,380
+Otra vez Superman.
+
+5
+00:00:15,930 --> 00:00:23,630
+Y este debería ser del mismo tipo de flash ya tiene nombre edad poderes y un nombre también.
+
+6
+00:00:23,690 --> 00:00:24,350
+Qué haría yo.
+
+7
+00:00:24,350 --> 00:00:30,600
+Bueno pues voy a copiarme ahorita toda la definición en teoría.
+
+8
+00:00:31,040 --> 00:00:36,280
+Bueno ustedes saben que por la parte de atrás scrip sería un objeto totalmente diferente pero tiene
+
+9
+00:00:36,280 --> 00:00:38,210
+los mismos propiedades y métodos.
+
+10
+00:00:38,220 --> 00:00:40,190
+Vamos a hacer un cambio acá.
+
+11
+00:00:40,970 --> 00:00:44,890
+Clark Kent otra vez de 500 años.
+
+12
+00:00:44,900 --> 00:00:51,130
+Poderes puede volar y supervelocidad.
+
+13
+00:00:51,590 --> 00:00:58,940
+Vamos a dejarlo así y quiero que miremos cuál es el problema en este ejercicio.
+
+14
+00:00:59,870 --> 00:01:08,900
+Qué pasa si ahora los poderes pueden ser pueden ser de cualquier tipo que yo puedo meterle aquí un número
+
+15
+00:01:08,900 --> 00:01:10,310
+por ejemplo 23.
+
+16
+00:01:10,340 --> 00:01:13,070
+Supongamos un objeto.
+
+17
+00:01:13,070 --> 00:01:20,080
+Tendría que volverlo a cambiar aquí y aquí para poder agregar otras cosas.
+
+18
+00:01:20,310 --> 00:01:25,430
+Que el problema es si tuviéramos muchas definiciones de este objeto tendríamos que cambiarla en todos
+
+19
+00:01:25,430 --> 00:01:26,310
+lados donde aparezca.
+
+20
+00:01:26,690 --> 00:01:29,420
+Y eso es técnicamente no lo que yo quiero hacer.
+
+21
+00:01:29,450 --> 00:01:30,670
+No es práctico.
+
+22
+00:01:30,800 --> 00:01:38,490
+Sería bueno poder definirnos algo para poder crear este tipo de de molde.
+
+23
+00:01:38,570 --> 00:01:42,110
+Más adelante cuando miremos clases esas son la forma de hacerlo.
+
+24
+00:01:42,110 --> 00:01:48,500
+Pero como estamos viendo objetos de éxito poder crear un tipo personalizado de objetos para poder definir
+
+25
+00:01:48,560 --> 00:01:52,950
+esto de una forma más ordenada y reutilizable eso lo vemos en el siguiente video.

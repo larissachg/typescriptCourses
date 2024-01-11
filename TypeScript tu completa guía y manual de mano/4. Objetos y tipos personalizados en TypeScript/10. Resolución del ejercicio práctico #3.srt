@@ -1,0 +1,247 @@
+1
+00:00:03,510 --> 00:00:05,000
+Cómo les fue con este ejercicio práctico.
+
+2
+00:00:05,010 --> 00:00:10,840
+Número 3 no lo sintieron como cuando el profesor dice en las clases que uno más uno es igual a dos y
+
+3
+00:00:10,880 --> 00:00:15,950
+a la hora del examen bueno calculaba en la raíz cuadrada de un árbol usando una.
+
+4
+00:00:15,960 --> 00:00:19,020
+Qué sé yo un palillo de dientes.
+
+5
+00:00:19,310 --> 00:00:23,580
+Espero que no lo hayan sentido así si tenía cierto reto y había varias cosas que nos explicaron pues
+
+6
+00:00:23,610 --> 00:00:26,140
+directamente o explícitamente pero lo vamos a hacer ahorita.
+
+7
+00:00:27,240 --> 00:00:32,440
+Empecemos primero que nada vamos a cambiar todas las de las declaraciones por un lector.
+
+8
+00:00:32,480 --> 00:00:32,850
+Por qué.
+
+9
+00:00:32,850 --> 00:00:38,790
+Porque lo podemos usar aunque sigamos batimóvil y el Banbury son muy parecidos.
+
+10
+00:00:38,790 --> 00:00:44,490
+De hecho lo único que cambia es el método de disparar y especifique que el método de disparar puede
+
+11
+00:00:44,490 --> 00:00:45,230
+ser opcional.
+
+12
+00:00:45,270 --> 00:00:49,560
+En teoría estos dos elementos o estos dos podrían ser del mismo tipo.
+
+13
+00:00:49,680 --> 00:00:56,820
+Queremos un tipo personalizado para manejar esto digamos Teyco auto podemos llamarlo Ocumare del año
+
+14
+00:00:56,850 --> 00:01:07,180
+puesto que es igual a lo siguiente tiene la carrocería que será un tipo Extrem siguiente el modelo el
+
+15
+00:01:07,220 --> 00:01:17,600
+modelo que también es de un tipo swings sigue si es antibalas y es un vulcano luego viene los pasajeros
+
+16
+00:01:18,940 --> 00:01:20,660
+que de un tipo de.
+
+17
+00:01:21,200 --> 00:01:22,400
+Hasta ahí todo bien.
+
+18
+00:01:23,060 --> 00:01:31,750
+Si lo dejamos así y asignamos auto al batimóvil y auto a Bobby lo va a tirar un error.
+
+19
+00:01:31,880 --> 00:01:36,870
+La función disparar porque no existe está definida en el auto.
+
+20
+00:01:36,980 --> 00:01:37,820
+Entonces cómo hacemos.
+
+21
+00:01:37,820 --> 00:01:44,210
+Un método opcional se acuerdan más o menos se acuerdan poner aquí dos puntos de un tipo y una función
+
+22
+00:01:45,710 --> 00:01:52,070
+no recibe nada y tampoco regresa nada debía ser así pero si lo pongo de esa manera ora el automóvil
+
+23
+00:01:52,070 --> 00:01:53,230
+es el que me está dando problemas.
+
+24
+00:01:53,240 --> 00:01:56,360
+Pero para hacerlo opcional le voy a poner un signo de interrogación.
+
+25
+00:01:56,360 --> 00:02:02,240
+Esto ya lo habíamos visto pero espero que lo hayan logrado hacer si no pero no se preocupen.
+
+26
+00:02:02,240 --> 00:02:02,810
+Ya aprendieron.
+
+27
+00:02:03,320 --> 00:02:05,120
+Sigamos.
+
+28
+00:02:05,490 --> 00:02:06,710
+Esto ya está todo resuelto.
+
+29
+00:02:06,740 --> 00:02:11,020
+Usando ese tipo auto ahora esto ya es un ejercicio un poco más complicado.
+
+30
+00:02:11,030 --> 00:02:14,400
+Los villanos deben de ser un arreglo de un tipo personalizado.
+
+31
+00:02:14,490 --> 00:02:20,570
+Hagamos un tipo personalizado llamado usted le haya puesto villano por ejemplo villano.
+
+32
+00:02:20,570 --> 00:02:28,520
+Esto será igual a si ustedes se fijan los tres tienen el mismo tipo de dato son iguales en su estructura
+
+33
+00:02:28,520 --> 00:02:38,450
+no tienen el nombre que tiene la edad de un tipo number y tiene una variable mutante y throwing Jobs
+
+34
+00:02:39,510 --> 00:02:42,380
+o mutante booleano.
+
+35
+00:02:42,560 --> 00:02:51,260
+Si se fijan en el aquí en well-being James Logan es un fin habíamos dicho de que si tuviéramos el modo
+
+36
+00:02:51,260 --> 00:02:57,710
+estricto tendríamos que poner aquí o on the Fire pero en este caso no nos hace falta porque estamos
+
+37
+00:02:57,710 --> 00:03:03,250
+trabajando que somos estrictos que será visto bueno ya más a detalle en la siguiente sección del curso.
+
+38
+00:03:03,450 --> 00:03:06,710
+Ok eso es todo lo que tenemos que hacer por este lado.
+
+39
+00:03:06,740 --> 00:03:15,860
+Cómo les decimos que villanos es un arreglo de villano pongamos acá villano James o escuadras y eso
+
+40
+00:03:15,870 --> 00:03:17,160
+estuvo ahí.
+
+41
+00:03:17,210 --> 00:03:23,720
+Este arreglo sólo va a aceptar objetos que parezcan o que cumplan las condiciones de un villano de un
+
+42
+00:03:23,720 --> 00:03:25,280
+tipo villano.
+
+43
+00:03:25,330 --> 00:03:26,650
+Sigamos.
+
+44
+00:03:26,710 --> 00:03:32,740
+Este tal vez es un poco pues un poco más complicado o más enredado pero es igual de sencillo que los
+
+45
+00:03:32,740 --> 00:03:34,580
+demás.
+
+46
+00:03:34,700 --> 00:03:39,630
+Vamos a ver dice múltiples tipos creó dos tipos para cada uno para Charms y otro para Apocalipsis.
+
+47
+00:03:39,640 --> 00:03:48,230
+Bueno entonces creamos un tipo Chavs que estoy poniendo todos los tipos los pongo en mayúscula para
+
+48
+00:03:48,230 --> 00:03:50,680
+diferenciarlo de este que está en minúscula.
+
+49
+00:03:50,790 --> 00:04:01,340
+Chávez tiene un poder que es de tipo string y tiene una estatura estatura que es de tipo number y ahí
+
+50
+00:04:01,340 --> 00:04:08,690
+tenemos a Chávez solo vamos a hacer Apocalipsis tenemos Apocalipsis.
+
+51
+00:04:08,690 --> 00:04:11,420
+Bueno aquí tiene Apocalipsis.
+
+52
+00:04:11,420 --> 00:04:24,380
+El Apocalipsis tiene dos propiedades que son si es líder líder como Juliano y tenemos a los miembros
+
+53
+00:04:25,880 --> 00:04:32,900
+miembros que es un arreglo de strengths y listo ahí se nos acabó.
+
+54
+00:04:32,930 --> 00:04:39,930
+Podríamos decir que Chance Apocalipsis chance es de tipo chatbots aunque esté un poco redundante ahí
+
+55
+00:04:39,990 --> 00:04:47,570
+pero no está demás ponerlo Apocalipsis este tipo de Apocalipsis ahora Mystic dice Mystic debe de power
+
+56
+00:04:47,590 --> 00:04:47,960
+ups.
+
+57
+00:04:47,990 --> 00:04:54,620
+Aquí tenemos un error dice en estatura y estatura supusimos de la estatura.
+
+58
+00:04:54,620 --> 00:04:57,110
+Estas son de las cosas que yo ataque escribí mal allá arriba.
+
+59
+00:04:58,130 --> 00:05:04,970
+Ok sigamos dice Mystic debe poder ser cualquiera de sus dos mutantes Chans o Apocalipsis.
+
+60
+00:05:05,030 --> 00:05:13,630
+Entonces cómo hacemos que Mystic pueda ser uno de esos dos puntos Chávez o apocalipsis y listo.
+
+61
+00:05:13,870 --> 00:05:20,520
+Inchi Mystic si intenta cambiar a otra cosa por ejemplo un arreglo vacío va a dar un valor a un error.
+
+62
+00:05:21,030 --> 00:05:26,540
+Ok espero que esto lo hayan logrado lo más que pudieron y lo veo a la siguiente sección éxitos.

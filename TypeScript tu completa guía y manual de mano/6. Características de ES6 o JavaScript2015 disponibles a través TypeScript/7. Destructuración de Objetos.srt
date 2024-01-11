@@ -1,0 +1,159 @@
+1
+00:00:03,130 --> 00:00:08,780
+La estructuración de objetos en el ECMAScript 6 es bastante útil.
+
+2
+00:00:09,340 --> 00:00:14,530
+Supongo que ustedes necesitan extraer los Avengers que están dentro de ese objeto.
+
+3
+00:00:14,560 --> 00:00:15,450
+Cómo lo harían.
+
+4
+00:00:15,470 --> 00:00:21,390
+Bueno supongamos que queremos crear una variable llamada ONIC que sería igual a Avengers punto Nick
+
+5
+00:00:22,330 --> 00:00:26,930
+y si quiero lo mismo con Iron Man y misión tengo que ser lo mismo a Iron Man.
+
+6
+00:00:26,930 --> 00:00:30,820
+Y ahora tengo que hacer aquí lo mismo con Billo.
+
+7
+00:00:31,510 --> 00:00:39,130
+De esa forma eso es solo todo ese juego sólo para extraer las variables de mi objeto porque después
+
+8
+00:00:39,130 --> 00:00:45,610
+la necesito usar en algo es mucho código en teoría pero la estructuración de objetos me permite hacer
+
+9
+00:00:45,610 --> 00:00:50,950
+todo en una sola línea con una sintaxis que ya nosotros conocemos la sintaxis de los objetos literales
+
+10
+00:00:50,950 --> 00:00:52,310
+de JavaScript.
+
+11
+00:00:52,360 --> 00:00:58,420
+Vamos a ver primero defino la variable Sabala para hacer ballet para hacer el espacio de memoria.
+
+12
+00:00:58,570 --> 00:01:02,920
+Luego ya ves las llaves para decir qué quiero crear.
+
+13
+00:01:02,920 --> 00:01:10,620
+En este caso quiero crear las variables Nick Iron Man y Billing ok.
+
+14
+00:01:10,660 --> 00:01:18,600
+De dónde voy a generar esa data o dónde lo voy a extraer con el igual de Avengers.
+
+15
+00:01:18,710 --> 00:01:27,340
+Puntico eso es todo en este preciso momento yo podría ya llegar y usar a Nick nick o a usar Iron Man
+
+16
+00:01:28,660 --> 00:01:36,880
+o usar anillo grabo los cambios y me voy a navegador web el navegador web perdió o se.
+
+17
+00:01:37,000 --> 00:01:41,390
+Ahí tenemos a Samuel Jackson Robert Danni junio y Paul Bettany.
+
+18
+00:01:41,440 --> 00:01:42,380
+Fácil no.
+
+19
+00:01:42,580 --> 00:01:50,080
+Ahora qué pasa cuando ustedes no necesitan o necesitan de nombrarle un nombre de esa variable es decir
+
+20
+00:01:50,110 --> 00:01:51,070
+a Iron Man.
+
+21
+00:01:51,220 --> 00:01:55,330
+Está bien que extraje Iron Man pero necesito que tenga otro nombre de variable.
+
+22
+00:01:55,330 --> 00:01:56,920
+Cómo haríamos.
+
+23
+00:01:57,080 --> 00:02:01,030
+Ok si yo no quiero que Europa se llame así quiero que se llame ahora War Machine.
+
+24
+00:02:03,520 --> 00:02:09,450
+Puedo hacer uno sólo que ahora de War Machine y no Iron Man y vamos a ver que es lo que paso.
+
+25
+00:02:09,680 --> 00:02:11,760
+No parece robot tan perfecto.
+
+26
+00:02:13,270 --> 00:02:18,340
+Ahora también hay formas de declarar variables por defecto.
+
+27
+00:02:18,340 --> 00:02:23,650
+Por ejemplo quiero crear a Thor si lo dejo así de entrada un error porque no existe en el objeto.
+
+28
+00:02:23,650 --> 00:02:29,030
+Gracias al ECMAScript al que ya me dice que esa variable no existe.
+
+29
+00:02:29,050 --> 00:02:35,830
+Ok entonces puedo decir que esto va a ser igual a no me acuerdo cómo es el nombre del actor de Thor
+
+30
+00:02:36,240 --> 00:02:40,980
+pero bueno pongámosle Baudolino Callejas
+
+31
+00:02:43,610 --> 00:02:49,540
+me hace ir marcando el error porque todo no existe dentro de lo que Avengers aunque este es un código
+
+32
+00:02:49,540 --> 00:02:52,240
+válido para el ECMAScript 6.
+
+33
+00:02:52,420 --> 00:02:55,230
+Voy a pensar aquí actor loscambios.
+
+34
+00:02:55,360 --> 00:02:59,120
+A pesar de que tenemos el error recargó y aquí tengo pollino Callejas.
+
+35
+00:02:59,230 --> 00:03:05,740
+Esta característica todavía no está del todo soportada o tal vez así es como tal quiere manejarlo pero
+
+36
+00:03:05,740 --> 00:03:10,480
+en pocas palabras quiero que ustedes observen que se pueden declarar variables internamente y asignar
+
+37
+00:03:10,480 --> 00:03:11,260
+un valor por defecto.
+
+38
+00:03:11,980 --> 00:03:17,110
+Pero bueno si ya quieren indagar más dentro de los objetos o la estructuración de objetos los invito
+
+39
+00:03:17,110 --> 00:03:20,090
+a que busquen un curso completo del ECMAScript 6.
+
+40
+00:03:20,130 --> 00:03:22,310
+Pero por ahora eso es lo que nos interesa para el taxi.

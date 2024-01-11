@@ -1,0 +1,219 @@
+1
+00:00:03,450 --> 00:00:10,500
+Vamos a empezar primero ocupamos como por decirlo así configurar nuestro proyecto es decir ocupamos
+
+2
+00:00:10,800 --> 00:00:13,280
+montar un servidor local para correr aplicación.
+
+3
+00:00:13,320 --> 00:00:14,370
+Por qué.
+
+4
+00:00:14,370 --> 00:00:20,100
+Porque por defecto cuando queremos cargar archivos que están en otras ubicaciones navegadores como Chrome
+
+5
+00:00:20,130 --> 00:00:24,730
+y Firefox lo que hacen es bloquearlo y eso le llaman crolos origen blocked.
+
+6
+00:00:24,750 --> 00:00:27,590
+Una cosa así como bloqueo de Colosseum.
+
+7
+00:00:27,840 --> 00:00:33,780
+Es decir necesitamos correr nuestra aplicación sobre un servidor lo vamos a hacer utilizando algo llamado
+
+8
+00:00:33,780 --> 00:00:40,110
+LOIC Server es un servidor que a mi me gusta mucho que es muy ligero muy rápido y fácil de montar pero
+
+9
+00:00:40,110 --> 00:00:48,870
+es un servidor de Nott por lo que vamos a ocupar varias cosas de no empezemos en la consola en la raíz
+
+10
+00:00:48,870 --> 00:00:55,040
+de su proyecto para escribir MPM como paquetes mãnager init.
+
+11
+00:00:55,560 --> 00:01:00,450
+Aquí estamos creando lo que se conoce como el paquete puntu Jayson es un archivo de configuración de
+
+12
+00:01:01,150 --> 00:01:04,910
+programa de Nutt por decirlo así me está pidiendo un nombre.
+
+13
+00:01:04,920 --> 00:01:11,730
+El proyecto se llamará Mi aplicación día entero la versión no me importa pueden darle enter en todo
+
+14
+00:01:11,730 --> 00:01:17,770
+lo demás y les va a crear este archivo llamado package construyesen.
+
+15
+00:01:17,790 --> 00:01:23,700
+Este es bien conocido para gente que ya ha trabajado en esto es pan comido para los que no pues no se
+
+16
+00:01:23,700 --> 00:01:24,150
+preocupen.
+
+17
+00:01:24,150 --> 00:01:31,280
+Esto es un archivo muy parecido al TS confi con unas ciertas reglas de trabajo puede ser un clic.
+
+18
+00:01:31,770 --> 00:01:39,150
+Primero que nada instalemos el server vamos a Google buscamos el server buscas éste del Papa que es
+
+19
+00:01:40,080 --> 00:01:45,480
+bajamos un poco vamos a ver lo que es el lechero después de leer un poco vamos a la instalación.
+
+20
+00:01:45,480 --> 00:01:50,770
+Necesito ejecutar esta línea de comando MPM instó LOIC server.
+
+21
+00:01:50,880 --> 00:01:55,560
+Posiblemente esto tengas que correrlo como administrador y si están en Mac necesitan correrlo con un
+
+22
+00:01:55,560 --> 00:02:05,470
+sudo de pegar acá dice MPM soleis cuando menos seis de Escuadro para desarrollo.
+
+23
+00:02:05,590 --> 00:02:09,650
+Entonces energizado si están ustedes en Windows.
+
+24
+00:02:09,690 --> 00:02:12,720
+Simplemente le dan así si les dan error.
+
+25
+00:02:12,750 --> 00:02:18,240
+Entonces ejecuten esa terminal o ahora es una consola y la ejecutan como administrador.
+
+26
+00:02:18,420 --> 00:02:24,600
+Pero bueno aquí yo estoy más X voy a darle sudo MPM hizó laisser voy a pedir el password exponer su
+
+27
+00:02:24,600 --> 00:02:29,890
+password de la computadora y esto va a empezar una instalación es relativamente rápido.
+
+28
+00:02:30,420 --> 00:02:33,610
+Mientras esto va instalando vamos a leer un poco acá.
+
+29
+00:02:34,850 --> 00:02:42,700
+Necesitamos agregar en los scripts la siguiente línea scripts de server esto va ahí.
+
+30
+00:02:42,740 --> 00:02:47,440
+Entonces voy a copiarme esta línea me voy a mi paquete punto Jayson.
+
+31
+00:02:47,580 --> 00:02:51,440
+Bueno esperemos que termine esto porque va a modificar una cosita acá y no quiero sobrescribir.
+
+32
+00:02:51,470 --> 00:02:58,120
+Esperemos que termine vamos a ver si esto tarda cinco segundos voy a cortar el video y lo espero.
+
+33
+00:02:58,150 --> 00:03:02,860
+A veces depende de la velocidad del internet bueno por lo general depende de la velocidad Internet y
+
+34
+00:03:04,750 --> 00:03:13,610
+de mi Orito no está muy bien pero ahí va cinco segundos cuatro tres 2 uno bueno se salvaron.
+
+35
+00:03:13,740 --> 00:03:22,300
+No sigamos orita si ustedes se fijan pasar pasó varias cosas primero creó algo llamado módulos son los
+
+36
+00:03:22,300 --> 00:03:28,870
+módulos de un montón de cosas que instaló por el internet no se preocupen todo esto está de forma local
+
+37
+00:03:28,900 --> 00:03:32,560
+y no va a afectar su máquina ni la aplicación.
+
+38
+00:03:32,560 --> 00:03:34,080
+Eso no es incluido en la aplicación.
+
+39
+00:03:34,090 --> 00:03:39,030
+Estos son solo dependencias y otras cosas que son necesarias para montar el servidor.
+
+40
+00:03:39,130 --> 00:03:46,340
+Otra cosa que ocupamos acá en el paquete puntillazo aquí agregó en el de dependencias o dependencias
+
+41
+00:03:46,340 --> 00:03:52,410
+del desarrollador agregó la cédula que necesita la versión superior del 2.2 dos que la actual en este
+
+42
+00:03:52,410 --> 00:03:55,850
+momento pues sigamos viendo dice Parais para.
+
+43
+00:03:56,200 --> 00:03:59,980
+En Seid o dentro del paquete ocupamos esta línea de código.
+
+44
+00:04:00,150 --> 00:04:05,670
+Aquí están los scripts coma enter pero vamos eso loscambios.
+
+45
+00:04:06,120 --> 00:04:13,560
+Ahora lo único que necesito hacer para correr mi servidor es ejecutar esta línea MPM rondero es el nombre
+
+46
+00:04:13,560 --> 00:04:17,200
+del script que pusimos acá se lo voy a hacer acá voy a pegarlo.
+
+47
+00:04:17,960 --> 00:04:25,710
+Eso va a iniciar un servidor va a abrir una ventana por defecto voy a copiarme esto y me voy a ir al
+
+48
+00:04:25,710 --> 00:04:28,920
+Crom aquí el demo y lo voy a pegar.
+
+49
+00:04:28,920 --> 00:04:34,680
+La verdad que deberían de ver exactamente el mismo error porque todavía no estamos importando System
+
+50
+00:04:34,680 --> 00:04:41,250
+Gillies pero ya tenemos nuestro servidor corriendo y no solo corriendo sino que cuando yo haga algún
+
+51
+00:04:41,250 --> 00:04:47,070
+cambio en algún archivo por ejemplo Pí voy a comentar esta línea temporalmente sólo para enseñarles
+
+52
+00:04:47,120 --> 00:04:53,530
+que puedo hacer un solo Hola Mundo grabo los cambios si ustedes ven y son un reflejo automático acá
+
+53
+00:04:53,750 --> 00:04:55,410
+y regreso y aquí tengo la mundo..
+
+54
+00:04:55,410 --> 00:04:59,210
+Eso es lo que se llama Lifelong y eso lo hace automáticamente en la selva.
+
+55
+00:04:59,490 --> 00:05:01,770
+Pero bueno el siguiente video vamos a continuar.

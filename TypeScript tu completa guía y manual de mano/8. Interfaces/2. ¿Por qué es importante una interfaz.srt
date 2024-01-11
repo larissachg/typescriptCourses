@@ -1,0 +1,127 @@
+1
+00:00:03,560 --> 00:00:05,690
+Vamos a explicar la problemática.
+
+2
+00:00:05,690 --> 00:00:08,180
+Y qué hizo Thaís para resolver el problema.
+
+3
+00:00:08,180 --> 00:00:12,200
+Esto es algo que no existe en JavaScript así que vamos a poner bastante atención.
+
+4
+00:00:12,200 --> 00:00:18,560
+Primeramente voy a explicar el problema entonces es una función que será enviar a una misión a alguien
+
+5
+00:00:19,390 --> 00:00:26,870
+vamos a mandar a un hombre X X Men a la misión X Men ese tipo puede ser cualquier cosa lo único que
+
+6
+00:00:26,870 --> 00:00:37,250
+hace esta función es hacer un consuelo de decir enviando a 2.11 espacio más voy a suponer que el X Men
+
+7
+00:00:37,610 --> 00:00:44,960
+tiene un nombre X Men punto nombre taches que no tiene manera de saber qué es lo que tiene el X Men
+
+8
+00:00:44,990 --> 00:00:47,270
+por eso no me da ninguna sugerencia.
+
+9
+00:00:47,350 --> 00:01:00,350
+Luego creamos un exploit para poderlo matar a esa función será well-being que tendrá el nombre y tendrá
+
+10
+00:01:00,380 --> 00:01:07,080
+un poder dos puntos en la regeneración vamos a dejarlo así.
+
+11
+00:01:07,100 --> 00:01:19,430
+Puntico ya vemos la función ahora enviar misión enviar misión a Woodbury si lo dejo así debería de funcionar
+
+12
+00:01:19,430 --> 00:01:20,920
+todo perfectamente.
+
+13
+00:01:21,230 --> 00:01:24,530
+Recargó y dice enviando a Welbeck perfecto.
+
+14
+00:01:24,540 --> 00:01:25,550
+No hay ningún problema.
+
+15
+00:01:26,420 --> 00:01:34,430
+Pero qué pasaría si yo cuando creó el objeto digo que Wolverine tiene nombre X-Men.
+
+16
+00:01:34,430 --> 00:01:39,760
+Por ejemplo si yo grabo los cambios no me tiene ningún error el taichí.
+
+17
+00:01:39,830 --> 00:01:41,270
+Todo parece estar bien.
+
+18
+00:01:41,360 --> 00:01:46,120
+Me regreso a la consola y recargo ahora dice enviando a un delfín.
+
+19
+00:01:46,340 --> 00:01:52,480
+Bueno esto debía ser bastante claro el problema no porque en X-Men no viene el nombre lo que tenemos
+
+20
+00:01:52,490 --> 00:01:54,340
+es el nombre X-Men.
+
+21
+00:01:54,410 --> 00:02:01,460
+Sería bueno poder decir hasta que este objeto que viene por acá que este objeto que estamos mandando
+
+22
+00:02:01,910 --> 00:02:07,160
+tiene ciertas características o métodos necesarios para poder entrar a esta función.
+
+23
+00:02:07,160 --> 00:02:13,190
+Una manera de hacerlo que no es muy elegante pero se puede hacer es decir después de los 2 puntos y
+
+24
+00:02:13,190 --> 00:02:20,570
+reemplazando Eleni puedo poner llaves separarlos para que se mire un poco más claro de tipo será un
+
+25
+00:02:20,570 --> 00:02:27,190
+tipo de objeto que tendrá el nombre del tipo Street si lo hago así.
+
+26
+00:02:27,190 --> 00:02:34,030
+Primeramente dentro de la función dentro del cuerpo me meto al poner punto ya tal script sabe que tiene
+
+27
+00:02:34,150 --> 00:02:36,510
+una propiedad llamada nombre es necesaria.
+
+28
+00:02:36,680 --> 00:02:42,130
+Entonces voy a poner nombre ahí y si ustedes se fijan de este lado me está tirando un error diciendo
+
+29
+00:02:42,130 --> 00:02:48,280
+que Warming no tiene la propiedad nombre no se puede asignar a este objeto.
+
+30
+00:02:48,790 --> 00:02:54,700
+Entonces en teoría ya tenemos la pista para resolver esto pero imagínense ustedes si el objeto es muy
+
+31
+00:02:54,700 --> 00:02:59,980
+grande o tiene muchos métodos o tiene muchas propiedades esto sería un dolor de cabeza llenar esto acá.
+
+32
+00:02:59,980 --> 00:03:02,110
+Aquí es donde las interfaces entran en juego.

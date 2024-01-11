@@ -1,0 +1,211 @@
+1
+00:00:03,220 --> 00:00:07,780
+Yo siempre he sido muy partidario de todo lo que es opensource así que todo lo que vamos a utilizar
+
+2
+00:00:07,780 --> 00:00:12,420
+en este curso es totalmente gratuito usted no va a incurrir en ningún gasto adicional.
+
+3
+00:00:12,550 --> 00:00:18,820
+OK en la sección de descargas tienen los links y los paquetes que vamos a instalar pero lo vamos a explicar
+
+4
+00:00:18,820 --> 00:00:19,350
+rápidamente.
+
+5
+00:00:19,360 --> 00:00:22,950
+Primero que nada se tienen que descargar e instalar el Hatton para su sistema operativo.
+
+6
+00:00:22,960 --> 00:00:28,340
+Ningún problema aquí descargar no instalan Tex-Mex no hay nada del otro mundo.
+
+7
+00:00:28,540 --> 00:00:34,460
+Este es nuestro editor de texto que usar con los paquetes que vamos a instalar y con las librerías detalles
+
+8
+00:00:34,460 --> 00:00:39,610
+que lo van a sentir que es como un idea de desarrollo prácticamente Okubo que también se descarguen
+
+9
+00:00:39,610 --> 00:00:42,510
+lo que es el Nott la versión recomendada.
+
+10
+00:00:42,530 --> 00:00:47,160
+Esto es más que suficiente para lo que ocupábamos no hay ningún problema si ustedes usan la última versión
+
+11
+00:00:47,170 --> 00:00:50,770
+no hay ningún problema lo descargan instalan Tex Tex Mex.
+
+12
+00:00:50,830 --> 00:00:57,730
+No hay ningún inconveniente acá esto es una instalación bien fácil con el Tixkokob cuando vamos a esta
+
+13
+00:00:57,730 --> 00:01:02,780
+parte bajamos un poco y aquí dice los métodos de instalación.
+
+14
+00:01:03,170 --> 00:01:10,220
+Si bien el ya empieza a usar como RPM de sus siglas en inglés de paquetes manager esto nos va a permitir
+
+15
+00:01:10,220 --> 00:01:13,610
+instalar el script en nuestro en nuestra computadora.
+
+16
+00:01:13,610 --> 00:01:18,530
+El menosque es para instalarlo de forma global y vamos a hacer este paso y ya lo tengo instalado pero
+
+17
+00:01:18,530 --> 00:01:19,470
+igual lo vamos a hacer.
+
+18
+00:01:19,550 --> 00:01:22,470
+Abrimos una terminal o una ventana de comando.
+
+19
+00:01:22,580 --> 00:01:26,420
+Si estamos en Windows es probable que tengamos que ejecutarlo como administrador.
+
+20
+00:01:26,420 --> 00:01:36,410
+La ventana de comandos y en X o Mac necesitamos poner al principio la palabra sudo para ejecutarlo como
+
+21
+00:01:36,440 --> 00:01:39,450
+por decirlo así superusuario poner su contraseña.
+
+22
+00:01:39,800 --> 00:01:43,000
+Y eso va actualizables o instalarlas.
+
+23
+00:01:43,070 --> 00:01:48,920
+La versión que la versión más reciente del taxi si quieren confirmar de que esté instalado pueden hacer
+
+24
+00:01:49,510 --> 00:01:53,210
+TSS menos para que les diga su versión.
+
+25
+00:01:53,450 --> 00:02:00,140
+También pueden hacer el Nott menos para ver la versión de Now que están corriendo y con esto ya estamos
+
+26
+00:02:00,140 --> 00:02:02,120
+listos o la parte de script.
+
+27
+00:02:02,690 --> 00:02:08,020
+Miremos el archivo que está en el material adjunto en las instalaciones tenemos aquí lo que es el Atom
+
+28
+00:02:08,030 --> 00:02:12,980
+la referencia en ataque y estos son unos paquetes que yo les recomiendo que los instalemos ahorita mismo
+
+29
+00:02:13,850 --> 00:02:15,220
+para instalar los paquetes del auto.
+
+30
+00:02:15,220 --> 00:02:21,660
+Ustedes abren el auto hay una abreviatura obviamente para mostrar los paquetes pero vamos aquí en el
+
+31
+00:02:21,660 --> 00:02:22,390
+menú de Atom.
+
+32
+00:02:22,410 --> 00:02:26,310
+Preferencias en instalar.
+
+33
+00:02:26,550 --> 00:02:30,280
+Ustedes van a buscar los siguientes paquetes y se lo instalan.
+
+34
+00:02:30,300 --> 00:02:39,150
+El primero es Atom detallé script Atom y un tal script dan busca que se espere un momento y aquí tocan
+
+35
+00:02:39,160 --> 00:02:40,140
+el botón Instalar.
+
+36
+00:02:40,190 --> 00:02:43,290
+Yo ya lo tengo instalado ahí y listo.
+
+37
+00:02:43,290 --> 00:02:46,740
+Ese es uno espera que termine la instalación para continuar con la siguiente.
+
+38
+00:02:46,750 --> 00:02:52,000
+Luego ocupamos el Platform y determinar esta es la que estoy usando pero pueden usar cualquier terminal
+
+39
+00:02:52,150 --> 00:02:58,430
+para auto este si les diera cualquier problema pues pruebe en otra terminal y si no quieren usar una
+
+40
+00:02:58,450 --> 00:03:02,410
+terminal de Atom pueden usar la terminal o la consola de la computadora.
+
+41
+00:03:02,410 --> 00:03:03,560
+No hay ningún problema.
+
+42
+00:03:03,700 --> 00:03:09,080
+Esto es algo que yo uso para montar el servidor y que todo esté corriendo dentro de auto.
+
+43
+00:03:09,400 --> 00:03:13,320
+El otro que yo les recomiendo es el file Icons.
+
+44
+00:03:13,570 --> 00:03:23,520
+Así lo van a buscar Falcons Lojban In Search en su momento y bueno aquí parece que no apareció ICOM
+
+45
+00:03:26,190 --> 00:03:27,150
+vamos a ver qué pasó aquí.
+
+46
+00:03:27,150 --> 00:03:32,210
+Paquetes Balay es este de acá que está esta opción.
+
+47
+00:03:32,220 --> 00:03:37,960
+Eso simplemente nos va a mostrar iconos bonitos en la barra de la barra lateral.
+
+48
+00:03:38,070 --> 00:03:39,090
+Básicamente eso es.
+
+49
+00:03:39,090 --> 00:03:44,070
+No vamos a instalar snippets no mezclar nada del otro mundo por ahora.
+
+50
+00:03:44,070 --> 00:03:44,430
+Por qué.
+
+51
+00:03:44,430 --> 00:03:50,450
+Porque el objetivo va a ser aprender a hacerlo todo manual así que les pido que no continúen según instalación
+
+52
+00:03:50,460 --> 00:03:51,560
+les dio error.
+
+53
+00:03:51,570 --> 00:03:56,050
+Ya saben si tiene algún problema lo dejan en la sección de comentarios los veo en el siguiente video.

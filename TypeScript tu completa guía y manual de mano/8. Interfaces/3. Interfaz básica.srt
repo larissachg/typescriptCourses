@@ -1,0 +1,155 @@
+1
+00:00:03,130 --> 00:00:08,620
+Vamos a crear nuestra primera interfaz básica pero sólo para ayudarles un poco a que vean mejor el problema
+
+2
+00:00:08,860 --> 00:00:10,120
+o la necesidad.
+
+3
+00:00:10,210 --> 00:00:15,790
+Supongan que ustedes tienen otra función que también recibe un examen pero es enviar al cuartel por
+
+4
+00:00:15,790 --> 00:00:25,200
+ejemplo enviando al cuartel está el hombre X pero se dan cuenta más adelante que Wolverine.
+
+5
+00:00:25,450 --> 00:00:27,890
+Si lo que tenemos que enviar es X-Men.
+
+6
+00:00:28,320 --> 00:00:35,400
+Porque si bien el objeto y tenemos que cambiarlo en todos lados entonces tendríamos que cambiarlo aquí
+
+7
+00:00:35,400 --> 00:00:38,260
+un nombre a quien nombre a quien nombre.
+
+8
+00:00:38,310 --> 00:00:40,880
+Nombres de un montón de lados.
+
+9
+00:00:41,370 --> 00:00:44,820
+Para hacer que eso funcione aparte.
+
+10
+00:00:44,960 --> 00:00:50,540
+No habría manera de decirle a mis compañeros que están trabajando en el mismo proyecto de que ahora
+
+11
+00:00:50,540 --> 00:00:54,740
+se necesita trabajar con ese dato es nombre X-Men.
+
+12
+00:00:55,140 --> 00:00:57,810
+Bueno queremos nuestra primera interfaz.
+
+13
+00:00:58,280 --> 00:01:06,470
+La interfaz viene con la palabra so se crea con la palabra reservada interfaz seguida del nombre de
+
+14
+00:01:06,530 --> 00:01:08,760
+por decirlo así de nuestra interfaz.
+
+15
+00:01:08,820 --> 00:01:15,160
+En este caso es parecido a la nomenclatura de las clases donde vas capitalizado todas las palabras.
+
+16
+00:01:15,230 --> 00:01:25,040
+Por ejemplo si fuera el nombre X-Men o nombre de la persona vas capitalizaron en lo que se llama Camet
+
+17
+00:01:25,040 --> 00:01:30,350
+cais con todas las letras de la primera a la primera letra de cada palabra en mayúscula.
+
+18
+00:01:30,380 --> 00:01:35,500
+Esto no es una obligación pero es un estándar para que comprendamos cómo funciona esto.
+
+19
+00:01:35,540 --> 00:01:42,970
+En este caso nuestra interfase se llama examen ahora en la parte del interfaz vamos a especificar qué
+
+20
+00:01:43,000 --> 00:01:46,420
+es lo que tiene nuestro hombre X.
+
+21
+00:01:46,420 --> 00:01:54,880
+Voy a regresar todos estos nombres a nombre normal OK en la interfaz X-Men va a tener un nombre que
+
+22
+00:01:54,880 --> 00:02:01,870
+es de tipo C y tendrá un poder de tipo String.
+
+23
+00:02:02,590 --> 00:02:05,700
+No hace falta porque no vamos a meter otro otro registro todavía.
+
+24
+00:02:06,100 --> 00:02:13,120
+Puede ser que Wolverine que tenemos por acá tenga esas propiedades y coincida con esto.
+
+25
+00:02:13,130 --> 00:02:20,470
+Yo puedo decir que Wolverine es de un tipo que X-Men cumple la interfaz X-Men perfectamente y para evitarnos
+
+26
+00:02:20,480 --> 00:02:26,170
+tener que hacer esta declaración del objeto en el parámetro que es un poco extraña y digamos difícil
+
+27
+00:02:26,180 --> 00:02:32,270
+de leer después simplemente vamos a decir que es de tipo X con la X mayúscula.
+
+28
+00:02:32,270 --> 00:02:37,100
+Si ustedes se fijan todo funciona de la misma manera si lo veo aquí en la consola enviando well-being
+
+29
+00:02:37,700 --> 00:02:46,760
+y puedo enviarlo de regreso al cuartel aquí después de que cumpla la misión ya regreso si yo cambiara
+
+30
+00:02:47,770 --> 00:02:50,340
+ya sea mi nombre X-Men de nuevo.
+
+31
+00:02:50,500 --> 00:02:53,590
+Primeramente me batearon error porque no cumple.
+
+32
+00:02:53,590 --> 00:03:01,690
+La interfaz dice nombre X-Men de tipo string de tipo string no es asignarle a un tipo X-Men a este que
+
+33
+00:03:01,690 --> 00:03:02,720
+se encuentra acá.
+
+34
+00:03:03,020 --> 00:03:08,980
+Ahora nosotros podemos hacer lo siguiente acá si nosotros quitáramos esto y lo ponemos de este tipo
+
+35
+00:03:09,110 --> 00:03:15,310
+ahí lo va a aceptar perfectamente o no le ponemos nada y esto es como en implicito pero aquí ya nos
+
+36
+00:03:15,310 --> 00:03:21,850
+va a ver saliendo vamos a ver en problemas porque Wolverine no puede ser convertido o no puede ser aceptado
+
+37
+00:03:21,880 --> 00:03:27,320
+en esas funciones y estos errores no van a salir en el tiempo que estamos escribiendo el código.
+
+38
+00:03:27,340 --> 00:03:31,990
+Simplemente tendríamos que poner el mouse encima o ver lo que dice aquí abajo para darnos cuenta de
+
+39
+00:03:31,990 --> 00:03:35,170
+que el problema fue el nombre el siguiente video.

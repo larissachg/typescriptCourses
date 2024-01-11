@@ -1,0 +1,215 @@
+1
+00:00:03,460 --> 00:00:10,070
+Pensemos en los Hombres X en el mutante más poderoso que existió jamás que en teoría de Apocalipsis
+
+2
+00:00:11,040 --> 00:00:17,290
+creamos una clase que sólo puede existir una vez en todo el programa o sea en nuestro código sólo podemos
+
+3
+00:00:17,290 --> 00:00:23,740
+declarar una instancia de Apocalipsis y intentáramos volver a crear otra clase Apocalipsis debería regresar
+
+4
+00:00:23,740 --> 00:00:27,360
+la misma instancia que ya fue generada ya solo debería de existir.
+
+5
+00:00:28,150 --> 00:00:31,230
+Vamos a probar eso ya en la programación.
+
+6
+00:00:31,240 --> 00:00:35,380
+Me crearía una clase llamada Apocalipsis.
+
+7
+00:00:35,380 --> 00:00:45,850
+De esa forma voy a crearme una por decirlo así una instancia nueva de esta variable estática instancia
+
+8
+00:00:46,720 --> 00:00:54,270
+que será de tipo Apocalipsis o que esto ya va o no la clase Apocalipsis tiene una propiedad que se llama
+
+9
+00:00:54,280 --> 00:00:59,620
+instancia que es de tipo Apocalipsis ahorita no tendría nada.
+
+10
+00:00:59,650 --> 00:01:04,900
+Vamos a ver si tiene más sentido lo que voy a hacer a continuación voy a quedarme un constructor privado
+
+11
+00:01:05,550 --> 00:01:16,750
+privado constructor paréntesis y dentro del constructor sólo voy a mandar un hombre públic públic nombre
+
+12
+00:01:16,920 --> 00:01:26,360
+acechen o que cuando sea llamado este constructor va a crear una propiedad aquí adentro llamada nombre.
+
+13
+00:01:26,890 --> 00:01:32,100
+Vamos a intentar usar esta propiedad Let apocada.
+
+14
+00:01:32,110 --> 00:01:33,660
+Voy a ponerlo en minúsculas porque es una variable.
+
+15
+00:01:33,670 --> 00:01:40,460
+Apocalipsis falso igual a new Apocalipsis.
+
+16
+00:01:40,680 --> 00:01:42,040
+Paréntesis.
+
+17
+00:01:42,370 --> 00:01:51,640
+Bueno supongamos que me lo que me está pidiendo aquí el error es no me voy a poner soy Apocalipsis.
+
+18
+00:01:51,640 --> 00:01:53,260
+Falso.
+
+19
+00:01:54,030 --> 00:01:58,180
+Si ustedes ven esto me está marcando un error y el error que dice es que el constructor de la clase
+
+20
+00:01:58,180 --> 00:02:03,150
+Apocalipsis es privado y solo puede ser accesible dentro de la clase.
+
+21
+00:02:03,470 --> 00:02:07,440
+O sea no puedo llamarlo no puedo llamar este constructor de esta manera.
+
+22
+00:02:07,450 --> 00:02:08,730
+Esto no funciona.
+
+23
+00:02:09,220 --> 00:02:09,730
+Ok.
+
+24
+00:02:09,760 --> 00:02:13,500
+Cómo hago entonces cómo hago para llamar a ese constructor.
+
+25
+00:02:13,580 --> 00:02:22,780
+Me voy a crear un nuevo método estático llamado obtener instancia o si quieren pongámosle algo más técnico
+
+26
+00:02:22,780 --> 00:02:26,570
+que sea llamar Apocalípsis.
+
+27
+00:02:27,910 --> 00:02:29,490
+Vamos a llamar al apocalipsis.
+
+28
+00:02:29,560 --> 00:02:32,710
+Claro estamos hablando de mutantes no estamos hablando del fin del mundo.
+
+29
+00:02:32,870 --> 00:02:42,540
+Ahora hicierais vamos a preguntar si ya existe una instancia de Apocalipsis cómo hacemos eso y Apocalipsis
+
+30
+00:02:42,770 --> 00:02:46,420
+para quitarle ese signo de admiración y explicar qué es Apocalipsis.
+
+31
+00:02:46,510 --> 00:02:47,260
+Punto.
+
+32
+00:02:47,270 --> 00:02:51,970
+Tu instancia esto me estoy preguntando si existe una instancia de Apocalipsis.
+
+33
+00:02:52,230 --> 00:02:54,900
+Si yo pongo la admiración digo lo contrario.
+
+34
+00:02:54,970 --> 00:03:00,190
+Si no existe una instancia Apocalipsis lo que quiero hacer es Apocalipsis.
+
+35
+00:03:00,220 --> 00:03:01,020
+Punto.
+
+36
+00:03:01,070 --> 00:03:06,980
+Esta instancia es igual a new Apocalipsis y aquí sí va a funcionar.
+
+37
+00:03:07,060 --> 00:03:11,330
+Soy Apocalipsis el único.
+
+38
+00:03:11,530 --> 00:03:12,010
+Hagámoslo así.
+
+39
+00:03:13,980 --> 00:03:18,630
+Luego después de llamar a esa instancia después de verificar si ya existe la instancia podemos hacer
+
+40
+00:03:18,710 --> 00:03:24,470
+un Richer de Apocalipsis cunto instancia con tricomas.
+
+41
+00:03:24,900 --> 00:03:28,300
+Vamos a ver si me entiende la idea de esta cosa.
+
+42
+00:03:28,340 --> 00:03:34,860
+Todo este menjunje raro que acabo de crear es verificar que solo exista un apocalipsis creado en su
+
+43
+00:03:34,860 --> 00:03:36,630
+momento eso es todo.
+
+44
+00:03:36,630 --> 00:03:44,810
+Si después intentáramos crear otro apocalipsis ya ya está creado uno solo y no podemos crear más.
+
+45
+00:03:44,850 --> 00:03:50,180
+Simplemente retornaría la nueva la misma instancia que ya está creada aquí de Apocalipsis.
+
+46
+00:03:50,760 --> 00:03:52,910
+Entonces vamos a ponerlo a Carlet.
+
+47
+00:03:53,220 --> 00:04:01,440
+Bueno o bueno real pongámosle real Apocalipsis real es igual a llamemos el método estático Apocalipsis.
+
+48
+00:04:01,620 --> 00:04:02,710
+Punto.
+
+49
+00:04:02,790 --> 00:04:11,140
+Llamar Apocalipsis parentesis punto y coma puedo hacer un consolón real qué tendrá el apocalipsis real.
+
+50
+00:04:11,460 --> 00:04:15,590
+Recargó y Apocalipsis soy el único.
+
+51
+00:04:16,530 --> 00:04:21,960
+La idea de todo esto como les vuelvo a decir es que exista en nuestro programa una única instancia de
+
+52
+00:04:21,960 --> 00:04:27,720
+la clase y si queremos volverla a llamar o usar propiedades y métodos que ya han sido definidos podemos
+
+53
+00:04:27,720 --> 00:04:28,590
+hacerlo de esta manera.
+
+54
+00:04:28,970 --> 00:04:33,540
+Bueno espero que me haya explicado bien porque es un tema enredado cualquier cosa dejando los comentarios.

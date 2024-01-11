@@ -1,0 +1,367 @@
+1
+00:00:03,780 --> 00:00:08,940
+Para la gente que sabe de programación orientada a objetos puede saltarse este video perfectamente para
+
+2
+00:00:08,940 --> 00:00:16,230
+la gente que no lo conoce pues ok vamos a hacer una muy breve introducción y muy superficial pero ilustrativa
+
+3
+00:00:16,230 --> 00:00:21,630
+de lo que son las clases no sólo en JavaScript sino en las clases en general en todo lo que es la programación
+
+4
+00:00:21,630 --> 00:00:27,930
+orientada a objetos o que es una clase una clase ustedes piensen que es una abstracción de algún objeto
+
+5
+00:00:27,930 --> 00:00:31,480
+de la vida real algo que existe en la vida real.
+
+6
+00:00:31,500 --> 00:00:34,560
+Así es así que eso no me explica nada.
+
+7
+00:00:34,560 --> 00:00:37,310
+Fernando ayúdeme todavía no entiendo ni papa.
+
+8
+00:00:37,740 --> 00:00:39,330
+Vamos a verlo como un ejemplo.
+
+9
+00:00:39,510 --> 00:00:40,320
+Esta es su clase.
+
+10
+00:00:40,590 --> 00:00:49,440
+Pensemos en una clase como por ejemplo el carro tenemos nuestra clase carro noten la capitalizaron y
+
+11
+00:00:49,560 --> 00:00:56,490
+nuestro carro puede tener propiedades que son propiedades en una clase son características que describen
+
+12
+00:00:56,940 --> 00:01:02,250
+el carro por ejemplo que puede describir un carro o nuestro carro que puede cómo puede ser descrito
+
+13
+00:01:02,370 --> 00:01:03,660
+o que tiene un carro Podemos.
+
+14
+00:01:03,750 --> 00:01:07,170
+Podemos decirlo así un carro tiene puertas.
+
+15
+00:01:07,170 --> 00:01:14,730
+Un carro tiene un color tiene una marca y un modelo puede tener un fabricante todavía fabricante puede
+
+16
+00:01:14,730 --> 00:01:20,180
+tener un cilindraje y por ejemplo un Sesé muchas otras cosas.
+
+17
+00:01:21,120 --> 00:01:29,190
+Todas estas características son por decirlo así todos los carros tienen todos los carros tienen puertas
+
+18
+00:01:29,190 --> 00:01:34,200
+todos los carros tienen color todos los carros tienen marca todos los carros tienen modelo y digamos
+
+19
+00:01:34,200 --> 00:01:37,590
+que el fabricante es el que puede digamos que variar.
+
+20
+00:01:37,590 --> 00:01:45,930
+Ya vamos a ver eso más adelante que sigamos viendo todos los carros tienen métodos también que es un
+
+21
+00:01:45,930 --> 00:01:53,830
+método en una clase sobre los métodos métodos en una clase.
+
+22
+00:01:54,000 --> 00:01:59,190
+Son acciones que pueden hacer los carros en este caso son acciones que pueden hacer el objeto.
+
+23
+00:01:59,430 --> 00:02:03,930
+Por ejemplo si tuviéramos nuestra clase con un televisor entonces los televisores se encienden se apagan
+
+24
+00:02:04,060 --> 00:02:13,420
+el canal tienen el apoyo automático tienen otra serie de cosas bien es Martin y ideamos debería magnetos
+
+25
+00:02:14,390 --> 00:02:20,790
+sí pero si estamos hablando de un carro pues el carro tiene otros métodos como por ejemplo hacer esto
+
+26
+00:02:20,790 --> 00:02:28,350
+más grande por acá los carros tienen un podría tener un método de encender poner un método encender
+
+27
+00:02:28,530 --> 00:02:32,910
+otro para apagar otro para acelerar
+
+28
+00:02:35,760 --> 00:02:36,960
+y así sucesivamente.
+
+29
+00:02:36,960 --> 00:02:38,190
+Me encanta la idea.
+
+30
+00:02:38,730 --> 00:02:44,580
+Los métodos son las funciones que realiza los objetos en este caso son funciones que realiza el carro
+
+31
+00:02:45,090 --> 00:02:51,930
+pueden haber más ustedes se les pueden ocurrir un montón más voy a poner esto por acá.
+
+32
+00:02:51,930 --> 00:02:54,530
+Cuál es la idea de las clases de OSEP.
+
+33
+00:02:54,630 --> 00:02:55,560
+Cuál es el chiste.
+
+34
+00:02:57,490 --> 00:03:03,450
+Supongamos que están trabajando en un sistema de venta de autos o de inventario de autos.
+
+35
+00:03:05,190 --> 00:03:08,860
+Cada función o cada vez que ustedes necesiten trabajar con un carro.
+
+36
+00:03:08,880 --> 00:03:12,850
+Ustedes están sería una instancia del carro.
+
+37
+00:03:13,110 --> 00:03:18,180
+Es decir si ustedes quieren actualizar información del vehículo si ustedes quieren traer la data de
+
+38
+00:03:18,180 --> 00:03:23,600
+un vehículo o quieren manejar la información del carro lo hacen a través de la clase.
+
+39
+00:03:23,840 --> 00:03:30,030
+Si posteriormente en su programa algo falla que falla la grabación del vehículo o falla la grabación
+
+40
+00:03:31,040 --> 00:03:38,030
+o por decirlo así la traída de los datos si algo fallara ustedes se van directamente a la clase y ahí
+
+41
+00:03:38,040 --> 00:03:39,660
+hacen la corrección.
+
+42
+00:03:39,660 --> 00:03:46,560
+Ahora si necesitan después agregar propiedades por ejemplo el vehículo ahora tiene un tipo de caja de
+
+43
+00:03:46,560 --> 00:03:50,970
+cambios es tripero enigma mecánico automático entre otros.
+
+44
+00:03:50,970 --> 00:03:57,140
+Entonces ustedes podrían irse a la definición de la clase y agregar aquí la nueva propiedad.
+
+45
+00:03:58,380 --> 00:04:04,660
+Ahora pensemos en el concepto de la herencia la herencia suena algo complicado tedioso o difícil o yo
+
+46
+00:04:04,680 --> 00:04:06,540
+lo he visto en programación y no lo entendí.
+
+47
+00:04:06,890 --> 00:04:09,540
+Bueno vamos a tratar de explicarlo de otra manera.
+
+48
+00:04:09,540 --> 00:04:10,880
+Qué es la herencia.
+
+49
+00:04:10,890 --> 00:04:12,790
+Ustedes tienen dos clases.
+
+50
+00:04:13,020 --> 00:04:16,890
+Voy a pedir una clase aquí y otra clase por acá.
+
+51
+00:04:18,640 --> 00:04:27,400
+La segunda clase los Terencia es que la veamos en este caso la clase 1 le hereden o le mande todas las
+
+52
+00:04:27,400 --> 00:04:30,580
+propiedades a otra clase.
+
+53
+00:04:30,670 --> 00:04:31,820
+Eso es todo.
+
+54
+00:04:31,900 --> 00:04:34,360
+Voy a poner aquí una clase llamada figura.
+
+55
+00:04:34,360 --> 00:04:42,640
+Pensemos en figuras geométricas que Trafigura todas las figuras geométricas tienen lados y tienen área
+
+56
+00:04:43,090 --> 00:04:45,310
+dejemoslo asi solo lados y área
+
+57
+00:04:47,960 --> 00:04:56,410
+supongan ahora que queremos crear una figura para manejar cuadrados cuadrado los cuadrados.
+
+58
+00:04:56,430 --> 00:05:00,520
+Yo no voy a definir alquilados ni el área nuevamente.
+
+59
+00:05:00,600 --> 00:05:01,360
+No lo voy a hacer.
+
+60
+00:05:01,380 --> 00:05:09,530
+Y después imagínense que ustedes tienen que ustedes pues tienen otra clase que es rectángulo rectángulo
+
+61
+00:05:12,280 --> 00:05:17,020
+que también tienen la Oceania que es el concepto de la herencia.
+
+62
+00:05:17,120 --> 00:05:27,090
+La herencia sería de que la clase en este caso figura pueda mandarles las propiedades a estos dos objetos
+
+63
+00:05:29,130 --> 00:05:30,650
+así como están.
+
+64
+00:05:30,990 --> 00:05:38,040
+Es decir que si más adelante nosotros ocupamos que la figura o que todas nuestras figuras tengan alguna
+
+65
+00:05:38,040 --> 00:05:44,430
+propiedad nueva algún método nuevo las crearíamos aquí en la figura padre por decirlo así las demás
+
+66
+00:05:44,430 --> 00:05:45,370
+son hijas.
+
+67
+00:05:45,390 --> 00:05:52,330
+Ese es el concepto que se llama son hijas que heredan las propiedades y métodos de la función par supongan
+
+68
+00:05:52,330 --> 00:06:00,100
+que los cuadrados y los rectángulos sólo tienen cosas muy particulares entre sí por ejemplo unos un
+
+69
+00:06:00,100 --> 00:06:01,250
+par de metros.
+
+70
+00:06:01,450 --> 00:06:02,490
+Voy a poner la cara
+
+71
+00:06:05,320 --> 00:06:14,730
+voy a poner aquí el método métodos por ejemplo el método para calcular el área de un cuadrado es la
+
+72
+00:06:14,810 --> 00:06:16,870
+por lado a lado por lado
+
+73
+00:06:20,110 --> 00:06:29,580
+así o por lado pero el rectángulo no es así el rectángulo para sacar el área es la base de la base por
+
+74
+00:06:29,580 --> 00:06:37,890
+la altura digamos no nos vamos a complicar mucho pero así sería si tenemos un triángulo pues tiene otra
+
+75
+00:06:37,890 --> 00:06:40,630
+forma para calcular el área pero todos tienen dados.
+
+76
+00:06:40,910 --> 00:06:43,380
+Y después tenemos un pentágono tenemos un hexágono.
+
+77
+00:06:43,380 --> 00:06:50,460
+Todas se calculan de una forma diferente pero todas en sí tienen las propiedades de la figura padre
+
+78
+00:06:50,550 --> 00:06:54,920
+o han sido propiedades heredadas del padre.
+
+79
+00:06:54,960 --> 00:07:01,650
+Básicamente esto es el concepto de la herencia y con eso terminamos esta pequeña introducción.
+
+80
+00:07:01,650 --> 00:07:02,990
+Espero que les haya servido.
+
+81
+00:07:03,180 --> 00:07:08,850
+Pero si vamos a hacer un pequeño resumen las clases son cosas que ustedes pueden abstraer cosas que
+
+82
+00:07:08,850 --> 00:07:14,310
+les van a ayudar a ustedes a manejar más fácilmente sus programas métodos los métodos.
+
+83
+00:07:14,310 --> 00:07:16,620
+Son cosas que pueden hacer las clases.
+
+84
+00:07:16,620 --> 00:07:24,810
+Las propiedades son cosas que describen las clases la herencia son las formas o la forma en la que los
+
+85
+00:07:25,020 --> 00:07:27,830
+hijos pueden recibir propiedades del padre.
+
+86
+00:07:27,990 --> 00:07:33,690
+Por cierto no hay un límite de cuánta del nivel hereditario que pueda tener una clase.
+
+87
+00:07:33,690 --> 00:07:39,510
+Por ejemplo ustedes tienen un abuelo y abuelo tuvo hijos y tienen su padre y de ahí viene.
+
+88
+00:07:39,510 --> 00:07:47,850
+Ustedes pueden tener hijos sus hijos tienen hijos y pueden tener un árbol genealógico inmenso pero eso
+
+89
+00:07:47,850 --> 00:07:49,290
+no limita las clases.
+
+90
+00:07:49,320 --> 00:07:50,690
+Ustedes pueden hacer eso.
+
+91
+00:07:50,700 --> 00:07:51,590
+Bueno eso es todo.
+
+92
+00:07:51,650 --> 00:07:52,520
+Vean el siguiente video.

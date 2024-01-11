@@ -1,0 +1,103 @@
+1
+00:00:04,450 --> 00:00:12,000
+Nos habíamos quedado acá voy a borrar que estoy aquí porque voy a borrarme mi archivo de cuero y punto
+
+2
+00:00:12,010 --> 00:00:14,860
+2.13 porque no lo quiero.
+
+3
+00:00:14,950 --> 00:00:17,940
+No quiero acusar el que descargamos en el video pasado.
+
+4
+00:00:17,950 --> 00:00:19,060
+Estamos así.
+
+5
+00:00:19,060 --> 00:00:25,920
+Si yo hago el TCS en una nueva consola se me va a dar el error porque no saben lo que significa símbolo
+
+6
+00:00:25,930 --> 00:00:27,410
+dólar por los momentos.
+
+7
+00:00:27,410 --> 00:00:31,810
+Atom tiene cargado de memoria las definiciones de archivos por eso no está tirando un error.
+
+8
+00:00:31,810 --> 00:00:35,730
+Si ustedes cierran el navegador cierran a Tommen vuelven a abrir les va a mostrar el error.
+
+9
+00:00:36,460 --> 00:00:42,400
+Pero bueno miremos acá cómo es la forma que yo les recomendaría para que ustedes cargarán sus archivos
+
+10
+00:00:42,400 --> 00:00:49,360
+de configuración sus archivos de definiciones vamos aquí a la terminal y escribamos el siguiente código
+
+11
+00:00:49,480 --> 00:00:53,840
+MPM Sadel no un paquete manager instó.
+
+12
+00:00:54,210 --> 00:01:03,880
+Instó a menos menos soy porque necesito esta dependencia pero no la ocupo que caiga aquí en las dependencias
+
+13
+00:01:03,880 --> 00:01:04,370
+normales.
+
+14
+00:01:04,420 --> 00:01:09,490
+Necesito que caiga en las dependencias de desarrollador porque estos archivos de definción no le sirven
+
+15
+00:01:09,700 --> 00:01:12,740
+a nadie solo a los desarrolladores menosde.
+
+16
+00:01:12,880 --> 00:01:13,700
+Por eso lo pongo ahí.
+
+17
+00:01:14,440 --> 00:01:23,950
+Ahora necesito el tipo para esto vas a escribir arroba tips plica la librería que usted necesita en
+
+18
+00:01:23,950 --> 00:01:25,900
+este caso Jaime Cuervo.
+
+19
+00:01:26,440 --> 00:01:27,910
+Un paréntesis.
+
+20
+00:01:27,910 --> 00:01:32,890
+Esto sólo funciona si usted está usando Thaís de la versión 2 para arriba.
+
+21
+00:01:33,100 --> 00:01:35,980
+Voy a dar enter y bueno a ver qué es lo que va a pasar.
+
+22
+00:01:37,470 --> 00:01:40,200
+Tenemos un segurito estoy bastante rápido y listo.
+
+23
+00:01:40,200 --> 00:01:47,910
+Creó una carpeta arroba tips Cuadri arroba 2.ª 0.34 ustedes pueden cambiar la versión pero en este momento
+
+24
+00:01:47,970 --> 00:01:57,060
+voy a usar esta de acá me voy a los módulos de Nott tips Cuadri y ahí tengo mis archivos de definición
+
+25
+00:01:59,160 --> 00:02:02,980
+cierro esto puede cerrar y ya hay.
+
+26
+00:02:03,070 --> 00:02:06,700
+Ya funciona nuevamente TSS y tengo mis archivos de configuración.

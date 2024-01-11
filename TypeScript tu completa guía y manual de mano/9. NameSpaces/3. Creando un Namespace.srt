@@ -1,0 +1,323 @@
+1
+00:00:03,220 --> 00:00:05,830
+Bien empecemos con el tema de los peces.
+
+2
+00:00:05,830 --> 00:00:07,890
+La verdad es más sencillo de lo que ustedes creen.
+
+3
+00:00:08,460 --> 00:00:15,040
+N-Space es como una agrupación de funciones y propiedades que está de manera global.
+
+4
+00:00:15,040 --> 00:00:18,850
+Es como una clase donde todos sus métodos son estáticos.
+
+5
+00:00:18,850 --> 00:00:24,550
+Pero bueno vamos a empezar con un ejemplo supongamos que nuestro programa va a tener un solo archivo
+
+6
+00:00:24,940 --> 00:00:30,010
+de reglas de validación por lo menos toda nuestra validación o nuestra lógica de validación va a estar
+
+7
+00:00:30,010 --> 00:00:33,460
+en un único speaks un único lado.
+
+8
+00:00:33,460 --> 00:00:35,750
+Entonces empecemos in space.
+
+9
+00:00:35,770 --> 00:00:42,190
+Así se define este espacio seguido del nombre de estándares que los Nais e Pais también empiezan con
+
+10
+00:00:42,430 --> 00:00:50,450
+un Kamil que hizo capitalizado con la primera mayúscula y todas las palabras capitalizadas también validaciones.
+
+11
+00:00:50,470 --> 00:00:58,770
+Si se llamara nuestro Space voy a dejarlo por acá sólo para que lo tengan viendo y Uds. tengan eso presente.
+
+12
+00:00:58,900 --> 00:01:02,440
+Pensemos cómo podemos hacer un par de funciones de validación.
+
+13
+00:01:02,560 --> 00:01:05,610
+Empecemos con la primera función.
+
+14
+00:01:06,220 --> 00:01:13,150
+Pensemos en algo para validar el texto validar un texto cualquier texto de nuestra aplicación debería
+
+15
+00:01:13,150 --> 00:01:19,390
+de ser de un largo de caracteres de más de 3 por ejemplo trémulos una función normal común y silvestre
+
+16
+00:01:20,230 --> 00:01:25,810
+llamada validar texto recibe un texto que es un string y regresarán Juliano diciendo si es válido o
+
+17
+00:01:25,810 --> 00:01:35,440
+no aquí adentro voy a decir si el texto Thonet es mayor a tres caracteres entonces voy a regresar pudiesemos
+
+18
+00:01:35,520 --> 00:01:42,420
+Rostrán del True helvãtico si no puedo hacer retroceder defaults así nada más.
+
+19
+00:01:42,580 --> 00:01:45,520
+Es una manera de hacer ese código.
+
+20
+00:01:45,590 --> 00:01:51,490
+Pensemos ahora en fechas las fechas en nuestro aplicativo tienen que ser válidas las fechas válidas
+
+21
+00:01:51,610 --> 00:01:57,940
+si no vienen un formato correcto o la fecha no es la forma ideal o no es una fecha.
+
+22
+00:01:58,000 --> 00:02:01,720
+Definitivamente no la voy a procesar está mala.
+
+23
+00:02:01,930 --> 00:02:07,660
+A hacer una función para agregar fechas muy rápido function validar fecha.
+
+24
+00:02:07,660 --> 00:02:11,120
+Abro paréntesis recibiré en una fecha que será de tipo Deutz.
+
+25
+00:02:11,170 --> 00:02:14,560
+Yo sé que esto no lo hemos visto pero hay otro tipo de dato que está.
+
+26
+00:02:14,590 --> 00:02:17,510
+Pero es una fecha de JavaScript.
+
+27
+00:02:18,160 --> 00:02:20,060
+Esto va a regresar.
+
+28
+00:02:22,010 --> 00:02:23,680
+Cómo hago para validar una fecha.
+
+29
+00:02:23,710 --> 00:02:24,750
+Puedo preguntar.
+
+30
+00:02:24,780 --> 00:02:27,280
+Y bueno esto ya es un poco más de JavaScript.
+
+31
+00:02:27,460 --> 00:02:32,520
+Pero bueno if his name is Not a Number si no es un número.
+
+32
+00:02:32,590 --> 00:02:37,960
+La fecha punto vamos a poner en Balio parentesis.
+
+33
+00:02:38,110 --> 00:02:41,980
+Si esto no se puede cumplir no es una fecha de JavaScript.
+
+34
+00:02:41,980 --> 00:02:47,380
+En pocas palabras de qué voy a hacer un RETURN Return falso.
+
+35
+00:02:47,470 --> 00:02:50,440
+Si esto no lo puede hacer la fecha es inválida.
+
+36
+00:02:50,570 --> 00:03:00,210
+De lo contrario si lo lograse solo logra ser la fecha es válida.
+
+37
+00:03:00,210 --> 00:03:07,330
+De esa manera si ustedes quieren pueden usar y hacer esto aquí o si ustedes se sienten más tranquilos
+
+38
+00:03:07,360 --> 00:03:09,460
+pero es indiferente es lo mismo.
+
+39
+00:03:09,580 --> 00:03:15,820
+Ok voy a grabar los cambios acuerdense que no estoy usando estoy sólo está declarado y pensemos en que
+
+40
+00:03:15,820 --> 00:03:24,160
+nosotros queremos ahora validar un texto lo que hicieron con su blog y ya vemos la función validar texto
+
+41
+00:03:24,610 --> 00:03:30,140
+parentesis me da un valor en este caso vamos a mandar.
+
+42
+00:03:30,280 --> 00:03:35,860
+Barry Allen publicó Raynor póntico porque estoy aquí me consolon.
+
+43
+00:03:36,220 --> 00:03:38,440
+Sólo voy a validar el texto.
+
+44
+00:03:38,440 --> 00:03:43,150
+Recargó y tengo que Estruch barriales correctos de más de tres caracteres.
+
+45
+00:03:43,250 --> 00:03:50,350
+Si yo pongo solo al loscambios recargo Fats nada del otro mundo es una función normal estoy llamando
+
+46
+00:03:50,350 --> 00:03:53,170
+desde acá lo mismo COV validar fecha.
+
+47
+00:03:53,770 --> 00:03:58,680
+Yo podría decir voy a creerme la variable aquí de la fecha de hoy.
+
+48
+00:03:59,060 --> 00:04:04,060
+Hoy es igual a new day it parentesis y te voy a mandar hoy.
+
+49
+00:04:04,210 --> 00:04:08,090
+Esto es una fecha válida porque estoy mirando acá tienen el valor de hoy.
+
+50
+00:04:08,290 --> 00:04:10,790
+Recargó y maistro ok.
+
+51
+00:04:11,260 --> 00:04:15,990
+Pero no estamos utilizando el name Space para nada.
+
+52
+00:04:17,080 --> 00:04:24,100
+La idea del nens Space es que agrupe todas las cosas todas las funciones todas las propiedades relacionadas
+
+53
+00:04:24,160 --> 00:04:29,890
+a un tema específico en este caso el tema es la validación y entonces esas dos funciones que tengo para
+
+54
+00:04:29,890 --> 00:04:36,010
+validar datos las debería meter en mi Spritz Emina incapaces de validaciones.
+
+55
+00:04:36,220 --> 00:04:39,870
+Aquí cierra el link Space y termina aquí.
+
+56
+00:04:40,460 --> 00:04:43,660
+Esta es la función como un Sylvestre y la función común y silvestre.
+
+57
+00:04:43,680 --> 00:04:48,260
+Si nosotros vamos aquí abajo van a ver que el editor está fallando ya me está dando un error y dice
+
+58
+00:04:48,260 --> 00:04:51,510
+que no puede encontrar el nombre validar fecha.
+
+59
+00:04:51,680 --> 00:04:52,040
+Por qué.
+
+60
+00:04:52,040 --> 00:04:55,520
+Porque validad fecha está dentro de validaciones.
+
+61
+00:04:55,520 --> 00:04:58,660
+Cómo hago ahora para llamar validar fecha.
+
+62
+00:04:58,700 --> 00:05:07,160
+Cuando la gente que dijo validaciones punto casi le pega en un 100 por ciento casi un 99 por ciento
+
+63
+00:05:07,160 --> 00:05:08,960
+están correctos.
+
+64
+00:05:08,990 --> 00:05:16,430
+Si vemos todavía me marcó el error y me dice la propiedad variedad fecha no existe como tipo validaciones
+
+65
+00:05:16,520 --> 00:05:18,090
+ya no está aquí adentro.
+
+66
+00:05:18,890 --> 00:05:21,960
+En no la podemos accesar.
+
+67
+00:05:21,960 --> 00:05:27,420
+Y por qué no la podemos accesar para decir bueno aquí hay un concepto que tenemos que comprender.
+
+68
+00:05:27,650 --> 00:05:34,320
+La validación validaciones por defecto todas sus propiedades y métodos están por decirlo así bloqueados
+
+69
+00:05:34,620 --> 00:05:38,430
+están solo accesibles dentro de la misma.
+
+70
+00:05:38,610 --> 00:05:45,060
+En este caso dentro del mismo specs si yo quiero accesar alguna propiedad o algún método desde afuera
+
+71
+00:05:45,450 --> 00:05:51,900
+como es este caso yo necesito decirle al they've scrip qué funciones son las únicas que van a poder
+
+72
+00:05:51,900 --> 00:05:53,500
+ser vistas por fuera.
+
+73
+00:05:53,670 --> 00:06:04,530
+En este caso eso se hace con la palabra exporto lo mismo variar fecha Export Spazio ya van a ver que
+
+74
+00:06:04,800 --> 00:06:06,130
+desapareció el error.
+
+75
+00:06:06,240 --> 00:06:12,450
+Es más si yo pongo validaciones punto voy a poder ver los dos métodos que ya están listos para ser utilizados
+
+76
+00:06:12,840 --> 00:06:15,240
+en Tlaxcala.
+
+77
+00:06:15,540 --> 00:06:16,170
+Aquí voy a poner.
+
+78
+00:06:16,170 --> 00:06:19,180
+Barry Allen.
+
+79
+00:06:20,340 --> 00:06:25,970
+Quitamos esta fecha de acá ok al grabar los cambios vamos a ver que todo funciona normalmente.
+
+80
+00:06:25,970 --> 00:06:34,410
+Aquí está el truco pero hay otro problema aquí seguimos teniendo toda nuestra lógica en un solo archivo
+
+81
+00:06:35,460 --> 00:06:36,840
+vamos a ver cómo separamos esto.

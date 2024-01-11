@@ -1,0 +1,87 @@
+1
+00:00:03,490 --> 00:00:10,150
+Llegará un momento cuando estamos trabajando mucho con las uniones o los múltiples tipos o bien las
+
+2
+00:00:10,450 --> 00:00:16,280
+utilizaciones del tipo que ocupamos saber el tipo de dato antes de hacer alguna operación.
+
+3
+00:00:16,300 --> 00:00:23,530
+Por ejemplo quedémonos una variable llamada cosa que será del tipo y por defecto le pondré unos tres
+
+4
+00:00:23,590 --> 00:00:25,060
+para iniciar izarla.
+
+5
+00:00:25,740 --> 00:00:31,930
+Si yo necesito saber o hacer algo si eso de un tipo número como hago puedo verificar su tipo con el
+
+6
+00:00:32,020 --> 00:00:38,270
+tipo que es una instrucción de JavaScript cosa esto regresa a un extremo.
+
+7
+00:00:38,320 --> 00:00:41,350
+No voy a poner a Canadá para que usted ve eso va a regresarme.
+
+8
+00:00:41,350 --> 00:00:45,250
+Un tipo de dato este caso yo puedo preguntar si eso es igual Hanóver
+
+9
+00:00:47,650 --> 00:00:55,510
+consecuentemente qué cosa es un número voy a dejarlo de esa manera.
+
+10
+00:00:55,560 --> 00:00:58,010
+Dados los cambios no vamos a navegar web precarga.
+
+11
+00:00:58,660 --> 00:01:06,400
+Y ahí tenemos que ver lo regresa todo el minuscula y luego cosa es un número.
+
+12
+00:01:06,400 --> 00:01:13,140
+Si ustedes quieren verificar si esto es un string o quedar aquí algún texto por ejemplo texto.
+
+13
+00:01:13,510 --> 00:01:18,300
+Otra cosa es tomar el tren y yo podía preguntar aquí por omisión y cosa.
+
+14
+00:01:18,310 --> 00:01:23,660
+Eso es buscarme un recargo y.
+
+15
+00:01:24,700 --> 00:01:28,160
+Voy a poner aquí ells con su blog.
+
+16
+00:01:28,210 --> 00:01:38,940
+Este código indica que no es un instrumento para pongamos aquí un objeto objeto así de esa forma recargo
+
+17
+00:01:40,130 --> 00:01:46,460
+el tipo es Object y este código indica que no es un extremo es perfecto.
+
+18
+00:01:46,460 --> 00:01:49,280
+Eso funciona igual con las funciones vamos a hacer que.
+
+19
+00:01:49,330 --> 00:01:57,380
+Parentesis y su región del norte por ejemplo donde Nul grabó los cambios de cargo y me dice que es el
+
+20
+00:01:57,380 --> 00:02:03,500
+tipo función pueden utilizar esta instrucción para verificar cualquier cosa cualquier tipo de dato pero
+
+21
+00:02:03,510 --> 00:02:05,920
+bueno lo veo en el examen ya.
+
+22
+00:02:06,140 --> 00:02:06,810
+Suerte.

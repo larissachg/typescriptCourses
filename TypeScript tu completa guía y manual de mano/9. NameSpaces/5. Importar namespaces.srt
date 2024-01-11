@@ -1,0 +1,127 @@
+1
+00:00:03,240 --> 00:00:08,820
+Antes de que se estén quejando de que el método pasado es un dolor de cabeza pues si tuviéramos miles
+
+2
+00:00:08,820 --> 00:00:14,060
+de archivos pues tendríamos que agregarlos en el TS config aparte de iCloud.
+
+3
+00:00:14,220 --> 00:00:20,580
+Bueno es mucho trabajo que hay que hacerlo hay una manera más fácil todavía no estamos hablando de módulos
+
+4
+00:00:20,580 --> 00:00:26,340
+todavía estamos en el tema de los países nosotros podemos hacer un import de una inspección a ese archivo
+
+5
+00:00:26,340 --> 00:00:33,030
+de la PP 2.13 para que cuando lo saquemos la parte final ya venga incluido todo y nosotros no tengamos
+
+6
+00:00:33,030 --> 00:00:36,000
+que especificar nada en particular.
+
+7
+00:00:36,120 --> 00:00:42,440
+Vamos a ver cómo hacemos eso voy a decir que si yo quiero importar algo todavía no estamos viendo esto
+
+8
+00:00:42,470 --> 00:00:43,650
+del importe.
+
+9
+00:00:43,660 --> 00:00:49,990
+Esto se puede hacer pero esos módulos cuando queremos importar un nens pais tenemos que agregar la referencia
+
+10
+00:00:50,680 --> 00:00:55,940
+cómo hacemos eso con 3 barras es como un comentario pero con un triple triple barra.
+
+11
+00:00:56,200 --> 00:01:04,660
+Luego abrimos ya las hicimos de mayor pero agregamos la palabra reservada réferis espacio ponemos el
+
+12
+00:01:04,660 --> 00:01:09,100
+PAF de donde queremos agarrar el archivo y cerramos el la etiqueta.
+
+13
+00:01:09,160 --> 00:01:14,600
+Eso es todo lo que tenemos que hacer aquí adentro tenemos que definir o especificar dónde estará Chuc
+
+14
+00:01:14,600 --> 00:01:17,930
+que queremos importar en el orden que ustedes desee.
+
+15
+00:01:18,130 --> 00:01:26,840
+En este caso necesito el archivo de textos punto de ese que se encuentra dentro de validaciones en este
+
+16
+00:01:26,840 --> 00:01:31,220
+caso es el único al choque necesito porque estoy usando validar texto pero si también necesitara el
+
+17
+00:01:31,220 --> 00:01:34,970
+archivo de validar fechas porque posteriormente lo voy a ocupar.
+
+18
+00:01:35,170 --> 00:01:43,250
+Agregó referencias PAF y aquí sería fechas ahora al salvar ustedes van a notar que en el Apple p.ej.
+
+19
+00:01:43,250 --> 00:01:45,360
+ese no pasó absolutamente nada.
+
+20
+00:01:45,380 --> 00:01:51,130
+Esto es por el plugin que estamos utilizando de Hatton que no hace ese código o que cómo hacemos nosotros
+
+21
+00:01:51,140 --> 00:01:57,300
+para obtener nuevamente nuestro archivo de salida que tenga todas las importaciones y todo como lo teníamos.
+
+22
+00:01:57,340 --> 00:02:02,150
+No vamos a volver a hacer voy a tocar este botón de más para abrir la consola y ejecutar el siguiente
+
+23
+00:02:02,570 --> 00:02:04,870
+código CSS.
+
+24
+00:02:05,060 --> 00:02:11,390
+Quiero un archivo de salida outfield y este archivo de salida donde no quiero lo quiero en la carpeta
+
+25
+00:02:11,900 --> 00:02:18,290
+voy a poner aquí públic para cambiar el nombre públic como hace p.ej. ese es el nombre del archivo que
+
+26
+00:02:18,290 --> 00:02:22,060
+quiero qué archivo quiero compilar.
+
+27
+00:02:22,060 --> 00:02:30,670
+Puedo decirle sólo a Pepe .3 o bien abreviado a Pepe pero ya sabemos que es un archivo de gente le va
+
+28
+00:02:30,670 --> 00:02:38,430
+a aparecer la carpeta públic con el PP punto ese que ya tiene todo en el orden que ustedes especificar
+
+29
+00:02:38,890 --> 00:02:45,640
+aquí si se mira la referencia pero esta parte de acá es ignorada por JavaScript porque doble barra es
+
+30
+00:02:45,640 --> 00:02:49,240
+un comentario básicamente eso es todo.
+
+31
+00:02:49,240 --> 00:02:55,180
+Esta parte de los países vamos a pasar al siguiente video donde se va a explicar un par de problemas
+
+32
+00:02:55,180 --> 00:02:56,780
+que yo veo ahí.

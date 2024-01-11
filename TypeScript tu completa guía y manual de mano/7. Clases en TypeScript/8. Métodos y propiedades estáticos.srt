@@ -1,0 +1,135 @@
+1
+00:00:03,170 --> 00:00:05,690
+Propiedades y métodos estáticos.
+
+2
+00:00:05,690 --> 00:00:08,600
+Suena complicado pero realmente es más fácil de lo que ustedes creen.
+
+3
+00:00:09,860 --> 00:00:16,820
+Vamos a ver si yo quisiera accesar el nombre de Borbén tendría que crear una instancia de la clase Xmen
+
+4
+00:00:17,000 --> 00:00:19,920
+algo así por.
+
+5
+00:00:19,980 --> 00:00:27,710
+Todo esto en minúscula si han tenido Exmor y ahora yo podría ser o no hacer un consolón para obtener
+
+6
+00:00:27,800 --> 00:00:34,060
+el nombre Waring cuyo nombre correcto no.
+
+7
+00:00:34,070 --> 00:00:40,450
+Ahí tenemos a Warming qué es eso de las propiedades y métodos estáticos.
+
+8
+00:00:40,490 --> 00:00:46,960
+Primero que nada no son públicos no son privados no son protegidos son estáticos estáticos.
+
+9
+00:00:47,900 --> 00:00:49,290
+Y para qué sirven.
+
+10
+00:00:49,430 --> 00:00:56,470
+Antes de eso voy a crearme un método estático también Static crear x men.
+
+11
+00:00:56,470 --> 00:00:59,230
+Voy a ponerle paréntesis.
+
+12
+00:00:59,510 --> 00:01:08,440
+Ya ves entre enter y lo que voy a hacer es un returning de un New X-Men puntico.
+
+13
+00:01:08,660 --> 00:01:10,970
+Suena extraño esto esto estaba hecho esta extraño.
+
+14
+00:01:11,560 --> 00:01:13,310
+Ok voy a aclarar la primera.
+
+15
+00:01:13,340 --> 00:01:20,780
+El primer punto la propiedad estática estas propiedades o métodos estáticos se pueden llamar sin instancias
+
+16
+00:01:20,840 --> 00:01:21,720
+la clase.
+
+17
+00:01:21,800 --> 00:01:29,420
+Es decir sin el leer Niubó X-Men parentesis se puede declarar sin eso puedo llamarlo directamente de
+
+18
+00:01:29,490 --> 00:01:31,240
+donde sea que yo lo necesite.
+
+19
+00:01:31,280 --> 00:01:35,950
+Por ejemplo si necesito el nombre de X-Men que Hualpén que yo sé que está dentro de la clase de X-Men
+
+20
+00:01:35,950 --> 00:01:41,810
+pueda hacer lo siguiente X-Men vean que estoy usando la X mayúscula estoy haciendo referencia a la clase
+
+21
+00:01:42,320 --> 00:01:43,240
+X-Men.
+
+22
+00:01:43,460 --> 00:01:54,200
+Punto nombre y ahí tras los cambios me voy aquí al navegador web recargó y tengo Warming indirectamente.
+
+23
+00:01:54,440 --> 00:02:02,760
+Qué es eso ahora de los métodos estáticos igual me permite llamar una función que tenga una clase sin
+
+24
+00:02:02,830 --> 00:02:05,280
+inicializar previamente.
+
+25
+00:02:05,320 --> 00:02:12,820
+En este caso mi crear X-Men lo que regresa es una instancia una nueva instancia de X-Men es decir yo
+
+26
+00:02:12,820 --> 00:02:22,000
+puedo controlar la manera en que X-Men son creados en este caso voy a pensar que un consolón con solo
+
+27
+00:02:22,160 --> 00:02:28,560
+que se creó usando un método estático.
+
+28
+00:02:28,570 --> 00:02:38,410
+Te voy a decir muéstrame un nuevo un nuevo Wolverine Wolverine 2 va a ser igual a X-Men.
+
+29
+00:02:38,520 --> 00:02:39,170
+Punto.
+
+30
+00:02:39,190 --> 00:02:42,220
+Crear X-Men parentesis Póntico.
+
+31
+00:02:42,550 --> 00:02:47,650
+Quiero creer que lo que está pasando estoy llamando con la clase directamente un método llamado crear
+
+32
+00:02:47,710 --> 00:02:59,500
+X-Men OK y luego puedo hacer un consuelo con consuelo de volver Borbén devolviéndonos obviamente Wolverine
+
+33
+00:02:59,500 --> 00:03:07,390
+2 es una instancia de X-Men completamente porque se llamó inclusive con el niño bueno eso es todo por
+
+34
+00:03:07,390 --> 00:03:08,910
+ahora y los veo en el siguiente video.

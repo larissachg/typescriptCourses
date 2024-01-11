@@ -1,0 +1,175 @@
+1
+00:00:03,280 --> 00:00:09,000
+Con las interfaces no sólo podemos obligar a que tengan propiedades en particular podemos también decir
+
+2
+00:00:09,060 --> 00:00:10,450
+que pueden tener métodos.
+
+3
+00:00:10,560 --> 00:00:15,450
+Vamos a definir un método en nuestra interfaz se hace de la siguiente manera supongamos que Warming
+
+4
+00:00:15,540 --> 00:00:17,330
+va a tener el poder de regenerarse.
+
+5
+00:00:17,340 --> 00:00:20,640
+Bueno en realidad cualquier examen va a poder regenerarse.
+
+6
+00:00:20,650 --> 00:00:24,830
+Entonces pongamos la función regenerar parentesis.
+
+7
+00:00:25,020 --> 00:00:28,090
+Así se clava una función normal en cualquier lado.
+
+8
+00:00:28,350 --> 00:00:32,060
+Si necesitamos parámetros o argumentos a nuestra función lo especificamos.
+
+9
+00:00:32,100 --> 00:00:40,560
+En este momento digamos que queramos el nombre real del examen nombre real será de un tipo string listo.
+
+10
+00:00:40,650 --> 00:00:49,920
+También hay que especificar el retorno ya sea un villano booleano puede retornar un string puede regresar
+
+11
+00:00:49,920 --> 00:00:54,880
+lo que sea o progresaron voy en este caso único.
+
+12
+00:00:55,170 --> 00:01:01,100
+Si ustedes se fijan en ese momento Wolverine ya está dando problemas porque no cumple lo que es el nombre
+
+13
+00:01:01,110 --> 00:01:04,830
+string no cumple la condición de un X-Men.
+
+14
+00:01:04,830 --> 00:01:09,780
+Ahora si quisiéramos que regenerará fuera un método opcional podemos agregarle un signo de interrogación
+
+15
+00:01:09,810 --> 00:01:14,130
+antes y ya no hay ningún problema si no tiene ese signo de interrogación.
+
+16
+00:01:14,130 --> 00:01:17,580
+El método es obligatorio que tiene que existir.
+
+17
+00:01:17,700 --> 00:01:22,710
+No estamos diciendo que es lo que tiene que hacer la función puede ser lo que sea pero recibe un Extrem
+
+18
+00:01:22,950 --> 00:01:26,870
+y regresa nada dentro de él.
+
+19
+00:01:26,920 --> 00:01:32,530
+Nuestra función enviar a misión puedo llamar el procedimiento o el método que tenga eso de la siguiente
+
+20
+00:01:32,530 --> 00:01:38,860
+manera Puedo decir X-Men porque este es el nombre del parámetro que estoy poniendo cada punto regenerar
+
+21
+00:01:38,920 --> 00:01:45,100
+y ahí está la forma regenerar recibió un parámetro que sería el nombre del nombre real en este caso
+
+22
+00:01:45,100 --> 00:01:50,110
+voy a poner Logan y así debería funcionar toda esta parte.
+
+23
+00:01:50,140 --> 00:01:55,390
+Ahora Wolverine estaba marcando error porque no cumple la condición que tienen que tener los X-Men.
+
+24
+00:01:55,480 --> 00:02:04,420
+Entonces podemos definir la función y regenerar parentesis para recibir en este caso un parámetro que
+
+25
+00:02:04,420 --> 00:02:06,930
+será voy a ponerle X.
+
+26
+00:02:07,060 --> 00:02:08,950
+No necesariamente tiene que ser igual a este.
+
+27
+00:02:09,070 --> 00:02:14,990
+Simplemente hay que recibir un parámetro que será el tipo string abren paréntesis y qué es lo que hace.
+
+28
+00:02:14,990 --> 00:02:23,570
+Voy a ser un consuelo con lo siguiente voy a decir que se ha regenerado el espacio más X acuerdense
+
+29
+00:02:23,590 --> 00:02:30,820
+que yo sé que esto sería un nombre real puse X o simplemente para que no fueran el mismo pero realmente
+
+30
+00:02:30,820 --> 00:02:34,820
+los parámetros tienen que ser bien explícitos en su contenido.
+
+31
+00:02:35,250 --> 00:02:40,840
+Guardamos los cambios y ejecutemos en el navegador web y miramos lo que pasa enviando a Wolverine y
+
+32
+00:02:40,980 --> 00:02:44,020
+se ha regenerado Logan perfecto.
+
+33
+00:02:44,060 --> 00:02:50,440
+No vamos a analizar esto un poco por si y no quedó muy claro Aquí creamos un objeto de tipo de este
+
+34
+00:02:50,440 --> 00:02:54,920
+tipo no tiene una forma específica que lo creamos de esta manera.
+
+35
+00:02:54,970 --> 00:03:03,200
+Tienes un nombre y un método regenerar enviar misión recibe a Wolverine y si cumple las condiciones
+
+36
+00:03:03,470 --> 00:03:09,230
+necesarias para ser procesado por este lado entonces entra a la función sin ningún problema.
+
+37
+00:03:09,230 --> 00:03:16,370
+Imprime con solo de enviándola el nombre del X-Men en este caso se devuelven luego como sabemos que
+
+38
+00:03:16,370 --> 00:03:24,890
+el X-Men tiene una función regenerar este caso entonces puede ejecutarse sin ningún problema.
+
+39
+00:03:24,890 --> 00:03:30,350
+Esa función pide un parámetro que les estoy poniendo aquí enduro Logan y eso lo que hace es disparar
+
+40
+00:03:30,410 --> 00:03:34,160
+este método que se encuentra acá por eso se ha regenerado Logan.
+
+41
+00:03:34,250 --> 00:03:40,010
+Básicamente eso es con los métodos en las interfaces que ustedes pueden definir por decirlo así los
+
+42
+00:03:40,010 --> 00:03:41,820
+mapas.
+
+43
+00:03:42,020 --> 00:03:49,370
+En inglés se conoce como prints pero esto les permite a ustedes establecer un cierto control para los
+
+44
+00:03:49,370 --> 00:03:50,720
+parámetros de las funciones.

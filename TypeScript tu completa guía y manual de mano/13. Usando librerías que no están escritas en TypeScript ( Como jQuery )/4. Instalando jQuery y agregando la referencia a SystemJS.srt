@@ -1,0 +1,311 @@
+1
+00:00:03,890 --> 00:00:08,770
+Empecemos de esta aventura trabajando con Thaís y ahí empezamos acá.
+
+2
+00:00:08,770 --> 00:00:13,180
+Ahora nerazzurro a Pepe punto 13 y empezamos a trabajar aquí un par de códigos de jacquard.
+
+3
+00:00:13,210 --> 00:00:14,240
+Vamos a ver qué pasa.
+
+4
+00:00:14,800 --> 00:00:17,920
+Hagamos una impresión de consola cuando la página sea cargada.
+
+5
+00:00:17,920 --> 00:00:23,180
+Para eso hacemos document punto Ready y disparamos.
+
+6
+00:00:23,200 --> 00:00:26,630
+Esta función parentesis llaves y haga un consuelo.
+
+7
+00:00:26,650 --> 00:00:31,600
+Ahora con el siguiente mensaje fajina lista y cargada.
+
+8
+00:00:33,270 --> 00:00:34,030
+Algunos cambios.
+
+9
+00:00:34,040 --> 00:00:40,180
+Bueno ahí tengo el error de taichí el error que habíamos mencionado antes que el símbolo de dólar.
+
+10
+00:00:40,280 --> 00:00:41,950
+Es el resumen.
+
+11
+00:00:42,230 --> 00:00:43,920
+No existe o no está ahí.
+
+12
+00:00:45,260 --> 00:00:47,610
+Ok a eso ya empezamos con los problemas tristes.
+
+13
+00:00:47,620 --> 00:00:51,750
+Ok cómo podemos hacer para incluir de acá.
+
+14
+00:00:51,830 --> 00:00:57,730
+En teoría podría ser como un módulo que podríamos decirle hasta que lo haré de ahí.
+
+15
+00:00:57,740 --> 00:00:59,280
+Por algo usamos System Biella.
+
+16
+00:00:59,290 --> 00:01:05,720
+Se acuerdan por algo importamos System 10 para que éste se encargue de cargar todo lo que necesitamos.
+
+17
+00:01:05,720 --> 00:01:13,530
+Para eso pusimos esto bien cerremos el Index cuando HTML podremos hacer algo parecido a import Chicuelo
+
+18
+00:01:14,290 --> 00:01:21,200
+un tricomas grabamos los cambios y me está llegando un error por ahí y el error no desaparece.
+
+19
+00:01:21,200 --> 00:01:24,850
+Vamos a ver si funciona pues quiero que miren qué es lo que está pasando acá.
+
+20
+00:01:24,920 --> 00:01:32,700
+No pudo cargar el local House le Calley cuerito esos por el sistema es lo que está intentando hacer
+
+21
+00:01:32,730 --> 00:01:40,820
+acá es que no logra encontrar por ningún lado intenta cargarlo de el root de la página.
+
+22
+00:01:41,340 --> 00:01:45,350
+Vamos a hacer un pequeño paréntesis acá se van a la página allí.
+
+23
+00:01:45,570 --> 00:01:48,360
+Bueno la verdad es que no quiero que lo hagan simplemente se lo voy a enseñar.
+
+24
+00:01:48,510 --> 00:01:50,070
+Voy a descargarme la librería allí.
+
+25
+00:01:50,250 --> 00:01:59,100
+La última que está que las 3 1 1 voy a abrirlo aquí lo voy a renombrar como yo y así nada más Llewelyn
+
+26
+00:01:59,100 --> 00:02:00,100
+punto J.V.
+
+27
+00:02:00,280 --> 00:02:07,640
+Voy a copiar ese archivo y lo voy a meter en la raíz del proyecto que tenemos o sea aquí en la raíz.
+
+28
+00:02:07,640 --> 00:02:10,520
+Ok voy a cerrar esto ustedes no lo hagan.
+
+29
+00:02:10,540 --> 00:02:11,520
+No lo hagan por favor.
+
+30
+00:02:11,530 --> 00:02:19,840
+Simplemente es una un ejemplo si yo recargó todavía no aparece Cuadri esto que voy a hacer si háganlo
+
+31
+00:02:19,840 --> 00:02:25,280
+por favor se acuerdan que si se fijan ustedes acá.
+
+32
+00:02:25,810 --> 00:02:31,630
+O si se acuerdan de la parte de los módulos está buscando un archivo Kuei pero no tiene la extensión
+
+33
+00:02:31,630 --> 00:02:33,780
+del archivo se.
+
+34
+00:02:33,850 --> 00:02:40,080
+Había que agregarle algo a existen leyes para que las excepciones por defecto fueran las de JavaScript.
+
+35
+00:02:40,090 --> 00:02:50,750
+Entonces eso es fought ya es Extensions tu graduandos cambios y vamos a ver si se arregló.
+
+36
+00:02:50,840 --> 00:02:52,800
+Uf funcionó todo mágicamente.
+
+37
+00:02:53,170 --> 00:02:55,540
+Pero bueno vamos ahora así como ustedes de nuevo.
+
+38
+00:02:55,540 --> 00:03:00,940
+Yo les pedí que no hicieran la descarga de y Kairi directamente Rood porque no es practicos estamos
+
+39
+00:03:00,940 --> 00:03:06,190
+usando en nuestro programa estamos usando un paquete manejador de paquetes.
+
+40
+00:03:06,190 --> 00:03:08,390
+Por qué no usamos el manejador de paquetes.
+
+41
+00:03:08,500 --> 00:03:09,950
+Por eso le dije que no lo hiciera.
+
+42
+00:03:09,970 --> 00:03:14,050
+Usemos esto que para algo estamos trabajando con Nutt.
+
+43
+00:03:14,770 --> 00:03:16,390
+Cómo instalamos.
+
+44
+00:03:16,570 --> 00:03:17,490
+Vamos a hacer lo siguiente.
+
+45
+00:03:17,530 --> 00:03:24,930
+MPM instó Chicuelo pero como esto va a ser una dependencia que nuestro programa necesita.
+
+46
+00:03:24,970 --> 00:03:32,300
+Tenemos que poner menos SAIC gente esto lo que va a hacer es ver al repositorio o buscar el repositorio
+
+47
+00:03:33,540 --> 00:03:41,150
+la librería La va a descargar y la va a instalar o mejor dicho descargar aquí los módulos no se buscan.
+
+48
+00:03:41,420 --> 00:03:42,140
+Y aquí está.
+
+49
+00:03:42,140 --> 00:03:44,680
+Esto es lo que va a hacer les va a descargar esto.
+
+50
+00:03:44,840 --> 00:03:52,760
+Adicional va a ponerles en el paquete apuntó Jayson que es una dependencia necesaria para su proyecto.
+
+51
+00:03:52,850 --> 00:03:54,200
+Esto es súper útil.
+
+52
+00:03:54,330 --> 00:04:00,230
+Ahora voy a borrar el recuerdo que tengo acá porque me va a estorbar realmente yo no quiero tenerlo
+
+53
+00:04:00,230 --> 00:04:02,880
+ahí está viviendo en los módulos de Nott.
+
+54
+00:04:03,400 --> 00:04:06,630
+Entonces borremos no perfecto.
+
+55
+00:04:06,730 --> 00:04:13,750
+Voy a minimizar eso y si vemos nuevamente nuestro código debería de fallar pulquería y ya no se encuentra
+
+56
+00:04:13,750 --> 00:04:14,230
+ahí.
+
+57
+00:04:14,880 --> 00:04:17,920
+Ok ya no está en el RUT pero está en otro lado.
+
+58
+00:04:17,980 --> 00:04:21,370
+Cómo podemos hacer para que jale y coherederos módulos.
+
+59
+00:04:21,790 --> 00:04:22,900
+Muy fácil.
+
+60
+00:04:22,900 --> 00:04:30,730
+Aquí en la configuración del sistema ya podemos hacerle entender que cuando mire un import Kuei sepa
+
+61
+00:04:30,730 --> 00:04:33,670
+dónde está el archivo por defecto no sabe y no sabe dónde está.
+
+62
+00:04:33,850 --> 00:04:35,310
+Cómo hacemos.
+
+63
+00:04:35,380 --> 00:04:43,260
+Vamos a ver aquí un enter y vamos a escribir Mapp como para darle indicaciones de dónde está la librerías.
+
+64
+00:04:43,300 --> 00:04:52,330
+En este caso vamos a trabajar con el espacio ya ves gente y le vamos a decir que ya QWERTY dos puntos
+
+65
+00:04:52,440 --> 00:04:54,160
+está en la siguiente dirección.
+
+66
+00:04:54,460 --> 00:05:04,100
+Los módulos de Nott Leca Cuadri Leca vist Reca y Cuadri .1.000 punto JS.
+
+67
+00:05:04,270 --> 00:05:05,210
+Aquí va una coma.
+
+68
+00:05:05,290 --> 00:05:11,440
+Graban cambios y vamos a probarlo nuevamente y listo está funcionando nuevamente.
+
+69
+00:05:11,770 --> 00:05:18,010
+En teoría ya está pero si nos vamos a nuestro chivó de Tixkokob tenemos el error acá de que no saben
+
+70
+00:05:18,010 --> 00:05:23,410
+qué hacer con el símbolo de dólar por cierto un pequeño pequeño pequeño paréntesis antes de irme a la
+
+71
+00:05:23,410 --> 00:05:26,170
+siguiente clase que casi se me olvida y tuve que volver a editar el video.
+
+72
+00:05:26,620 --> 00:05:32,940
+Pero bueno algo importantísimo cuando estamos trabajando con este tipo de importaciones usando el Mapp.
+
+73
+00:05:32,990 --> 00:05:39,760
+Si yo pongo Quarry todo minuscula aquí si tienes que llamar Yai Cuadri exactamente es decir aquí le
+
+74
+00:05:39,760 --> 00:05:48,220
+pongo Fernándo copio aquí se tiene que llamar Fernando no se preocupe por ese error el error es ese.
+
+75
+00:05:48,280 --> 00:05:50,050
+Pero vuelve a funcionar.
+
+76
+00:05:50,060 --> 00:05:55,870
+Si yo lo dejara con QR y aquí se llama Fernando ahí sí va a tirar el error porque no sabe qué hacer.
+
+77
+00:05:56,030 --> 00:06:00,710
+Bosquejar esto como Tykwer y aquí como Llewellyn y ya estamos listos para el siguiente video que es
+
+78
+00:06:00,890 --> 00:06:02,630
+le voy a enseñar cómo resolver este error.

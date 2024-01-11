@@ -1,0 +1,95 @@
+1
+00:00:03,060 --> 00:00:07,120
+La estructuración de arreglos es muy parecida a la de estructuración de objetos.
+
+2
+00:00:07,230 --> 00:00:09,760
+Vamos a ver un ejemplo Leith.
+
+3
+00:00:09,900 --> 00:00:11,860
+Luego vamos a crearlos.
+
+4
+00:00:11,880 --> 00:00:17,070
+Esto no es lucrarse un arreglo sino es crearse ya la desestructuración como tal yo puedo definir los
+
+5
+00:00:17,070 --> 00:00:29,100
+nombres digamos Avenger Avenger 1 Avenger 2 Avenger 3 De qué objeto LO QUIERO LO QUIERO de los Avengers
+
+6
+00:00:29,890 --> 00:00:31,200
+continuó.
+
+7
+00:00:31,430 --> 00:00:40,040
+Ahora puedo hacer el consumo de Avengers 1 2 3 loscambios regreso al navegador web recargó y a vista
+
+8
+00:00:40,230 --> 00:00:46,770
+de la misma manera sólo que esto es un objeto de Superdome es un arreglo quiero que veremos una cuestión
+
+9
+00:00:46,770 --> 00:00:55,200
+en particular si ustedes solo ocuparan el tercer Avengers y los otros dos no es decir estos dos no sólo
+
+10
+00:00:55,200 --> 00:00:56,240
+quiero el tercero.
+
+11
+00:00:56,400 --> 00:01:03,370
+No hay una manera directa como decir Bueno quiero el tercero no se puede tener que poner coma coma.
+
+12
+00:01:03,390 --> 00:01:05,030
+Esto sería el espacio del primero.
+
+13
+00:01:05,130 --> 00:01:08,460
+Este sería el espacio del segundo y luego el tercer año.
+
+14
+00:01:08,580 --> 00:01:12,130
+De esa forma si lo van a poder obtener directamente el tercero.
+
+15
+00:01:12,180 --> 00:01:19,530
+Si ustedes sólo quisieran el segundo pues pueden hacer aquí Avenger Avengers 2 y tal esto porque ya
+
+16
+00:01:19,530 --> 00:01:21,460
+no existe Avengers 2.
+
+17
+00:01:21,610 --> 00:01:24,950
+Los cambios de esa forma si puedo tener el segundo.
+
+18
+00:01:25,230 --> 00:01:30,900
+Eso es básicamente la estructuración de reglas es poder extraer de un arreglo información directamente
+
+19
+00:01:31,650 --> 00:01:32,330
+por este lado.
+
+20
+00:01:32,340 --> 00:01:37,260
+Esto es lo que vamos a ocupar de la reestructuración de arreglos pero los invito nuevamente a que si
+
+21
+00:01:37,260 --> 00:01:42,550
+quieren saber más sobre la estructuración de arreglos e información directa o directamente relacionada
+
+22
+00:01:42,600 --> 00:01:47,850
+a la estructuración de esto en el ECMAScript 6 porque hay otras características ustedes pueden estructurar
+
+23
+00:01:47,850 --> 00:01:54,090
+arreglos anidados pueden estructurar objetos animados y pues hay muchas cosas que se pueden hacer adicionalmente
+
+24
+00:01:54,600 --> 00:01:55,710
+pero bueno eso es todo por ahora.

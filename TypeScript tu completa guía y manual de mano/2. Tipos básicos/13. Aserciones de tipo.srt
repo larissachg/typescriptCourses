@@ -1,0 +1,103 @@
+1
+00:00:03,290 --> 00:00:08,630
+Algunas veces llegaremos a una situación donde nosotros sabemos más sobre el valor de los códigos o
+
+2
+00:00:08,900 --> 00:00:11,050
+de las variables que en mis votais.
+
+3
+00:00:11,420 --> 00:00:16,250
+Usualmente esto pasa cuando tenemos códigos dinãmico en sus cosas genéricas que están fluyendo a lo
+
+4
+00:00:16,250 --> 00:00:20,480
+largo de nuestro programa en otros lenguajes de programación eso se conoce como el cast.
+
+5
+00:00:20,480 --> 00:00:27,110
+Por ejemplo tienen un número y o lo Castelán así se dice o lo transforman temporalmente a string por
+
+6
+00:00:27,110 --> 00:00:30,370
+ejemplo eso es como para decir la Skip.
+
+7
+00:00:30,610 --> 00:00:36,950
+Yo sé lo que estoy haciendo Déjame hacerlo y no me molestes vamos a ser un ejemplo supongamos que declaramos
+
+8
+00:00:36,950 --> 00:00:39,660
+una variable pero todavía no sabemos que hay.
+
+9
+00:00:39,770 --> 00:00:43,250
+Por ejemplo cualquier valor cualquier valor.
+
+10
+00:00:43,670 --> 00:00:45,530
+Y como no sabemos el tipo lo voy a poner.
+
+11
+00:00:45,530 --> 00:00:48,300
+Tipo M y la igualo.
+
+12
+00:00:48,360 --> 00:00:53,500
+Supongo que en este momento tiene cualquier cosa que es un.
+
+13
+00:00:53,540 --> 00:00:56,810
+Pero puede ser cualquier valor después.
+
+14
+00:00:56,810 --> 00:01:02,420
+Más adelante en mi código el programa necesito saber el largo de esta palabra pero yo sé que en este
+
+15
+00:01:02,420 --> 00:01:03,840
+momento es un extremo.
+
+16
+00:01:03,890 --> 00:01:08,630
+Puedo ponerle largo del extremo.
+
+17
+00:01:09,740 --> 00:01:11,070
+Y esto es un número.
+
+18
+00:01:11,180 --> 00:01:19,130
+Yo sí sé que es un número pero no le puedo decir directamente que esto es igual a cualquier valor punto
+
+19
+00:01:19,160 --> 00:01:20,650
+porque no me dan ninguna ayuda.
+
+20
+00:01:20,690 --> 00:01:29,060
+O sea yo no sé qué es exactamente pero yo le puedo decir a esto que está aquí trabajando como si fuera
+
+21
+00:01:29,120 --> 00:01:30,330
+un estreno.
+
+22
+00:01:30,470 --> 00:01:36,200
+De esa manera se hace el rastreo y yo pongo el punto tengo todas las opciones del estreno en este caso
+
+23
+00:01:36,200 --> 00:01:42,610
+estoy buscando el link puntico yo no puedo ser consolas de largo perfectamente si grabo los cambios
+
+24
+00:01:42,610 --> 00:01:46,890
+y recargó el navegador web pues veo que 14 caracteres es lo que tiene cualquier cosa.
+
+25
+00:01:47,420 --> 00:01:54,520
+Básicamente eso es permitirme poder usar cualquier variable de otro tipo y decir la Thaís scrip.
+
+26
+00:01:55,100 --> 00:01:58,120
+Confía en mí y yo sé lo que estoy haciendo lo verán el siguiente video.

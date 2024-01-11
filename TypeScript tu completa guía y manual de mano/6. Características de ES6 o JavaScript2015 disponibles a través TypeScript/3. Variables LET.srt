@@ -1,0 +1,251 @@
+1
+00:00:03,030 --> 00:00:06,960
+Declarando variables con la palabra reservada Aulet en pocas palabras.
+
+2
+00:00:06,960 --> 00:00:12,440
+Les quiero decir que ustedes pueden utilizar la palabra Lek en todos los lugares donde estaba anteriormente
+
+3
+00:00:12,450 --> 00:00:19,540
+en JavaScript pero vamos a enseñar como ejemplo miren que estoy en el archivo a Pepe punto J.S voy a
+
+4
+00:00:19,540 --> 00:00:28,560
+hablar de una variable llamada llamada nombre que tendrá el protestón una condición o sea siempre va
+
+5
+00:00:28,560 --> 00:00:31,840
+a entrar aquí.
+
+6
+00:00:32,040 --> 00:00:40,210
+Luego voy a declarar nuevamente la variable nombre se iguala Buruz que hay un solo nombre.
+
+7
+00:00:40,530 --> 00:00:41,570
+Qué creen que va a pasar.
+
+8
+00:00:43,060 --> 00:00:50,320
+Qué quieren que aparece Brush y tienen sentido porque cuando entra a esta condición le cae encima o
+
+9
+00:00:50,590 --> 00:00:53,940
+tiene un nuevo valor la variable nombre y ahora el buruz.
+
+10
+00:00:54,130 --> 00:00:58,840
+Esto puede ser lo que Uds. estén buscando pero les aseguro que la mayoría de las veces no es lo que
+
+11
+00:00:58,840 --> 00:00:59,830
+ustedes quieren hacer.
+
+12
+00:01:00,280 --> 00:01:05,710
+Imagínense que tuvieran miles de líneas de código y que esta instrucción o este IFF tuviera muchas líneas
+
+13
+00:01:06,520 --> 00:01:11,830
+a la hora de trabajar ustedes pudiera ser que agarraran una variable que se encontraba arriba en su
+
+14
+00:01:11,830 --> 00:01:17,440
+código y la reemplazaran le cayera le cayeron encima le quitaron el valor y eso no es lo que ustedes
+
+15
+00:01:17,440 --> 00:01:18,310
+esperaban.
+
+16
+00:01:18,310 --> 00:01:23,640
+Ustedes por su lado no van a recibir ningún warning ninguna alerta ningún mensaje de error del lado
+
+17
+00:01:23,660 --> 00:01:29,640
+JavaScript diciéndoles que están renombrando o restan reiniciar y usando una variable ACCA etcétera
+
+18
+00:01:29,690 --> 00:01:31,430
+etcétera etcétera.
+
+19
+00:01:31,480 --> 00:01:39,070
+Ahora bien pudiera ser que en JavaScript ustedes se les olvide declarar con Baur voy a grabar los cambios
+
+20
+00:01:39,570 --> 00:01:45,280
+y recargó y esto funciona ya que es mi he permitido muchas cosas.
+
+21
+00:01:45,280 --> 00:01:53,360
+Si yo quito esto igual y Tru declara en nombre y centro siempre va a salir brush.
+
+22
+00:01:53,380 --> 00:01:56,770
+Ahora la única condición que aquí va a reventar el código.
+
+23
+00:01:56,770 --> 00:02:04,480
+Es que nunca logré crear esa instancia de la variable venga a insistir al error pero aún así si yo pongo
+
+24
+00:02:04,480 --> 00:02:06,450
+aquí UFOs o sea en teoría nunca entra.
+
+25
+00:02:06,460 --> 00:02:13,760
+Pero aquí pongo el abrigo al enviar mi cargo va a aparecer donde es bien extraño es en teoría la variable
+
+26
+00:02:13,760 --> 00:02:17,440
+nunca se inicializar pero se puede utilizar aquí abajo.
+
+27
+00:02:17,480 --> 00:02:22,870
+Esos son uno de los problemas que conlleva el uso del bar que es la convención del estandarte ya que
+
+28
+00:02:22,910 --> 00:02:27,950
+dijo no tenemos que mejorar eso porque están pasando cosas muy extrañas con JavaScript.
+
+29
+00:02:28,010 --> 00:02:31,070
+Necesitamos que los programadores sean más ordenados.
+
+30
+00:02:31,100 --> 00:02:33,850
+Aquí es donde entra lo que es el LEPP.
+
+31
+00:02:34,580 --> 00:02:36,790
+Si yo pusiera en vez de dar un LED.
+
+32
+00:02:36,920 --> 00:02:42,310
+Este código ya no funciona me cargo aquí hice referencia del nombre.
+
+33
+00:02:42,320 --> 00:02:43,220
+El nombre no está definido.
+
+34
+00:02:43,220 --> 00:02:44,640
+Un error de referencia.
+
+35
+00:02:45,090 --> 00:02:53,260
+Quizá si yo pongo ahora de Tony San nombre Toni y aquí voy a poner hip hop.
+
+36
+00:02:53,360 --> 00:02:58,260
+Qué creen qué pasa si yo uso la variable L.T recargó y aparece Toni.
+
+37
+00:02:58,340 --> 00:03:00,790
+Por qué no salió buruz.
+
+38
+00:03:01,130 --> 00:03:09,740
+Eso es porque las palabras Lesser Balet o al crear una variable con L.T la crea en un ámbito específico.
+
+39
+00:03:09,800 --> 00:03:11,840
+Es decir si yo la creo.
+
+40
+00:03:11,910 --> 00:03:18,390
+Si yo pongo la variable en este scoop por ejemplo en el global ahí pone la variable y perfectamente.
+
+41
+00:03:18,440 --> 00:03:26,690
+Ahora cuando yo entro acá no va a poner este L.T o esta variable en el objeto global de nuevo simplemente
+
+42
+00:03:26,690 --> 00:03:32,840
+va a crearse un ámbito especial que está delimitado por es por esa instrucción.
+
+43
+00:03:33,170 --> 00:03:38,810
+Estas llaves van a decirle que hasta ahí va a vivir las variables que ustedes pongan aquí adentro.
+
+44
+00:03:38,810 --> 00:03:43,760
+Esto es particularmente útil porque podrían usar la misma el mismo nombre de variable y no le les a
+
+45
+00:03:43,760 --> 00:03:49,870
+ningún error porque aquí al final de todo el procedimiento si quiero que el nombre sea Tony.
+
+46
+00:03:50,060 --> 00:03:57,040
+Claro ustedes pueden quitarle Leeroy y obviamente va a seguir Brush pero esto es para que ustedes tengan
+
+47
+00:03:57,040 --> 00:04:04,690
+en cuenta uno de los posibles uno de los posibles usos principales que tiene este declarar variables
+
+48
+00:04:04,690 --> 00:04:10,870
+Colet y la otra característica principal de la declaración de variables Colet es que ustedes no pueden
+
+49
+00:04:10,870 --> 00:04:18,800
+hacer declaraciones en el mismo ámbito es decir yo puedo poner el nombre igual vamos a poner a Rowing
+
+50
+00:04:19,170 --> 00:04:21,870
+a Ricardo indicó.
+
+51
+00:04:22,720 --> 00:04:28,150
+En este lado no voy a recibir ningún feedback no voy a recibir retroalimentación de que eso no es válido
+
+52
+00:04:28,870 --> 00:04:34,960
+pero cuando ustedes ejecuten el código ahí sí le va a dar un error de sintaxis nombre ya fue declarado
+
+53
+00:04:34,960 --> 00:04:37,770
+previamente en la línea 5.
+
+54
+00:04:37,870 --> 00:04:48,990
+Ustedes pueden utilizar la misma el mismo nombre si están en diferentes escoces Tru y aquí lo voy a
+
+55
+00:04:48,990 --> 00:04:49,290
+hacer.
+
+56
+00:04:51,240 --> 00:04:53,390
+Y ahí sí es permitido.
+
+57
+00:04:53,390 --> 00:05:02,500
+Ya para terminar voy a copiarme todo este código no voy a pasar anchovetas escribe apegar si yo grabo
+
+58
+00:05:02,500 --> 00:05:09,040
+los cambios van a haber que hacer lo mismo pero con su equivalente en l escribe 5 que sería lo mismo
+
+59
+00:05:09,040 --> 00:05:15,190
+como declarar variables con nombres diferentes en cada uno de los scopes aquí nombre uno de aquí nombre
+
+60
+00:05:15,200 --> 00:05:20,390
+2 y aquí el nombre de esa manera no va a chocar ni van a reemplazarse.
+
+61
+00:05:20,410 --> 00:05:28,780
+Otra cosa interesante es que con la declaración de variables el país inmediatamente le va a marcar el
+
+62
+00:05:28,780 --> 00:05:31,380
+error justo cuando ustedes lo escriben.
+
+63
+00:05:31,420 --> 00:05:32,830
+Es una de las principales ventajas.

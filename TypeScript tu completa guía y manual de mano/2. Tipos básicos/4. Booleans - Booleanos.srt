@@ -1,0 +1,243 @@
+1
+00:00:03,620 --> 00:00:06,630
+Cuando hablemos de julianos pensemos en verdadero falso.
+
+2
+00:00:06,680 --> 00:00:08,030
+Eso es todo.
+
+3
+00:00:08,150 --> 00:00:14,570
+Cómo declaramos una variable de tipo Yuliana en Tachi de la siguiente forma No vamos a usar en el curso
+
+4
+00:00:14,810 --> 00:00:16,390
+para nada var.
+
+5
+00:00:16,460 --> 00:00:21,800
+Esto trae muchos problemas en Java que vamos a utilizar el L.T de aquí en adelante sólo vamos a usar
+
+6
+00:00:21,810 --> 00:00:25,690
+Arlet y las constantes Okkhoy Let es igual albana.
+
+7
+00:00:25,790 --> 00:00:26,240
+Nada más.
+
+8
+00:00:26,240 --> 00:00:31,170
+Para los que no sabían pues es lo mismo parecido no es lo mismo.
+
+9
+00:00:31,340 --> 00:00:33,950
+Let es Superman.
+
+10
+00:00:33,950 --> 00:00:41,480
+Superman es el nombre de la variable que estoy asignando dos puntos para indicar a qué tipo de dato
+
+11
+00:00:41,480 --> 00:00:41,970
+es.
+
+12
+00:00:42,080 --> 00:00:46,850
+En este caso sería bullían igual truc.
+
+13
+00:00:47,000 --> 00:00:53,660
+De esta forma le estamos diciendo JavaScript al taichí esto es una variable estipulando y le estoy asignando
+
+14
+00:00:53,660 --> 00:00:59,440
+el valor de una vez si vemos el sinónimo en el ECMAScript 5 es este.
+
+15
+00:00:59,740 --> 00:01:00,550
+Sigamos.
+
+16
+00:01:00,640 --> 00:01:02,100
+Yo puedo definirla de otra manera.
+
+17
+00:01:02,110 --> 00:01:04,510
+Por ejemplo L.T es Batman.
+
+18
+00:01:04,630 --> 00:01:12,070
+Batman lospuntos puntos bullían y dejarlo así también es igual solo que en este momento no le estoy
+
+19
+00:01:12,070 --> 00:01:13,070
+asignando ningún valor.
+
+20
+00:01:13,630 --> 00:01:21,130
+Y la otra manera pero no se la recomiendo es la siguiente es Aquaman igual.
+
+21
+00:01:21,700 --> 00:01:28,060
+A pesar de que no estamos poniendo el tipo el script es lo suficientemente inteligente para saber que
+
+22
+00:01:28,270 --> 00:01:29,500
+es Aquaman.
+
+23
+00:01:29,500 --> 00:01:35,680
+Es un tipo Vulcano es decir si yo pongo Hola esto me lo va a marcar como un error en el momento que
+
+24
+00:01:35,680 --> 00:01:42,970
+estoy escribiendo porque Aquaman no es un personaje es de tipo Vulcano y ola no es asignarle a un tipo
+
+25
+00:01:42,970 --> 00:01:44,200
+julianos.
+
+26
+00:01:44,680 --> 00:01:51,490
+Claro no es recomendable esto porque el objetivo de esta script es darnos todas las pistas de lo que
+
+27
+00:01:51,490 --> 00:02:03,100
+estamos haciendo con el Haki bullían indiferentes si se lo ponen con mayúscula o no es igual pero estoy
+
+28
+00:02:03,100 --> 00:02:05,350
+acostumbrado yo a ponerlas en minúsculas.
+
+29
+00:02:05,630 --> 00:02:09,890
+Lo que son clases y otras cosas si hay en mayúscula pero solo vamos a ver más adelante por momentos
+
+30
+00:02:09,910 --> 00:02:11,030
+así definimos los búlgaros.
+
+31
+00:02:11,050 --> 00:02:17,230
+Hagamos un ejercicio y rápido para ver cómo funciona cada vez que algo se va a auto auto compilar a
+
+32
+00:02:17,230 --> 00:02:18,410
+la versión de 5.
+
+33
+00:02:19,250 --> 00:02:19,700
+Sigamos.
+
+34
+00:02:19,720 --> 00:02:29,520
+Voy a decir if Superman y vamos a hacer un consolon diciendo estamos salvados.
+
+35
+00:02:29,560 --> 00:02:35,120
+Caso contrario voy a poner un consuelo diciendo UPS.
+
+36
+00:02:35,680 --> 00:02:43,100
+Al salvar aparece en la compilación inmediatamente ahora el taches para darles un plus.
+
+37
+00:02:43,240 --> 00:02:45,160
+Yo sé que todavía no hemos llegado a las funciones.
+
+38
+00:02:45,160 --> 00:02:54,450
+Voy a hacer una función tal cual es ya más que normal function convertir a Clark Kent.
+
+39
+00:02:54,940 --> 00:03:02,420
+Lo único que hace esta función es regresarnos un Fouz o un falso.
+
+40
+00:03:02,620 --> 00:03:10,110
+Lo único que hace es convertir a Superman Ah falso o cualquier superhéroe digámoslo así.
+
+41
+00:03:10,670 --> 00:03:15,770
+Si yo digo es Superman y la igualo no puedo hacer la igualación directo aquí.
+
+42
+00:03:15,770 --> 00:03:16,550
+Falso.
+
+43
+00:03:16,610 --> 00:03:17,490
+Falso.
+
+44
+00:03:17,560 --> 00:03:24,670
+No lo puedo hacer directamente o puedo igualarlo al resultado de una función convertir a Clark y ven
+
+45
+00:03:25,070 --> 00:03:27,270
+que no pasan no sucede ningún error.
+
+46
+00:03:27,270 --> 00:03:27,560
+Por qué.
+
+47
+00:03:27,560 --> 00:03:33,530
+Porque está corriendo ahorita tras bastidores por decirlo así y está revisando nuestro código.
+
+48
+00:03:33,530 --> 00:03:40,150
+Esto no da error porque sabe que la función convertirá a Clark retornã un falso o un valor booleano.
+
+49
+00:03:40,320 --> 00:03:48,020
+Miren lo que pasa si yo pongo aquí no por ejemplo un string no inmediatamente marca el error pero siempre
+
+50
+00:03:48,020 --> 00:03:48,870
+lo compila.
+
+51
+00:03:48,890 --> 00:03:51,080
+Esto ya lo vamos a ver más adelante.
+
+52
+00:03:51,230 --> 00:03:56,480
+Ok aquí me está marcando un error porque el string ya sabe que la función convertir Clark recibes un
+
+53
+00:03:56,510 --> 00:03:57,740
+string y no un julianos.
+
+54
+00:03:57,770 --> 00:04:01,100
+Por eso el error vamos a dejarlo aquí.
+
+55
+00:04:01,370 --> 00:04:02,780
+Falso.
+
+56
+00:04:02,810 --> 00:04:09,440
+Los cambios tenemos nuestro código de este lado mirémoslo corriendo en un navegador web y dice OK estamos
+
+57
+00:04:09,440 --> 00:04:10,170
+salvados.
+
+58
+00:04:11,080 --> 00:04:14,160
+Suponiendo que ya después se convirtió en Superman a Clark Kent.
+
+59
+00:04:14,230 --> 00:04:19,290
+Volver a copiar pegar aquí abajo y lo recargó aquí no va a parecer.
+
+60
+00:04:19,290 --> 00:04:20,350
+Ups.
+
+61
+00:04:20,910 --> 00:04:22,260
+Bueno lo veo en el siguiente video.
